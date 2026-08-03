@@ -176,19 +176,29 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
             {currentView === 'Library' && (
               <div style={{ padding: '0 20px 20px' }}>
-                <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', marginBottom: '20px', width: '100%', maxWidth: '340px' }}>
-                  <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
-                  <input 
-                    id="search" 
-                    type="search" 
-                    placeholder="Search Apps & Games..." 
-                    autoComplete="off" 
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                    autoFocus
-                    style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '17px' }}
-                  />
-                </label>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', flexWrap: 'wrap', gap: '15px' }}>
+                  <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', width: '100%', maxWidth: '340px' }}>
+                    <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
+                    <input 
+                      id="search" 
+                      type="search" 
+                      placeholder="Search Apps & Games..." 
+                      autoComplete="off" 
+                      value={searchQuery}
+                      onChange={handleSearchChange}
+                      autoFocus
+                      style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '17px' }}
+                    />
+                  </label>
+                  <button 
+                    onClick={() => window.open('https://github.com/WuXu1/WuXu1.github.io/issues', '_blank')} 
+                    style={{ padding: '0 20px', height: '48px', borderRadius: '12px', background: 'var(--get-bg)', color: 'var(--get-text)', fontWeight: 650, fontSize: '15px', display: 'flex', alignItems: 'center', transition: 'background 0.2s', border: 'none', cursor: 'pointer' }}
+                    onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.1)'}
+                    onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
+                  >
+                    Request an app
+                  </button>
+                </div>
                 <section className="cards">
                   {displayedApps.map((app, index) => (
                     <AppCard key={`search-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
