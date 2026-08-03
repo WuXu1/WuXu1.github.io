@@ -3,8 +3,8 @@
   "identifier": "com.wuxulibs.wuxuslibrary++",
   "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
   "description": "Welcome to WuXu’s Library++!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
-  "iconURL": "https://i.imgur.com/g17kMl9.jpeg",
-  "headerURL": "https://i.imgur.com/stTk5jP.jpeg",
+  "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
+  "headerURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
   "website": "https://bit.ly/wuxus-sources",
   "tintColor": "d81a14",
   "featuredApps": [
@@ -21,11 +21,11 @@
       "developerName": "Dezokr",
       "subtitle": "The All-In-One Movie app for iOS",
       "localizedDescription": "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
-      "iconURL": "https://i.imgur.com/3tQFB9N.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
       "tintColor": "a01916",
       "category": "Entertainment",
       "screenshotURLs": [
-        "https://i.imgur.com/MKWusvU.png"
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
       ],
       "version": "2.0",
       "versionDate": "2025-03-10",
@@ -778,7 +778,7 @@
       "caption": "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
       "date": "2025-03-10",
       "tintColor": "16181e",
-      "imageURL": "https://i.imgur.com/uRO0Hiu.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
       "appID": "com.box.hd.flix.drama.hub",
       "notify": true
     },
@@ -788,7 +788,7 @@
       "caption": "Due to recent snapchat updates, tweaks have become unusable and bannable. Each tweak dev is currently working on a fix and I will post them here when they do.",
       "date": "2025-03-04",
       "tintColor": "e2e204",
-      "imageURL": "https://i.imgur.com/Z7cCbfj.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Z7cCbfj.jpeg",
       "notify": true
     },
     {
@@ -797,7 +797,7 @@
       "caption": "X++ has been updated with a new tweak! Click Here for more info",
       "date": "2025-03-04",
       "tintColor": "0f0f0f",
-      "imageURL": "https://i.imgur.com/fTtIng1.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/fTtIng1.jpeg",
       "appID": "com.atebits.Tweetie2",
       "notify": true
     },
@@ -807,7 +807,7 @@
       "caption": "Facebook++ has been updated to the latest version, click here for more info",
       "date": "2025-03-04",
       "tintColor": "153267",
-      "imageURL": "https://i.imgur.com/Vh2sSPk.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
       "appID": "com.facebook.Facebook",
       "notify": true
     },
@@ -817,7 +817,7 @@
       "caption": "TikTok++ has been updated with a new tweak! Click here for more info",
       "date": "2025-03-04",
       "tintColor": "131313",
-      "imageURL": "https://i.imgur.com/xFBKw7B.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
       "appID": "com.zhiliaoapp.musically",
       "notify": false
     },
@@ -827,7 +827,7 @@
       "caption": "Instagram has been updated with a new tweak! Click here for more info",
       "date": "2025-03-04",
       "tintColor": "5c1859",
-      "imageURL": "https://i.imgur.com/b6ifsl3.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
       "appID": "com.burbn.instagram",
       "notify": false
     },
@@ -837,7 +837,7 @@
       "caption": "MyFitnessPal++ has been updated to the latest version, click here for more info",
       "date": "2025-03-04",
       "tintColor": "113361",
-      "imageURL": "https://i.imgur.com/xrzvPez.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xrzvPez.jpeg",
       "appID": "com.myfitnesspal.mfp",
       "notify": true
     },
@@ -847,7 +847,7 @@
       "caption": "BeReal++ has been updated to the latest version, click here for more info",
       "date": "2024-10-09",
       "tintColor": "131313",
-      "imageURL": "https://i.imgur.com/YuwXfHb.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
       "appID": "AlexisBarreyat.BeReal",
       "notify": true
     },
@@ -857,7 +857,7 @@
       "caption": "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
       "date": "2023-10-22",
       "tintColor": "0e0e0e",
-      "imageURL": "https://i.imgur.com/XlbkA6u.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
       "appID": "com.deezer.Deezer",
       "notify": false
     },
@@ -867,7 +867,7 @@
       "caption": "A new SoundCloud tweak has been released! Only works with trollstore/cert",
       "date": "2025-03-04",
       "tintColor": "131313",
-      "imageURL": "https://i.imgur.com/5pl1dGh.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
       "appID": "com.soundcloud.TouchApp",
       "notify": true
     },
@@ -877,7 +877,7 @@
       "caption": "Spotify++ has been updated to the latest version! Click here for more info",
       "date": "2025-03-04",
       "tintColor": "0e6a32",
-      "imageURL": "https://i.imgur.com/NvxAusn.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
       "appID": "com.spotify.client",
       "notify": true
     },
@@ -887,7 +887,7 @@
       "caption": "YouTube++ has been updated to the latest version! Click here for more info",
       "date": "2025-03-04",
       "tintColor": "af0001",
-      "imageURL": "https://i.imgur.com/W7zL04X.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
       "appID": "com.google.ios.youtube",
       "notify": true
     },
@@ -897,7 +897,7 @@
       "caption": "Duolingo++ has been updated to the latest version! Click here for more info",
       "date": "2025-03-04",
       "tintColor": "244200",
-      "imageURL": "https://i.imgur.com/icxcPrT.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
       "appID": "com.duolingo.DuolingoMobile",
       "notify": true
     },
@@ -907,7 +907,7 @@
       "caption": "Messenger injected with Shark has been added to the source, click here for more info",
       "date": "2023-10-23",
       "tintColor": "532552",
-      "imageURL": "https://i.imgur.com/FAl2VYQ.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
       "appID": "com.facebook.Messenger",
       "notify": true
     }
