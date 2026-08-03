@@ -23,7 +23,8 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
 .search-wrap svg { width:20px; height:20px; flex:0 0 auto; stroke-width:2; }
 .search-wrap input { width:100%; min-width:0; border:0; outline:0; color:#28282b; background:transparent; font-size:18px; letter-spacing:-.35px; }
 .search-wrap input::placeholder { color:#77777c; opacity:1; }
-.showcase { display:flex; gap:16px; height:142px; margin-left:max(4.15vw,28px); min-width:max-content; }
+.showcase { display:flex; gap:16px; height:142px; margin-left:max(4.15vw,28px); min-width:max-content; -ms-overflow-style: none; scrollbar-width: none; }
+.showcase::-webkit-scrollbar { display: none; }
 .feature { height:142px; overflow:hidden; position:relative; border-radius:16px; box-shadow:0 4px 7px rgba(0,0,0,.19); flex:0 0 auto; }
 .feature.feature-primary { width:830px; background:linear-gradient(112deg,#1d1d20 0%,#151518 57%,#5664c5 67%,#c7ccff 78%,#27252a 100%); }
 .feature.feature-primary:after { content:""; position:absolute; right:58px; top:-45px; width:181px; height:218px; transform:rotate(29deg); background:linear-gradient(115deg,transparent 0 31%,#7883df 31% 53%,#c6c9ff 53% 72%,#6a4d9e 72% 81%,#aa5c50 81%); opacity:.92; }

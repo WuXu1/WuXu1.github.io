@@ -112,7 +112,7 @@ export default function Home({ apps, plusApps, news = [], loading }) {
                 backgroundPosition: 'center', 
                 cursor: item.appID ? 'pointer' : 'default',
                 backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
-                width: '400px',
+                width: '430px',
                 flexShrink: 0,
                 scrollSnapAlign: 'start'
               }}
