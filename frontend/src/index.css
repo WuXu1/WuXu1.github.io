@@ -59,7 +59,7 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
 .brand p { margin:0; color:var(--text-secondary); font-size:15px; line-height:20px; letter-spacing:-.4px; }
 .top-center { display: flex; align-items: center; justify-content: center; padding-top: 10px; }
 .premium-toggle { display: none; }
-.top-actions { display: flex; gap: 30px; justify-content: flex-end; flex: 1; padding-top: 10px; }
+.top-actions { display: flex; gap: 30px; justify-content: flex-end; flex: 1; padding-top: 16px; }
 .top-action { min-width:55px; padding:0; display:grid; justify-items:center; gap:5px; font-size:16px; letter-spacing:-.45px; line-height:18px; white-space:nowrap; }
 .top-action svg { width:27px; height:27px; stroke-width:2.35; }
 .top-action[aria-pressed="true"] { font-weight:650; }
