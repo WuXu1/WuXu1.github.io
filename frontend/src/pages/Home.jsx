@@ -12,7 +12,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
   const allApps = [...apps, ...plusApps];
 
   const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value.trim().toLowerCase());
+    setSearchQuery(e.target.value);
   };
 
   const getFilteredApps = () => {
@@ -24,10 +24,11 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
       filtered = [...plusApps];
     }
 
-    if (searchQuery && currentView === 'Search') {
+    const q = searchQuery.trim().toLowerCase();
+    if (q && currentView === 'Search') {
       filtered = filtered.filter(app => {
         const str = `${app.name} ${app.developerName} ${app.subtitle || ''}`.toLowerCase();
-        return str.includes(searchQuery);
+        return str.includes(q);
       });
     }
 
@@ -187,22 +188,21 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             )}
 
             {currentView === 'Search' && (
-              <div>
-                <div className="search-container">
-                  <label className="search-wrap" aria-label="Search apps">
-                    <Search size={22} strokeWidth={2} />
-                    <input 
-                      id="search" 
-                      type="search" 
-                      placeholder="Search Apps & Games..." 
-                      autoComplete="off" 
-                      value={searchQuery}
-                      onChange={handleSearchChange}
-                      autoFocus
-                    />
-                  </label>
-                </div>
-                <section className="cards" style={{ padding: '0 20px' }}>
+              <div style={{ padding: '0 20px 20px' }}>
+                <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', marginBottom: '20px', width: '100%', maxWidth: '340px' }}>
+                  <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
+                  <input 
+                    id="search" 
+                    type="search" 
+                    placeholder="Search Apps & Games..." 
+                    autoComplete="off" 
+                    value={searchQuery}
+                    onChange={handleSearchChange}
+                    autoFocus
+                    style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '17px' }}
+                  />
+                </label>
+                <section className="cards">
                   {displayedApps.map((app, index) => (
                     <AppCard key={`search-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
                   ))}
@@ -245,15 +245,15 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
       <nav className="bottom-nav" aria-label="Primary navigation">
         <button className={currentView === 'Discover' ? 'active' : ''} onClick={() => setCurrentView('Discover')} aria-label="Discover">
           <Compass size={24} strokeWidth={currentView === 'Discover' ? 2.5 : 2} />
-          <span>Discover</span>
+          <span data-text="Discover">Discover</span>
         </button>
         <button className={currentView === 'Search' ? 'active' : ''} onClick={() => setCurrentView('Search')} aria-label="Search">
           <Search size={24} strokeWidth={currentView === 'Search' ? 2.5 : 2} />
-          <span>Search</span>
+          <span data-text="Search">Search</span>
         </button>
         <button className={currentView === 'Settings' ? 'active' : ''} onClick={() => setCurrentView('Settings')} aria-label="Settings">
           <Settings size={24} strokeWidth={currentView === 'Settings' ? 2.5 : 2} />
-          <span>Settings</span>
+          <span data-text="Settings">Settings</span>
         </button>
       </nav>
     </div>
