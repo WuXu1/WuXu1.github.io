@@ -71,15 +71,22 @@ export default function Home({ apps, plusApps, news = [], loading }) {
         </div>
         
         <div className="top-center" role="navigation" aria-label="Library categories">
-          <button className={`top-action ${currentView === 'Library' ? 'active' : ''}`} aria-pressed={currentView === 'Library'} onClick={() => setCurrentView('Library')}>
-            <Library size={27} strokeWidth={currentView === 'Library' ? 3 : 2.35} />
-            <span style={{ fontWeight: currentView === 'Library' ? 600 : 400 }}>WuXu's Library</span>
-          </button>
-          
-          <button className={`top-action ${currentView === 'LibraryPlus' ? 'active' : ''}`} aria-pressed={currentView === 'LibraryPlus'} onClick={() => setCurrentView('LibraryPlus')}>
-            <Layers size={27} strokeWidth={currentView === 'LibraryPlus' ? 3 : 2.35} />
-            <span style={{ fontWeight: currentView === 'LibraryPlus' ? 600 : 400 }}>WuXu's Library++</span>
-          </button>
+          <div className="premium-toggle">
+            <div className={`toggle-slider ${currentView === 'LibraryPlus' ? 'right' : ''}`}></div>
+            <div className="toggle-slash"></div>
+            <button 
+              className={currentView === 'Library' ? 'active' : ''} 
+              onClick={() => setCurrentView('Library')}
+            >
+              WuXu's Library
+            </button>
+            <button 
+              className={currentView === 'LibraryPlus' ? 'active' : ''} 
+              onClick={() => setCurrentView('LibraryPlus')}
+            >
+              WuXu's Library++
+            </button>
+          </div>
         </div>
 
         <div className="top-actions" role="navigation" aria-label="Updates">
