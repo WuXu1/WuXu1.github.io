@@ -1,0 +1,171 @@
+import React, { useState } from 'react';
+import { LayoutGrid, Gamepad2, Download, Compass, Search, Settings } from 'lucide-react';
+import AppCard from '../components/AppCard';
+
+export default function Home({ apps, plusApps, loading }) {
+  const [currentView, setCurrentView] = useState('Discover');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const allApps = [...apps, ...plusApps];
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value.trim().toLowerCase());
+  };
+
+  const getFilteredApps = () => {
+    let filtered = allApps;
+    
+    if (currentView === 'Apps') {
+      filtered = allApps.filter(a => a.category?.toLowerCase() !== 'games');
+    } else if (currentView === 'Games') {
+      filtered = allApps.filter(a => a.category?.toLowerCase() === 'games');
+    } else if (currentView === 'Updates') {
+      // Sort by versionDate (newest first)
+      filtered = [...allApps].sort((a, b) => new Date(b.versionDate || 0) - new Date(a.versionDate || 0));
+    }
+
+    if (searchQuery && currentView === 'Search') {
+      filtered = filtered.filter(app => {
+        const str = `${app.name} ${app.developerName} ${app.subtitle || ''}`.toLowerCase();
+        return str.includes(searchQuery);
+      });
+    }
+
+    // Sort alphabetically for Apps/Games
+    if (currentView === 'Apps' || currentView === 'Games') {
+      filtered = filtered.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return filtered;
+  };
+
+  const displayedApps = getFilteredApps();
+
+  return (
+    <div className="page">
+      <header className="topbar">
+        <div className="brand">
+          <h1>WuXu's Library</h1>
+          <p>Discover sideloaded apps</p>
+        </div>
+        
+        <div className="top-actions" role="navigation" aria-label="Library categories">
+          <button className={`top-action ${currentView === 'Apps' ? 'active' : ''}`} aria-pressed={currentView === 'Apps'} onClick={() => setCurrentView('Apps')}>
+            <LayoutGrid size={27} strokeWidth={currentView === 'Apps' ? 3 : 2.35} />
+            <span style={{ fontWeight: currentView === 'Apps' ? 600 : 400 }}>Apps</span>
+          </button>
+          
+          <button className={`top-action ${currentView === 'Games' ? 'active' : ''}`} aria-pressed={currentView === 'Games'} onClick={() => setCurrentView('Games')}>
+            <Gamepad2 size={27} strokeWidth={currentView === 'Games' ? 3 : 2.35} />
+            <span style={{ fontWeight: currentView === 'Games' ? 600 : 400 }}>Games</span>
+          </button>
+          
+          <button className={`top-action ${currentView === 'Updates' ? 'active' : ''}`} aria-pressed={currentView === 'Updates'} onClick={() => setCurrentView('Updates')}>
+            <Download size={27} strokeWidth={currentView === 'Updates' ? 3 : 2.35} />
+            <span style={{ fontWeight: currentView === 'Updates' ? 600 : 400 }}>Updates</span>
+          </button>
+        </div>
+      </header>
+
+      <main className="catalog" style={{ paddingTop: currentView === 'Discover' ? 0 : '20px' }}>
+        {loading ? (
+          <div className="loading-state">Loading apps...</div>
+        ) : (
+          <>
+            {currentView === 'Discover' && (
+              <>
+                <section className="showcase" aria-label="Featured releases">
+                  <article className="feature feature-primary">
+                    <div className="badge">
+                      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M26 11 12 31l13 8 9-15 9 7-12 20 6 4 18-27-6-4-5 8-9-7 5-8-14-6Zm-7 31 8 5-5 8-8-5 5-8Z"/></svg>
+                    </div>
+                    <div className="flower" aria-hidden="true"></div>
+                    <h2>Featured Releases</h2>
+                  </article>
+                  <article className="feature feature-secondary" aria-label="New app release">
+                    <div className="scene">
+                      <div className="screen"></div>
+                      <div className="rocket"></div>
+                    </div>
+                  </article>
+                </section>
+                <div className="sections">
+                  <section className="section">
+                    <h3>New This Week</h3>
+                    <div className="mini-grid">
+                      {apps.slice(0, 4).map((app, index) => (
+                        <AppCard key={`new-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                      ))}
+                    </div>
+                  </section>
+                  <section className="section">
+                    <h3>Editor's Choice</h3>
+                    <div className="mini-grid">
+                      {plusApps.slice(0, 4).map((app, index) => (
+                        <AppCard key={`editor-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                      ))}
+                    </div>
+                  </section>
+                </div>
+              </>
+            )}
+
+            {currentView === 'Search' && (
+              <div style={{ padding: '0 20px 20px' }}>
+                <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', marginBottom: '20px' }}>
+                  <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
+                  <input 
+                    id="search" 
+                    type="search" 
+                    placeholder="Search Apps & Games..." 
+                    autoComplete="off" 
+                    value={searchQuery}
+                    onChange={handleSearchChange}
+                    autoFocus
+                    style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '17px' }}
+                  />
+                </label>
+                <section className="cards">
+                  {displayedApps.map((app, index) => (
+                    <AppCard key={`search-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                  ))}
+                  {displayedApps.length === 0 && <p style={{ textAlign: 'center', color: '#8e8e93', marginTop: '40px' }}>No results found.</p>}
+                </section>
+              </div>
+            )}
+
+            {['Apps', 'Games', 'Updates'].includes(currentView) && (
+              <section className="cards" style={{ padding: '0 20px' }}>
+                {displayedApps.map((app, index) => (
+                  <AppCard key={`grid-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                ))}
+              </section>
+            )}
+
+            {currentView === 'Settings' && (
+              <div style={{ padding: '40px 20px', textAlign: 'center', color: '#8e8e93' }}>
+                <h2>Settings</h2>
+                <p>No settings available right now.</p>
+              </div>
+            )}
+          </>
+        )}
+      </main>
+
+      <nav className="bottom-nav" aria-label="Primary navigation">
+        <button className={currentView === 'Discover' ? 'active' : ''} onClick={() => setCurrentView('Discover')} aria-label="Discover">
+          <Compass size={24} strokeWidth={currentView === 'Discover' ? 2.5 : 2} />
+          <span>Discover</span>
+        </button>
+        <button className={currentView === 'Search' ? 'active' : ''} onClick={() => setCurrentView('Search')} aria-label="Search">
+          <Search size={24} strokeWidth={currentView === 'Search' ? 2.5 : 2} />
+          <span>Search</span>
+        </button>
+        <button className={currentView === 'Settings' ? 'active' : ''} onClick={() => setCurrentView('Settings')} aria-label="Settings">
+          <Settings size={24} strokeWidth={currentView === 'Settings' ? 2.5 : 2} />
+          <span>Settings</span>
+        </button>
+      </nav>
+    </div>
+  );
+}

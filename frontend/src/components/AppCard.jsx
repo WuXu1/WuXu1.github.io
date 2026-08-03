@@ -1,16 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function AppCard({ app, isHidden }) {
-  const handleGet = (e) => {
-    e.currentTarget.textContent = e.currentTarget.classList.toggle('open') ? 'OPEN' : 'GET';
-    e.currentTarget.setAttribute('aria-label', e.currentTarget.textContent === 'OPEN' ? 'Open app' : 'Get app');
-    // Actual logic for installing
-    window.location.href = `altstore://install?url=${encodeURIComponent(app.downloadURL)}`;
+  const navigate = useNavigate();
+
+  const handleView = (e) => {
+    navigate(`/app/${app.bundleIdentifier}`);
   };
 
-  // Convert size to a more readable format, or use it as a pseudo-rating if you prefer.
-  // The provided HTML hardcoded stars and reviews. I will provide a hardcoded looking star for now,
-  // or leave it as it is in the HTML.
   const displayRating = (
     <div className="rating">
       <span className="star">★</span> {app.size ? (app.size / 1024 / 1024).toFixed(1) + ' MB' : '4.8'}
@@ -32,7 +29,7 @@ export default function AppCard({ app, isHidden }) {
         <div className="category">{app.subtitle || 'App'}</div>
         {displayRating}
       </div>
-      <button className="get" onClick={handleGet}>GET</button>
+      <button className="get" onClick={handleView}>VIEW</button>
     </article>
   );
 }
