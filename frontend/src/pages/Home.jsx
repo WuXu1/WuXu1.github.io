@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
 import NewsCard from '../components/NewsCard';
 
-export default function Home({ apps, plusApps, news = [], loading }) {
+export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
@@ -187,25 +187,26 @@ export default function Home({ apps, plusApps, news = [], loading }) {
             )}
 
             {currentView === 'Search' && (
-              <div style={{ padding: '0 20px 20px' }}>
-                <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', marginBottom: '20px' }}>
-                  <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
-                  <input 
-                    id="search" 
-                    type="search" 
-                    placeholder="Search Apps & Games..." 
-                    autoComplete="off" 
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                    autoFocus
-                    style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '17px' }}
-                  />
-                </label>
-                <section className="cards">
+              <div>
+                <div className="search-container">
+                  <label className="search-wrap" aria-label="Search apps">
+                    <Search size={22} strokeWidth={2} />
+                    <input 
+                      id="search" 
+                      type="search" 
+                      placeholder="Search Apps & Games..." 
+                      autoComplete="off" 
+                      value={searchQuery}
+                      onChange={handleSearchChange}
+                      autoFocus
+                    />
+                  </label>
+                </div>
+                <section className="cards" style={{ padding: '0 20px' }}>
                   {displayedApps.map((app, index) => (
                     <AppCard key={`search-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
                   ))}
-                  {displayedApps.length === 0 && <p style={{ textAlign: 'center', color: '#8e8e93', marginTop: '40px' }}>No results found.</p>}
+                  {displayedApps.length === 0 && <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '40px' }}>No results found.</p>}
                 </section>
               </div>
             )}
@@ -219,9 +220,22 @@ export default function Home({ apps, plusApps, news = [], loading }) {
             )}
 
             {currentView === 'Settings' && (
-              <div style={{ padding: '40px 20px', textAlign: 'center', color: '#8e8e93' }}>
+              <div className="settings-container">
                 <h2>Settings</h2>
-                <p>No settings available right now.</p>
+                <div className="setting-item">
+                  <div className="setting-info">
+                    <h3>Dark Mode</h3>
+                    <p>Toggle deep dark appearance</p>
+                  </div>
+                  <label className="switch">
+                    <input 
+                      type="checkbox" 
+                      checked={darkMode} 
+                      onChange={(e) => setDarkMode(e.target.checked)} 
+                    />
+                    <span className="switch-slider"></span>
+                  </label>
+                </div>
               </div>
             )}
           </>
