@@ -41,6 +41,27 @@ export default function Home({ apps, plusApps, news = [], loading }) {
 
   const displayedApps = getFilteredApps();
 
+  const showcaseRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (currentView !== 'Discover' || news.length === 0) return;
+    
+    const interval = setInterval(() => {
+      if (showcaseRef.current) {
+        const container = showcaseRef.current;
+        const scrollAmount = container.clientWidth;
+        // If we are at the end, scroll back to 0
+        if (container.scrollLeft + scrollAmount >= container.scrollWidth - 10) {
+          container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        }
+      }
+    }, 4000); // Rotate every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [currentView, news]);
+
   return (
     <div className="page">
       <header className="topbar">
@@ -74,8 +95,8 @@ export default function Home({ apps, plusApps, news = [], loading }) {
           <>
             {currentView === 'Discover' && (
               <>
-                <section className="showcase" aria-label="Featured releases">
-                  {news.slice(0, 3).map((item, index) => (
+                <section className="showcase" aria-label="Featured releases" ref={showcaseRef} style={{ scrollBehavior: 'smooth' }}>
+                  {news.slice(0, 5).map((item, index) => (
                     <article 
                       key={index} 
                       className="feature" 
@@ -85,7 +106,8 @@ export default function Home({ apps, plusApps, news = [], loading }) {
                         backgroundPosition: 'center', 
                         cursor: item.appID ? 'pointer' : 'default',
                         backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
-                        width: index === 0 ? '830px' : '416px' // Keep original banner widths
+                        width: '400px',
+                        flexShrink: 0
                       }}
                       onClick={() => item.appID && navigate(`/app/${item.appID}`)}
                     >
@@ -94,11 +116,11 @@ export default function Home({ apps, plusApps, news = [], loading }) {
                       
                       <h2 style={{ 
                         position: 'absolute', 
-                        left: '20px', // Matches the original feature padding but scaled down
+                        left: '0px', 
                         bottom: '15px', 
                         margin: 0, 
                         color: 'white', 
-                        fontSize: '25px', // In line with "New This Week" header
+                        fontSize: '25px', 
                         letterSpacing: '-.9px',
                         fontWeight: 750, 
                         lineHeight: 1,
