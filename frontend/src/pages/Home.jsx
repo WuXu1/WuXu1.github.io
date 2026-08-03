@@ -88,50 +88,66 @@ export default function Home({ apps, plusApps, news = [], loading }) {
         </div>
       </header>
 
-      <main className="catalog" style={{ paddingTop: currentView === 'Discover' ? 0 : '20px' }}>
+      {currentView === 'Discover' && !loading && (
+        <section 
+          className="showcase" 
+          aria-label="Featured releases" 
+          ref={showcaseRef} 
+          style={{ 
+            scrollBehavior: 'smooth', 
+            overflowX: 'auto', 
+            scrollSnapType: 'x mandatory',
+            minWidth: 'auto', // Override the max-content from CSS so it can scroll
+            width: '100%',
+            paddingRight: '20px' // Add some padding to the end of the scroll
+          }}
+        >
+          {news.slice(0, 5).map((item, index) => (
+            <article 
+              key={index} 
+              className="feature" 
+              style={{ 
+                backgroundImage: `url(${item.imageURL})`, 
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                cursor: item.appID ? 'pointer' : 'default',
+                backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
+                width: '400px',
+                flexShrink: 0,
+                scrollSnapAlign: 'start'
+              }}
+              onClick={() => item.appID && navigate(`/app/${item.appID}`)}
+            >
+              {/* Dark overlay to make text legible */}
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }}></div>
+              
+              <h2 style={{ 
+                position: 'absolute', 
+                left: '20px', // Reverting to 20px now that the double-margin is fixed
+                bottom: '15px', 
+                margin: 0, 
+                color: 'white', 
+                fontSize: '25px', 
+                letterSpacing: '-.9px',
+                fontWeight: 750, 
+                lineHeight: 1,
+                zIndex: 4 
+              }}>{item.title}</h2>
+            </article>
+          ))}
+          {news.length === 0 && (
+            <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
+          )}
+        </section>
+      )}
+
+      <main className="catalog" style={{ paddingTop: currentView === 'Discover' ? '10px' : '20px' }}>
         {loading ? (
           <div className="loading-state">Loading apps...</div>
         ) : (
           <>
             {currentView === 'Discover' && (
               <>
-                <section className="showcase" aria-label="Featured releases" ref={showcaseRef} style={{ scrollBehavior: 'smooth' }}>
-                  {news.slice(0, 5).map((item, index) => (
-                    <article 
-                      key={index} 
-                      className="feature" 
-                      style={{ 
-                        backgroundImage: `url(${item.imageURL})`, 
-                        backgroundSize: 'cover', 
-                        backgroundPosition: 'center', 
-                        cursor: item.appID ? 'pointer' : 'default',
-                        backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
-                        width: '400px',
-                        flexShrink: 0
-                      }}
-                      onClick={() => item.appID && navigate(`/app/${item.appID}`)}
-                    >
-                      {/* Dark overlay to make text legible */}
-                      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }}></div>
-                      
-                      <h2 style={{ 
-                        position: 'absolute', 
-                        left: '0px', 
-                        bottom: '15px', 
-                        margin: 0, 
-                        color: 'white', 
-                        fontSize: '25px', 
-                        letterSpacing: '-.9px',
-                        fontWeight: 750, 
-                        lineHeight: 1,
-                        zIndex: 4 
-                      }}>{item.title}</h2>
-                    </article>
-                  ))}
-                  {news.length === 0 && (
-                    <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
-                  )}
-                </section>
                 <div className="sections">
                   <section className="section">
                     <h3>New This Week</h3>
