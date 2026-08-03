@@ -10,11 +10,13 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
 }
 
 .page { min-height:100vh; overflow:hidden; padding-bottom:92px; }
-.topbar { height:114px; display:flex; justify-content:space-between; align-items:flex-start; padding:17px max(4.15vw,28px) 0; }
+.topbar { height:114px; display:flex; align-items:flex-start; padding:17px max(4.15vw,28px) 0; }
+.brand { flex: 1; }
 .brand h1 { margin:0; font-family: 'Mareka', sans-serif; font-size:48px; letter-spacing:normal; line-height:50px; font-weight:300; }
-.brand p { margin:0; color:#3f3f42; font-size:26px; line-height:30px; letter-spacing:-.65px; }
-.top-actions { display:flex; align-items:center; gap:30px; padding-top:10px; }
-.top-action { width:55px; padding:0; display:grid; justify-items:center; gap:3px; font-size:18px; letter-spacing:-.45px; line-height:18px; }
+.brand p { margin:0; color:#3f3f42; font-size:18px; line-height:24px; letter-spacing:-.4px; }
+.top-center { display: flex; gap: 30px; justify-content: center; padding-top: 10px; }
+.top-actions { display: flex; gap: 30px; justify-content: flex-end; flex: 1; padding-top: 10px; }
+.top-action { min-width:55px; padding:0; display:grid; justify-items:center; gap:5px; font-size:16px; letter-spacing:-.45px; line-height:18px; white-space:nowrap; }
 .top-action svg { width:27px; height:27px; stroke-width:2.35; }
 .top-action[aria-pressed="true"] { font-weight:650; }
 .top-action[aria-pressed="true"] span:last-child { position:relative; }
@@ -67,8 +69,8 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
 .bottom-nav svg { width:24px; height:24px; stroke-width:2; }
 .bottom-nav button.active { font-weight:650; }
 .bottom-nav button.active svg { stroke-width:2.7; }
-@media (max-width:1050px) { .top-actions { gap:12px; } .topbar { padding-left:28px; padding-right:28px; } .showcase { margin-left:28px; } .catalog { width:calc(100% - 56px); margin-left:28px; margin-right:28px; } .cards { grid-template-columns:repeat(3,minmax(0,1fr)); } .bottom-nav { gap:120px; } }
-@media (max-width:760px) { .page { overflow:auto; } .topbar { height:auto; min-height:111px; gap:16px; padding-top:15px; flex-wrap:wrap; } .brand h1 { font-size:32px; line-height:35px; } .brand p { font-size:18px; line-height:22px; } .top-actions { order:3; width:100%; padding-bottom:8px; justify-content:space-between; gap:6px; } .top-action { width:auto; min-width:53px; } .search-wrap { width:176px; } .showcase { margin-top:8px; height:116px; } .feature { height:116px; border-radius:14px; } .feature.feature-primary { width:650px; } .feature h2 { font-size:32px; bottom:15px; } .feature-primary .badge { right:135px; top:17px; width:75px; height:75px; } .feature-primary .badge svg { width:49px; height:49px; } .feature-primary .flower { right:72px; top:29px; width:61px; height:61px; } .cards { grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; } .app-card { height:83px; padding:9px; } .app-icon { flex-basis:60px; width:60px; height:60px; } .app-name { font-size:16px; } .developer,.category { font-size:13px; } .get { min-width:52px; padding:0 8px; font-size:13px; } .sections { grid-template-columns:1fr; gap:26px; margin-top:27px; } .bottom-nav { gap:25px; justify-content:space-around; } }
-@media (max-width:460px) { .topbar { padding-left:16px; padding-right:16px; } .top-actions { gap:0; } .search-wrap { width:145px; } .showcase { margin-left:16px; } .catalog { width:calc(100% - 32px); margin-left:16px; margin-right:16px; } .cards { grid-template-columns:1fr; } .mini-grid { grid-template-columns:1fr; } .bottom-nav { gap:3px; } }
+@media (max-width:1050px) { .topbar { padding-left:28px; padding-right:28px; } .top-center { gap: 12px; } .top-actions { gap:12px; } .showcase { margin-left:28px; } .catalog { width:calc(100% - 56px); margin-left:28px; margin-right:28px; } .cards { grid-template-columns:repeat(3,minmax(0,1fr)); } .bottom-nav { gap:120px; } }
+@media (max-width:760px) { .page { overflow:auto; } .topbar { height:auto; min-height:111px; gap:16px; padding-top:15px; flex-wrap:wrap; } .brand h1 { font-size:32px; line-height:35px; } .brand p { font-size:16px; line-height:22px; } .brand { flex: 1 1 100%; } .top-center { order:2; width:100%; justify-content:space-between; gap:6px; padding-top: 10px; } .top-actions { order:3; width:100%; padding-bottom:8px; justify-content:flex-end; gap:6px; padding-top:0; } .top-action { width:auto; min-width:53px; } .search-wrap { width:176px; } .showcase { margin-top:8px; height:116px; } .feature { height:116px; border-radius:14px; } .feature.feature-primary { width:650px; } .feature h2 { font-size:32px; bottom:15px; } .feature-primary .badge { right:135px; top:17px; width:75px; height:75px; } .feature-primary .badge svg { width:49px; height:49px; } .feature-primary .flower { right:72px; top:29px; width:61px; height:61px; } .cards { grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; } .app-card { height:83px; padding:9px; } .app-icon { flex-basis:60px; width:60px; height:60px; } .app-name { font-size:16px; } .developer,.category { font-size:13px; } .get { min-width:52px; padding:0 8px; font-size:13px; } .sections { grid-template-columns:1fr; gap:26px; margin-top:27px; } .bottom-nav { gap:25px; justify-content:space-around; } }
+@media (max-width:460px) { .topbar { padding-left:16px; padding-right:16px; } .top-center { gap:0; } .top-actions { gap:0; } .search-wrap { width:145px; } .showcase { margin-left:16px; } .catalog { width:calc(100% - 32px); margin-left:16px; margin-right:16px; } .cards { grid-template-columns:1fr; } .mini-grid { grid-template-columns:1fr; } .bottom-nav { gap:3px; } }
 
 .loading-state { text-align: center; padding: 40px; font-size: 18px; color: #77777c; }

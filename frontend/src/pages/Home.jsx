@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LayoutGrid, Gamepad2, Download, Compass, Search, Settings } from 'lucide-react';
+import { LayoutGrid, Library, Layers, Download, Compass, Search, Settings } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
 import NewsCard from '../components/NewsCard';
@@ -18,10 +18,10 @@ export default function Home({ apps, plusApps, news = [], loading }) {
   const getFilteredApps = () => {
     let filtered = allApps;
     
-    if (currentView === 'Apps') {
-      filtered = allApps.filter(a => a.category?.toLowerCase() !== 'games');
-    } else if (currentView === 'Games') {
-      filtered = allApps.filter(a => a.category?.toLowerCase() === 'games');
+    if (currentView === 'Library') {
+      filtered = [...apps];
+    } else if (currentView === 'LibraryPlus') {
+      filtered = [...plusApps];
     }
 
     if (searchQuery && currentView === 'Search') {
@@ -31,8 +31,8 @@ export default function Home({ apps, plusApps, news = [], loading }) {
       });
     }
 
-    // Sort alphabetically for Apps/Games/Search
-    if (currentView === 'Apps' || currentView === 'Games' || currentView === 'Search') {
+    // Sort alphabetically
+    if (currentView === 'Library' || currentView === 'LibraryPlus' || currentView === 'Search') {
       filtered = filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
@@ -67,20 +67,22 @@ export default function Home({ apps, plusApps, news = [], loading }) {
       <header className="topbar">
         <div className="brand">
           <h1>WuXu's Library</h1>
-          <p>Discover sideloaded apps</p>
+          <p>The most Up-To-Date IPA Libraries on AltStore</p>
         </div>
         
-        <div className="top-actions" role="navigation" aria-label="Library categories">
-          <button className={`top-action ${currentView === 'Apps' ? 'active' : ''}`} aria-pressed={currentView === 'Apps'} onClick={() => setCurrentView('Apps')}>
-            <LayoutGrid size={27} strokeWidth={currentView === 'Apps' ? 3 : 2.35} />
-            <span style={{ fontWeight: currentView === 'Apps' ? 600 : 400 }}>Apps</span>
+        <div className="top-center" role="navigation" aria-label="Library categories">
+          <button className={`top-action ${currentView === 'Library' ? 'active' : ''}`} aria-pressed={currentView === 'Library'} onClick={() => setCurrentView('Library')}>
+            <Library size={27} strokeWidth={currentView === 'Library' ? 3 : 2.35} />
+            <span style={{ fontWeight: currentView === 'Library' ? 600 : 400 }}>WuXu's Library</span>
           </button>
           
-          <button className={`top-action ${currentView === 'Games' ? 'active' : ''}`} aria-pressed={currentView === 'Games'} onClick={() => setCurrentView('Games')}>
-            <Gamepad2 size={27} strokeWidth={currentView === 'Games' ? 3 : 2.35} />
-            <span style={{ fontWeight: currentView === 'Games' ? 600 : 400 }}>Games</span>
+          <button className={`top-action ${currentView === 'LibraryPlus' ? 'active' : ''}`} aria-pressed={currentView === 'LibraryPlus'} onClick={() => setCurrentView('LibraryPlus')}>
+            <Layers size={27} strokeWidth={currentView === 'LibraryPlus' ? 3 : 2.35} />
+            <span style={{ fontWeight: currentView === 'LibraryPlus' ? 600 : 400 }}>WuXu's Library++</span>
           </button>
-          
+        </div>
+
+        <div className="top-actions" role="navigation" aria-label="Updates">
           <button className={`top-action ${currentView === 'Updates' ? 'active' : ''}`} aria-pressed={currentView === 'Updates'} onClick={() => setCurrentView('Updates')}>
             <Download size={27} strokeWidth={currentView === 'Updates' ? 3 : 2.35} />
             <span style={{ fontWeight: currentView === 'Updates' ? 600 : 400 }}>Updates</span>
@@ -202,7 +204,7 @@ export default function Home({ apps, plusApps, news = [], loading }) {
               </div>
             )}
 
-            {['Apps', 'Games'].includes(currentView) && (
+            {['Library', 'LibraryPlus'].includes(currentView) && (
               <section className="cards" style={{ padding: '0 20px' }}>
                 {displayedApps.map((app, index) => (
                   <AppCard key={`grid-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
