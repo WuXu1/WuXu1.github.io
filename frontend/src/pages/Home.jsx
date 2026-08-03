@@ -139,26 +139,28 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             {currentView === 'Discover' && (
               <>
                 <div className="sections">
-                  {['both', 'wuxu'].includes(librarySource) && (
-                    <section className="section">
-                      <h3>New This Month</h3>
-                      <div className="mini-grid">
-                        {apps.slice(0, 4).map((app, index) => (
+                  <section className="section">
+                    <h3>New This Month</h3>
+                    <div className="mini-grid">
+                      {[...displayedApps]
+                        .sort((a, b) => new Date(b.versionDate || 0) - new Date(a.versionDate || 0))
+                        .slice(0, 4)
+                        .map((app, index) => (
                           <AppCard key={`new-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
-                        ))}
-                      </div>
-                    </section>
-                  )}
-                  {['both', 'wuxu-plus'].includes(librarySource) && (
-                    <section className="section">
-                      <h3>WuXu's Choice</h3>
-                      <div className="mini-grid">
-                        {plusApps.slice(0, 4).map((app, index) => (
-                          <AppCard key={`editor-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
-                        ))}
-                      </div>
-                    </section>
-                  )}
+                      ))}
+                    </div>
+                  </section>
+                  <section className="section">
+                    <h3>WuXu's Picks</h3>
+                    <div className="mini-grid">
+                      {["Spotify++ (NEW)", "YouTube++", "Instagram++", "Angry Birds Star Wars"]
+                        .map(name => [...apps, ...plusApps].find(a => a.name === name))
+                        .filter(Boolean)
+                        .map((app, index) => (
+                          <AppCard key={`pick-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                      ))}
+                    </div>
+                  </section>
                 </div>
               </>
             )}
