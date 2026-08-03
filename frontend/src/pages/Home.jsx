@@ -73,7 +73,6 @@ export default function Home({ apps, plusApps, news = [], loading }) {
         <div className="top-center" role="navigation" aria-label="Library categories">
           <div className="premium-toggle">
             <div className={`toggle-slider ${currentView === 'LibraryPlus' ? 'right' : ''}`}></div>
-            <div className="toggle-slash"></div>
             <button 
               className={currentView === 'Library' ? 'active' : ''} 
               onClick={() => setCurrentView('Library')}
