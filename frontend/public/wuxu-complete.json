@@ -1,0 +1,950 @@
+{
+  "name" : "WuXu's Library",
+  "identifier" : "com.wuxulibs.wuxuslibrary",
+  "subtitle" : "The Most Up-To-Date IPA Library on AltStore.",
+  "description" : "Welcome to WuXu’s Library!\n\nThis source contains all your favourite emulators, games, jailbreaks, utilities, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
+  "iconURL" : "https://i.imgur.com/g17kMl9.png",
+  "headerURL" : "https://i.pinimg.com/736x/2e/4c/7c/2e4c7cc6b2a52a3113b6f1328d9d1e97.jpg",
+  "website" : "https://bit.ly/wuxus-sources",
+  "tintColor" : "d81a14",
+  "featuredApps" : [
+    "com.opa334.Dopamine",
+    "com.Alfie.TrollInstallerX",
+    "org.coolstar.taurine",
+    "com.supercell.magic",
+    "com.rovio.angrybirdsstarwars"
+  ],
+  "apps" : [
+    {
+      "name" : "TrollInstallerX",
+      "bundleIdentifier" : "com.Alfie.TrollInstallerX",
+      "developerName" : "alfiecg24",
+      "subtitle" : "The universal TrollStore installer for iOS 14.0 - 17.0.0.0 beta 4",
+      "localizedDescription" : "Overview\n\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n• Direct installation: using the kfd kernel exploit, along with the dmaFail PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n\n   - Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n      • Note: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n      • Note: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n• Indirect installation: Using the kfd kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n\n   - Supports iOS 16.5.1 - 16.6.1 (arm64e).\n      • Note: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n\nUsage\n\nTrollInstallerX is extremely easy to use. Simply download the latest release from the Releases page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\nNote: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.",
+      "iconURL" : "https://i.imgur.com/lQt6WqH.png",
+      "tintColor" : "0363a9",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://i.imgur.com/aIyWLRP.jpeg",
+        "https://i.imgur.com/o5REDKV.jpeg"
+      ],
+      "version" : "1.0.3",
+      "minOSVersion_0" : "14.0.0",
+      "maxOSVersion_0" : "17.0.0",
+      "versionDate" : "2024-09-12",
+      "downloadURL" : "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+      "versionDescription" : "• Update for Xcode 15.4+ compilation\n• Removing confusing logging around exploit deinitialisation\n• Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2",
+      "size" : 25800000,
+      "versions" : [
+        {
+          "version" : "1.0.3",
+          "minOSVersion_0" : "14.0.0",
+          "maxOSVersion_0" : "17.0.0",
+          "date" : "2024-09-12",
+          "localizedDescription" : "• Update for Xcode 15.4+ compilation\n• Removing confusing logging around exploit deinitialisation\n• Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2",
+          "downloadURL" : "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+          "size" : 25800000
+        },
+        {
+          "version" : "1.0.2",
+          "minOSVersion_0" : "14.0.0",
+          "maxOSVersion_0" : "17.0.0",
+          "date" : "2024-04-08",
+          "localizedDescription" : "• Full support for iOS 17.0 beta 1 - 4 on arm64 devices\n\nNote: arm64e support for the above versions is still being worked on.",
+          "downloadURL" : "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.2/TrollInstallerX.ipa",
+          "size" : 6570000
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Santander (MDC)",
+      "bundleIdentifier" : "org.haxi0.santander",
+      "developerName" : "haxi0",
+      "subtitle" : "A Modern File Manager MacDirtyCow Devices",
+      "localizedDescription" : "A new, enhanced File Manager for iOS devices with the MDC exploit (IOS 14.0 - 16.1.2) for full file access.\n\nSantander aims to enhance the experience of a file manager on an iOS device, using modern and familiar UI alongside new APIs.\n\nNote: The project is still in beta, and there still quite a lot of bugs to fix & enhancements to make.",
+      "iconURL" : "https://static.appdb.to/images/cydia-1900001066-icon-1673074358.png",
+      "tintColor" : "596d8d",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://static.appdb.to/images/cydia-1900001084-iphone-0-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-1-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-2-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-3-1674953851.png"
+      ],
+      "version" : "0.4",
+      "minOSVersion_0" : "15.0.0",
+      "maxOSVersion_0" : "16.1.2",
+      "versionDate" : "2023-02-10",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
+      "versionDescription" : "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
+      "size" : 4540000,
+      "versions" : [
+        {
+          "version" : "0.4",
+          "minOSVersion_0" : "15.0.0",
+          "maxOSVersion_0" : "16.1.2",
+          "date" : "2023-02-10",
+          "localizedDescription" : "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
+          "size" : 4540000
+        }
+      ],
+      "beta" : true
+    },
+    {
+      "name" : "PostBox",
+      "bundleIdentifier" : "com.simplycode.PostBox",
+      "developerName" : "PostBox Team",
+      "subtitle" : "The latest jailbreak news at your fingertips",
+      "localizedDescription" : "• A pool of feeds. Enjoy a lively feed of various sources to always stay connected with the jailbreak scene. Sources are updated frequently so you don't miss out!\n\n• Powered externally. PostBox enables support for third-party jailbreak sources such as r/jailbreak and iDownloadBlog. More content will be coming soon in the future.\n\n• Repositories are libraries of packages. PostBox contains over 200 repos for centralization and provides a system for efficient repo finding. You can now effortlessly look for information that will previously require painstaking work.\n\n• Intuitive design. Buttons with different contrast prompts users for interaction. Animations, haptics and color changes enable engaging feedback when selected.\n\n• Review packages. The ability to review packages creates new opportunities for users and developers alike. Any package can be reviewed regardless of repository or depiction differences.",
+      "iconURL" : "https://static.appdb.to/images/cydia-102005202-icon-1661962646.png",
+      "tintColor" : "b3b3b3",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://www.postbox.news/assets/images/thumbPhone.webp",
+        "https://www.postbox.news/assets/images/newsPhone.webp",
+        "https://www.postbox.news/assets/images/extractPhone.webp",
+        "https://www.postbox.news/assets/images/repoPhone.webp",
+        "https://www.postbox.news/assets/images/reviewPhone.webp",
+        "https://www.postbox.news/assets/images/storyboardPhone.webp"
+      ],
+      "version" : "0.8.1",
+      "versionDate" : "2023-05-14",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PostBox.v0.8.1.ipa",
+      "versionDescription" : "• Added PostBox v0.8.1",
+      "size" : 8080000,
+      "versions" : [
+        {
+          "version" : "0.8.1",
+          "date" : "2023-05-14",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PostBox.v0.8.1.ipa",
+          "localizedDescription" : "• Added PostBox v0.8.1",
+          "size" : 8080000,
+          "absoluteVersion" : "0.8.1"
+        }
+      ],
+      "beta" : true
+    },
+    {
+      "name" : "emuThreeDS",
+      "bundleIdentifier" : "com.antique.emuThreeDS",
+      "developerName" : "Antique",
+      "subtitle" : "A Nintendo 3DS emulator for IOS",
+      "localizedDescription" : "Nintendo 3DS emulator for Apple devices based on Citra.",
+      "iconURL" : "https://i.imgur.com/5wBkakf.png",
+      "tintColor" : "acaea8",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://play-lh.googleusercontent.com/i3Fdd7SIrXYH_RIsypS8bwKnqq808h8XxO4fg3eYIrIqLg2bkf-Vm7LfBNDKOnLENQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/6pv18OLDP58bZLWH0RZMw5ZcYAYyEFmlA1sqX0BlrevPLWhTO7C0ua0X3sNiOlrkM1ZQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/doTVi2IWLPKGVCz2EeZKNEDOkjxIgbridWQiKqVgw7yhc0OQXNR7CvmcglgNv1M4kAQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/FZakW5LiR3dJen206_ZlIoxfICxFNX-f5lpxcYtouA5VShZtsZvCi5bEicSN_dLeUQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/UhUl8DQRlWiITbsrYEYb89rrvpALAUn7Wgyb6PKCjgiG5gF2WHL7piRBf2enCZZWwQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/uxwledxQN-64HfwyfbUFXa7pcgHTy_78iiKXZwArALZqhpR1PjWZfOGjdgwRCTgwnjY=w1052-h592-rw"
+      ],
+      "version" : "1.0.5.2",
+      "versionDate" : "2023-05-13",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/emuThreeDS.v1.0.5.2.ipa",
+      "versionDescription" : "Added:\n\n• Emulation menu to the in-game options button.\n• Pause and resume emulation option to the Emulation menu.\n• Preload textures by default to improve performance.\n• Portrait touch and drag support.\nReimplemented landscape mode for testing (screens will not be side-by-side yet).\n\nChanged:\n\n• Layout of the emulation to display below the status bar.\n• Increased priority of the emulation thread to squeeze out more performance.\n\nFixed:\n\n• Issue where the status bar would display black text on a black background.",
+      "size" : 30300000,
+      "versions" : [
+        {
+          "version" : "1.0.5.2",
+          "date" : "2023-05-13",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/emuThreeDS.v1.0.5.2.ipa",
+          "localizedDescription" : "Added:\n\n• Emulation menu to the in-game options button.\n• Pause and resume emulation option to the Emulation menu.\n• Preload textures by default to improve performance.\n• Portrait touch and drag support.\nReimplemented landscape mode for testing (screens will not be side-by-side yet).\n\nChanged:\n\n• Layout of the emulation to display below the status bar.\n• Increased priority of the emulation thread to squeeze out more performance.\n\nFixed:\n\n• Issue where the status bar would display black text on a black background.",
+          "size" : 30300000,
+          "absoluteVersion" : "1.0.5.2"
+        }
+      ],
+      "beta" : true
+    },
+    {
+      "name" : "PPSSPP",
+      "bundleIdentifier" : "org.ppsspp.ppsspp",
+      "developerName" : "Henrik Rydgård",
+      "subtitle" : "A fast and portable PSP emulator for IOS",
+      "localizedDescription" : "PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.\n\nThe app was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka @angelxwind) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.\n\nPPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size.\n\nThe emulator is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device.",
+      "iconURL" : "https://i.imgur.com/JP0Fncv.png",
+      "tintColor" : "21486b",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://i.imgur.com/CWl6GgH.png",
+        "https://i.imgur.com/SxmN1M0.png",
+        "https://i.imgur.com/sGWgR6z.png",
+        "https://i.imgur.com/AFKTdmZ.png"
+      ],
+      "version" : "1.15.3",
+      "versionDate" : "2023-05-14",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PPSSPP.v1.15.3.ipa",
+      "versionDescription" : "• Assorted minor crash- and other fixes\n• Control mapping: Fix bugs in mapping UI causing trouble with some controllers\n\n",
+      "size" : 27700000,
+      "versions" : [
+        {
+          "version" : "1.15.3",
+          "date" : "2023-05-14",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PPSSPP.v1.15.3.ipa",
+          "localizedDescription" : "1.15.3",
+          "size" : 27700000,
+          "absoluteVersion" : "1.15.3"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Filza (MDC)",
+      "bundleIdentifier" : "com.tigisoftware.Filza",
+      "developerName" : "TIGI Software",
+      "subtitle" : "Filza for MacDirtyCow Devices!",
+      "localizedDescription" : "Filza with MDC Support and No Ads! (Limited Features)\n\nA Powerful File Manager for iPhone, iPad, iPod Touch. Flat design, with best performance:\n\n• File viewers: Media player, Hex editor, Text editor, SQLite Editor, IPA Installer, DEB Installer, Web viewer, Terminal ...\n• SQLite Editor was design for large query, works well with over 100k+ rows in result\n• Execute shell scripts and applications just few tap\n• Cloud services: Dropbox, Box, Google Drive, WebDAV, FTP, SFTP\n• Supports SMB (Windows File Sharing)\n• Search files and folders easily\n• Powerful files copy/move design, just few taps\n• Download normal/html file with easy way: copy html link to Pasteboard, and paste it to destination folder\n• Manage Music library easily: import/export/delete/rename ... just do same as normal files\n• Explore files in list view mode or grid view mode, with thumbnail\n• Compress zip file, decompress zip/7z/rar/tar/tar.gz/gz ...\n• Install and extract DEB/IPA file, view DEB/IPA file information\n• Black theme and white theme, custom folder icon, file",
+      "iconURL" : "https://static.appdb.to/images/cydia-1900000088-icon.png",
+      "tintColor" : "047a9a",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://static.appdb.to/images/cydia-1900001095-iphone-0-1675790063.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-1-1675790064.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-2-1675790064.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-3-1675790064.png"
+      ],
+      "version" : "3.7",
+      "minOSVersion_0" : "15.0.0",
+      "maxOSVersion_0" : "16.1.2",
+      "versionDate" : "2023-05-14",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
+      "versionDescription" : "• Added Filza (MDC) v3.7",
+      "size" : 9040000,
+      "versions" : [
+        {
+          "version" : "3.7",
+          "date" : "2023-05-14",
+          "minOSVersion" : "15.0.0",
+          "maxOSVersion_0" : "16.1.2",
+          "localizedDescription" : "• Added Filza (MDC) v3.7",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
+          "size" : 9040000
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Scarlet",
+      "bundleIdentifier" : "com.DebianArch.ScarletPersonalXYZZZ",
+      "developerName" : "DebianArch",
+      "subtitle" : "Get more than an app store. Get Scarlet.",
+      "localizedDescription" : "NOTE: The developer does not change the version (1.0), so if you see new features online or if the app stops working, uninstall and reinstall the app. The download link on AltStore is from the official website so what you download here will always be the latest.\n\nAlso, getting scarlet from AltStore means that you will never lose the app if you keep refreshing - downloading it from the official website will likely result in the certificate being revoked and you have to wait for it to be resigned.\n\n\nWhy Us?\n\nScarlet offers a new community for developers to submit their paid apps, allowing users to seamlessly protect themselves from revokes. Our goal getting into Scarlet is to give everybody access to a store that doesn't tell people to do the workarounds. Instead, we created an app with every user in mind to bring a smooth experience.\n\n\nTrue repo system\n\nScarlet offers the first ever true repo system for all users.\nWhat is a true repo system ? - Our repo system supports jailbreak repos and jailed users can make use of some features added to the side.\nThese include 1. Force install jailbroken apps while jailed\n2. Automatically/Manually injects the tweak into the app it's meant for(no jailbreak required)\n\nWe include native repos specifically designed for Scarlet. Developers have the ability to choose a dylibs/debs to inject into the specificed app.\n \n\nMade by Pros\n\nScarlet's GUI was designed by Xeviks.\nHe has brought color, vibrancy, movement, and modernity - yet keeping the look simplistic.\nDebianArch is the solo-dev of the Scarlet app and is bringing innovative features to reshape the community that was left unchanged. ",
+      "iconURL" : "https://pbs.twimg.com/profile_images/1367920028813787144/cwvAQV9f_400x400.jpg",
+      "tintColor" : "8d2229",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://static.appdb.to/images/cydia-1900001033-iphone-0-1669967899.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-1-1669967899.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-2-1669967900.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-3-1669967900.png"
+      ],
+      "version" : "1.0",
+      "versionDate" : "2023-04-24",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ScarletAlpha.ipa",
+      "versionDescription" : "• Added Ability to import/Export app backups.\n• Added ability to modify IPA (Add/Remove Tweaks etc.)",
+      "size" : 15500000,
+      "beta" : true
+    },
+    {
+      "name" : "Odyssey",
+      "bundleIdentifier" : "org.coolstar.odyssey",
+      "developerName" : "Odyssey Team",
+      "subtitle" : "A new jailbreak for a new era.",
+      "localizedDescription" : "Supporting iOS Versions: 13.0 - 13.7.\n\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
+      "iconURL" : "https://theodyssey.dev/assets/images/icon.png",
+      "tintColor" : "9766a7",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://theodyssey.dev/assets/images/ss-1.png",
+        "https://theodyssey.dev/assets/images/ss-2.png",
+        "https://theodyssey.dev/assets/images/ss-3.png"
+      ],
+      "version" : "1.4.3",
+      "minOSVersion_0" : "13.0.0",
+      "maxOSVersion_0" : "13.7.0",
+      "versionDate" : "2023-04-03",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Odyssey.Jailbreak.v1.4.3.ipa",
+      "versionDescription" : "• Updated Sileo to 2.3-1",
+      "size" : 27200000,
+      "versions" : [
+        {
+          "version" : "1.4.3",
+          "minOSVersion_0" : "13.0.0",
+          "maxOSVersion_0" : "13.7.0",
+          "date" : "2023-04-03",
+          "localizedDescription" : "• Update Sileo to 2.3-1",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Odyssey.Jailbreak.v1.4.3.ipa",
+          "size" : 27200000
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Taurine",
+      "bundleIdentifier" : "org.coolstar.taurine",
+      "developerName" : "Odyssey Team",
+      "subtitle" : "Time to get amped.",
+      "localizedDescription" : "Taurine is an iOS 14.0-14.8.1 jailbreak, utilizing Procursus and Libhooker.",
+      "iconURL" : "https://taurine.app/assets/images/icon.png",
+      "tintColor" : "9e3a47",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://taurine.app/assets/images/ss-1.png",
+        "https://taurine.app/assets/images/ss-2.png",
+        "https://taurine.app/assets/images/ss-3.png"
+      ],
+      "version" : "1.1.6",
+      "minOSVersion_0" : "14.0.0",
+      "maxOSVersion_0" : "14.8.1",
+      "versionDate" : "2023-09-23",
+      "downloadURL" : "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+      "versionDescription" : "• Fix kfd change being implemented incorrectly",
+      "size" : 30838370,
+      "versions" : [
+        {
+          "version" : "1.1.7-3",
+          "minOSVersion_0" : "14.0.0",
+          "maxOSVersion_0" : "14.8.1",
+          "date" : "2023-09-23",
+          "localizedDescription" : "• Fix kfd change being implemented incorrectly",
+          "downloadURL" : "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+          "size" : 30838370
+        },
+        {
+          "version" : "1.1.6",
+          "minOSVersion_0" : "14.0.0",
+          "maxOSVersion_0" : "14.4.1",
+          "date" : "2022-07-17",
+          "localizedDescription" : "• Backports DER entitlement fixes from Taurine15\n• Backports codesignature fixes from Taurine15\n• Backports various other fixes from Taurine15",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Taurine.Jailbreak.v1.1.6.ipa",
+          "size" : 31938370
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "unc0ver",
+      "bundleIdentifier" : "science.xnu.undecimus",
+      "developerName" : "Pwn20wnd",
+      "subtitle" : "The most advanced jailbreak tool.",
+      "localizedDescription" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
+      "iconURL" : "https://i.imgur.com/5aehDxj.png",
+      "tintColor" : "515151",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://i.imgur.com/ItMaRRV.png",
+        "https://i.imgur.com/bjzyqpY.png",
+        "https://i.imgur.com/3TMGkaO.png",
+        "https://i.imgur.com/gTYfncm.png"
+      ],
+      "version" : "8.0.2",
+      "minOSVersion_0" : "11.0",
+      "maxOSVersion_0" : "14.8.0",
+      "versionDate" : "2021-12-29",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
+      "versionDescription" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
+      "size" : 54489484,
+      "versions" : [
+        {
+          "version" : "8.0.2",
+          "minOSVersion_0" : "11.0",
+          "maxOSVersion_0" : "14.8.0",
+          "date" : "2021-12-29",
+          "localizedDescription" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
+          "size" : 54489484
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Dopamine",
+      "bundleIdentifier" : "com.opa334.Dopamine",
+      "developerName" : "opa334",
+      "subtitle" : "The semi-untethered jailbreak for iOS 15 - 16",
+      "localizedDescription" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
+      "iconURL" : "https://i.imgur.com/67ffxsD.jpeg",
+      "tintColor" : "0d7d65",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://ellekit.space/dopamine/assets/screenshot_one.png",
+        "https://ellekit.space/dopamine/assets/screenshot_two.png"
+      ],
+      "version" : "2.4.1",
+      "minOSVersion_0" : "15.0.0",
+      "maxOSVersion_0" : "16.5.1",
+      "versionDate" : "2025-02-25",
+      "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+      "versionDescription" : "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
+      "size" : 47700000,
+      "versions" : [
+        {
+          "version" : "2.4.1",
+          "minOSVersion_0" : "15.0.0",
+          "maxOSVersion_0" : "16.5.1",
+          "date" : "2025-02-25",
+          "localizedDescription" : "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
+          "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+          "size" : 47700000
+        },
+        {
+          "version" : "2.1.4",
+          "minOSVersion_0" : "15.0.0",
+          "maxOSVersion_0" : "16.5.1",
+          "date" : "2024-05-07",
+          "localizedDescription" : "• Only automatically fix up permissions of relevant directories inside /var/jb/var/mobile, rather than the entirety of it\n• Skip permission fix up if either /var/jb/var or /var/jb/var/mobile is a symbolic link, previously there was a bootloop risk when either of them point to the real /var or /var/mobile",
+          "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/2.1.4/Dopamine.ipa",
+          "size" : 47400000
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "iTorrent",
+      "bundleIdentifier" : "ru.nonamedude.iTorrent",
+      "developerName" : "XITRIX",
+      "subtitle" : "An ordinary torrent client for iOS with Files app support",
+      "localizedDescription" : "iTorrent - a torrent client for iOS with Files app support.\n\nWhat this app can do:\n\n• Download in the background\n• Sequential download (use VLC to watch films while loading)\n• Add torrent files from Share menu (Safari and other apps)\n• Add magnet links directly from Safari\n• Store files in Files app (iOS 11+)\n• File sharing directly from app\n• Download torrent by link\n• Download torrent by magnet\n• Send notification on torrent downloaded\n• WebDAV Server\n• Select files to download or not\n• Change UI to dark theme\n• RSS Feed",
+      "iconURL" : "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png",
+      "tintColor" : "b31c29",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://static.appdb.to/images/cydia-1900000455-iphone-0.png",
+        "https://static.appdb.to/images/cydia-1900000455-iphone-1.png",
+        "https://static.appdb.to/images/cydia-1900000455-iphone-2.png"
+      ],
+      "version" : "1.9",
+      "minOSVersion" : "11.0",
+      "versionDate" : "2023-02-13",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/iTorrent.v1.9.ipa",
+      "versionDescription" : "• iTorrent updated to v1.9",
+      "size" : 12800000,
+      "versions" : [
+        {
+          "date" : "2023-02-13",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/iTorrent.v1.9.ipa",
+          "localizedDescription" : "• iTorrent updated to v1.9",
+          "minOSVersion" : "11.0",
+          "size" : 12800000,
+          "version" : "1.9"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Cowabunga",
+      "bundleIdentifier" : "com.leemin.Cowabunga",
+      "developerName" : "Leminlimez",
+      "subtitle" : "The MacDirtyCow Toolbox for iOS 14 – iOS 16",
+      "localizedDescription" : "A Jailed toolbox application for iOS 14.0-15.7.1 and 16.0-16.1.2 using CVE-2022-46689\n\nEnable Notifications and set Location Services to Always to keep the app running in the background, keep the dock and folder background hidden, and prevent some sound effects from reverting.\n\nWarning: Some changes are permanent on iOS 14.0-14.8.1\n\n\nFeatures:\n\n• Running in the background to keep some changes from reverting\n\t- From running tests, battery loss is negligible (~1% per day on frequent), but that may vary \n\nSpringboard\n\n• Hide dock\n• Hide home bar\n• Hide folder backgrounds\n• Disable folder background blur\n• Disable app switcher blur\n• Hide CC Module Backgrounds\n• Hide Notification Banner Background\n\nApp Icon Themes\n\n• Importing folders of app icons\n• No WebClips!\n\nAudio\n\n• Custom sound effects\n• Upload your own sounds (nearly every audio format allowed!)\n• Max upload audio size of 150 kb, but will not apply for audio if too big!\n\nPasscode\n\n• Customize passcode keys\n• Import passcode keys files (.passthm) from TrollTools\n\nLocks\n\n• Importing locks from TrollLock\n• Custom number of frames + custom animation speeds (see below)\n\nExplore\n\n• Find and download themes for passcodes, locks, and app icons!\n• If you would like to submit your own works, please join the discord\n\nStatus Bar\n\n• Change carrier name\n• Change battery display detail\n• Change time text\n• Change breadcrumb text\n• Show numeric WiFi/Cellular strength\n• Hide many icons in the status bar\n\nOther Tools\n\n• Custom Fonts\n• Lock Screen Footnote\n• Notification Badges Changer (iOS 14-15 ONLY)\n• Springboard Colors\n• Settings App Customizer\n• Calculator Error Message\n\nMisc\n\n• Disable shortcut banners\n• Turn shortcuts into app clips\n• Supervise Device Warning: Use the features below at your own risk!\n• Change system version (shows in settings, iOS 15+)\n• Enable iPhone X Gestures\n• Enable Dynamic Island (iOS 16+)\n\nExtra Tools\n\n• Lock Screen Footnote\n• No Lock On Respring\n• Disable Low Power Alert",
+      "iconURL" : "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
+      "tintColor" : "0d6425",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Home.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Tools.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/SpringboardTools.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Audio_Changer.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Passcode_Editor.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/LS_Footnote.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Misc.PNG",
+        "https://github.com/leminlimez/Cowabunga/raw/main/Images/Extra_Tools.PNG"
+      ],
+      "version" : "10.2.0",
+      "minOSVersion_0" : "14.0.0",
+      "maxOSVersion_0" : "16.1.2",
+      "versionDate" : "2023-05-14",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.2.0.ipa",
+      "versionDescription" : "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
+      "size" : 15500000,
+      "versions" : [
+        {
+          "version" : "10.2.0",
+          "minOSVersion" : "14.0.0",
+          "maxOSVersion_0" : "16.1.2",
+          "date" : "2023-05-14",
+          "localizedDescription" : "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.2.0.ipa",
+          "size" : 15500000
+        },
+        {
+          "version" : "10.1.1",
+          "minOSVersion" : "14.0.0",
+          "maxOSVersion_0" : "16.1.2",
+          "date" : "2023-04-01",
+          "localizedDescription" : "• Added remove 3 app limit\n• Added ability to edit secondary carrier name separately\n• Importing operations no longer includes the backup file for changes in /var for safety reasons (Model Name Changer and other operations that edit the mobilegestalt plist should no longer brick devices/cause activation locks)\n• Fixed generate padding button not showing up on file path operations",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.1.1.ipa",
+          "size" : 20600000
+        },
+        {
+          "version" : "10.1.0",
+          "minOSVersion" : "14.0.0",
+          "maxOSVersion_0" : "16.1.2",
+          "localizedDescription" : "• You can now choose to enable v8 and/or v10 theming\n• Padding for file path replacing operations\n• Added back keyboard buttons audio\n• More safety with icon theming: first attempts to revert corrupted files before aborting\n• Improved error messages\n• Fixed springboard tools view sizing on ipads\n• Fixed springboard tools on RTL languages\n• Updated backend repo for explore page",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.1.0.ipa",
+          "date" : "2023-03-29",
+          "size" : 20600000
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "ESign",
+      "bundleIdentifier" : "p3.xyz.yyyue.esign",
+      "developerName" : "esign.yyyue.xyz",
+      "subtitle" : "IPA Self Signer, Tweak Injector, File Manager",
+      "localizedDescription" : "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
+      "iconURL" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
+      "tintColor" : "356ead",
+      "category" : "utilities",
+      "screenshotURLs" : [
+        "https://static.appdb.to/images/cydia-1900000897-iphone-0-1670149926.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-1-1670149926.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
+      ],
+      "version" : "4.8.1",
+      "minOSVersion" : "11.0",
+      "versionDate" : "2023-03-19",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
+      "versionDescription" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
+      "size" : 8750000,
+      "versions" : [
+        {
+          "date" : "2023-03-19",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
+          "localizedDescription" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
+          "minOSVersion" : "11.0",
+          "size" : 8750000,
+          "version" : "4.8.1"
+        },
+        {
+          "date" : "2023-03-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.7.8.ipa",
+          "localizedDescription" : "• ESign updated to v4.7.8\n• Support Remove mobileprovision after signing\n• Support clear app data (iOS15-15.7.1 and 16.0-16.1.2)\n• Fixed bugs",
+          "minOSVersion" : "11.0",
+          "size" : 8830000,
+          "version" : "4.7.8"
+        },
+        {
+          "date" : "2023-02-20",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.7.7.3.ipa",
+          "localizedDescription" : "• ESign updated to v4.7.6\n• Support backup and restore application data (iOS15-15.7.1 and 16.0-16.1.2)\n• Fix bugs",
+          "minOSVersion" : "11.0",
+          "size" : 10800000,
+          "version" : "4.7.7.3"
+        },
+        {
+          "date" : "2023-02-20",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.7.6.ipa",
+          "localizedDescription" : "• ESign updated to v4.7.6",
+          "minOSVersion" : "11.0",
+          "size" : 8200000,
+          "version" : "4.7.6"
+        },
+        {
+          "date" : "2023-02-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.7.5.ipa",
+          "localizedDescription" : "• ESign updated to v4.7.5",
+          "minOSVersion" : "11.0",
+          "size" : 8200000,
+          "version" : "4.7.5"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Atrasis",
+      "bundleIdentifier" : "com.supercell.magic",
+      "developerName" : "Atrasis Team",
+      "subtitle" : "A modded Clash of Clans server!",
+      "localizedDescription" : "This is a modded Clash of Clans private server. You have unlimited gems, elixir and gold. Write /help in the Global Chat for comands.\n\nNOTE: IF THE APP REQUIRES AN UPDATE, REINSTALL FROM THIS LINK AS THE DOWNLOAD URL IS ALWAYS THE LATEST AND I DO NOT MANUALLY CHANGE IT.\n\nTO KEEP YOUR PROGRESS, MAKE AN ATRASIS ID, ITS DONE THE SAME AS IF YOU ARE MAKING A SUPERCELL ID, AND SIGN IN AFTER REINSTALLING\n\n\nPlease keep in mind that this mod is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it.\n\nModded by Ksyrex. His Telegram group➡️ https://t.me/+wwYy4wEMS1gwMTAy",
+      "iconURL" : "https://i.imgur.com/WfWpKOF.png",
+      "tintColor" : "9e6193",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-1.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-2.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-3.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-4.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-5.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-6.webp",
+        "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-7.webp"
+      ],
+      "version" : "latest",
+      "versionDate" : "2024-05-10",
+      "downloadURL" : "https://atrasisclash.net/server-original-ios-download-ipa.php",
+      "versionDescription" : "• Link now only installs latest version.",
+      "size" : 277000000,
+      "beta" : false
+    },
+    {
+      "name" : "Null's Royale",
+      "bundleIdentifier" : "com.supercell.scroll",
+      "developerName" : "Null",
+      "subtitle" : "A modded Clash Royale server!",
+      "localizedDescription" : "Looking for free gems, gold and resources on Clash Royale? Null's Royale can make it happen for you.\n\n• Unlock all cards - You can get all cards in Clash Royale for free now, including custom cards in challenges.\n\n• Unlimited resources -  No more worries about using up all the gems and gold in Clash Royale. You can get unlimited amount of these resources now.\n\n• Battle withe real players - Have fun competing with real players online in pvp mode with stable network.",
+      "iconURL" : "https://i.imgur.com/ZDQVF7n.jpeg",
+      "tintColor" : "092949",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-1.webp",
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-2.webp",
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-3.webp",
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-4.webp",
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-5.webp",
+        "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-6.webp"
+      ],
+      "version" : "4.88.4",
+      "versionDate" : "2024-05-10",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v4.88.4.Nulls.ipa",
+      "versionDescription" : "• Updated Clash Royale to v4.88.4",
+      "size" : 329000000,
+      "versions" : [
+        {
+          "date" : "2024-05-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v4.88.4.Nulls.ipa",
+          "localizedDescription" : "• Updated Clash Royale to v4.88.4",
+          "size" : 329000000,
+          "version" : "4.88.4"
+        },
+        {
+          "date" : "2023-05-11",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.Null.s.v3.3186.7.ipa",
+          "localizedDescription" : "• Updated Clash Royale to v3.3186.7",
+          "size" : 234000000,
+          "version" : "3.3186.7"
+        },
+        {
+          "date" : "2023-04-06",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v3.3074.6.ipa",
+          "localizedDescription" : "• Updated Clash Royale to v3.3074.6",
+          "size" : 160000000,
+          "version" : "3.3074.6"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Angry Birds Space",
+      "bundleIdentifier" : "com.rovio.AngryBirdsSpace",
+      "developerName" : "Rovio",
+      "subtitle" : "Removed from the App Store!",
+      "localizedDescription" : "The #1 mobile game of all time blasts off into space!\n\nPlay over 300 interstellar levels across 10 planets – including our very own Solar System!\n\nWhether it’s the icy orbs of Cold Cuts, the volcanic explosiveness of Red Planet, Utopia – a planet made entirely of junk food, or even our own Solar System, each episode offers intergalactic fun at every turn! And the low-gravity environment of space results in spectacular gameplay ranging from slow-motion puzzles to lightspeed destruction. With brand new birds, special abilities, and a whole galaxy to explore, the sky is no longer the limit!\n\n-----\n\n“Intergalactic phenomenon worth every penny” – AppCraver\n\n“Takes the fundamental physics-based flinging of the original and turns it on its head... It's satisfying, yet completely familiar, and is heaps of pig-smashing fun.” – Gamespot\n\n“Anyone burnt out on vanilla bird flinging will enjoy the game's out-of-this-world adventure.” -- IGN\n\n-----\n\n- Over 300 interstellar levels!\n- New playable characters!\n- Unique special abilities for each bird!\n- Zero-gravity space adventures!\n- Trick shots using planets’ gravity!\n- Hidden bonus levels!\n- Beautifully detailed backgrounds!\n- Daily Missions!\n\n-----\n\nJoin the global phenomenon as it goes galactic!\n\nBecome a fan of Angry Birds on Facebook:\nhttp://facebook.angrybirds.com\n\nFollow us on Twitter:\nhttp://twitter.angrybirds.com\n\nTerms of Use: https://www.rovio.com/terms-of-service\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
+      "iconURL" : "https://img.ipa4fun.com/63/2d/06/501968250-logo.webp",
+      "tintColor" : "06253f",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-1.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-2.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-3.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-4.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-5.webp"
+      ],
+      "version" : "2.2.13",
+      "versionDate" : "2018-05-25",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Space.v2.2.13.ipa",
+      "versionDescription" : "• We addressed some minor issues in order to improve the user experience.",
+      "size" : 49900000,
+      "versions" : [
+        {
+          "date" : "2018-05-25",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Space.v2.2.13.ipa",
+          "localizedDescription" : "• We addressed some minor issues in order to improve the user experience.",
+          "size" : 49900000,
+          "version" : "2.2.13"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Angry Birds Star Wars",
+      "bundleIdentifier" : "com.rovio.angrybirdsstarwars",
+      "developerName" : "Rovio",
+      "subtitle" : "Removed from the App Store!",
+      "localizedDescription" : "JOIN THE ANGRY BIRDS IN THEIR BIGGEST ADVENTURE YET!\n\nA long time ago in a galaxy far, far away... a group of desperate rebel birds faced off against a galactic menace: the Empire’s evil Pigtroopers!\n\nRebel birds, striking from a hidden base, have won their first victory against the evil Imperial Pigs. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the PIG STAR, and are racing to deliver the plans to the Rebel Birds. Now they need your help!\n\nJoin an epic adventure with the Angry Birds in the legendary Star Wars™ universe! Use the Force, wield your lightsaber, and blast away Pigtroopers on an intergalactic journey from the deserts of Tatooine to the depths of the Pig Star -- where you’ll face off against the terrifying Darth Vader, Dark Lord of the Pigs! Can you become a Jedi Master and restore freedom to the galaxy?\n\nTime to grab your lightsaber and join the adventure! May the birds be with you!\n\nHOURS AND HOURS OF ENGAGING GAMEPLAY - Explore more than 100 levels in iconic locations like Tatooine and the Pig Star. Can you dodge Imperial pigs, laser turrets, Tusken Raider pigs, and the dark side of the Force to get all three stars?\n\nNEW GAMEPLAY MECHANICS - Use lightsabers, Blasters and Jedi powers to wreak havoc on the Imperial Pigs!\n\nLEVEL UP YOUR BIRDS - Keep playing and level up your birds to improve their skills!\n\nSECRETS AND HIDDEN GOODIES - Can you unlock all the R2-D2 and C-3PO bonus levels?\n\nFREE UPDATES - This is only the beginning of the epic saga!\n\nTHE MIGHTY FALCON\nStuck on a tricky level? Earn stars and call the Mighty Falcon to rain down the destruction. New goals, achievements and gameplay!\n\nPATH OF THE JEDI\nThe ultimate training ground for a Young Jedi, this episode features 40 Dagobah Challenge Levels with Jedi Master Yoda! Master the Path of the Jedi to unlock the ultimate Lightsaber! Available as an in-app purchase, or by earning three stars on every level.\n\nFollow @angrybirds on Twitter\n\nWatch the videos, read the comics and submit fan art at angrybirds.com/starwars\n\nLike us at facebook.com/angrybirds and say hello!\n\nTerms of Use: https://www.rovio.com/terms-of-use\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
+      "iconURL" : "https://img.ipa4fun.com/56/fa/23/557138109-logo.webp",
+      "tintColor" : "082448",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-1.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-2.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-3.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-4.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-5.webp"
+      ],
+      "version" : "1.5.12",
+      "versionDate" : "2018-05-25",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Star.Wars.v1.5.12.ipa",
+      "versionDescription" : "• We addressed some minor issues in order to improve the user experience.",
+      "size" : 58200000,
+      "versions" : [
+        {
+          "date" : "2018-05-25",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Star.Wars.v1.5.12.ipa",
+          "localizedDescription" : "• We addressed some minor issues in order to improve the user experience.",
+          "size" : 58200000,
+          "version" : "1.5.12"
+        }
+      ],
+      "beta" : false
+    },
+    {
+      "name" : "Pokemon Go (w/ SpooferPro)",
+      "bundleIdentifier" : "com.nianticlabs.pokemongo",
+      "developerName" : "SpooferPro Team",
+      "subtitle" : "Pokemon Go injected with SpooferPro",
+      "localizedDescription" : "SpooferPro for POGO - iOS GPS Spoofer\n\nWith the tools from our Tweak, you can level up faster and catch the best Pokemon anywhere in the World.",
+      "iconURL" : "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5e/8f/0e/5e8f0e6c-3478-3bff-c4ad-03f543322688/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "tintColor" : "184f99",
+      "category" : "Games",
+      "screenshotURLs" : [
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-1.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-2.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-3.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-4.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-5.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-6.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-7.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-8.webp",
+        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-9.webp"
+      ],
+      "version" : "0.269.1",
+      "versionDate" : "2023-05-11",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
+      "versionDescription" : "• Updated Pokemon Go to v0.269.1",
+      "size" : 118000000,
+      "versions" : [
+        {
+          "date" : "2023-05-11",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
+          "localizedDescription" : "• Updated Pokemon Go to v0.269.1",
+          "size" : 118000000,
+          "version" : "0.269.1"
+        },
+        {
+          "date" : "2023-04-04",
+          "downloadURL" : "https://cdn.spooferpro.com/SpooferPro-0.265.0-0.137.ipa",
+          "localizedDescription" : "• Updated Pokemon Go to v0.265.0",
+          "size" : 115000000,
+          "version" : "0.265.0"
+        }
+      ],
+      "beta" : false
+    }
+  ],
+  "news" : [
+    {
+      "title" : "TrollInstallerX Updated!",
+      "identifier" : "trollinstallerx-added",
+      "caption" : "The Universal TrollStore Installer for iOS 14 - 17.0.0 beta 4 has been updated! Click here for more info",
+      "date" : "2025-03-05",
+      "tintColor" : "0363a9",
+      "imageURL" : "https://i.imgur.com/wtOgRBC.jpeg",
+      "appID" : "com.Alfie.TrollInstallerX",
+      "notify" : true
+    },
+    {
+      "title" : "Santander (MDC) Added!",
+      "identifier" : "santander-added",
+      "caption" : "Santander, a new, enhanced File Manager for MDC devices has been added to the source! Click here for more info",
+      "date" : "2023-05-21",
+      "tintColor" : "596d8d",
+      "imageURL" : "https://i.imgur.com/K83MXp4.png",
+      "appID" : "org.haxi0.santander",
+      "notify" : false
+    },
+    {
+      "title" : "PostBox Added!",
+      "identifier" : "postbox-added",
+      "caption" : "get the latest sideloading/jailbreak news with PostBox! Click here for more info",
+      "date" : "2023-05-14",
+      "tintColor" : "b3b3b3",
+      "imageURL" : "https://i.imgur.com/l0l2Uap.jpeg",
+      "appID" : "com.simplycode.PostBox",
+      "notify" : false
+    },
+    {
+      "title" : "emuThreeDS Added!",
+      "identifier" : "emuthreeds-added",
+      "caption" : "emuThreeDS - A Nintendo 3DS emulator for IOS - Has been added to the source! Click here for more info",
+      "date" : "2023-05-13",
+      "tintColor" : "363634",
+      "imageURL" : "https://i.imgur.com/8IpLrYC.jpeg",
+      "appID" : "com.antique.emuThreeDS",
+      "notify" : false
+    },
+    {
+      "title" : "PPSSPP Added!",
+      "identifier" : "ppsspp-added",
+      "caption" : "PPSSPP - the best and only PSP emulator for iOS - has been added to the source! Click here for more info",
+      "date" : "2023-05-14",
+      "tintColor" : "21486b",
+      "imageURL" : "https://i.imgur.com/WiLmov2.jpeg",
+      "appID" : "org.ppsspp.ppsspp",
+      "notify" : false
+    },
+    {
+      "title" : "Filza (MDC) Added!",
+      "identifier" : "filza-mdc-added",
+      "caption" : "Filza for MacDirtyCow devices has been added to the source! Click here for more info",
+      "date" : "2023-05-14",
+      "tintColor" : "047a9a",
+      "imageURL" : "https://i.imgur.com/zMIbbji.jpeg",
+      "appID" : "com.tigisoftware.Filza",
+      "notify" : false
+    },
+    {
+      "title" : "Scarlet Added!",
+      "identifier" : "scarlet-added",
+      "caption" : "Scarlet, a popular 3rd party App Store, has been added to the source! Don't forget to add my source ;)",
+      "date" : "2023-04-24",
+      "tintColor" : "8d2229",
+      "imageURL" : "https://i.imgur.com/feGeBg8.jpeg",
+      "appID" : "com.DebianArch.ScarletPersonalXYZZZ",
+      "notify" : false
+    },
+    {
+      "title" : "Odyssey Added!",
+      "identifier" : "odyssey-added",
+      "caption" : "The Odyssey jailbreak tool has been added to the source! ",
+      "date" : "2023-04-04",
+      "tintColor" : "9766a7",
+      "imageURL" : "https://i.imgur.com/246tXNC.png",
+      "appID" : "org.coolstar.odyssey",
+      "notify" : false
+    },
+    {
+      "title" : "Taurine Updated!",
+      "identifier" : "taurine-updated ",
+      "caption" : "The Taurine Jailbreak has been updated, now supporting up to iOS 14.8.1! Click here for more info",
+      "date" : "2024-05-11",
+      "tintColor" : "9e3a47",
+      "imageURL" : "https://i.imgur.com/ExAk9bo.png",
+      "appID" : "org.coolstar.taurine",
+      "notify" : false
+    },
+    {
+      "title" : "Unc0ver Added!",
+      "identifier" : "unc0ver-added",
+      "caption" : "The unc0ver jailbreaking tool has been added to the source! ",
+      "date" : "2023-04-04",
+      "tintColor" : "515151",
+      "imageURL" : "https://i.imgur.com/ai6QSbt.jpeg",
+      "appID" : "science.xnu.undecimus",
+      "notify" : false
+    },
+    {
+      "title" : "Dopamine Updated!",
+      "identifier" : "dopamine-added",
+      "caption" : "Dopamine, a jailbreak for iOS 15.0 - 16.6.1 has been updated! Click here for more info",
+      "date" : "2025-03-05",
+      "tintColor" : "0d7d65",
+      "imageURL" : "https://i.imgur.com/iz36kwo.jpeg",
+      "appID" : "com.opa334.Dopamine",
+      "notify" : false
+    },
+    {
+      "title" : "iTorrent Added!",
+      "identifier" : "itorrent-added",
+      "caption" : "iTorrent has been added to the library! A torrent client for iOS with Files app support. ",
+      "date" : "2023-02-13",
+      "tintColor" : "b31c29",
+      "imageURL" : "https://i.imgur.com/jnvDDpx.jpg",
+      "appID" : "ru.nonamedude.iTorrent",
+      "notify" : false
+    },
+    {
+      "title" : "Cowabunga Updated!",
+      "identifier" : "cowabunga-updated",
+      "caption" : "Cowabunga has been updated to the latest version, click here for more info",
+      "date" : "2023-05-14",
+      "tintColor" : "0d6425",
+      "imageURL" : "https://i.imgur.com/4IT5NhG.png",
+      "appID" : "com.leemin.Cowabunga",
+      "notify" : true
+    },
+    {
+      "title" : "ESign Updated!",
+      "identifier" : "esign-updated",
+      "caption" : "ESign has been updated to the latest version, click here for more info.",
+      "date" : "2023-03-19",
+      "tintColor" : "356ead",
+      "imageURL" : "https://i.imgur.com/Nb9f2Zj.jpeg",
+      "appID" : "p3.xyz.yyyue.esign",
+      "notify" : true
+    },
+    {
+      "title" : "Atrasis Updated!",
+      "identifier" : "clashofclans-updated",
+      "caption" : "Modded Clash of Clans has been updated to the latest version, click here for more info",
+      "date" : "2024-05-10",
+      "tintColor" : "123047",
+      "imageURL" : "https://i.imgur.com/pS8xh2f.jpeg",
+      "appID" : "com.supercell.magic",
+      "notify" : false
+    },
+    {
+      "title" : "Null's Royale Updated!",
+      "identifier" : "clashroyale-updated",
+      "caption" : "Modded Clash Royale has been updated to the latest version, click here for more info!",
+      "date" : "2024-05-10",
+      "tintColor" : "134771",
+      "imageURL" : "https://i.imgur.com/JlyS9ZK.jpeg",
+      "appID" : "com.supercell.scroll",
+      "notify" : true
+    },
+    {
+      "title" : "Angry Birds Space Added!",
+      "identifier" : "abs-added",
+      "caption" : "Relive your childhood with the nostalgic, Angry Birds Space game!",
+      "date" : "2023-04-14",
+      "tintColor" : "091323",
+      "imageURL" : "https://i.imgur.com/gsvbM4C.jpeg",
+      "appID" : "com.rovio.AngryBirdsSpace",
+      "notify" : false
+    },
+    {
+      "title" : "Angry Birds Star Wars Added!",
+      "identifier" : "absw-added",
+      "caption" : "Relive your childhood with the nostalgic, Angry Birds Star Wars game!",
+      "date" : "2023-04-14",
+      "tintColor" : "080814",
+      "imageURL" : "https://i.imgur.com/6sJllQr.jpeg",
+      "appID" : "com.rovio.angrybirdsstarwars",
+      "notify" : false
+    },
+    {
+      "title" : "Pokemon Go (w/ SpooferPro) Updated!",
+      "identifier" : "pokemongo-updated",
+      "caption" : "Pokemon Go has been updated to the latest version, click here for more info",
+      "date" : "2023-05-11",
+      "tintColor" : "184f99",
+      "imageURL" : "https://i.imgur.com/1VmxdXs.jpeg",
+      "appID" : "com.nianticlabs.pokemongo",
+      "notify" : true
+    },
+    {
+      "title" : "Join the Discord!",
+      "identifier" : "discord-info",
+      "caption" : "Click here join the server. A place to talk about sideloading, make requests, get support and give feedback!",
+      "date" : "2023-03-20",
+      "tintColor" : "5865f2",
+      "imageURL" : "https://imgur.com/A4d8bGv.png",
+      "url" : "https://bit.ly/wuxuslibrary-discord",
+      "notify" : true
+    },
+    {
+      "title" : "Welcome to WuXu's Library!",
+      "identifier" : "welcome-message",
+      "caption" : "Welcome to WuXu's Library! This source contains all of your favourite emulators, games, jailbreaks, utilities, and more Updated Daily ;)",
+      "date" : "2023-02-08",
+      "tintColor" : "fe0002",
+      "notify" : true
+    }
+  ]
+}
