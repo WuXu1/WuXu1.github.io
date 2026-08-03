@@ -75,32 +75,36 @@ export default function Home({ apps, plusApps, news = [], loading }) {
             {currentView === 'Discover' && (
               <>
                 <section className="showcase" aria-label="Featured releases">
-                  {news.slice(0, 3).map((item, index) => (
-                    <article 
-                      key={index} 
-                      className="feature" 
-                      style={{ 
-                        backgroundImage: `url(${item.imageURL})`, 
-                        backgroundSize: 'cover', 
-                        backgroundPosition: 'center', 
-                        cursor: item.appID ? 'pointer' : 'default',
-                        backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7'
-                      }}
-                      onClick={() => item.appID && navigate(`/app/${item.appID}`)}
-                    >
-                      <div style={{ 
-                        position: 'absolute', 
-                        bottom: 0, left: 0, right: 0, 
-                        padding: '30px 20px 20px', 
-                        background: 'linear-gradient(transparent, rgba(0,0,0,0.85))', 
-                        color: '#fff' 
-                      }}>
-                        <h2 style={{ margin: '0 0 4px', fontSize: '22px', fontWeight: 'bold' }}>{item.title}</h2>
-                        <p style={{ margin: 0, fontSize: '14px', opacity: 0.9 }}>{item.caption}</p>
-                      </div>
-                    </article>
-                  ))}
-                  {news.length === 0 && (
+                  {news.length > 0 ? (
+                    <>
+                      <article className="feature feature-primary" style={{ cursor: news[0]?.appID ? 'pointer' : 'default' }} onClick={() => news[0]?.appID && navigate(`/app/${news[0].appID}`)}>
+                        <div className="badge">
+                          <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M26 11 12 31l13 8 9-15 9 7-12 20 6 4 18-27-6-4-5 8-9-7 5-8-14-6Zm-7 31 8 5-5 8-8-5 5-8Z"/></svg>
+                        </div>
+                        <div className="flower" aria-hidden="true"></div>
+                        {news[0].imageURL && <img src={news[0].imageURL} alt="" style={{ position: 'absolute', right: '80px', top: '30px', width: '80px', height: '80px', borderRadius: '18px', zIndex: 10, objectFit: 'cover', boxShadow: '0 10px 20px rgba(0,0,0,0.3)' }} />}
+                        <h2>{news[0].title}</h2>
+                      </article>
+
+                      {news.length > 1 && (
+                        <article className="feature feature-secondary" style={{ cursor: news[1]?.appID ? 'pointer' : 'default' }} onClick={() => news[1]?.appID && navigate(`/app/${news[1].appID}`)}>
+                          <div className="scene">
+                            <div className="screen"></div>
+                            <div className="rocket"></div>
+                          </div>
+                          {news[1].imageURL && <img src={news[1].imageURL} alt="" style={{ position: 'absolute', right: '40px', top: '30px', width: '80px', height: '80px', borderRadius: '18px', zIndex: 10, objectFit: 'cover', boxShadow: '0 10px 20px rgba(0,0,0,0.3)' }} />}
+                          <h2>{news[1].title}</h2>
+                        </article>
+                      )}
+
+                      {news.length > 2 && (
+                        <article className="feature feature-third" style={{ cursor: news[2]?.appID ? 'pointer' : 'default' }} onClick={() => news[2]?.appID && navigate(`/app/${news[2].appID}`)}>
+                          {news[2].imageURL && <img src={news[2].imageURL} alt="" style={{ position: 'absolute', right: '40px', top: '30px', width: '80px', height: '80px', borderRadius: '18px', zIndex: 10, objectFit: 'cover', boxShadow: '0 10px 20px rgba(0,0,0,0.3)' }} />}
+                          <h2>{news[2].title}</h2>
+                        </article>
+                      )}
+                    </>
+                  ) : (
                     <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
                   )}
                 </section>
