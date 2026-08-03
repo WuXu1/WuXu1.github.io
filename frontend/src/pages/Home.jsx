@@ -4,12 +4,13 @@ import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
 import NewsCard from '../components/NewsCard';
 
-export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode }) {
+export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode, librarySource, setLibrarySource }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
-  const allApps = [...apps, ...plusApps];
+  const allApps = librarySource === 'both' ? [...apps, ...plusApps] :
+                  librarySource === 'wuxu' ? [...apps] : [...plusApps];
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
@@ -17,15 +18,9 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
   const getFilteredApps = () => {
     let filtered = allApps;
-    
-    if (currentView === 'Library') {
-      filtered = [...apps];
-    } else if (currentView === 'LibraryPlus') {
-      filtered = [...plusApps];
-    }
 
     const q = searchQuery.trim().toLowerCase();
-    if (q && currentView === 'Search') {
+    if (q && currentView === 'Library') {
       filtered = filtered.filter(app => {
         const str = `${app.name} ${app.developerName} ${app.subtitle || ''}`.toLowerCase();
         return str.includes(q);
@@ -33,7 +28,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
     }
 
     // Sort alphabetically
-    if (currentView === 'Library' || currentView === 'LibraryPlus' || currentView === 'Search') {
+    if (currentView === 'Library') {
       filtered = filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
@@ -72,21 +67,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
         </div>
         
         <div className="top-center" role="navigation" aria-label="Library categories">
-          <div className="premium-toggle">
-            <div className={`toggle-slider ${currentView === 'LibraryPlus' ? 'right' : ''}`}></div>
-            <button 
-              className={currentView === 'Library' ? 'active' : ''} 
-              onClick={() => setCurrentView('Library')}
-            >
-              WuXu's Library
-            </button>
-            <button 
-              className={currentView === 'LibraryPlus' ? 'active' : ''} 
-              onClick={() => setCurrentView('LibraryPlus')}
-            >
-              WuXu's Library++
-            </button>
-          </div>
+          {/* Toggle moved to Settings */}
         </div>
 
         <div className="top-actions" role="navigation" aria-label="Updates">
@@ -158,22 +139,26 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             {currentView === 'Discover' && (
               <>
                 <div className="sections">
-                  <section className="section">
-                    <h3>New This Month</h3>
-                    <div className="mini-grid">
-                      {apps.slice(0, 4).map((app, index) => (
-                        <AppCard key={`new-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
-                      ))}
-                    </div>
-                  </section>
-                  <section className="section">
-                    <h3>WuXu's Choice</h3>
-                    <div className="mini-grid">
-                      {plusApps.slice(0, 4).map((app, index) => (
-                        <AppCard key={`editor-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
-                      ))}
-                    </div>
-                  </section>
+                  {['both', 'wuxu'].includes(librarySource) && (
+                    <section className="section">
+                      <h3>New This Month</h3>
+                      <div className="mini-grid">
+                        {apps.slice(0, 4).map((app, index) => (
+                          <AppCard key={`new-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                        ))}
+                      </div>
+                    </section>
+                  )}
+                  {['both', 'wuxu-plus'].includes(librarySource) && (
+                    <section className="section">
+                      <h3>WuXu's Choice</h3>
+                      <div className="mini-grid">
+                        {plusApps.slice(0, 4).map((app, index) => (
+                          <AppCard key={`editor-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
+                        ))}
+                      </div>
+                    </section>
+                  )}
                 </div>
               </>
             )}
@@ -187,7 +172,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
               </section>
             )}
 
-            {currentView === 'Search' && (
+            {currentView === 'Library' && (
               <div style={{ padding: '0 20px 20px' }}>
                 <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', marginBottom: '20px', width: '100%', maxWidth: '340px' }}>
                   <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
@@ -211,17 +196,20 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
               </div>
             )}
 
-            {['Library', 'LibraryPlus'].includes(currentView) && (
-              <section className="cards" style={{ padding: '0 20px' }}>
-                {displayedApps.map((app, index) => (
-                  <AppCard key={`grid-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
-                ))}
-              </section>
-            )}
-
             {currentView === 'Settings' && (
               <div className="settings-container">
                 <h2>Settings</h2>
+                <div className="setting-item">
+                  <div className="setting-info">
+                    <h3>Library Source</h3>
+                    <p>Select which library to browse</p>
+                  </div>
+                  <div className="library-selector">
+                    <button className={librarySource === 'wuxu' ? 'active' : ''} onClick={() => setLibrarySource('wuxu')}>Library</button>
+                    <button className={librarySource === 'wuxu-plus' ? 'active' : ''} onClick={() => setLibrarySource('wuxu-plus')}>Library++</button>
+                    <button className={librarySource === 'both' ? 'active' : ''} onClick={() => setLibrarySource('both')}>Both</button>
+                  </div>
+                </div>
                 <div className="setting-item">
                   <div className="setting-info">
                     <h3>Dark Mode</h3>
@@ -247,9 +235,9 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           <Compass size={24} strokeWidth={currentView === 'Discover' ? 2.5 : 2} />
           <span data-text="Discover">Discover</span>
         </button>
-        <button className={currentView === 'Search' ? 'active' : ''} onClick={() => setCurrentView('Search')} aria-label="Search">
-          <Search size={24} strokeWidth={currentView === 'Search' ? 2.5 : 2} />
-          <span data-text="Search">Search</span>
+        <button className={currentView === 'Library' ? 'active' : ''} onClick={() => setCurrentView('Library')} aria-label="Library">
+          <Library size={24} strokeWidth={currentView === 'Library' ? 2.5 : 2} />
+          <span data-text="Library">Library</span>
         </button>
         <button className={currentView === 'Settings' ? 'active' : ''} onClick={() => setCurrentView('Settings')} aria-label="Settings">
           <Settings size={24} strokeWidth={currentView === 'Settings' ? 2.5 : 2} />

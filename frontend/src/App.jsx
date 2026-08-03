@@ -11,6 +11,9 @@ function App() {
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('theme') === 'dark';
   });
+  const [librarySource, setLibrarySource] = useState(() => {
+    return localStorage.getItem('librarySource') || 'both';
+  });
 
   useEffect(() => {
     if (darkMode) {
@@ -21,6 +24,10 @@ function App() {
       localStorage.setItem('theme', 'light');
     }
   }, [darkMode]);
+
+  useEffect(() => {
+    localStorage.setItem('librarySource', librarySource);
+  }, [librarySource]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,7 +68,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home apps={apps} plusApps={plusApps} news={news} loading={loading} darkMode={darkMode} setDarkMode={setDarkMode} />} />
+        <Route path="/" element={<Home apps={apps} plusApps={plusApps} news={news} loading={loading} darkMode={darkMode} setDarkMode={setDarkMode} librarySource={librarySource} setLibrarySource={setLibrarySource} />} />
         <Route path="/app/:bundleId" element={<AppDetails apps={apps} plusApps={plusApps} loading={loading} />} />
       </Routes>
     </Router>
