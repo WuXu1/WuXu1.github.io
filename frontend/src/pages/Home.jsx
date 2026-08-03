@@ -150,7 +150,7 @@ export default function Home({ apps, plusApps, news = [], loading }) {
               <>
                 <div className="sections">
                   <section className="section">
-                    <h3>New This Week</h3>
+                    <h3>New This Month</h3>
                     <div className="mini-grid">
                       {apps.slice(0, 4).map((app, index) => (
                         <AppCard key={`new-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
@@ -158,7 +158,7 @@ export default function Home({ apps, plusApps, news = [], loading }) {
                     </div>
                   </section>
                   <section className="section">
-                    <h3>Editor's Choice</h3>
+                    <h3>WuXu's Choice</h3>
                     <div className="mini-grid">
                       {plusApps.slice(0, 4).map((app, index) => (
                         <AppCard key={`editor-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />

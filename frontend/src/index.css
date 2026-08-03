@@ -11,8 +11,8 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
 
 .page { min-height:100vh; overflow:hidden; padding-bottom:92px; }
 .topbar { height:114px; display:flex; justify-content:space-between; align-items:flex-start; padding:17px max(4.15vw,28px) 0; }
-.brand h1 { margin:0; font-family: 'Mareka', sans-serif; font-size:40px; letter-spacing:normal; line-height:42px; font-weight:300; }
-.brand p { margin:0; color:#3f3f42; font-size:22px; line-height:27px; letter-spacing:-.65px; }
+.brand h1 { margin:0; font-family: 'Mareka', sans-serif; font-size:48px; letter-spacing:normal; line-height:50px; font-weight:300; }
+.brand p { margin:0; color:#3f3f42; font-size:26px; line-height:30px; letter-spacing:-.65px; }
 .top-actions { display:flex; align-items:center; gap:30px; padding-top:10px; }
 .top-action { width:55px; padding:0; display:grid; justify-items:center; gap:3px; font-size:18px; letter-spacing:-.45px; line-height:18px; }
 .top-action svg { width:27px; height:27px; stroke-width:2.35; }
