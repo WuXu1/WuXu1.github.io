@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { LayoutGrid, Gamepad2, Download, Compass, Search, Settings } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
+import NewsCard from '../components/NewsCard';
 
-export default function Home({ apps, plusApps, loading }) {
+export default function Home({ apps, plusApps, news = [], loading }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
 
   const allApps = [...apps, ...plusApps];
 
@@ -19,9 +22,6 @@ export default function Home({ apps, plusApps, loading }) {
       filtered = allApps.filter(a => a.category?.toLowerCase() !== 'games');
     } else if (currentView === 'Games') {
       filtered = allApps.filter(a => a.category?.toLowerCase() === 'games');
-    } else if (currentView === 'Updates') {
-      // Sort by versionDate (newest first)
-      filtered = [...allApps].sort((a, b) => new Date(b.versionDate || 0) - new Date(a.versionDate || 0));
     }
 
     if (searchQuery && currentView === 'Search') {
@@ -31,8 +31,8 @@ export default function Home({ apps, plusApps, loading }) {
       });
     }
 
-    // Sort alphabetically for Apps/Games
-    if (currentView === 'Apps' || currentView === 'Games') {
+    // Sort alphabetically for Apps/Games/Search
+    if (currentView === 'Apps' || currentView === 'Games' || currentView === 'Search') {
       filtered = filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
@@ -75,19 +75,34 @@ export default function Home({ apps, plusApps, loading }) {
             {currentView === 'Discover' && (
               <>
                 <section className="showcase" aria-label="Featured releases">
-                  <article className="feature feature-primary">
-                    <div className="badge">
-                      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M26 11 12 31l13 8 9-15 9 7-12 20 6 4 18-27-6-4-5 8-9-7 5-8-14-6Zm-7 31 8 5-5 8-8-5 5-8Z"/></svg>
-                    </div>
-                    <div className="flower" aria-hidden="true"></div>
-                    <h2>Featured Releases</h2>
-                  </article>
-                  <article className="feature feature-secondary" aria-label="New app release">
-                    <div className="scene">
-                      <div className="screen"></div>
-                      <div className="rocket"></div>
-                    </div>
-                  </article>
+                  {news.slice(0, 3).map((item, index) => (
+                    <article 
+                      key={index} 
+                      className="feature" 
+                      style={{ 
+                        backgroundImage: `url(${item.imageURL})`, 
+                        backgroundSize: 'cover', 
+                        backgroundPosition: 'center', 
+                        cursor: item.appID ? 'pointer' : 'default',
+                        backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7'
+                      }}
+                      onClick={() => item.appID && navigate(`/app/${item.appID}`)}
+                    >
+                      <div style={{ 
+                        position: 'absolute', 
+                        bottom: 0, left: 0, right: 0, 
+                        padding: '30px 20px 20px', 
+                        background: 'linear-gradient(transparent, rgba(0,0,0,0.85))', 
+                        color: '#fff' 
+                      }}>
+                        <h2 style={{ margin: '0 0 4px', fontSize: '22px', fontWeight: 'bold' }}>{item.title}</h2>
+                        <p style={{ margin: 0, fontSize: '14px', opacity: 0.9 }}>{item.caption}</p>
+                      </div>
+                    </article>
+                  ))}
+                  {news.length === 0 && (
+                    <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
+                  )}
                 </section>
                 <div className="sections">
                   <section className="section">
@@ -108,6 +123,15 @@ export default function Home({ apps, plusApps, loading }) {
                   </section>
                 </div>
               </>
+            )}
+
+            {currentView === 'Updates' && (
+              <section className="news-list" style={{ padding: '0 20px' }}>
+                {news.map((item, index) => (
+                  <NewsCard key={`news-${index}`} newsItem={item} />
+                ))}
+                {news.length === 0 && <p style={{ textAlign: 'center', color: '#8e8e93', marginTop: '40px' }}>No updates available.</p>}
+              </section>
             )}
 
             {currentView === 'Search' && (
@@ -134,7 +158,7 @@ export default function Home({ apps, plusApps, loading }) {
               </div>
             )}
 
-            {['Apps', 'Games', 'Updates'].includes(currentView) && (
+            {['Apps', 'Games'].includes(currentView) && (
               <section className="cards" style={{ padding: '0 20px' }}>
                 {displayedApps.map((app, index) => (
                   <AppCard key={`grid-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
