@@ -43,7 +43,7 @@ body.dark {
 }
 
 * { box-sizing: border-box; }
-body { margin:0; min-width:320px; color:var(--text-color); background:var(--bg-color); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Arial,sans-serif; transition: background 0.3s, color 0.3s; }
+body { margin:0; min-width:320px; color:var(--text-color); background:var(--bg-color); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Arial,sans-serif; transition: background 0.3s, color 0.3s; overflow-y: scroll; }
 button, input { font:inherit; }
 button { border:0; color:inherit; background:transparent; cursor:pointer; }
 
