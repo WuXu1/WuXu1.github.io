@@ -3,7 +3,7 @@
   "identifier": "com.wuxulibs.wuxuslibrary",
   "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
   "description": "Welcome to WuXu’s Library!\n\nThis source contains all your favourite emulators, games, jailbreaks, utilities, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
-  "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.png",
+  "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.png",
   "headerURL": "https://i.pinimg.com/736x/2e/4c/7c/2e4c7cc6b2a52a3113b6f1328d9d1e97.jpg",
   "website": "https://bit.ly/wuxus-sources",
   "tintColor": "d81a14",
@@ -21,12 +21,12 @@
       "developerName": "alfiecg24",
       "subtitle": "The universal TrollStore installer for iOS 14.0 - 17.0.0.0 beta 4",
       "localizedDescription": "Overview\n\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n• Direct installation: using the kfd kernel exploit, along with the dmaFail PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n\n   - Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n      • Note: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n      • Note: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n• Indirect installation: Using the kfd kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n\n   - Supports iOS 16.5.1 - 16.6.1 (arm64e).\n      • Note: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n\nUsage\n\nTrollInstallerX is extremely easy to use. Simply download the latest release from the Releases page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\nNote: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/lQt6WqH.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/lQt6WqH.png",
       "tintColor": "0363a9",
       "category": "utilities",
       "screenshotURLs": [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/aIyWLRP.jpeg",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/o5REDKV.jpeg"
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/aIyWLRP.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/o5REDKV.jpeg"
       ],
       "version": "1.0.3",
       "minOSVersion_0": "14.0.0",
@@ -132,7 +132,7 @@
       "developerName": "Antique",
       "subtitle": "A Nintendo 3DS emulator for IOS",
       "localizedDescription": "Nintendo 3DS emulator for Apple devices based on Citra.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5wBkakf.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5wBkakf.png",
       "tintColor": "acaea8",
       "category": "Games",
       "screenshotURLs": [
@@ -166,14 +166,14 @@
       "developerName": "Henrik Rydgård",
       "subtitle": "A fast and portable PSP emulator for IOS",
       "localizedDescription": "PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.\n\nThe app was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka @angelxwind) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.\n\nPPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size.\n\nThe emulator is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JP0Fncv.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JP0Fncv.png",
       "tintColor": "21486b",
       "category": "Games",
       "screenshotURLs": [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/CWl6GgH.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/SxmN1M0.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/CWl6GgH.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/SxmN1M0.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
       ],
       "version": "1.15.3",
       "versionDate": "2023-05-14",
@@ -332,14 +332,14 @@
       "developerName": "Pwn20wnd",
       "subtitle": "The most advanced jailbreak tool.",
       "localizedDescription": "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
       "tintColor": "515151",
       "category": "utilities",
       "screenshotURLs": [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ItMaRRV.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bjzyqpY.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ItMaRRV.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bjzyqpY.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
       ],
       "version": "8.0.2",
       "minOSVersion_0": "11.0",
@@ -367,7 +367,7 @@
       "developerName": "opa334",
       "subtitle": "The semi-untethered jailbreak for iOS 15 - 16",
       "localizedDescription": "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
       "tintColor": "0d7d65",
       "category": "utilities",
       "screenshotURLs": [
@@ -563,7 +563,7 @@
       "developerName": "Atrasis Team",
       "subtitle": "A modded Clash of Clans server!",
       "localizedDescription": "This is a modded Clash of Clans private server. You have unlimited gems, elixir and gold. Write /help in the Global Chat for comands.\n\nNOTE: IF THE APP REQUIRES AN UPDATE, REINSTALL FROM THIS LINK AS THE DOWNLOAD URL IS ALWAYS THE LATEST AND I DO NOT MANUALLY CHANGE IT.\n\nTO KEEP YOUR PROGRESS, MAKE AN ATRASIS ID, ITS DONE THE SAME AS IF YOU ARE MAKING A SUPERCELL ID, AND SIGN IN AFTER REINSTALLING\n\n\nPlease keep in mind that this mod is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it.\n\nModded by Ksyrex. His Telegram group➡️ https://t.me/+wwYy4wEMS1gwMTAy",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WfWpKOF.png",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WfWpKOF.png",
       "tintColor": "9e6193",
       "category": "Games",
       "screenshotURLs": [
@@ -588,7 +588,7 @@
       "developerName": "Null",
       "subtitle": "A modded Clash Royale server!",
       "localizedDescription": "Looking for free gems, gold and resources on Clash Royale? Null's Royale can make it happen for you.\n\n• Unlock all cards - You can get all cards in Clash Royale for free now, including custom cards in challenges.\n\n• Unlimited resources -  No more worries about using up all the gems and gold in Clash Royale. You can get unlimited amount of these resources now.\n\n• Battle withe real players - Have fun competing with real players online in pvp mode with stable network.",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ZDQVF7n.jpeg",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ZDQVF7n.jpeg",
       "tintColor": "092949",
       "category": "Games",
       "screenshotURLs": [
@@ -742,7 +742,7 @@
       "caption": "The Universal TrollStore Installer for iOS 14 - 17.0.0 beta 4 has been updated! Click here for more info",
       "date": "2025-03-05",
       "tintColor": "0363a9",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/wtOgRBC.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/wtOgRBC.jpeg",
       "appID": "com.Alfie.TrollInstallerX",
       "notify": true
     },
@@ -752,7 +752,7 @@
       "caption": "Santander, a new, enhanced File Manager for MDC devices has been added to the source! Click here for more info",
       "date": "2023-05-21",
       "tintColor": "596d8d",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/K83MXp4.png",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/K83MXp4.png",
       "appID": "org.haxi0.santander",
       "notify": false
     },
@@ -762,7 +762,7 @@
       "caption": "get the latest sideloading/jailbreak news with PostBox! Click here for more info",
       "date": "2023-05-14",
       "tintColor": "b3b3b3",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/l0l2Uap.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/l0l2Uap.jpeg",
       "appID": "com.simplycode.PostBox",
       "notify": false
     },
@@ -772,7 +772,7 @@
       "caption": "emuThreeDS - A Nintendo 3DS emulator for IOS - Has been added to the source! Click here for more info",
       "date": "2023-05-13",
       "tintColor": "363634",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/8IpLrYC.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/8IpLrYC.jpeg",
       "appID": "com.antique.emuThreeDS",
       "notify": false
     },
@@ -782,7 +782,7 @@
       "caption": "PPSSPP - the best and only PSP emulator for iOS - has been added to the source! Click here for more info",
       "date": "2023-05-14",
       "tintColor": "21486b",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WiLmov2.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WiLmov2.jpeg",
       "appID": "org.ppsspp.ppsspp",
       "notify": false
     },
@@ -792,7 +792,7 @@
       "caption": "Filza for MacDirtyCow devices has been added to the source! Click here for more info",
       "date": "2023-05-14",
       "tintColor": "047a9a",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/zMIbbji.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/zMIbbji.jpeg",
       "appID": "com.tigisoftware.Filza",
       "notify": false
     },
@@ -802,7 +802,7 @@
       "caption": "Scarlet, a popular 3rd party App Store, has been added to the source! Don't forget to add my source ;)",
       "date": "2023-04-24",
       "tintColor": "8d2229",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/feGeBg8.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/feGeBg8.jpeg",
       "appID": "com.DebianArch.ScarletPersonalXYZZZ",
       "notify": false
     },
@@ -812,7 +812,7 @@
       "caption": "The Odyssey jailbreak tool has been added to the source! ",
       "date": "2023-04-04",
       "tintColor": "9766a7",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/246tXNC.png",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/246tXNC.png",
       "appID": "org.coolstar.odyssey",
       "notify": false
     },
@@ -822,7 +822,7 @@
       "caption": "The Taurine Jailbreak has been updated, now supporting up to iOS 14.8.1! Click here for more info",
       "date": "2024-05-11",
       "tintColor": "9e3a47",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ExAk9bo.png",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ExAk9bo.png",
       "appID": "org.coolstar.taurine",
       "notify": false
     },
@@ -832,7 +832,7 @@
       "caption": "The unc0ver jailbreaking tool has been added to the source! ",
       "date": "2023-04-04",
       "tintColor": "515151",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ai6QSbt.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ai6QSbt.jpeg",
       "appID": "science.xnu.undecimus",
       "notify": false
     },
@@ -842,7 +842,7 @@
       "caption": "Dopamine, a jailbreak for iOS 15.0 - 16.6.1 has been updated! Click here for more info",
       "date": "2025-03-05",
       "tintColor": "0d7d65",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/iz36kwo.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/iz36kwo.jpeg",
       "appID": "com.opa334.Dopamine",
       "notify": false
     },
@@ -852,7 +852,7 @@
       "caption": "iTorrent has been added to the library! A torrent client for iOS with Files app support. ",
       "date": "2023-02-13",
       "tintColor": "b31c29",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/jnvDDpx.jpg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/jnvDDpx.jpg",
       "appID": "ru.nonamedude.iTorrent",
       "notify": false
     },
@@ -862,7 +862,7 @@
       "caption": "Cowabunga has been updated to the latest version, click here for more info",
       "date": "2023-05-14",
       "tintColor": "0d6425",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/4IT5NhG.png",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/4IT5NhG.png",
       "appID": "com.leemin.Cowabunga",
       "notify": true
     },
@@ -872,7 +872,7 @@
       "caption": "ESign has been updated to the latest version, click here for more info.",
       "date": "2023-03-19",
       "tintColor": "356ead",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Nb9f2Zj.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Nb9f2Zj.jpeg",
       "appID": "p3.xyz.yyyue.esign",
       "notify": true
     },
@@ -882,7 +882,7 @@
       "caption": "Modded Clash of Clans has been updated to the latest version, click here for more info",
       "date": "2024-05-10",
       "tintColor": "123047",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pS8xh2f.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pS8xh2f.jpeg",
       "appID": "com.supercell.magic",
       "notify": false
     },
@@ -892,7 +892,7 @@
       "caption": "Modded Clash Royale has been updated to the latest version, click here for more info!",
       "date": "2024-05-10",
       "tintColor": "134771",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JlyS9ZK.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JlyS9ZK.jpeg",
       "appID": "com.supercell.scroll",
       "notify": true
     },
@@ -902,7 +902,7 @@
       "caption": "Relive your childhood with the nostalgic, Angry Birds Space game!",
       "date": "2023-04-14",
       "tintColor": "091323",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gsvbM4C.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gsvbM4C.jpeg",
       "appID": "com.rovio.AngryBirdsSpace",
       "notify": false
     },
@@ -912,7 +912,7 @@
       "caption": "Relive your childhood with the nostalgic, Angry Birds Star Wars game!",
       "date": "2023-04-14",
       "tintColor": "080814",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/6sJllQr.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/6sJllQr.jpeg",
       "appID": "com.rovio.angrybirdsstarwars",
       "notify": false
     },
@@ -922,7 +922,7 @@
       "caption": "Pokemon Go has been updated to the latest version, click here for more info",
       "date": "2023-05-11",
       "tintColor": "184f99",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1VmxdXs.jpeg",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1VmxdXs.jpeg",
       "appID": "com.nianticlabs.pokemongo",
       "notify": true
     },

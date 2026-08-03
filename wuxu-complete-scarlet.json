@@ -1,7 +1,7 @@
 {
   "META" : {
     "repoName" : "WuXu's Library",
-    "repoIcon" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FSXr72V.png"
+    "repoIcon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FSXr72V.png"
   },
   "Tweaked Apps" : [
     {
@@ -444,7 +444,7 @@
       "version" : "1.5.0",
       "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
       "dev" : "Syto203",
-      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/rgL5qrB.png",
+      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/rgL5qrB.png",
       "category" : "Free Streaming",
       "changelog" : "• Updated ZiniTevi to v1.5.0",
       "description" : "Tweaked version of ZiniTevi - Ads disabled\n\nApp for Streaming Movies and TV Shows for free on your phone.\n\nApp features:\n\n• Play video online and offline.\n• Download multiple videos in background mode.\n• Stream video to Google's Chromecast, Airplay, Smart TV,\n• Android TV Box, Web Browser, UPnP, DLNA.\n• Add to favorites list.\n• Save to watched list.\n• Caption in video with all languages on over the world.\n• Trakt.tv to sync history and favorites list to the cloud.\n\nEnjoy!",
@@ -838,16 +838,16 @@
       "version" : "8.0.2",
       "down" : "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
       "dev" : "Pwn20wnd",
-      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
+      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
       "category" : "Jailbreaks/Tweaks",
       "changelog" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
       "description" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
       "bundleID" : "science.xnu.undecimus",
       "screenshots" : [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ItMaRRV.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bjzyqpY.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ItMaRRV.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bjzyqpY.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
       ],
       "contact" : {
         "web" : "https://bit.ly/wuxus-sources",
