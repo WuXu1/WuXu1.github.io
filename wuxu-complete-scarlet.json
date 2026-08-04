@@ -47,6 +47,32 @@
       "version": "7.15.0"
     },
     {
+      "appstore": "com.soundcloud.TouchApp",
+      "bundleID": "com.soundcloud.TouchApp",
+      "category": "Entertainment",
+      "changelog": "• Updated SoundCloud to v7.65.4",
+      "contact": {
+        "discord": "https://bit.ly/wuxuslibrary-discord",
+        "web": "https://bit.ly/wuxus-sources"
+      },
+      "description": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
+      "dev": "Rov3r",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
+      "name": "SoundCloud++",
+      "screenshots": [
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-4.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-5.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
+      ],
+      "version": "7.65.4"
+    },
+    {
       "appstore": "com.spotify.client",
       "bundleID": "com.spotify.client",
       "category": "Entertainment",
@@ -347,34 +373,6 @@
     "repoIcon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
     "repoName": "WuXu's Library"
   },
-  "Other": [
-    {
-      "appstore": "com.soundcloud.TouchApp",
-      "bundleID": "com.soundcloud.TouchApp",
-      "category": "Other",
-      "changelog": "• Updated SoundCloud to v7.65.4",
-      "contact": {
-        "discord": "https://bit.ly/wuxuslibrary-discord",
-        "web": "https://bit.ly/wuxus-sources"
-      },
-      "description": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
-      "dev": "Rov3r",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
-      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
-      "name": "SoundCloud++",
-      "screenshots": [
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-4.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-5.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
-      ],
-      "version": "7.65.4"
-    }
-  ],
   "Social": [
     {
       "appstore": "com.atebits.Tweetie2",
