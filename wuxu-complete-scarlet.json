@@ -1,545 +1,8 @@
 {
-  "META" : {
-    "repoName" : "WuXu's Library",
-    "repoIcon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FSXr72V.png"
-  },
-  "Tweaked Apps" : [
+  "Lifestyle": [
     {
-      "name" : "Messenger++",
-      "version" : "390.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-      "dev" : "Michael Lema",
-      "icon" : "https://img.ipa4fun.com/f6/02/6e/454638411-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Messenger to v390.0",
-      "description" : "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n•  Disable Marking Messages\n•  Disable Marking Stories\n•  Disable Typing Status\n•  Save Story images and videos\n\nAuthentication\n\n•  Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
-      "bundleID" : "com.facebook.Messenger",
-      "appstore" : "com.facebook.Messenger",
-      "screenshots" : [
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-1.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-2.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-3.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-4.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-5.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-6.webp",
-        "https://img.ipa4fun.com/f6/02/6e/454638411-screenshot-7.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "YouTube Music++",
-      "version" : "5.49.2",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.Music.v5.49.2.+.YTMusicUltimate.v1.2.7.ipa",
-      "dev" : "Ginsudev",
-      "icon" : "https://img.ipa4fun.com/d7/1a/73/1017492454-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated YouTube Music to v5.49.2",
-      "description" : "YouTube Music injected with YTMusicUltimate\n\nFeatures:\n\n• No ads\n• Play music in background\n• Show the status bar in the player\n• OLED dark theme\n• OLED dark keyboard",
-      "bundleID" : "com.google.ios.youtubemusic",
-      "appstore" : "com.google.ios.youtubemusic",
-      "screenshots" : [
-        "https://img.ipa4fun.com/d7/1a/73/1017492454-screenshot-1.webp",
-        "https://img.ipa4fun.com/d7/1a/73/1017492454-screenshot-2.webp",
-        "https://img.ipa4fun.com/d7/1a/73/1017492454-screenshot-3.webp",
-        "https://img.ipa4fun.com/d7/1a/73/1017492454-screenshot-4.webp",
-        "https://img.ipa4fun.com/d7/1a/73/1017492454-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Reddit++",
-      "version" : "2023.14.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.Tweaked.v2023.14.0.ipa",
-      "dev" : "Level3tjg ",
-      "icon" : "https://img.ipa4fun.com/03/55/72/1064216828-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Reddit to 2023.14.0\n\nAdded:\n\n• RedditOldDiscovery by level3tjg (Disable the new Reddit discovery tab)\n• RedditUndoScrollUp by Aleksi Lassila (Double tap the status bar to return back to where you were)\n• RedditCache by Wh0ba (Show cache size in settings)\n• RedditCacheClearer by level3tjg (Clears Reddit cache every time you open the app)",
-      "description" : "Injected Tweaks:\n\n• RedditFilter by level3tjg - Filter out unwated content from your Reddit feed\n\n• RedditSideloadFix by level3tjg - Fix crash on start when sideloading Reddit app\n\n• RedditOldDiscovery by level3tjg - Disable the new Reddit discovery tab\n\n• Riskkit by AppleCraxkhead - Unblurs NSFW and Spoiler posts on Reddit and Apollo\n\n• RedditCache by Wh0ba - Diplays the cache size on the clear cache label on the official reddit app\n\n• RedditCacheClearer by level3tjg - Clear the reddit video cache every time you open the app to save space\n\n• RedditUndoScrollUp by aleksilassila - Second status bar tap scrolls you back where you were",
-      "bundleID" : "com.reddit.Reddit",
-      "appstore" : "com.reddit.Reddit",
-      "screenshots" : [
-        "https://img.ipa4fun.com/03/55/72/1064216828-screenshot-1.webp",
-        "https://img.ipa4fun.com/03/55/72/1064216828-screenshot-2.webp",
-        "https://img.ipa4fun.com/03/55/72/1064216828-screenshot-3.webp",
-        "https://img.ipa4fun.com/03/55/72/1064216828-screenshot-4.webp",
-        "https://img.ipa4fun.com/03/55/72/1064216828-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "WhatsApp++",
-      "version" : "23.7.83",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/WhatsApp.v23.7.83.+.Watusi-3.v1.1.40.ipa",
-      "dev" : "Fouad Raheb",
-      "icon" : "https://img.ipa4fun.com/8f/ac/c3/310633997-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated WhatsApp to v23.7.83\n\n\nInstall the same bundle identifier app with the same certificate whenever you update because then it would update on the already installed app like regular app updates from AppStore.\n\nNOW INCLUDES ONLINENOTIFY in all IPAs.\n\nJoin Our Telegram Group: https://t.me/AppleTesters",
-      "description" : "TO RESTORE CHATS PLEASE COPY LINK BELOW AND READ TUTORIAL\nhttps://bit.ly/Watusi-Manpreet\n\n\nWhat's new in Watusi 3:\n\nNew Features:\n\n• Added a new statuses bar to display all your contacts current statuses on top of the chats list\n• Added option to view and display your contacts statuses on top of their profile pictures in chats list\n• Created Status Archive which will save all your uploaded statuses and their viewers\n• Added option to filter/sort the chats list, available in the new Chats List Add-ons section\n• Added option to manage WhatsApp tabs from which you can hide any tab or add custom ones like Favorites and Groups. (Removed Replace Camera Tab feature since it can now be done using this new feature)\n• Added new section to import/download custom tones to be used for your contacts notifications from their contact info page\n• Added new u201cChat Detailsu201d section inside contact and group info pages to get more details and analytics about the chat\n• Added a new section for Contacts Spoofing which allows you to hide or use a custom profile picture for your contact as well as choosing a different name inside WhatsApp\n• Re-write Auto Reply section with many new features and the option to get the message from a web request\n• Added option to automatically generate multiple broadcast lists from your WhatsApp contacts\n• Added option to disable Delivery Receipts for specific contacts only just like read receipts. (You would still have a delay in messages if you have a lot of pending messages waiting to be marked as delivered on the server)\n• Added option to hide all profile pictures from chats list (available in User Interface section)\n• Added option to hide WhatsApp Web section from settings (available in User Interface section)\n• New Share Sheet Actions\n\n• Added option to send photos & videos as documents which will allow you to send them in full quality\n• Added option to take a long screenshot for a chat (Available in share sheet actions)\nImprovements\n\n• Added whitelist option to Statuses' Disable Mark Viewed feature to allow sending viewed receipts for certain contacts\n• Added new option to mute notifications from chats locked in the archive using u201cArchive Locku201d feature\n• Audio bar will now show a progress bar of the currently playing audio\n• Swipe for Contact Info will now add a new button instead of replacing the Unread button\n• Added haptic feedback on status controls and other places\n\n• The package includes a toggle for Control Center, download CCSupport package and activate it from your Control Center settings.\n\n• The tweak is available in English, Arabic, German, Spanish, French, Italian, Portuguese, Turkish, Hebrew.\n\n• Configure options from inside WhatsApp settings.",
-      "bundleID" : "net.whatsapp.WhatsApp",
-      "appstore" : "net.whatsapp.WhatsApp",
-      "screenshots" : [
-        "https://img.ipa4fun.com/8f/ac/c3/310633997-screenshot-1.webp",
-        "https://img.ipa4fun.com/8f/ac/c3/310633997-screenshot-2.webp",
-        "https://img.ipa4fun.com/8f/ac/c3/310633997-screenshot-3.webp",
-        "https://img.ipa4fun.com/8f/ac/c3/310633997-screenshot-4.webp",
-        "https://img.ipa4fun.com/8f/ac/c3/310633997-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Twitch++",
-      "version" : "14.9.5",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v14.9.5.+.Toolbox.v2.4.2.ipa",
-      "dev" : "Hearsedev",
-      "icon" : "https://img.ipa4fun.com/d7/24/dc/460177396-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Twitch to v14.9.5\n• Bug fixes, stability fixes, and app optimizations",
-      "description" : "The ultimate Twitch tweaked app with these great features: Theme support, Auto claim channel points, Adblock, and 3rd party emote support.",
-      "bundleID" : "tv.twitch",
-      "appstore" : "tv.twitch",
-      "screenshots" : [
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-1.webp",
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-2.webp",
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-3.webp",
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-4.webp",
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-5.webp",
-        "https://img.ipa4fun.com/d7/24/dc/460177396-screenshot-6.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Discord++",
-      "version" : "174.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Discord.v174.0.+.Emnity.v2.2.5.ipa",
-      "dev" : "Enmity Team",
-      "icon" : "https://img.ipa4fun.com/87/01/a2/985746746-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Discord to v174.0\n• Updated Emnity to v2.2.5\n\n• Fix BUNDLE_PATH and horrible lag when using themes with Image BGs (#22)\n• Uses the BUNDLE_PATH constant instead of the ENMITY_PATH constant which fixes the tweak not building through the Action.\n• Add a different Package Identifier to the Rootless Dev tweak as I forgot to do that beforehand\n• Fix the extreme lag when having a theme with an Image Background.",
-      "description" : "Add plugins and themes to Discord!\n\nTo get plugins & themes go to the official Enmity discord\n\nhttps://discord.gg/enmity",
-      "bundleID" : "com.hammerandchisel.discord",
-      "appstore" : "com.hammerandchisel.discord",
-      "screenshots" : [
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-1.webp",
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-2.webp",
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-3.webp",
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-4.webp",
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-5.webp",
-        "https://img.ipa4fun.com/87/01/a2/985746746-screenshot-6.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Twitter++",
-      "version" : "9.49",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v9.49.+.BHT.v3.9.1.ipa",
-      "dev" : "BandarHL",
-      "icon" : "https://img.ipa4fun.com/fe/b5/38/333903271-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Twitter to v9.49\n• Updated BHTwitter to v3.9.1",
-      "description" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.",
-      "bundleID" : "com.atebits.Tweetie2",
-      "appstore" : "com.atebits.Tweetie2",
-      "screenshots" : [
-        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-1.webp",
-        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-2.webp",
-        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-3.webp",
-        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-4.webp",
-        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Facebook++",
-      "version" : "404.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v404.0.+.Wolf.v2.1.ipa",
-      "dev" : "Michael Lema",
-      "icon" : "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Facebook to v404.0",
-      "description" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
-      "bundleID" : "com.facebook.Facebook",
-      "appstore" : "com.facebook.Facebook",
-      "screenshots" : [
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-1.webp",
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-2.webp",
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-3.webp",
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-4.webp",
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
-        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Snapchat++",
-      "version" : "11.80.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
-      "dev" : "Kanji",
-      "icon" : "https://img.ipa4fun.com/5f/b5/79/447188370-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Snapchat to last working version with Shadow X (v11.80.0)",
-      "description" : "Note: Notifications may not work for some devices\n\nFeatures:\n\n•Screenshot Supression - Screenshotting will no longer send a notification.\n\n• Keep Snaps In Chat - Delivered and open snaps will temporarily be saved in chat.\n\n• Story Ghost - View stories anonymously.\n\n• Snap Ghost - Snaps and messages will appear unviewed/unopened.\n\n• Spoof Story Views\n\n• Spoof Story Screenshots\n\n• Save To Camera Roll - Tap and hold while viewing a snap to bring up the UI press \"Save Snap\"\n\n• Hide Subtitle - Hide the subtitle containing an MOTD or something from the devs\n\n• Upload From Camera Roll - Press the upload button to select an image and then press the button to take a picture.\n\n• Hide Call Buttons - Hide the call buttons on recent Ul versions.\n\n• Video Call Confirm - Presents a popup to verify that the action was intentional.\n\n• Audio Call Confirm - Presents a popup to verify that the action was intentional.\n\n• Hide New Chat Button - Hide the blue button on the bottom on recent Ul versions.\n\n• Remove Highlights (Not Working) - Remove the stupid TikTok knock-off tab (requires app restart).\n\n• Hide Friendmoji - Hide the \"Friendmojis\" next to people's names (requires pull-refresh).\n\n• Randomize Best Friends - Randomly change the order off the best friends list.\n\n• Keep Normal Title - Enable this to hide the \"Shadow X\" label\n\n• Cool RGB Animation - Makes the shadow header RBG (think chromahomebarx).",
-      "bundleID" : "com.toyopagroup.picaboo",
-      "appstore" : "com.toyopagroup.picaboo",
-      "screenshots" : [
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-1.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-2.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-3.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-4.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-5.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-6.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-7.webp",
-        "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-8.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "TikTok++",
-      "version" : "29.0.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v29.0.0.+.LRD+.v2.5.ipa",
-      "dev" : "CrazyMind90",
-      "icon" : "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated TikTok to v29.0.0",
-      "description" : "TikTokLRD (Cracked) - Add features to the TikTok App:\n\n• Save video without watermark\n• Share or save the video\n• Hide the user interface\n• Play the next video automatically\n• Skip watching live while watching automatically\n• Show progress bar for video\n• Enable high-quality video upload\n• Save a profile picture\n• Show the number of videos\n• Create favorite groups\n• Increase the number of letters in the comment to 240\n• Show the country code for the video\n• Enable copying for description and account\n• Enable comments transparency\n• Hide you just saw\n• Read closed comments\n• Watching videos under review\n• Show creation video date\n• Hide ADS\n• Change country\n• Confirm | cancel the like\n• Confirm | cancel the like in the comments\n• Confirm | cancel the follow\n• Lock the app",
-      "bundleID" : "com.zhiliaoapp.musically",
-      "appstore" : "com.zhiliaoapp.musically",
-      "screenshots" : [
-        "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-1.webp",
-        "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-2.webp",
-        "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-3.webp",
-        "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-4.webp",
-        "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Instagram++",
-      "version" : "278.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v278.0.+.Rocket+.v3.8.6.+.Plus+.v2.5.0.ipa",
-      "dev" : "Majd Alfhaily",
-      "icon" : "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Instagram to v275.0",
-      "description" : "This App comes with 2 Tweaks: Plus (Cracked) and Rocket (Cracked)\n\nRocket enriches Instagram client with loads of features! Starting from saving posts, reposting, checking if other users follow you and many more.\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\n\nPlus for Instagram is a lightweight, and all-in-one tweak crafted to enhance and unlock Instagram's full potential for users. You can do many things that you can't do before on Instagram with this tweak, including ability to stalk person that you love without them knowing!\n\nFeatures Include:\n\n• See Unsent Direct Message\n• Comment Translation\n• Focus Mode\n• Clean Experience\n• Media Downloader\n• Watch Story or Live without them knowing!\n• Story Video Editor\n• Copy Comment Text\n• Various Confirmation\n• Low Data Mode\n• Show Total Likes & Views\n• Add Unlimited Accounts\n• Full-Resolution Profile Picture\n• Disable Quick Reactions\n• Unlimited Media Replay (Direct Message)\n• Disable Typing... Status (Direct Message)\n• Disable Message Marked as Seen (Direct Message)\n\nAnd More!",
-      "bundleID" : "com.burbn.instagram",
-      "appstore" : "com.burbn.instagram",
-      "screenshots" : [
-        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-1.webp",
-        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-2.webp",
-        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-3.webp",
-        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-4.webp",
-        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "BeReal++",
-      "version" : "0.36.3",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v0.36.3.+.Bea.v1.1.ipa",
-      "dev" : "Avangelista",
-      "icon" : "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• BeReal updated to v0.36.3\n• Removed UnBlur v0.0.2\n• Added Bea v1.1",
-      "description" : "Bea adds small enhancements to the BeReal app.\n\nHere are the included features:\n\n• View BeReals without posting your own.\n• Unrestricted BeReal countdown\n• Show camera close button by default\n• Screenshot detection bypass (use with caution, this has not been extensively tested yet)\n• No options to configure",
-      "bundleID" : "AlexisBarreyat.BeReal",
-      "appstore" : "AlexisBarreyat.BeReal",
-      "screenshots" : [
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.webp",
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-2.webp",
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-3.webp",
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-4.webp",
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.webp",
-        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "SoundCloud++",
-      "version" : "6.22.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v6.22.0.+.DarkCloud.v1.4.ipa",
-      "dev" : "Codey Moore",
-      "icon" : "https://img.ipa4fun.com/b1/62/d8/336353151-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated SoundCloud to v6.22.0",
-      "description" : "SoundCloud Injected with DarkCloud - A Tweak that disables Ads and enables the developer menu.\n\nThe developer menu includes a wide range of adjustmets the user can make to the app, some include:\n\n• Block audio and video ads\n• Enable developer menu\n• Hide Go+ tab\n\nDon't worry, the tweaks you would expect (such as no ads) are enabled in the dev menu by default. So just install and enjoy.",
-      "bundleID" : "com.soundcloud.TouchApp",
-      "appstore" : "com.soundcloud.TouchApp",
-      "screenshots" : [
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-4.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-5.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.jpg",
-        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.jpg"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "YouTube++",
-      "version" : "18.15.1",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v18.15.1.+.uYou+.v3.0.ipa",
-      "dev" : "qnblackcat",
-      "icon" : "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
-      "category" : "Tweaked Apps",
-      "changelog" : "• YouTube updated to v18.15.1\n•  uYouPlus Updated to v3.0\n\n\nAdded:\n\n• Support for rootless jailbreaks\n• Default playback speed.\n• Removed ads from search results.\n• Auto fullscreen in YT player.\n• Hide upgrade dialog.\n• Disabled captions in the muted player.\n• Download original thumbnails.\n• Ability to hide uYou button in Shorts.\n• Ability to hide title and channel name in Shorts.\n• Ability to hide channel avatar in Shorts.\n• Ability to hide like button in Shorts.\n• Ability to hide dislike button in Shorts.\n• Ability to hide comment button in Shorts.\n• Ability to hide remix button in Shorts.\n• Ability to hide share button in Shorts.\n• Ability to fullscreen in Shorts.\n• Reserved speed rate when changing it until closing YouTube.\n\nFixed:\n\n• Rewrote downloading class for faster downloads.\n• Fixed downloading errors in sideloaded versions.\n• Fixed login issues for sideloaded version.\n• Fixed cast button not hiding.\n• Fixed uYou's tab bar button.\n• Fixed all uYou's player bugs.\n• Fixed sorting downloaded media.\n• Fixed uYou player UI in RTL languages.\n• Fixed downloading Shorts.\n• Removed playlist download.\n• Removed uPIP.\n\nKnown Issues:\n\n• Red progress bar in dark mode not working.\n• OLED dark mode not working.",
-      "description" : "Known issue - Signing in may/may not work, if it doesn’t, the next update from the dev may fix this.\n\n\nIf you're a YouTube app user then you'll have to take advantage of uYou tweak.\n\nWith uYou, you can enjoy video and audio downloads with importing features, play videos in PiP (Picture In Picture), background audio playback, and a whole lot of other features that are usually restricted/not available in the YouTube app.\n\nuYou will add an icon button on the top right corner (beside the search icon) to show the Downloads/Downloading list.\nYou can also access uYou's settings from the Downloads list.\n\nFeatures:\n\n• Remove YouTube Ads.\n• Background playback for YT videos.\n• Download Videos/Audio/Shorts for offline playback (supports up to 4K).\n• Support all YT Formats (MP4 + WebM), all qualities (from 144p to 4K) and all frames (30fps, 50fps, and 60fps).\n• Play saved media in a custom player with background playback support.\n• Supports mini-player for easier navigation.\n• Supports scrubbing/controls from Control Center.\n• Share/Export saved videos to Camera Roll or to any other app.\n• Gestures Controls on Video (Swipe Left/Right to increase/decrease Volume/Brightness/Seek).\n• Playback Speed Controls.\n• Play videos in PiP (Picture In Picture).\n• iPad layout style.\n• Sideloaded iPA.\n• In-app Settings.\n• Support Cercube and DLEasy migration to move all of your downloads into uYou with a tap of a button.\n• More options are in the settings.",
-      "bundleID" : "com.google.ios.youtube",
-      "appstore" : "com.google.ios.youtube",
-      "screenshots" : [
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/25/84/db/2584db5e-1b7d-197f-1a33-13602daf5d95/f1192f1f-430d-469a-b032-cdf77b8b04c7_iOS-5.5-in_1.jpg/2048x0w.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/54/0a/8d/540a8daf-4cc2-397a-e1b1-90b859947b44/868afd15-b2e4-4923-b0f8-c5599327a3d7_iOS-5.5-in_2.jpg/2048x0w.jpg",
-        "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/e3/e8/a1e3e81c-94e1-9bc2-c5f6-f5efe2814230/2930dbc3-4228-403b-b46d-e0066516ab6a_iOS-5.5-in_3.jpg/2048x0w.jpg",
-        "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/9e/cd/9b/9ecd9b66-ade4-70f8-a6f6-7b1ee3cc7b41/45519fca-0e0b-466e-9ed6-9a43232a0bf8_iOS-5.5-in_4.jpg/2048x0w.jpg",
-        "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/90/e2/4b/90e24bd5-b81b-558a-3b1a-e5acf46a7669/bace9abd-71f3-4700-8adf-cedcba275a67_iOS-5.5-in_5.jpg/2048x0w.jpg"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Spotify++",
-      "version" : "8.6.42-0.2",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked.v8.6.42-0.2.ipa",
-      "dev" : "iJulioVerne",
-      "icon" : "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions",
-      "description" : "Spotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
-      "bundleID" : "com.spotify.client",
-      "appstore" : "com.spotify.client",
-      "screenshots" : [
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-7.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-8.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-9.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-10.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Deezer++",
-      "version" : "7.15.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.ipa",
-      "dev" : "iJulioVerne",
-      "icon" : "https://img.ipa4fun.com/23/af/ed/292738169-logo.jpg",
-      "category" : "Tweaked Apps",
-      "changelog" : "• Updated Deezer to v7.15.0 - Last working version with tweak.",
-      "description" : "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
-      "bundleID" : "com.deezer.Deezer",
-      "appstore" : "com.deezer.Deezer",
-      "screenshots" : [
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-1.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-2.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-3.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-4.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-5.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-6.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-7.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-8.webp",
-        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-9.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    }
-  ],
-  "Free Streaming" : [
-    {
-      "name" : "MovieBoxPro",
-      "version" : "12.3",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MovieBoxPro.v12.3.ipa",
-      "dev" : "",
-      "icon" : "https://bestforandroid.com/apk/wp-content/uploads/2021/03/moviebox-pro-featured-image.png",
-      "category" : "Free Streaming",
-      "changelog" : "• Optimize the movie list editing performance.\n• Support remember the encoding while uploading subtitle files.\n• Support set the subtitle language separate from the app language.",
-      "description" : "Enjoy Movies and TV on your phone or cast to your smartTV",
-      "bundleID" : "com.xd.mbp31",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900000473-iphone-0-1669498440.png",
-        "https://static.appdb.to/images/cydia-1900000473-iphone-1-1669498440.png",
-        "https://static.appdb.to/images/cydia-1900000473-iphone-2-1669498440.png",
-        "https://static.appdb.to/images/cydia-1900000473-iphone-3-1669498441.png"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "NineAnimator",
-      "version" : "1.2.7-b6",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/NineAnimator.v1.2.7-b6.ipa",
-      "dev" : "SuperMarcus",
-      "icon" : "https://9anirepo.github.io/assets/com.marcuszhou.NineAnimator/icon.png",
-      "category" : "Free Streaming",
-      "changelog" : "• The iOS app is now about 9X smaller\nFixed an issue with subscriptions loading forever\n\n• Title tracking between Anime Sources and Anime Listing\nServices is now case insensitive\n\n• Fixed tracking on MyAnimeList if the anime title is longer than 60 characters\n\n• Added support for downloading while the app is in the background\n\n• Fixed an issue where downloaded videos would get removed at random\n\n• Notifications should appear more quickly and more often\n\n• Local video playback will no longer interrupt AirPlay\n\n• Fixed UI for Recently Watched anime on larger devices\n\n• Fixed issue where Recently Watched anime would not update its artwork or other metadata\n\n• Fixed issue where the app may crash during heavy use\n\n• The mouse cursor on macOS will automatically hide during video playback\n\n• Added support for ArrayAnime\n\n• Added support for Pantsubase\n \n• Removed Aniwatch and 9anime\n\n• Updated many different sources and server",
-      "description" : "A simple yet elegant way of waching anime on your favorite anime websites. NineAnimator is a free and open source anime watching app for iOS and macOS. GPLv3 Licensed.\n\nFeatures:\n\n• Ads Free and no logins\n• Super-duper clean Uls + Dark Mode\n• Get notifications when new episodes come out\n• Apple's native video playback interface\n• Picture in Picture playback on iPads/iOS 14+ devices\n• Chromecast/Google Cast with lockscreen & control center support\n• Playback History & Auto Resumes\n• Support Multiple Anime Websites\n• Integration with HomeKit\n• Discord Rich Presence integration (macOS only)\n• Handoff & Siri Shortcuts\n• Download & play episodes offline\n• Third party anime listing & tracking websites (view & edit)",
-      "bundleID" : "com.marcuszhou.NineAnimator",
-      "screenshots" : [
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/watch_next.dark.png?raw=true",
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/library.dark.png?raw=true",
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/search.png?raw=true",
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/listing_edit.dark.png?raw=true",
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/browse_episodes.png?raw=true",
-        "https://github.com/SuperMarcus/NineAnimator/blob/master/Misc/Media/Demo/Dark/downloads.png?raw=true"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "ZiniTevi++",
-      "version" : "1.5.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
-      "dev" : "Syto203",
-      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/rgL5qrB.png",
-      "category" : "Free Streaming",
-      "changelog" : "• Updated ZiniTevi to v1.5.0",
-      "description" : "Tweaked version of ZiniTevi - Ads disabled\n\nApp for Streaming Movies and TV Shows for free on your phone.\n\nApp features:\n\n• Play video online and offline.\n• Download multiple videos in background mode.\n• Stream video to Google's Chromecast, Airplay, Smart TV,\n• Android TV Box, Web Browser, UPnP, DLNA.\n• Add to favorites list.\n• Save to watched list.\n• Caption in video with all languages on over the world.\n• Trakt.tv to sync history and favorites list to the cloud.\n\nEnjoy!",
-      "bundleID" : "jb.zini.tevi",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900000660-iphone-0.png",
-        "https://static.appdb.to/images/cydia-1900000660-iphone-1.png",
-        "https://static.appdb.to/images/cydia-1900000660-iphone-2.png"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Anime Now!",
-      "version" : "1.0.0-b3",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Anime.Now.v1.0.0-b3.ipa",
-      "dev" : "AnimeNow Team",
-      "icon" : "https://static.appdb.to/images/cydia-1900001008-icon-1669968478.png",
-      "category" : "Free Streaming",
-      "changelog" : "• Updated Anime Now to v1.0.0-b3",
-      "description" : "Features:\n\n• Ad Free\n• No logins\n• Custom video playback\n• Airplay 2 Support\n• Picture in Picture playback support\n• Download & play episodes offline\n• Custom Collections\n• Third party anime tracking\n• Manga support (Will be added in V2.0.0)",
-      "bundleID" : "com.errorerrorerror.animenow",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900001008-iphone-0-1669964060.png",
-        "https://static.appdb.to/images/cydia-1900001008-iphone-1-1669964061.png",
-        "https://static.appdb.to/images/cydia-1900001008-iphone-2-1669964061.png",
-        "https://static.appdb.to/images/cydia-1900001008-iphone-3-1669964061.png"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    }
-  ],
-  "Cracked/Paid Apps" : [
-    {
-      "name" : "Nicegram++",
-      "version" : "1.2.6",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/NiceGram.Cracked.v1.2.6.ipa",
-      "dev" : "dpixel",
-      "icon" : "https://img.ipa4fun.com/77/44/cc/1608870673-logo.jpg",
-      "category" : "Cracked/Paid Apps",
-      "changelog" : "• Updated Nicegram to v1.2.6\n\n• Refined design for the GPT-4 chatbot: We've made some improvements to the design of our GPT-4 chatbot to make it even more visually appealing and user-friendly.\n• Added the GPT-4 chatbot to the onboarding process: We've added the GPT-4 chatbot to our onboarding process to help users get started with the app more quickly and easily.\n• Bug fixes: We've fixed some issues that were reported by users, which should improve the overall stability and performance of the app.\n• Improved speed: We've made some optimizations to the app's code to make it run faster and smoother.",
-      "description" : "Nicegram with premium enabled!\n\nHOW TO ACTIVATE PREMIUM\n\nGo to Nicegram settings and click on buy Nicegram Premium. Click cancel when it asks for Face ID/ Touch ID\n\n\nFrom the original app:\n\nThe future of messaging is closer than you think!\n\nAt the forefront of innovation stands Nicegram, a multifaceted Telegram client designed to level up your messaging experience. We prioritize your privacy and security, hence we have adopted Telegram’s data encryption technologies and made them an integral part of our messaging app. Nicegram grants you an opportunity to enjoy everything Telegram has to offer without any restrictions and spices it up with a bundle of exclusive features for advanced users. Here’s a sneak peek at those that stand out the most:\n\n\n• Unlimited Access: freely set up dozens and even hundreds of accounts for your convenience!\n\n• Built-in Translator: instantly translate both incoming and outgoing messages without having to leave the chat! This unmissable feature supports all languages!\n\n• Quick Replies: get a handful of ready-to-use message templates that will swiftly let your interlocutor know you’re occupied and will provide an extended reply later!\n\n• Double Bottom: conceal your accounts from prying eyes without having to subscribe or make any payments!\n\n• Select All: bulk-select up to 100 incoming messages from another Telegram user in a single tap and decide what to do with them next – copy, forward, delete, or add to your Saved Messages!\n\n• Without Name: safely forward other Telegram users’ messages without revealing their identities!\n\n• Instant Forward: add all important information to your Saved Messages with minimum effort and keep it close at hand at all times!\n\n• View Registration Date: go to any user’s profile and instantly find out when they joined Telegram!\n\n• Advanced Cache: make use of our flexible cache settings options by adjusting its maximum size to 1, 2, 16, 32 GB or bidding farewell to limits altogether! Moreover, now it’s YOU who decides for how long you wish to preserve the downloaded media files in your Telegram chats!\n\n• Nicegram Folders: tailor the look of Telegram to your personal preferences by placing all your folder tabs at the bottom of the screen!\n\n• Hide Reactions: give your Telegram chats a more businesslike look by hiding other users’ reactions to messages! Achieving a razor-sharp concentration has now become much easier!\n\n• Show ID: open Telegram chat descriptions and users’ profiles to view their unique IDs! This feature will help you identify a Telegram account even after its owner alters its @username!\n\n• Mention All: mention all the members of a group chat in just one tap and make sure everyone reads your important message!\n\n• Speech2Text: easily and accurately transcribe any voice message and come back to reread it anytime!\n\n\nNicegram is more than just a messaging app. It’s a cross-cultural community where you can participate in discussions, connect with like-minded people, explore educational content, and impact the messenger’s future.\n\nIf you have any questions or suggestions regarding the app’s functionality, please don’t hesitate to reach out to us at nicegram@appvillis.com.\n\nPrivacy Policy: https://appvillis.com/nicegram-privacy.html\nTerms of Use: https://appvillis.com/eula.html\nDevelopers Website: https://nicegram.app/",
-      "bundleID" : "app.nicegram",
-      "appstore" : "app.nicegram",
-      "screenshots" : [
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-1.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-2.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-3.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-4.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-5.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-6.jpg",
-        "https://img.ipa4fun.com/77/44/cc/1608870673-screenshot-7.jpg"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "TOR Browser++",
-      "version" : "3.2.10",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TOR.Browser.Cracked.v3.2.10.ipa",
-      "dev" : "Syto203",
-      "icon" : "https://img.ipa4fun.com/f7/af/eb/1336941722-logo.jpg",
-      "category" : "Cracked/Paid Apps",
-      "changelog" : "• Updated TOR Browser to v3.2.10",
-      "description" : "Tweak Features: Premium Features Enabled\n\nOrNET Browser is the best FREE app featuring a high performance TOR powered browser. OrNET Browser has been engineered on the latest technology of tor network which has been designed for faster and more secure access to dark web as well as unblock any website.\n\nCharacteristic to TOR, your browsing history or search terms are not archived/saved or indexed by search engines (DuckDuckGo.com). The TOR Network protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world: it prevents somebody watching your browsing history as well as your physical location. A must app to use on public Wifi networks.",
-      "bundleID" : "ch.b-eng.tor",
-      "appstore" : "ch.b-eng.tor",
-      "screenshots" : [
-        "https://img.ipa4fun.com/f7/af/eb/1336941722-screenshot-1.jpg",
-        "https://img.ipa4fun.com/f7/af/eb/1336941722-screenshot-2.jpg",
-        "https://img.ipa4fun.com/f7/af/eb/1336941722-screenshot-3.jpg"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "MyFitnessPal++",
-      "version" : "23.6.5",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.6.5.ipa",
-      "dev" : "Strejda603",
-      "icon" : "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp",
-      "category" : "Cracked/Paid Apps",
-      "changelog" : "• Updated MyFitnessPal to v23.6.5",
-      "description" : "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
-      "bundleID" : "com.myfitnesspal.mfp",
-      "appstore" : "com.myfitnesspal.mfp",
-      "screenshots" : [
+      "description": "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
+      "screenshots": [
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-1.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-2.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-3.webp",
@@ -551,74 +14,106 @@
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-9.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-10.webp"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "name": "MyFitnessPal++",
+      "category": "Lifestyle",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+      "bundleID": "com.myfitnesspal.mfp",
+      "changelog": "• Updated MyFitnessPal to v25.8.0",
+      "version": "25.8.0",
+      "appstore": "com.myfitnesspal.mfp",
+      "dev": "Strejda603",
+      "icon": "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp"
     },
     {
-      "name" : "Duolingo++",
-      "version" : "6.196.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v6.196.0.ipa",
-      "dev" : "Laxus",
-      "icon" : "https://img.ipa4fun.com/fc/cd/40/570060128-logo.webp",
-      "category" : "Cracked/Paid Apps",
-      "changelog" : "• Updated Duolingo to v6.196.0",
-      "description" : "Learn a new language with the world's most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you're learning a language for travel, school, career, family and friends, or your brain health, you'll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
-      "bundleID" : "com.duolingo.DuolingoMobile",
-      "appstore" : "com.duolingo.DuolingoMobile",
-      "screenshots" : [
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-1.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-2.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-3.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-4.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-5.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-6.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-7.webp",
-        "https://img.ipa4fun.com/fc/cd/40/570060128-screenshot-8.webp"
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/85/3c/6d/853c6dcc-509f-af17-1a68-5a14a1ddfcd6/tns.lgtxetwx.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/00/a9/d000a923-fdb2-074c-29c9-b0b756210be3/tns.egimlxov.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/7d/1b/c9/7d1bc96c-d220-6613-031c-e04dfd587375/tns.jhthyhvf.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/f3/fc/45/f3fc4501-0e63-4c86-c843-d62f024cb72e/tns.beyxhlrn.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/9e/a8/70/9ea87049-d4ce-ba8b-0186-a06f7daec44c/tns.qtcpgyze.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f9/5f/74/f95f7417-abd2-1da0-df60-25c5b4cc7b42/tns.xletkwju.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/71/50/25/7150254b-c1fe-0f0a-3080-d132ec1df02b/tns.kxzrjpco.png/314x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/d8/e5/66d8e526-9452-3aef-929c-1e91c675512a/7c022d98-f86f-4b31-8503-632ddcd73657_6.5-inch-screen9__U00283_U0029.png/314x0w.webp"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    },
-    {
-      "name" : "Photomath++",
-      "version" : "8.21.0",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Photomath.Cracked.v8.21.0.ipa",
-      "dev" : "Strejda603",
-      "icon" : "https://img.ipa4fun.com/c9/1d/c3/919087726-logo.webp",
-      "category" : "Cracked/Paid Apps",
-      "changelog" : "• Updated Photomath to v8.21.0",
-      "description" : "Photomath works as normal, only the premium features are activated as if you bought them.",
-      "bundleID" : "com.microblink.PhotoMath",
-      "appstore" : "com.microblink.PhotoMath",
-      "screenshots" : [
-        "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-1.webp",
-        "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-2.webp",
-        "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-3.webp",
-        "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-4.webp",
-        "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-5.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "version": "7.29.0",
+      "category": "Lifestyle",
+      "dev": "Laxus",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gl8jTYA.jpeg",
+      "description": "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "changelog": "• Duolingo Updated to v7.29.0",
+      "appstore": "com.duolingo.DuolingoMobile",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+      "name": "Duolingo++"
     }
   ],
-  "Games" : [
+  "META": {
+    "repoIcon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
+    "repoName": "WuXu's Library"
+  },
+  "Games": [
     {
-      "name" : "Clash of Clans",
-      "version" : "15.83.19",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.of.Clans.Null.s.v15.83.19.ipa",
-      "dev" : "Null's",
-      "icon" : "https://img.ipa4fun.com/cc/d5/84/529479190-logo.jpg",
-      "category" : "Games",
-      "changelog" : "• Updated Clash of Clans to v15.83.19",
-      "description" : "This is a modded Clash of Clans private server. You have unlimited gems, elixir and gold. Write /help in the Global Chat for comands.\n\n\nPlease keep in mind that this mod is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it.\n\nModded by Ksyrex. His Telegram group➡️ https://t.me/+wwYy4wEMS1gwMTAy",
-      "bundleID" : "com.supercell.magic",
-      "appstore" : "com.supercell.magic",
-      "screenshots" : [
+      "dev": "Antique",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/emuThreeDS.v1.0.5.2.ipa",
+      "category": "Games",
+      "description": "Nintendo 3DS emulator for Apple devices based on Citra.",
+      "version": "1.0.5.2",
+      "changelog": "Added:\n\n• Emulation menu to the in-game options button.\n• Pause and resume emulation option to the Emulation menu.\n• Preload textures by default to improve performance.\n• Portrait touch and drag support.\nReimplemented landscape mode for testing (screens will not be side-by-side yet).\n\nChanged:\n\n• Layout of the emulation to display below the status bar.\n• Increased priority of the emulation thread to squeeze out more performance.\n\nFixed:\n\n• Issue where the status bar would display black text on a black background.",
+      "name": "emuThreeDSS",
+      "bundleID": "com.antique.emuThreeDS",
+      "appstore": "com.antique.emuThreeDS",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5wBkakf.png",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/i3Fdd7SIrXYH_RIsypS8bwKnqq808h8XxO4fg3eYIrIqLg2bkf-Vm7LfBNDKOnLENQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/6pv18OLDP58bZLWH0RZMw5ZcYAYyEFmlA1sqX0BlrevPLWhTO7C0ua0X3sNiOlrkM1ZQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/doTVi2IWLPKGVCz2EeZKNEDOkjxIgbridWQiKqVgw7yhc0OQXNR7CvmcglgNv1M4kAQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/FZakW5LiR3dJen206_ZlIoxfICxFNX-f5lpxcYtouA5VShZtsZvCi5bEicSN_dLeUQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/UhUl8DQRlWiITbsrYEYb89rrvpALAUn7Wgyb6PKCjgiG5gF2WHL7piRBf2enCZZWwQ=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/uxwledxQN-64HfwyfbUFXa7pcgHTy_78iiKXZwArALZqhpR1PjWZfOGjdgwRCTgwnjY=w1052-h592-rw"
+      ],
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      }
+    },
+    {
+      "dev": "Henrik Rydgård",
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/CWl6GgH.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/SxmN1M0.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
+      ],
+      "name": "PPSSPP",
+      "version": "1.15.3",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PPSSPP.v1.15.3.ipa",
+      "category": "Games",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JP0Fncv.png",
+      "appstore": "org.ppsspp.ppsspp",
+      "bundleID": "org.ppsspp.ppsspp",
+      "description": "PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.\n\nThe app was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka @angelxwind) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.\n\nPPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size.\n\nThe emulator is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device.",
+      "changelog": "• Assorted minor crash- and other fixes\n• Control mapping: Fix bugs in mapping UI causing trouble with some controllers\n\n"
+    },
+    {
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WfWpKOF.png",
+      "down": "https://atrasisclash.net/server-original-ios-download-ipa.php",
+      "dev": "Atrasis Team",
+      "appstore": "com.supercell.magic",
+      "bundleID": "com.supercell.magic",
+      "changelog": "• Link now only installs latest version.",
+      "screenshots": [
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-1.webp",
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-2.webp",
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-3.webp",
@@ -627,244 +122,607 @@
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-6.webp",
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-7.webp"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "version": "latest",
+      "name": "Atrasis",
+      "category": "Games",
+      "description": "This is a modded Clash of Clans private server. You have unlimited gems, elixir and gold. Write /help in the Global Chat for comands.\n\nNOTE: IF THE APP REQUIRES AN UPDATE, REINSTALL FROM THIS LINK AS THE DOWNLOAD URL IS ALWAYS THE LATEST AND I DO NOT MANUALLY CHANGE IT.\n\nTO KEEP YOUR PROGRESS, MAKE AN ATRASIS ID, ITS DONE THE SAME AS IF YOU ARE MAKING A SUPERCELL ID, AND SIGN IN AFTER REINSTALLING\n\n\nPlease keep in mind that this mod is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it.\n\nModded by Ksyrex. His Telegram group➡️ https://t.me/+wwYy4wEMS1gwMTAy"
     },
     {
-      "name" : "Clash Royale",
-      "version" : "3.3074.6",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v3.3074.6.ipa",
-      "dev" : "Null's",
-      "icon" : "https://img.ipa4fun.com/e8/16/53/1053012308-logo.jpg",
-      "category" : "Games",
-      "changelog" : "• Updated Clash Royale to v3.3074.6",
-      "description" : "Looking for free gems, gold and resources on Clash Royale? Null's Royale can make it happen for you.\n\n• Unlock all cards - You can get all cards in Clash Royale for free now, including custom cards in challenges.\n\n• Unlimited resources -  No more worries about using up all the gems and gold in Clash Royale. You can get unlimited amount of these resources now.\n\n• Battle withe real players - Have fun competing with real players online in pvp mode with stable network.",
-      "bundleID" : "com.supercell.scroll",
-      "appstore" : "com.supercell.scroll",
-      "screenshots" : [
+      "description": "Looking for free gems, gold and resources on Clash Royale? Null's Royale can make it happen for you.\n\n• Unlock all cards - You can get all cards in Clash Royale for free now, including custom cards in challenges.\n\n• Unlimited resources -  No more worries about using up all the gems and gold in Clash Royale. You can get unlimited amount of these resources now.\n\n• Battle withe real players - Have fun competing with real players online in pvp mode with stable network.",
+      "name": "Null's Royale",
+      "category": "Games",
+      "changelog": "• Updated Clash Royale to v4.88.4",
+      "version": "4.88.4",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v4.88.4.Nulls.ipa",
+      "dev": "Null",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ZDQVF7n.jpeg",
+      "appstore": "com.supercell.scroll",
+      "bundleID": "com.supercell.scroll",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "screenshots": [
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-1.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-2.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-3.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-4.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-5.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-6.webp"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      ]
     },
     {
-      "name" : "Angry Birds Space",
-      "version" : "2.2.13",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Space.v2.2.13.ipa",
-      "dev" : "Rovio",
-      "icon" : "https://img.ipa4fun.com/63/2d/06/501968250-logo.jpg",
-      "category" : "Games",
-      "changelog" : "• We addressed some minor issues in order to improve the user experience.",
-      "description" : "The #1 mobile game of all time blasts off into space!\n\nPlay over 300 interstellar levels across 10 planets – including our very own Solar System!\n\nWhether it’s the icy orbs of Cold Cuts, the volcanic explosiveness of Red Planet, Utopia – a planet made entirely of junk food, or even our own Solar System, each episode offers intergalactic fun at every turn! And the low-gravity environment of space results in spectacular gameplay ranging from slow-motion puzzles to lightspeed destruction. With brand new birds, special abilities, and a whole galaxy to explore, the sky is no longer the limit!\n\n-----\n\n“Intergalactic phenomenon worth every penny” – AppCraver\n\n“Takes the fundamental physics-based flinging of the original and turns it on its head... It's satisfying, yet completely familiar, and is heaps of pig-smashing fun.” – Gamespot\n\n“Anyone burnt out on vanilla bird flinging will enjoy the game's out-of-this-world adventure.” -- IGN\n\n-----\n\n- Over 300 interstellar levels!\n- New playable characters!\n- Unique special abilities for each bird!\n- Zero-gravity space adventures!\n- Trick shots using planets’ gravity!\n- Hidden bonus levels!\n- Beautifully detailed backgrounds!\n- Daily Missions!\n\n-----\n\nJoin the global phenomenon as it goes galactic!\n\nBecome a fan of Angry Birds on Facebook:\nhttp://facebook.angrybirds.com\n\nFollow us on Twitter:\nhttp://twitter.angrybirds.com\n\nTerms of Use: https://www.rovio.com/terms-of-service\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
-      "bundleID" : "com.rovio.AngryBirdsSpace",
-      "screenshots" : [
-        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-1.jpg",
-        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-2.jpg",
-        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-3.jpg",
-        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-4.jpg",
-        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-5.jpg"
+      "description": "The #1 mobile game of all time blasts off into space!\n\nPlay over 300 interstellar levels across 10 planets – including our very own Solar System!\n\nWhether it’s the icy orbs of Cold Cuts, the volcanic explosiveness of Red Planet, Utopia – a planet made entirely of junk food, or even our own Solar System, each episode offers intergalactic fun at every turn! And the low-gravity environment of space results in spectacular gameplay ranging from slow-motion puzzles to lightspeed destruction. With brand new birds, special abilities, and a whole galaxy to explore, the sky is no longer the limit!\n\n-----\n\n“Intergalactic phenomenon worth every penny” – AppCraver\n\n“Takes the fundamental physics-based flinging of the original and turns it on its head... It's satisfying, yet completely familiar, and is heaps of pig-smashing fun.” – Gamespot\n\n“Anyone burnt out on vanilla bird flinging will enjoy the game's out-of-this-world adventure.” -- IGN\n\n-----\n\n- Over 300 interstellar levels!\n- New playable characters!\n- Unique special abilities for each bird!\n- Zero-gravity space adventures!\n- Trick shots using planets’ gravity!\n- Hidden bonus levels!\n- Beautifully detailed backgrounds!\n- Daily Missions!\n\n-----\n\nJoin the global phenomenon as it goes galactic!\n\nBecome a fan of Angry Birds on Facebook:\nhttp://facebook.angrybirds.com\n\nFollow us on Twitter:\nhttp://twitter.angrybirds.com\n\nTerms of Use: https://www.rovio.com/terms-of-service\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
+      "screenshots": [
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-1.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-2.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-3.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-4.webp",
+        "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-5.webp"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "bundleID": "com.rovio.AngryBirdsSpace",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Space.v2.2.13.ipa",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "version": "2.2.13",
+      "name": "Angry Birds Space",
+      "icon": "https://img.ipa4fun.com/63/2d/06/501968250-logo.webp",
+      "dev": "Rovio",
+      "category": "Games",
+      "changelog": "• We addressed some minor issues in order to improve the user experience.",
+      "appstore": "com.rovio.AngryBirdsSpace"
     },
     {
-      "name" : "Angry Birds Star Wars",
-      "version" : "1.5.12",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Star.Wars.v1.5.12.ipa",
-      "dev" : "Rovio",
-      "icon" : "https://img.ipa4fun.com/56/fa/23/557138109-logo.jpg",
-      "category" : "Games",
-      "changelog" : "• We addressed some minor issues in order to improve the user experience.",
-      "description" : "JOIN THE ANGRY BIRDS IN THEIR BIGGEST ADVENTURE YET!\n\nA long time ago in a galaxy far, far away... a group of desperate rebel birds faced off against a galactic menace: the Empire’s evil Pigtroopers!\n\nRebel birds, striking from a hidden base, have won their first victory against the evil Imperial Pigs. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the PIG STAR, and are racing to deliver the plans to the Rebel Birds. Now they need your help!\n\nJoin an epic adventure with the Angry Birds in the legendary Star Wars™ universe! Use the Force, wield your lightsaber, and blast away Pigtroopers on an intergalactic journey from the deserts of Tatooine to the depths of the Pig Star -- where you’ll face off against the terrifying Darth Vader, Dark Lord of the Pigs! Can you become a Jedi Master and restore freedom to the galaxy?\n\nTime to grab your lightsaber and join the adventure! May the birds be with you!\n\nHOURS AND HOURS OF ENGAGING GAMEPLAY - Explore more than 100 levels in iconic locations like Tatooine and the Pig Star. Can you dodge Imperial pigs, laser turrets, Tusken Raider pigs, and the dark side of the Force to get all three stars?\n\nNEW GAMEPLAY MECHANICS - Use lightsabers, Blasters and Jedi powers to wreak havoc on the Imperial Pigs!\n\nLEVEL UP YOUR BIRDS - Keep playing and level up your birds to improve their skills!\n\nSECRETS AND HIDDEN GOODIES - Can you unlock all the R2-D2 and C-3PO bonus levels?\n\nFREE UPDATES - This is only the beginning of the epic saga!\n\nTHE MIGHTY FALCON\nStuck on a tricky level? Earn stars and call the Mighty Falcon to rain down the destruction. New goals, achievements and gameplay!\n\nPATH OF THE JEDI\nThe ultimate training ground for a Young Jedi, this episode features 40 Dagobah Challenge Levels with Jedi Master Yoda! Master the Path of the Jedi to unlock the ultimate Lightsaber! Available as an in-app purchase, or by earning three stars on every level.\n\nFollow @angrybirds on Twitter\n\nWatch the videos, read the comics and submit fan art at angrybirds.com/starwars\n\nLike us at facebook.com/angrybirds and say hello!\n\nTerms of Use: https://www.rovio.com/terms-of-use\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
-      "bundleID" : "com.rovio.angrybirdsstarwars",
-      "screenshots" : [
-        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-1.jpg",
-        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-2.jpg",
-        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-3.jpg",
-        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-4.jpg",
-        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-5.jpg"
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Angry.Birds.Star.Wars.v1.5.12.ipa",
+      "description": "JOIN THE ANGRY BIRDS IN THEIR BIGGEST ADVENTURE YET!\n\nA long time ago in a galaxy far, far away... a group of desperate rebel birds faced off against a galactic menace: the Empire’s evil Pigtroopers!\n\nRebel birds, striking from a hidden base, have won their first victory against the evil Imperial Pigs. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the PIG STAR, and are racing to deliver the plans to the Rebel Birds. Now they need your help!\n\nJoin an epic adventure with the Angry Birds in the legendary Star Wars™ universe! Use the Force, wield your lightsaber, and blast away Pigtroopers on an intergalactic journey from the deserts of Tatooine to the depths of the Pig Star -- where you’ll face off against the terrifying Darth Vader, Dark Lord of the Pigs! Can you become a Jedi Master and restore freedom to the galaxy?\n\nTime to grab your lightsaber and join the adventure! May the birds be with you!\n\nHOURS AND HOURS OF ENGAGING GAMEPLAY - Explore more than 100 levels in iconic locations like Tatooine and the Pig Star. Can you dodge Imperial pigs, laser turrets, Tusken Raider pigs, and the dark side of the Force to get all three stars?\n\nNEW GAMEPLAY MECHANICS - Use lightsabers, Blasters and Jedi powers to wreak havoc on the Imperial Pigs!\n\nLEVEL UP YOUR BIRDS - Keep playing and level up your birds to improve their skills!\n\nSECRETS AND HIDDEN GOODIES - Can you unlock all the R2-D2 and C-3PO bonus levels?\n\nFREE UPDATES - This is only the beginning of the epic saga!\n\nTHE MIGHTY FALCON\nStuck on a tricky level? Earn stars and call the Mighty Falcon to rain down the destruction. New goals, achievements and gameplay!\n\nPATH OF THE JEDI\nThe ultimate training ground for a Young Jedi, this episode features 40 Dagobah Challenge Levels with Jedi Master Yoda! Master the Path of the Jedi to unlock the ultimate Lightsaber! Available as an in-app purchase, or by earning three stars on every level.\n\nFollow @angrybirds on Twitter\n\nWatch the videos, read the comics and submit fan art at angrybirds.com/starwars\n\nLike us at facebook.com/angrybirds and say hello!\n\nTerms of Use: https://www.rovio.com/terms-of-use\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand.",
+      "bundleID": "com.rovio.angrybirdsstarwars",
+      "appstore": "com.rovio.angrybirdsstarwars",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "dev": "Rovio",
+      "category": "Games",
+      "changelog": "• We addressed some minor issues in order to improve the user experience.",
+      "version": "1.5.12",
+      "icon": "https://img.ipa4fun.com/56/fa/23/557138109-logo.webp",
+      "screenshots": [
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-1.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-2.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-3.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-4.webp",
+        "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-5.webp"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "name": "Angry Birds Star Wars"
     },
     {
-      "name" : "Pokemon Go (w/ SpooferPro)",
-      "version" : "0.265.0",
-      "down" : "https://cdn.spooferpro.com/SpooferPro-0.265.0-0.137.ipa",
-      "dev" : "SpooferPro Team",
-      "icon" : "https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5e/8f/0e/5e8f0e6c-3478-3bff-c4ad-03f543322688/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "category" : "Games",
-      "changelog" : "• Updated Pokemon Go to v0.265.0",
-      "description" : "SpooferPro for POGO - iOS GPS Spoofer\n\nWith the tools from our Tweak, you can level up faster and catch the best Pokemon anywhere in the World.",
-      "bundleID" : "com.nianticlabs.pokemongo",
-      "appstore" : "com.nianticlabs.pokemongo",
-      "screenshots" : [
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-1.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-2.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-3.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-4.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-5.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-6.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-7.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-8.webp",
-        "https://img.ipa4fun.com/54/5c/d2/1094591345-screenshot-9.webp"
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "version": "0.269.1",
+      "name": "Pokemon Go (w/ SpooferPro)",
+      "category": "Games",
+      "changelog": "• Updated Pokemon Go to v0.269.1",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/392x696bb.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
+      "dev": "SpooferPro Team",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/4e/9a/284e9ad4-9127-8f2a-2f3a-f648fd4ca34b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "description": "SpooferPro for POGO - iOS GPS Spoofer\n\nWith the tools from our Tweak, you can level up faster and catch the best Pokemon anywhere in the World.",
+      "appstore": "com.nianticlabs.pokemongo",
+      "bundleID": "com.nianticlabs.pokemongo"
+    }
+  ],
+  "Entertainment": [
+    {
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
+      ],
+      "appstore": "com.box.hd.flix.drama.hub",
+      "category": "Entertainment",
+      "version": "2.0",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "changelog": "• Updated HD Flix to v2.0",
+      "dev": "Dezokr",
+      "description": "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
+      "bundleID": "com.box.hd.flix.drama.hub",
+      "name": "HD Flix (No Ads)",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa"
+    },
+    {
+      "name": "Deezer++",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "appstore": "com.deezer.Deezer",
+      "description": "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
+      "version": "7.15.0",
+      "screenshots": [
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-1.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-2.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-3.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-4.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-5.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-6.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-7.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-8.webp",
+        "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-9.webp"
+      ],
+      "icon": "https://img.ipa4fun.com/23/af/ed/292738169-icon.webp",
+      "bundleID": "com.deezer.Deezer",
+      "category": "Entertainment",
+      "dev": "iJulioVerne",
+      "changelog": "• Updated Deezer to v7.15.0 - Last working version with tweak."
+    },
+    {
+      "bundleID": "com.spotify.client",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
+      "category": "Entertainment",
+      "changelog": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+      "screenshots": [
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
+      ],
+      "icon": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
+      "name": "Spotify++ (NEW)",
+      "description": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
+      "dev": "Eevee",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "appstore": "com.spotify.client",
+      "version": "9.0.20"
+    },
+    {
+      "appstore": "com.spotify.client-old",
+      "icon": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
+      "changelog": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
+      "bundleID": "com.spotify.client-old",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "screenshots": [
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
+      ],
+      "version": "8.6.42-0.2",
+      "name": "Spotify++ (Old)",
+      "description": "USE THIS IF YOU DO NOT LIKE THE NEW ONE OR IF ITS NOT WORKING\n\nI would highly recommend you use the new Spotify tweak as it has been updated to work on newer Spotify versions and is currently being updated. However this tweak may stop working in the near future as it is an old version.\n\n\n\nSpotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
+      "dev": "iJulioVerne",
+      "category": "Entertainment",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa"
+    },
+    {
+      "dev": "Dayanch96",
+      "icon": "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/nJSE7u7.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5ABmJ5d.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/B1NnJb8.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1l2lFCm.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tZ2yvOY.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ayNc4BB.jpeg"
+      ],
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
+      "changelog": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+      "name": "YouTube++",
+      "appstore": "com.google.ios.youtube",
+      "bundleID": "com.google.ios.youtube",
+      "description": "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "category": "Entertainment",
+      "version": "20.09.3"
+    }
+  ],
+  "Social": [
+    {
+      "description": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
+      "name": "X++",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "dev": "Densor",
+      "bundleID": "com.atebits.Tweetie2",
+      "changelog": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+      "screenshots": [
+        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-1.webp",
+        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-2.webp",
+        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-3.webp",
+        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-4.webp",
+        "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-5.webp"
+      ],
+      "appstore": "com.atebits.Tweetie2",
+      "version": "10.83",
+      "category": "Social",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/HjyhiOC.jpeg"
+    },
+    {
+      "dev": "Michael Lema",
+      "changelog": "• Updated Facebook to v502.2.0",
+      "category": "Social",
+      "description": "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
+      "name": "Facebook++",
+      "icon": "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "screenshots": [
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-1.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-2.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-3.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-4.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
+        "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
+      ],
+      "bundleID": "com.facebook.Facebook",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+      "version": "502.2.0",
+      "appstore": "com.facebook.Facebook"
+    },
+    {
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/PMPlQVa.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YN0hG8M.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pmXZBpB.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bia0rue.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tJtEO1r.jpeg"
+      ],
+      "version": "38.7.0",
+      "icon": "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+      "name": "TikTok++",
+      "dev": "aJBbo",
+      "changelog": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+      "category": "Social",
+      "bundleID": "com.zhiliaoapp.musically",
+      "description": "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
+      "appstore": "com.zhiliaoapp.musically"
+    },
+    {
+      "icon": "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
+      "category": "Social",
+      "description": "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
+      "name": "Instagram++",
+      "screenshots": [
+        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-1.webp",
+        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-2.webp",
+        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-3.webp",
+        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-4.webp",
+        "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-5.webp"
+      ],
+      "version": "356.1.0",
+      "changelog": "• Updated Instagram to v320.0.4",
+      "bundleID": "com.burbn.instagram",
+      "dev": "Fouad Raheb",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+      "appstore": "com.burbn.instagram"
+    },
+    {
+      "name": "BeReal++",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "description": "Tap the “BeReal+” text (It may be blank) at the top of the screen to upload BeReals from the camera roll\n\nView BeReals without posting your own\n• Upload BeReals from the camera roll:\n\t- Post on time, even if you're posting late\n\t- Set a custom location\n\t- Set a custom retake count\n\t- Add what you're currently playing or add a song\n• Download BeReals",
+      "category": "Social",
+      "screenshots": [
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.webp",
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-2.webp",
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-3.webp",
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-4.webp",
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.webp",
+        "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.webp"
+      ],
+      "icon": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
+      "bundleID": "AlexisBarreyat.BeReal",
+      "appstore": "AlexisBarreyat.BeReal",
+      "dev": "Yandevelop",
+      "version": "2.14.2",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
+      "changelog": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8"
+    },
+    {
+      "version": "390.0",
+      "changelog": "• Added Messenger v390.0 (Current working version with crack)",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b6/9b/fb/b69bfb93-41be-bdca-5b4c-c27519b474c2/391db841-c2fe-45c1-bc57-c1fbc16f3b35_iPhone_6.5__-_Screen_1.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9d/ad/c5/9dadc57c-5684-bfc6-b384-bd2a7152bde1/886304e6-ebc9-4468-b0af-5d4b33e434c2_iPhone_6.5__-_Screen_3.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/8d/cb/9e8dcb43-ce79-c4ff-43ef-e3548847d87d/0014da8a-bb5a-4fe1-923d-90c1f05530e9_iPhone_6.5__-_Screen_4.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/85/1f/95/851f951f-6e93-cdac-d2a3-813316c5db57/f121cd69-ba21-47c4-bbd5-c8f5e690f206_iPhone_6.5__-_Screen_5.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/d2/08/e9/d208e9b4-786b-5846-3dd9-e922e3700096/56915158-747c-471d-bb40-fc369ed93d2d_iPhone_6.5__-_Screen_6.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/db/8f/9c/db8f9c34-d7d5-b1f3-2be4-e4fa3a6906f5/ee927225-0cfa-43a1-8b63-f97eabc3237c_iPhone_6.5__-_Screen_7.jpg/460x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/97/49/e59749f5-d582-4840-dbcc-0e72bdbf09ec/8ed80d4b-be7b-4048-a099-d1d0ff5555ab_iPhone_6.5__-_Screen_8.jpg/460x0w.webp"
+      ],
+      "name": "Messenger++",
+      "appstore": "com.facebook.Messenger",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
+      "category": "Social",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/85/36/e6/8536e6ea-7b2d-775a-bd2d-62beac227451/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220-0.png/460x0w.webp",
+      "dev": "Michael Lema",
+      "description": "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
+      "bundleID": "com.facebook.Messenger",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
       }
     }
   ],
-  "Utilities" : [
+  "utilities": [
     {
-      "name" : "iTorrent",
-      "version" : "1.9",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/iTorrent.v1.9.ipa",
-      "dev" : "XITRIX",
-      "icon" : "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png",
-      "category" : "Utilities",
-      "changelog" : "• iTorrent updated to v1.9",
-      "description" : "iTorrent - a torrent client for iOS with Files app support.\n\nWhat this app can do:\n\n• Download in the background\n• Sequential download (use VLC to watch films while loading)\n• Add torrent files from Share menu (Safari and other apps)\n• Add magnet links directly from Safari\n• Store files in Files app (iOS 11+)\n• File sharing directly from app\n• Download torrent by link\n• Download torrent by magnet\n• Send notification on torrent downloaded\n• WebDAV Server\n• Select files to download or not\n• Change UI to dark theme\n• RSS Feed",
-      "bundleID" : "ru.nonamedude.iTorrent",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900000455-iphone-0.png",
-        "https://static.appdb.to/images/cydia-1900000455-iphone-1.png",
-        "https://static.appdb.to/images/cydia-1900000455-iphone-2.png"
+      "name": "TrollInstallerX",
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/aIyWLRP.jpeg",
+        "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/o5REDKV.jpeg"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
+      "changelog": "• Update for Xcode 15.4+ compilation\n• Removing confusing logging around exploit deinitialisation\n• Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2",
+      "bundleID": "com.Alfie.TrollInstallerX",
+      "version": "1.0.3",
+      "appstore": "com.Alfie.TrollInstallerX",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/lQt6WqH.png",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "category": "utilities",
+      "description": "Overview\n\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n• Direct installation: using the kfd kernel exploit, along with the dmaFail PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n\n   - Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n      • Note: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n      • Note: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n• Indirect installation: Using the kfd kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n\n   - Supports iOS 16.5.1 - 16.6.1 (arm64e).\n      • Note: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n\nUsage\n\nTrollInstallerX is extremely easy to use. Simply download the latest release from the Releases page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\nNote: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.",
+      "dev": "alfiecg24",
+      "down": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa"
+    },
+    {
+      "category": "utilities",
+      "dev": "haxi0",
+      "appstore": "org.haxi0.santander",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
+      "icon": "https://static.appdb.to/images/cydia-1900001066-icon-1673074358.png",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "changelog": "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
+      "screenshots": [
+        "https://static.appdb.to/images/cydia-1900001084-iphone-0-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-1-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-2-1674953851.png",
+        "https://static.appdb.to/images/cydia-1900001084-iphone-3-1674953851.png"
+      ],
+      "version": "0.4",
+      "bundleID": "org.haxi0.santander",
+      "name": "Santander (MDC)",
+      "description": "A new, enhanced File Manager for iOS devices with the MDC exploit (IOS 14.0 - 16.1.2) for full file access.\n\nSantander aims to enhance the experience of a file manager on an iOS device, using modern and familiar UI alongside new APIs.\n\nNote: The project is still in beta, and there still quite a lot of bugs to fix & enhancements to make."
+    },
+    {
+      "category": "utilities",
+      "description": "• A pool of feeds. Enjoy a lively feed of various sources to always stay connected with the jailbreak scene. Sources are updated frequently so you don't miss out!\n\n• Powered externally. PostBox enables support for third-party jailbreak sources such as r/jailbreak and iDownloadBlog. More content will be coming soon in the future.\n\n• Repositories are libraries of packages. PostBox contains over 200 repos for centralization and provides a system for efficient repo finding. You can now effortlessly look for information that will previously require painstaking work.\n\n• Intuitive design. Buttons with different contrast prompts users for interaction. Animations, haptics and color changes enable engaging feedback when selected.\n\n• Review packages. The ability to review packages creates new opportunities for users and developers alike. Any package can be reviewed regardless of repository or depiction differences.",
+      "name": "PostBox",
+      "bundleID": "com.simplycode.PostBox",
+      "icon": "https://static.appdb.to/images/cydia-102005202-icon-1661962646.png",
+      "dev": "PostBox Team",
+      "screenshots": [
+        "https://www.postbox.news/assets/images/thumbPhone.webp",
+        "https://www.postbox.news/assets/images/newsPhone.webp",
+        "https://www.postbox.news/assets/images/extractPhone.webp",
+        "https://www.postbox.news/assets/images/repoPhone.webp",
+        "https://www.postbox.news/assets/images/reviewPhone.webp",
+        "https://www.postbox.news/assets/images/storyboardPhone.webp"
+      ],
+      "version": "0.8.1",
+      "appstore": "com.simplycode.PostBox",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PostBox.v0.8.1.ipa",
+      "changelog": "• Added PostBox v0.8.1",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
       }
     },
     {
-      "name" : "ESign",
-      "version" : "4.8.1",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
-      "dev" : "esign.yyyue.xyz",
-      "icon" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
-      "category" : "Utilities",
-      "changelog" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
-      "description" : "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
-      "bundleID" : "p3.xyz.yyyue.esign",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900000897-iphone-0-1670149926.png",
-        "https://static.appdb.to/images/cydia-1900000897-iphone-1-1670149926.png",
-        "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
-        "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
+      "changelog": "• Added Filza (MDC) v3.7",
+      "description": "Filza with MDC Support and No Ads! (Limited Features)\n\nA Powerful File Manager for iPhone, iPad, iPod Touch. Flat design, with best performance:\n\n• File viewers: Media player, Hex editor, Text editor, SQLite Editor, IPA Installer, DEB Installer, Web viewer, Terminal ...\n• SQLite Editor was design for large query, works well with over 100k+ rows in result\n• Execute shell scripts and applications just few tap\n• Cloud services: Dropbox, Box, Google Drive, WebDAV, FTP, SFTP\n• Supports SMB (Windows File Sharing)\n• Search files and folders easily\n• Powerful files copy/move design, just few taps\n• Download normal/html file with easy way: copy html link to Pasteboard, and paste it to destination folder\n• Manage Music library easily: import/export/delete/rename ... just do same as normal files\n• Explore files in list view mode or grid view mode, with thumbnail\n• Compress zip file, decompress zip/7z/rar/tar/tar.gz/gz ...\n• Install and extract DEB/IPA file, view DEB/IPA file information\n• Black theme and white theme, custom folder icon, file",
+      "screenshots": [
+        "https://static.appdb.to/images/cydia-1900001095-iphone-0-1675790063.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-1-1675790064.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-2-1675790064.png",
+        "https://static.appdb.to/images/cydia-1900001095-iphone-3-1675790064.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "appstore": "com.tigisoftware.Filza",
+      "icon": "https://static.appdb.to/images/cydia-1900000088-icon.png",
+      "category": "utilities",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
+      "name": "Filza (MDC)",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "bundleID": "com.tigisoftware.Filza",
+      "version": "3.7",
+      "dev": "TIGI Software"
     },
     {
-      "name" : "AppDB Client",
-      "version" : "1.1.5",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/AppDB.Client.v1.1.5.ipa",
-      "dev" : "ned",
-      "icon" : "https://static.appdb.to/images/cydia-1900000538-icon.png",
-      "category" : "Utilities",
-      "changelog" : "• Switch between available Free Enterprise Signing certificates\n• Support for listing and deleting IPA Cache files\n• Show download statistics on app detail page\n• Fix the bug on status page not showing some values\n• Add black icon\n• Add translations for icon chooser\n• Make disabling ads easy and disabled by default\n• Completely remove old \"PRO\" stuff",
-      "description" : "AppDB Client is a fully featured app aiming to provide a better experience for every appdb user\n\nFeatures:\n\n• Easily browse appdb database with a blazing fast and smooth user interface\n• Control all your appdb linked devices\n• Install any content to your device after authorizing the app\n• Dowload IPAs from the web and install them right away\n• MyAppStore & Automatic Requests integration!\n• A wonderful dark mode\n• iOS 14 homescreen Widgets!\n\nAnd a lot more…",
-      "bundleID" : "it.ned.appdb-ios",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900000538-iphone-0-1615476553.png",
-        "https://static.appdb.to/images/cydia-1900000538-iphone-1-1615476554.png",
-        "https://static.appdb.to/images/cydia-1900000538-iphone-2-1615476554.png",
-        "https://static.appdb.to/images/cydia-1900000538-iphone-3-1615476555.png"
+      "category": "utilities",
+      "name": "Scarlet",
+      "screenshots": [
+        "https://static.appdb.to/images/cydia-1900001033-iphone-0-1669967899.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-1-1669967899.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-2-1669967900.png",
+        "https://static.appdb.to/images/cydia-1900001033-iphone-3-1669967900.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
-    }
-  ],
-  "Jailbreaks/Tweaks" : [
+      "icon": "https://pbs.twimg.com/profile_images/1367920028813787144/cwvAQV9f_400x400.jpg",
+      "version": "1.0",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "description": "NOTE: The developer does not change the version (1.0), so if you see new features online or if the app stops working, uninstall and reinstall the app. The download link on AltStore is from the official website so what you download here will always be the latest.\n\nAlso, getting scarlet from AltStore means that you will never lose the app if you keep refreshing - downloading it from the official website will likely result in the certificate being revoked and you have to wait for it to be resigned.\n\n\nWhy Us?\n\nScarlet offers a new community for developers to submit their paid apps, allowing users to seamlessly protect themselves from revokes. Our goal getting into Scarlet is to give everybody access to a store that doesn't tell people to do the workarounds. Instead, we created an app with every user in mind to bring a smooth experience.\n\n\nTrue repo system\n\nScarlet offers the first ever true repo system for all users.\nWhat is a true repo system ? - Our repo system supports jailbreak repos and jailed users can make use of some features added to the side.\nThese include 1. Force install jailbroken apps while jailed\n2. Automatically/Manually injects the tweak into the app it's meant for(no jailbreak required)\n\nWe include native repos specifically designed for Scarlet. Developers have the ability to choose a dylibs/debs to inject into the specificed app.\n \n\nMade by Pros\n\nScarlet's GUI was designed by Xeviks.\nHe has brought color, vibrancy, movement, and modernity - yet keeping the look simplistic.\nDebianArch is the solo-dev of the Scarlet app and is bringing innovative features to reshape the community that was left unchanged. ",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ScarletAlpha.ipa",
+      "dev": "DebianArch",
+      "changelog": "• Added Ability to import/Export app backups.\n• Added ability to modify IPA (Add/Remove Tweaks etc.)",
+      "bundleID": "com.DebianArch.ScarletPersonalXYZZZ",
+      "appstore": "com.DebianArch.ScarletPersonalXYZZZ"
+    },
     {
-      "name" : "Odyssey",
-      "version" : "1.4.3",
-      "down" : "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
-      "dev" : "Odyssey Team",
-      "icon" : "https://theodyssey.dev/assets/images/icon.png",
-      "category" : "Jailbreaks/Tweaks",
-      "changelog" : "- Update Sileo to 2.3-1",
-      "description" : "Supporting iOS Versions: 13.0 - 13.7.\n\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
-      "bundleID" : "org.coolstar.odyssey",
-      "screenshots" : [
+      "dev": "Odyssey Team",
+      "appstore": "org.coolstar.odyssey",
+      "category": "utilities",
+      "changelog": "• Updated Sileo to 2.3-1",
+      "description": "Supporting iOS Versions: 13.0 - 13.7.\n\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
+      "version": "1.4.3",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "name": "Odyssey",
+      "icon": "https://theodyssey.dev/assets/images/icon.png",
+      "bundleID": "org.coolstar.odyssey",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Odyssey.Jailbreak.v1.4.3.ipa",
+      "screenshots": [
         "https://theodyssey.dev/assets/images/ss-1.png",
         "https://theodyssey.dev/assets/images/ss-2.png",
         "https://theodyssey.dev/assets/images/ss-3.png"
-      ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      ]
     },
     {
-      "name" : "Taurine",
-      "version" : "1.1.6",
-      "down" : "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
-      "dev" : "Odyssey Team",
-      "icon" : "https://taurine.app/assets/images/icon.png",
-      "category" : "Jailbreaks/Tweaks",
-      "changelog" : "• Backports DER entitlement fixes from Taurine15\n• Backports codesignature fixes from Taurine15\n• Backports various other fixes from Taurine15",
-      "description" : "Taurine is an iOS 14.0-14.3 jailbreak, utilizing Procursus and Libhooker.",
-      "bundleID" : "org.coolstar.taurine",
-      "screenshots" : [
+      "description": "Taurine is an iOS 14.0-14.8.1 jailbreak, utilizing Procursus and Libhooker.",
+      "bundleID": "org.coolstar.taurine",
+      "category": "utilities",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "screenshots": [
         "https://taurine.app/assets/images/ss-1.png",
         "https://taurine.app/assets/images/ss-2.png",
         "https://taurine.app/assets/images/ss-3.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "name": "Taurine",
+      "changelog": "• Fix kfd change being implemented incorrectly",
+      "dev": "Odyssey Team",
+      "version": "1.1.6",
+      "appstore": "org.coolstar.taurine",
+      "icon": "https://taurine.app/assets/images/icon.png",
+      "down": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa"
     },
     {
-      "name" : "unc0ver",
-      "version" : "8.0.2",
-      "down" : "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
-      "dev" : "Pwn20wnd",
-      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
-      "category" : "Jailbreaks/Tweaks",
-      "changelog" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
-      "description" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
-      "bundleID" : "science.xnu.undecimus",
-      "screenshots" : [
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "description": "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
+      "changelog": "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
+      "category": "utilities",
+      "bundleID": "science.xnu.undecimus",
+      "version": "8.0.2",
+      "appstore": "science.xnu.undecimus",
+      "dev": "Pwn20wnd",
+      "screenshots": [
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ItMaRRV.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bjzyqpY.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
+      "name": "unc0ver"
     },
     {
-      "name" : "Cowabunga",
-      "version" : "10.1.1",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.1.1.ipa",
-      "dev" : "Leminlimez",
-      "icon" : "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
-      "category" : "Jailbreaks/Tweaks",
-      "changelog" : "• Added remove 3 app limit (WDBRemoveThreeAppLimit)\n• Added ability to edit secondary carrier name separately\n• Importing operations no longer includes the backup file for changes in /var for safety reasons (Model Name Changer and other operations that edit the mobilegestalt plist should no longer brick devices/cause activation locks)\n• Fixed generate padding button not showing up on file path operations",
-      "description" : "A Jailed toolbox application for iOS 14.0-15.7.1 and 16.0-16.1.2 using CVE-2022-46689\n\nEnable Notifications and set Location Services to Always to keep the app running in the background, keep the dock and folder background hidden, and prevent some sound effects from reverting.\n\nWarning: Some changes are permanent on iOS 14.0-14.8.1\n\n\nFeatures:\n\n• Running in the background to keep some changes from reverting\n\t- From running tests, battery loss is negligible (~1% per day on frequent), but that may vary \n\nSpringboard\n\n• Hide dock\n• Hide home bar\n• Hide folder backgrounds\n• Disable folder background blur\n• Disable app switcher blur\n• Hide CC Module Backgrounds\n• Hide Notification Banner Background\n\nApp Icon Themes\n\n• Importing folders of app icons\n• No WebClips!\n\nAudio\n\n• Custom sound effects\n• Upload your own sounds (nearly every audio format allowed!)\n• Max upload audio size of 150 kb, but will not apply for audio if too big!\n\nPasscode\n\n• Customize passcode keys\n• Import passcode keys files (.passthm) from TrollTools\n\nLocks\n\n• Importing locks from TrollLock\n• Custom number of frames + custom animation speeds (see below)\n\nExplore\n\n• Find and download themes for passcodes, locks, and app icons!\n• If you would like to submit your own works, please join the discord\n\nStatus Bar\n\n• Change carrier name\n• Change battery display detail\n• Change time text\n• Change breadcrumb text\n• Show numeric WiFi/Cellular strength\n• Hide many icons in the status bar\n\nOther Tools\n\n• Custom Fonts\n• Lock Screen Footnote\n• Notification Badges Changer (iOS 14-15 ONLY)\n• Springboard Colors\n• Settings App Customizer\n• Calculator Error Message\n\nMisc\n\n• Disable shortcut banners\n• Turn shortcuts into app clips\n• Supervise Device Warning: Use the features below at your own risk!\n• Change system version (shows in settings, iOS 15+)\n• Enable iPhone X Gestures\n• Enable Dynamic Island (iOS 16+)\n\nExtra Tools\n\n• Lock Screen Footnote\n• No Lock On Respring\n• Disable Low Power Alert",
-      "bundleID" : "com.leemin.Cowabunga",
-      "screenshots" : [
+      "down": "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+      "description": "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
+      "appstore": "com.opa334.Dopamine",
+      "name": "Dopamine",
+      "changelog": "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
+      "category": "utilities",
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "version": "2.4.1",
+      "bundleID": "com.opa334.Dopamine",
+      "dev": "opa334",
+      "screenshots": [
+        "https://ellekit.space/dopamine/assets/screenshot_one.png",
+        "https://ellekit.space/dopamine/assets/screenshot_two.png"
+      ]
+    },
+    {
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "bundleID": "ru.nonamedude.iTorrent",
+      "icon": "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png",
+      "appstore": "ru.nonamedude.iTorrent",
+      "screenshots": [
+        "https://static.appdb.to/images/cydia-1900000455-iphone-0.png",
+        "https://static.appdb.to/images/cydia-1900000455-iphone-1.png",
+        "https://static.appdb.to/images/cydia-1900000455-iphone-2.png"
+      ],
+      "name": "iTorrent",
+      "description": "iTorrent - a torrent client for iOS with Files app support.\n\nWhat this app can do:\n\n• Download in the background\n• Sequential download (use VLC to watch films while loading)\n• Add torrent files from Share menu (Safari and other apps)\n• Add magnet links directly from Safari\n• Store files in Files app (iOS 11+)\n• File sharing directly from app\n• Download torrent by link\n• Download torrent by magnet\n• Send notification on torrent downloaded\n• WebDAV Server\n• Select files to download or not\n• Change UI to dark theme\n• RSS Feed",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/iTorrent.v1.9.ipa",
+      "changelog": "• iTorrent updated to v1.9",
+      "category": "utilities",
+      "dev": "XITRIX",
+      "version": "1.9"
+    },
+    {
+      "bundleID": "com.leemin.Cowabunga",
+      "category": "utilities",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.2.0.ipa",
+      "appstore": "com.leemin.Cowabunga",
+      "name": "Cowabunga",
+      "changelog": "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "description": "A Jailed toolbox application for iOS 14.0-15.7.1 and 16.0-16.1.2 using CVE-2022-46689\n\nEnable Notifications and set Location Services to Always to keep the app running in the background, keep the dock and folder background hidden, and prevent some sound effects from reverting.\n\nWarning: Some changes are permanent on iOS 14.0-14.8.1\n\n\nFeatures:\n\n• Running in the background to keep some changes from reverting\n\t- From running tests, battery loss is negligible (~1% per day on frequent), but that may vary \n\nSpringboard\n\n• Hide dock\n• Hide home bar\n• Hide folder backgrounds\n• Disable folder background blur\n• Disable app switcher blur\n• Hide CC Module Backgrounds\n• Hide Notification Banner Background\n\nApp Icon Themes\n\n• Importing folders of app icons\n• No WebClips!\n\nAudio\n\n• Custom sound effects\n• Upload your own sounds (nearly every audio format allowed!)\n• Max upload audio size of 150 kb, but will not apply for audio if too big!\n\nPasscode\n\n• Customize passcode keys\n• Import passcode keys files (.passthm) from TrollTools\n\nLocks\n\n• Importing locks from TrollLock\n• Custom number of frames + custom animation speeds (see below)\n\nExplore\n\n• Find and download themes for passcodes, locks, and app icons!\n• If you would like to submit your own works, please join the discord\n\nStatus Bar\n\n• Change carrier name\n• Change battery display detail\n• Change time text\n• Change breadcrumb text\n• Show numeric WiFi/Cellular strength\n• Hide many icons in the status bar\n\nOther Tools\n\n• Custom Fonts\n• Lock Screen Footnote\n• Notification Badges Changer (iOS 14-15 ONLY)\n• Springboard Colors\n• Settings App Customizer\n• Calculator Error Message\n\nMisc\n\n• Disable shortcut banners\n• Turn shortcuts into app clips\n• Supervise Device Warning: Use the features below at your own risk!\n• Change system version (shows in settings, iOS 15+)\n• Enable iPhone X Gestures\n• Enable Dynamic Island (iOS 16+)\n\nExtra Tools\n\n• Lock Screen Footnote\n• No Lock On Respring\n• Disable Low Power Alert",
+      "dev": "Leminlimez",
+      "version": "10.2.0",
+      "icon": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
+      "screenshots": [
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Home.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Tools.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/SpringboardTools.PNG",
@@ -873,13 +731,57 @@
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/LS_Footnote.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Misc.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Extra_Tools.PNG"
+      ]
+    },
+    {
+      "version": "4.8.1",
+      "screenshots": [
+        "https://static.appdb.to/images/cydia-1900000897-iphone-0-1670149926.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-1-1670149926.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
+        "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
       ],
-      "contact" : {
-        "web" : "https://bit.ly/wuxus-sources",
-        "twitter" : "https://bit.ly/wuxustwitter"
-      }
+      "changelog": "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
+      "description": "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
+      "name": "ESign",
+      "category": "utilities",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
+      "bundleID": "p3.xyz.yyyue.esign",
+      "dev": "esign.yyyue.xyz",
+      "icon": "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "appstore": "p3.xyz.yyyue.esign"
     }
   ],
-  "Emulators" : [],
-  "Other" : []
+  "Other": [
+    {
+      "dev": "Rov3r",
+      "changelog": "• Updated SoundCloud to v7.65.4",
+      "category": "Other",
+      "description": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
+      "version": "7.65.4",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+      "contact": {
+        "web": "https://bit.ly/wuxus-sources",
+        "discord": "https://bit.ly/wuxuslibrary-discord"
+      },
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
+      "bundleID": "com.soundcloud.TouchApp",
+      "appstore": "com.soundcloud.TouchApp",
+      "name": "SoundCloud++",
+      "screenshots": [
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-4.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-5.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
+        "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
+      ]
+    }
+  ]
 }
