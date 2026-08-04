@@ -1,55 +1,8 @@
 {
-  "name" : "WuXu's Library++",
-  "identifier" : "com.wuxulibs.wuxuslibrary++",
-  "subtitle" : "The Most Up-To-Date IPA Library on AltStore.",
-  "description" : "Welcome to WuXu’s Library++!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
-  "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
-  "headerURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
-  "website" : "https://bit.ly/wuxus-sources",
-  "tintColor" : "d81a14",
-  "featuredApps" : [
-    "com.spotify.client",
-    "com.burbn.instagram",
-    "com.google.ios.youtube",
-    "com.box.hd.flix.drama.hub",
-    "com.duolingo.DuolingoMobile"
-  ],
-  "apps" : [
+  "apps": [
     {
-      "name" : "HD Flix (No Ads)",
-      "bundleIdentifier" : "com.box.hd.flix.drama.hub",
-      "developerName" : "Dezokr",
-      "subtitle" : "The All-In-One Movie app for iOS",
-      "localizedDescription" : "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
-      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
-      "tintColor" : "a01916",
-      "category" : "Entertainment",
-      "screenshotURLs" : [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
-      ],
-      "version" : "2.0",
-      "versionDate" : "2025-03-10",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-      "versionDescription" : "• Updated HD Flix to v2.0",
-      "size" : 2800000,
-      "versions" : [
-        {
-          "version" : "2.0",
-          "date" : "2025-03-10",
-          "localizedDescription" : "• Updated HD Flix",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-          "size" : 2800000
-        },
-        {
-          "version" : "1.0",
-          "date" : "2024-05-11",
-          "localizedDescription" : "• Added HD Flix v5.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.v5.0.ipa",
-          "size" : 2940000
-        }
-      ],
-      "appPermissions" : {
-        "entitlements" : [
+      "appPermissions": {
+        "entitlements": [
           "com.apple.security.application-groups",
           "com.apple.developer.associated-domains",
           "com.apple.developer.driverkit.allow-third-party-userclients",
@@ -77,86 +30,118 @@
           "com.apple.developer.weatherkit",
           "keychain-access-groups"
         ],
-        "privacy" : {
-          "NSCameraUsageDescription" : "App uses the camera for capturing photos or videos.",
-          "NSLocationWhenInUseUsageDescription" : "App uses location when on app.",
-          "NSMicrophoneUsageDescription" : "App uses the microphone to record audio.",
-          "NSPhotoLibraryUsageDescription" : "App accesses the user's photo library.",
-          "NSUserTrackingUsageDescription" : "App tracks user activity for advertising purposes."
+        "privacy": {
+          "NSCameraUsageDescription": "App uses the camera for capturing photos or videos.",
+          "NSLocationWhenInUseUsageDescription": "App uses location when on app.",
+          "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
+          "NSPhotoLibraryUsageDescription": "App accesses the user's photo library.",
+          "NSUserTrackingUsageDescription": "App tracks user activity for advertising purposes."
         }
       },
-      "beta" : false
+      "beta": false,
+      "bundleIdentifier": "com.box.hd.flix.drama.hub",
+      "category": "Entertainment",
+      "developerName": "Dezokr",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
+      "localizedDescription": "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
+      "name": "HD Flix (No Ads)",
+      "screenshotURLs": [
+        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
+      ],
+      "size": 2800000,
+      "subtitle": "The All-In-One Movie app for iOS",
+      "tintColor": "a01916",
+      "version": "2.0",
+      "versionDate": "2025-03-10",
+      "versionDescription": "• Updated HD Flix to v2.0",
+      "versions": [
+        {
+          "date": "2025-03-10",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
+          "localizedDescription": "• Updated HD Flix",
+          "size": 2800000,
+          "version": "2.0"
+        },
+        {
+          "date": "2024-05-11",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.v5.0.ipa",
+          "localizedDescription": "• Added HD Flix v5.0",
+          "size": 2940000,
+          "version": "1.0"
+        }
+      ]
     },
     {
-      "name" : "X++",
-      "bundleIdentifier" : "com.atebits.Tweetie2",
-      "developerName" : "Densor",
-      "subtitle" : "An new tweak for X!",
-      "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
-      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/HjyhiOC.jpeg",
-      "tintColor" : "030303",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "category": "Social",
+      "developerName": "Densor",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/HjyhiOC.jpeg",
+      "localizedDescription": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
+      "name": "X+",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-1.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-2.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-3.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-4.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-5.webp"
       ],
-      "version" : "10.83",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
-      "versionDescription" : "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
-      "size" : 119000000,
-      "versions" : [
+      "size": 119000000,
+      "subtitle": "An new tweak for X!",
+      "tintColor": "030303",
+      "version": "10.83",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+      "versions": [
         {
-          "version" : "10.83",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
-          "size" : 119000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+          "localizedDescription": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+          "size": 119000000,
+          "version": "10.83"
         },
         {
-          "version" : "10.62",
-          "date" : "2024-10-09",
-          "localizedDescription" : "• Updated X to v10.62\n• Updated BHTwitter to v4.3-4",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.62.+.BHTwitter.v4.3-4.ipa",
-          "size" : 119000000
+          "date": "2024-10-09",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.62.+.BHTwitter.v4.3-4.ipa",
+          "localizedDescription": "• Updated X to v10.62\n• Updated BHTwitter to v4.3-4",
+          "size": 119000000,
+          "version": "10.62"
         },
         {
-          "version" : "10.39.0",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated X to v10.39.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.39.+.BHX.v4.3.ipa",
-          "size" : 93000000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.39.+.BHX.v4.3.ipa",
+          "localizedDescription": "• Updated X to v10.39.0",
+          "size": 93000000,
+          "version": "10.39.0"
         },
         {
-          "version" : "10.22.0",
-          "date" : "2024-01-07",
-          "localizedDescription" : "• Updated X to v10.22.0",
-          "downloadURL" : "https://starfilesdl.com/file/m1rSEUEHz83q?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaZE1VdHZLN0trTng2SUY3NTdWekErY2wwOTYwMlBYRUJvMFJKVjlqLyszWXQ1d2pxeHhhc2dJQVBRQ28zSDFVUXdqYTRSMXlDajcySmxBcG9lRlZYVnVxaDA1ZWxsNjJnWCtSNlFqWVpXdmNDZWJBNFpmY3VZZVNGa1BsRFYyQ01nPT0%3D",
-          "size" : 93000000
+          "date": "2024-01-07",
+          "downloadURL": "https://starfilesdl.com/file/m1rSEUEHz83q?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaZE1VdHZLN0trTng2SUY3NTdWekErY2wwOTYwMlBYRUJvMFJKVjlqLyszWXQ1d2pxeHhhc2dJQVBRQ28zSDFVUXdqYTRSMXlDajcySmxBcG9lRlZYVnVxaDA1ZWxsNjJnWCtSNlFqWVpXdmNDZWJBNFpmY3VZZVNGa1BsRFYyQ01nPT0%3D",
+          "localizedDescription": "• Updated X to v10.22.0",
+          "size": 93000000,
+          "version": "10.22.0"
         },
         {
-          "version" : "10.10.0",
-          "date" : "2023-10-19",
-          "localizedDescription" : "• Updated X to v10.10.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.X.v10.10.+.BHX.v4.0.ipa",
-          "size" : 93000000
+          "date": "2023-10-19",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.X.v10.10.+.BHX.v4.0.ipa",
+          "localizedDescription": "• Updated X to v10.10.0",
+          "size": 93000000,
+          "version": "10.10.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Facebook++",
-      "bundleIdentifier" : "com.facebook.Facebook",
-      "developerName" : "Michael Lema",
-      "subtitle" : "Facebook with a number of new features!",
-      "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
-      "iconURL" : "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
-      "tintColor" : "0c63f9",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.facebook.Facebook",
+      "category": "Social",
+      "developerName": "Michael Lema",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+      "iconURL": "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
+      "localizedDescription": "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
+      "name": "Facebook++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-1.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-2.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-3.webp",
@@ -164,138 +149,138 @@
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
       ],
-      "version" : "502.2.0",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
-      "versionDescription" : "• Updated Facebook to v502.2.0",
-      "size" : 137000000,
-      "versions" : [
+      "size": 137000000,
+      "subtitle": "Facebook with a number of new features!",
+      "tintColor": "0c63f9",
+      "version": "502.2.0",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated Facebook to v502.2.0",
+      "versions": [
         {
-          "version" : "502.2.0",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated Facebook to v502.2.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
-          "size" : 137000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+          "localizedDescription": "• Updated Facebook to v502.2.0",
+          "size": 137000000,
+          "version": "502.2.0"
         },
         {
-          "version" : "461.0.3",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated Facebook to v461.0.3",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v461.0.3.+.Wolf.v2.1.ipa",
-          "size" : 137000000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v461.0.3.+.Wolf.v2.1.ipa",
+          "localizedDescription": "• Updated Facebook to v461.0.3",
+          "size": 137000000,
+          "version": "461.0.3"
         },
         {
-          "version" : "438.2",
-          "date" : "2024-01-07",
-          "localizedDescription" : "• Updated Facebook to v438.2",
-          "downloadURL" : "https://starfilesdl.com/file/ifrp2geRDxVH?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaUkVlN3hwYmJ3b1dibXNIUDNMLzdzTEthQXRjdFh3WlNWUXBaTXhiMVp1cHVHcDZNZlRpa1lxZ21nZEZmODFqdVljT3I2T0JweDZoODFpN0hOZG12TThwdUNac29ZNm5XZVNUakNrVmlwOEdJSnh5RHV1MEE3d0d4ajJsbGNGanpnPT0%3D",
-          "size" : 133000000
+          "date": "2024-01-07",
+          "downloadURL": "https://starfilesdl.com/file/ifrp2geRDxVH?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaUkVlN3hwYmJ3b1dibXNIUDNMLzdzTEthQXRjdFh3WlNWUXBaTXhiMVp1cHVHcDZNZlRpa1lxZ21nZEZmODFqdVljT3I2T0JweDZoODFpN0hOZG12TThwdUNac29ZNm5XZVNUakNrVmlwOEdJSnh5RHV1MEE3d0d4ajJsbGNGanpnPT0%3D",
+          "localizedDescription": "• Updated Facebook to v438.2",
+          "size": 133000000,
+          "version": "438.2"
         },
         {
-          "version" : "435.2",
-          "date" : "2023-10-19",
-          "localizedDescription" : "• Updated Facebook to v435.2",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v435.2.+.Wolf.v2.1.ipa",
-          "size" : 133000000
+          "date": "2023-10-19",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v435.2.+.Wolf.v2.1.ipa",
+          "localizedDescription": "• Updated Facebook to v435.2",
+          "size": 133000000,
+          "version": "435.2"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "TikTok++",
-      "bundleIdentifier" : "com.zhiliaoapp.musically",
-      "developerName" : "aJBbo",
-      "subtitle" : "TikTok with added features.",
-      "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
-      "iconURL" : "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
-      "tintColor" : "0b0b0b",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "category": "Social",
+      "developerName": "aJBbo",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+      "iconURL": "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
+      "localizedDescription": "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
+      "name": "TikTok++",
+      "screenshotURLs": [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/PMPlQVa.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YN0hG8M.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pmXZBpB.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bia0rue.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tJtEO1r.jpeg"
       ],
-      "version" : "38.7.0",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
-      "versionDescription" : "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
-      "size" : 226000000,
-      "versions" : [
+      "size": 226000000,
+      "subtitle": "TikTok with added features.",
+      "tintColor": "0b0b0b",
+      "version": "38.7.0",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+      "versions": [
         {
-          "version" : "38.7.0",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
-          "size" : 226000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+          "localizedDescription": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+          "size": 226000000,
+          "version": "38.7.0"
         },
         {
-          "version" : "32.2.0",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated TikTok to v32.2.0\n• Replaced TikTokLRD with BHTikTok",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v32.2.0.+.BH+.v2.3.ipa",
-          "size" : 226000000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v32.2.0.+.BH+.v2.3.ipa",
+          "localizedDescription": "• Updated TikTok to v32.2.0\n• Replaced TikTokLRD with BHTikTok",
+          "size": 226000000,
+          "version": "32.2.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Instagram++",
-      "bundleIdentifier" : "com.burbn.instagram",
-      "developerName" : "Fouad Raheb",
-      "subtitle" : "A must-have tweak for Instagram users!",
-      "localizedDescription" : "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
-      "iconURL" : "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
-      "tintColor" : "d111c9",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.burbn.instagram",
+      "category": "Social",
+      "developerName": "Fouad Raheb",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+      "iconURL": "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
+      "localizedDescription": "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
+      "name": "Instagram++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-1.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-2.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-3.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-4.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-5.webp"
       ],
-      "version" : "356.1.0",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
-      "versionDescription" : "• Updated Instagram to v320.0.4",
-      "size" : 117000000,
-      "versions" : [
+      "size": 117000000,
+      "subtitle": "A must-have tweak for Instagram users!",
+      "tintColor": "d111c9",
+      "version": "356.1.0",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated Instagram to v320.0.4",
+      "versions": [
         {
-          "version" : "356.1.0",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated Instagram to v356.1.0\n• Replaced old instagram tweak with Regram",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
-          "size" : 117000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+          "localizedDescription": "• Updated Instagram to v356.1.0\n• Replaced old instagram tweak with Regram",
+          "size": 117000000,
+          "version": "356.1.0"
         },
         {
-          "version" : "310.0.4",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated Instagram to v320.0.4",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v310.0.4.+.Rocket+.v3.8.18.+.Plus+.v2.5.0K.ipa",
-          "size" : 117000000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v310.0.4.+.Rocket+.v3.8.18.+.Plus+.v2.5.0K.ipa",
+          "localizedDescription": "• Updated Instagram to v320.0.4",
+          "size": 117000000,
+          "version": "310.0.4"
         },
         {
-          "version" : "301.1",
-          "date" : "2023-10-19",
-          "localizedDescription" : "• Updated Instagram to v303.1",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v301.1.+.Rocket.v3.8.13K.+.Plus.v2.5.0K.ipa",
-          "size" : 107000000
+          "date": "2023-10-19",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v301.1.+.Rocket.v3.8.13K.+.Plus.v2.5.0K.ipa",
+          "localizedDescription": "• Updated Instagram to v303.1",
+          "size": 107000000,
+          "version": "301.1"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "MyFitnessPal++",
-      "bundleIdentifier" : "com.myfitnesspal.mfp",
-      "developerName" : "Strejda603",
-      "subtitle" : "MyFitnessPal With Premium Activated.",
-      "localizedDescription" : "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
-      "iconURL" : "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp",
-      "tintColor" : "0463ea",
-      "category" : "Lifestyle",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "category": "Lifestyle",
+      "developerName": "Strejda603",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+      "iconURL": "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp",
+      "localizedDescription": "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
+      "name": "MyFitnessPal++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-1.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-2.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-3.webp",
@@ -307,53 +292,53 @@
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-9.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-10.webp"
       ],
-      "version" : "25.8.0",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
-      "versionDescription" : "• Updated MyFitnessPal to v25.8.0",
-      "size" : 76600000,
-      "versions" : [
+      "size": 76600000,
+      "subtitle": "MyFitnessPal With Premium Activated.",
+      "tintColor": "0463ea",
+      "version": "25.8.0",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated MyFitnessPal to v25.8.0",
+      "versions": [
         {
-          "version" : "25.8.0",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated MyFitnessPal to v25.8.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
-          "size" : 76600000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+          "localizedDescription": "• Updated MyFitnessPal to v25.8.0",
+          "size": 76600000,
+          "version": "25.8.0"
         },
         {
-          "version" : "23.24.5",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated MyFitnessPal to v23.24.5",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.24.5.ipa",
-          "size" : 76600000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.24.5.ipa",
+          "localizedDescription": "• Updated MyFitnessPal to v23.24.5",
+          "size": 76600000,
+          "version": "23.24.5"
         },
         {
-          "version" : "23.20.5",
-          "date" : "2023-10-21",
-          "localizedDescription" : "• Updated MyFitnessPal to v23.20.5",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.20.5.ipa",
-          "size" : 76600000
+          "date": "2023-10-21",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.20.5.ipa",
+          "localizedDescription": "• Updated MyFitnessPal to v23.20.5",
+          "size": 76600000,
+          "version": "23.20.5"
         },
         {
-          "version" : "23.6.5",
-          "date" : "2023-04-06",
-          "localizedDescription" : "• Updated MyFitnessPal to v23.6.5",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.6.5.ipa",
-          "size" : 53561262
+          "date": "2023-04-06",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.6.5.ipa",
+          "localizedDescription": "• Updated MyFitnessPal to v23.6.5",
+          "size": 53561262,
+          "version": "23.6.5"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "BeReal++",
-      "bundleIdentifier" : "AlexisBarreyat.BeReal",
-      "developerName" : "Yandevelop",
-      "subtitle" : "See your friends BeReals without posting anything!",
-      "localizedDescription" : "Tap the “BeReal+” text (It may be blank) at the top of the screen to upload BeReals from the camera roll\n\nView BeReals without posting your own\n• Upload BeReals from the camera roll:\n\t- Post on time, even if you're posting late\n\t- Set a custom location\n\t- Set a custom retake count\n\t- Add what you're currently playing or add a song\n• Download BeReals",
-      "iconURL" : "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
-      "tintColor" : "0b0b0b",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "AlexisBarreyat.BeReal",
+      "category": "Social",
+      "developerName": "Yandevelop",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
+      "iconURL": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
+      "localizedDescription": "Tap the “BeReal+” text (It may be blank) at the top of the screen to upload BeReals from the camera roll\n\nView BeReals without posting your own\n• Upload BeReals from the camera roll:\n\t- Post on time, even if you're posting late\n\t- Set a custom location\n\t- Set a custom retake count\n\t- Add what you're currently playing or add a song\n• Download BeReals",
+      "name": "BeReal++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-2.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-3.webp",
@@ -361,46 +346,46 @@
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.webp"
       ],
-      "version" : "2.14.2",
-      "versionDate" : "2024-10-09",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
-      "versionDescription" : "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
-      "size" : 63800000,
-      "versions" : [
+      "size": 63800000,
+      "subtitle": "See your friends BeReals without posting anything!",
+      "tintColor": "0b0b0b",
+      "version": "2.14.2",
+      "versionDate": "2024-10-09",
+      "versionDescription": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
+      "versions": [
         {
-          "version" : "2.14.2",
-          "date" : "2024-10-09",
-          "localizedDescription" : "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
-          "size" : 63800000
+          "date": "2024-10-09",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
+          "localizedDescription": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
+          "size": 63800000,
+          "version": "2.14.2"
         },
         {
-          "version" : "2.13.1",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Updated BeReal to v2.13.1\n• Updated Bea to v1.3.6",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.13.1.+.Bea.v1.3.6.ipa",
-          "size" : 35700000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.13.1.+.Bea.v1.3.6.ipa",
+          "localizedDescription": "• Updated BeReal to v2.13.1\n• Updated Bea to v1.3.6",
+          "size": 35700000,
+          "version": "2.13.1"
         },
         {
-          "version" : "1.15.0",
-          "date" : "2023-10-21",
-          "localizedDescription" : "• Updated BeReal to v1.15.0\n• Updated Bea to v1.3.2",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v1.15.0.+.Bea.v1.3.2.ipa",
-          "size" : 29200000
+          "date": "2023-10-21",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v1.15.0.+.Bea.v1.3.2.ipa",
+          "localizedDescription": "• Updated BeReal to v1.15.0\n• Updated Bea to v1.3.2",
+          "size": 29200000,
+          "version": "1.15.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Deezer++",
-      "bundleIdentifier" : "com.deezer.Deezer",
-      "developerName" : "iJulioVerne",
-      "subtitle" : "Deezer with premium activated!",
-      "localizedDescription" : "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
-      "iconURL" : "https://img.ipa4fun.com/23/af/ed/292738169-icon.webp",
-      "tintColor" : "8c4384",
-      "category" : "Entertainment",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.deezer.Deezer",
+      "category": "Entertainment",
+      "developerName": "iJulioVerne",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
+      "iconURL": "https://img.ipa4fun.com/23/af/ed/292738169-icon.webp",
+      "localizedDescription": "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
+      "name": "Deezer++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-1.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-2.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-3.webp",
@@ -411,31 +396,31 @@
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-8.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-9.webp"
       ],
-      "version" : "7.15.0",
-      "versionDate" : "2023-10-22",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
-      "versionDescription" : "• Updated Deezer to v7.15.0 - Last working version with tweak.",
-      "size" : 29200000,
-      "versions" : [
+      "size": 29200000,
+      "subtitle": "Deezer with premium activated!",
+      "tintColor": "8c4384",
+      "version": "7.15.0",
+      "versionDate": "2023-10-22",
+      "versionDescription": "• Updated Deezer to v7.15.0 - Last working version with tweak.",
+      "versions": [
         {
-          "version" : "7.15.0",
-          "date" : "2023-10-22",
-          "localizedDescription" : "• Updated Deezer to v7.15.0 - Last working version with tweak.",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
-          "size" : 29200000
+          "date": "2023-10-22",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
+          "localizedDescription": "• Updated Deezer to v7.15.0 - Last working version with tweak.",
+          "size": 29200000,
+          "version": "7.15.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "SoundCloud++",
-      "bundleIdentifier" : "com.soundcloud.TouchApp",
-      "developerName" : "Rov3r",
-      "subtitle" : "SoundCloud with no ads! Read Description.",
-      "localizedDescription" : "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
-      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
-      "tintColor" : "0a0a0a",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "developerName": "Rov3r",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
+      "localizedDescription": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
+      "name": "SoundCloud++",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.webp",
@@ -445,104 +430,39 @@
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
       ],
-      "version" : "7.65.4",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
-      "versionDescription" : "• Updated SoundCloud to v7.65.4",
-      "size" : 57600000,
-      "versions" : [
+      "size": 57600000,
+      "subtitle": "SoundCloud with no ads! Read Description.",
+      "tintColor": "0a0a0a",
+      "version": "7.65.4",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated SoundCloud to v7.65.4",
+      "versions": [
         {
-          "version" : "7.65.4",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated SoundCloud to v7.65.4",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
-          "size" : 57600000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+          "localizedDescription": "• Updated SoundCloud to v7.65.4",
+          "size": 57600000,
+          "version": "7.65.4"
         },
         {
-          "version" : "7.14.0",
-          "date" : "2024-05-10",
-          "localizedDescription" : "• Updated SoundCloud to v7.14.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.14.0.+.SCMusicPlus.v2.2.1.ipa",
-          "size" : 57600000
+          "date": "2024-05-10",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.14.0.+.SCMusicPlus.v2.2.1.ipa",
+          "localizedDescription": "• Updated SoundCloud to v7.14.0",
+          "size": 57600000,
+          "version": "7.14.0"
         },
         {
-          "version" : "7.2.0",
-          "date" : "2023-10-22",
-          "localizedDescription" : "• Updated SoundCloud to v7.2.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.2.0.+.SCMusicPlus.v2.2.1.ipa",
-          "size" : 47600000
+          "date": "2023-10-22",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.2.0.+.SCMusicPlus.v2.2.1.ipa",
+          "localizedDescription": "• Updated SoundCloud to v7.2.0",
+          "size": 47600000,
+          "version": "7.2.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Spotify++ (NEW)",
-      "bundleIdentifier" : "com.spotify.client",
-      "developerName" : "Eevee",
-      "subtitle" : "A new and improved Spotify tweak!",
-      "localizedDescription" : "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
-      "iconURL" : "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "tintColor" : "1fd362",
-      "category" : "Entertainment",
-      "screenshotURLs" : [
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
-      ],
-      "version" : "9.0.20",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
-      "versionDescription" : "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
-      "size" : 76500000,
-      "versions" : [
-        {
-          "version" : "9.0.20",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
-          "size" : 76500000
-        },
-        {
-          "version" : "8.9.80",
-          "date" : "2024-10-09",
-          "localizedDescription" : "(5.4 - Current)\n\n• Updated Ukrainian localization by @LIKVIDATOR1337\n• Updated Turkish localization by @gototheskinny\n• Updated Danish localization by @UnexcitingDean\n\n(5.3)\n\n• Liked Songs on artist page\n• Improved Reset Data option (now clears /Library/Caches/ too, progress animation)\n• Updated dumped configuration; fixed app crashes when clicking on three dots on song page\n• Updated swift-protobuf to 1.28.1 and Swift to version 6 (Xcode 16.0)\n• Fixed Download action app crashes, improved its hooking logic\n• PetitLyrics is now available for everyone\n• Updated Simplified Chinese localization by @xiangfeidexiaohuo\n• Updated Traditional Chinese localizaton by @ElliotCHEN37\n• Updated Vietnamese localization by @Richard-NDC\n\n(5.2)\n\n• Brazil loc by @emal0n\n• French localization corrections by @5jd\n\n(5.1)\n\n• French localization by @5jd\n\n(5.0)\n\n• Danish localization by @UnexcitingDean\n• Swiss German localization by @An0n-00\n• Polish localization by @CukierDev\n• Nepalese localization by @3xynos7\n• German localization corrections by @wlxxd\n• Azerbaijani localization by @by3lish\n\n(4.9)\n\n• Musixmatch source support for local files\n• Lyrics colors support for local files\n• Bulgarian localization by @schweppes-0x\n• Traditional Chinese localization corrections by @Neo1102\n• Korean localization by @speedyfriend433\n• Vietnamese localization by @Richard-NDC\n• German localization by @wlxxd\n• Persian localization by @Incognito-Coder\n\n(4.8)\n\n• Fixed original lyrics colors\n• Spanish localization by @longopy\n• Simplified Chinese localization by @xiangfeidexiaohuo\n• Italian localization by @LivioZ\n• Russian localization\n• Ukrainian localization by @LIKVIDATOR1337\n• Turkish localization by @gototheskinny\n• Traditional Chinese localization by @ElliotCHEN37\n\n(4.7)\n\n• Fixed lyrics not appearing issue\n• Fixed Premium patching for recent versions; removed static method\n• Musixmatch romanization and translation now work simultaneously\n• Added localizations support; feel free to open pull requests with your .lproj\n\n(4.6)\n\n• Fixed popups white background bug on iPad\n\n(4.5)\n\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.4)\n\n• Fixed crashes on iOS 14 (Spotify 8.9.8) and added support for 8.9.54\n• Redesigned Settings\n• Option to show romanized lyrics on Musixmatch and Genius\n• Option to show translated Musixmatch lyrics\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.3)\n\n• Fixed \"Couldn't load the lyrics for this song\" message when they are restricted on Musixmatch\n• Option to show fallback reasons in the lyrics card header\n• Updated OpenSpotifySafariExtension no longer mismatches on links like charts.spotify.com\n\n(4.2)\n\n• Real fix for crashes with LRCLIB\n• The tweak now searches only songs on Genius (no articles anymore)\n• Improved URLSession intercepts (fixes #182 and likely resolves login issues)\n• Fixed iPad Musixmatch token and blank area issues\n• Added Lyrics Colors option\n• Added version section and checking for update\n\n(4.1)\n\n• Original colors for lyrics available on Spotify\n• Fixed LRCLIB lyrics crash for some songs and issue of the settings view being too wide on iPad (pull request)\n• Overwrite Configuration option. Try using it if you experience issues like appearing ads; it might help, but it's not guaranteed\n• Musixmatch invalid token popup and better token input\n• Dynamic Premium patching method by default",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.80.+.Eevee.v5.4.ipa",
-          "size" : 76500000
-        },
-        {
-          "version" : "8.9.42",
-          "date" : "2024-05-28",
-          "localizedDescription" : "• Dynamic Premium Patching! - The tweak can now intercept Spotify requests to load user data, deserialize it, and modify the parameters in real-time. You can select the Dynamic Premium patching method in the EeveeSpotify settings.\n• Do Not Patch Premium option (for users with an active Premium subscription)\n• Reset Data option\n• Fixed native popups white background bug\n• Fixed opening Spotify links in the app when it's closed\n\nNOTE: When updating from an older tweak version, you need to go to EeveeSpotify settings and set the Premium patching method (either static or dynamic).\n\n\n(From v3.1)\n\n• Genius Fallback: Load lyrics from Genius if there is a problem with LRCLIB or Musixmatch\n• Updated OpenSpotifySafariExtension: Now supports all Spotify links and works great\n• Dark PopUps option\n• Improved lyrics colors (not so light and washed out, looks more like the original)\n• Improved song search algorithm on Genius or LRCLIB\n• Fixed EeveeSpotify settings crash when tapping on tabbar\n• Updated Musixmatch token alert message; the tweak now allows you to paste debug info",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.42.+.Eevee.v4.0.ipa",
-          "size" : 71100000
-        },
-        {
-          "version" : "8.9.38",
-          "date" : "2024-05-10",
-          "localizedDescription" : "• EeveeSpotify now supports LRCLIB and Musixmatch time-synced lyrics sources! You can select your preferred source in the tweak settings\n• Lyrics colors are now normalized\n• Fixed Genius issue where the tweak would pick a translation instead of the original lyrics",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.38.+.Eevee.v3.0.ipa",
-          "size" : 68800000
-        },
-        {
-          "version" : "8.9.36",
-          "date" : "2024-05-08",
-          "localizedDescription" : "• Fixed app crashing when opening the player\n• EeveeSpotify now replaces Spotify monthly limited lyrics with Genius! (If it shows the limit has been reached there are no lyrics available on genius, this is different to the lyrics spotify provide)\n• Added OpenWithSpotify extension to open Spotify links in safari (must be enabled)\n• Updated Spotify to v8.9.36",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.36.+.Eevee.v2.1.ipa",
-          "size" : 69100000
-        },
-        {
-          "version" : "8.9.34",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.34.+.Eevee.v1.4.1.ipa",
-          "size" : 65900000
-        }
-      ],
-      "appPermissions" : {
-        "entitlements" : [
+      "appPermissions": {
+        "entitlements": [
           "com.apple.security.application-groups",
           "com.apple.developer.associated-domains",
           "com.apple.developer.carplay-audio",
@@ -557,34 +477,31 @@
           "com.apple.developer.siri",
           "com.apple.developer.networking.wifi-info"
         ],
-        "privacy" : {
-          "NSAppleMusicUsageDescription" : "App accesses Apple Music for streaming music.",
-          "NSBluetoothAlwaysUsageDescription" : "App requires continuous access to Bluetooth.",
-          "NSBluetoothPeripheralUsageDescription" : "App uses Bluetooth for peripheral devices.",
-          "NSCameraUsageDescription" : "App uses the camera for capturing photos or videos.",
-          "NSFaceIDUsageDescription" : "App uses Face ID for authentication.",
-          "NSHealthUpdateUsageDescription" : "App updates health-related data in Health.",
-          "NSHealthShareUsageDescription" : "App shares health-related data with Health.",
-          "NSLocalNetworkUsageDescription" : "App accesses devices on the local network.",
-          "NSMicrophoneUsageDescription" : "App uses the microphone to record audio.",
-          "NSMotionUsageDescription" : "App uses motion sensors for tracking movement.",
-          "NSPhotoLibraryAddUsageDescription" : "App adds photos to the user's photo library.",
-          "NSPhotoLibraryUsageDescription" : "App accesses the user's photo library.",
-          "NSUserTrackingUsageDescription" : "App tracks user activity for advertising purposes."
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App accesses Apple Music for streaming music.",
+          "NSBluetoothAlwaysUsageDescription": "App requires continuous access to Bluetooth.",
+          "NSBluetoothPeripheralUsageDescription": "App uses Bluetooth for peripheral devices.",
+          "NSCameraUsageDescription": "App uses the camera for capturing photos or videos.",
+          "NSFaceIDUsageDescription": "App uses Face ID for authentication.",
+          "NSHealthShareUsageDescription": "App shares health-related data with Health.",
+          "NSHealthUpdateUsageDescription": "App updates health-related data in Health.",
+          "NSLocalNetworkUsageDescription": "App accesses devices on the local network.",
+          "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
+          "NSMotionUsageDescription": "App uses motion sensors for tracking movement.",
+          "NSPhotoLibraryAddUsageDescription": "App adds photos to the user's photo library.",
+          "NSPhotoLibraryUsageDescription": "App accesses the user's photo library.",
+          "NSUserTrackingUsageDescription": "App tracks user activity for advertising purposes."
         }
       },
-      "beta" : false
-    },
-    {
-      "name" : "Spotify++ (Old)",
-      "bundleIdentifier" : "com.spotify.client-old",
-      "developerName" : "iJulioVerne",
-      "subtitle" : "The original Spotilife tweak, along with other tweaks",
-      "localizedDescription" : "USE THIS IF YOU DO NOT LIKE THE NEW ONE OR IF ITS NOT WORKING\n\nI would highly recommend you use the new Spotify tweak as it has been updated to work on newer Spotify versions and is currently being updated. However this tweak may stop working in the near future as it is an old version.\n\n\n\nSpotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
-      "iconURL" : "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "tintColor" : "1fd362",
-      "category" : "Entertainment",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.spotify.client",
+      "category": "Entertainment",
+      "developerName": "Eevee",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
+      "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
+      "localizedDescription": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
+      "name": "Spotify++ (NEW)",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
@@ -592,39 +509,107 @@
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
       ],
-      "version" : "8.6.42-0.2",
-      "versionDate" : "2023-04-24",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
-      "versionDescription" : "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
-      "size" : 47500000,
-      "versions" : [
+      "size": 76500000,
+      "subtitle": "A new and improved Spotify tweak!",
+      "tintColor": "1fd362",
+      "version": "9.0.20",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+      "versions": [
         {
-          "version" : "8.6.42-0.2",
-          "date" : "2023-04-24",
-          "localizedDescription" : "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
-          "size" : 47500000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
+          "localizedDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+          "size": 76500000,
+          "version": "9.0.20"
         },
         {
-          "version" : "8.6.42-0.1",
-          "date" : "2023-03-19",
-          "localizedDescription" : "• Added SpotifyNoPodcasts\n• Added SpotifyHighQuality\n• Added Spoticentre\n• Added TrueShuffle",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked.v8.6.42-0.1.ipa",
-          "size" : 47000000
+          "date": "2024-10-09",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.80.+.Eevee.v5.4.ipa",
+          "localizedDescription": "(5.4 - Current)\n\n• Updated Ukrainian localization by @LIKVIDATOR1337\n• Updated Turkish localization by @gototheskinny\n• Updated Danish localization by @UnexcitingDean\n\n(5.3)\n\n• Liked Songs on artist page\n• Improved Reset Data option (now clears /Library/Caches/ too, progress animation)\n• Updated dumped configuration; fixed app crashes when clicking on three dots on song page\n• Updated swift-protobuf to 1.28.1 and Swift to version 6 (Xcode 16.0)\n• Fixed Download action app crashes, improved its hooking logic\n• PetitLyrics is now available for everyone\n• Updated Simplified Chinese localization by @xiangfeidexiaohuo\n• Updated Traditional Chinese localizaton by @ElliotCHEN37\n• Updated Vietnamese localization by @Richard-NDC\n\n(5.2)\n\n• Brazil loc by @emal0n\n• French localization corrections by @5jd\n\n(5.1)\n\n• French localization by @5jd\n\n(5.0)\n\n• Danish localization by @UnexcitingDean\n• Swiss German localization by @An0n-00\n• Polish localization by @CukierDev\n• Nepalese localization by @3xynos7\n• German localization corrections by @wlxxd\n• Azerbaijani localization by @by3lish\n\n(4.9)\n\n• Musixmatch source support for local files\n• Lyrics colors support for local files\n• Bulgarian localization by @schweppes-0x\n• Traditional Chinese localization corrections by @Neo1102\n• Korean localization by @speedyfriend433\n• Vietnamese localization by @Richard-NDC\n• German localization by @wlxxd\n• Persian localization by @Incognito-Coder\n\n(4.8)\n\n• Fixed original lyrics colors\n• Spanish localization by @longopy\n• Simplified Chinese localization by @xiangfeidexiaohuo\n• Italian localization by @LivioZ\n• Russian localization\n• Ukrainian localization by @LIKVIDATOR1337\n• Turkish localization by @gototheskinny\n• Traditional Chinese localization by @ElliotCHEN37\n\n(4.7)\n\n• Fixed lyrics not appearing issue\n• Fixed Premium patching for recent versions; removed static method\n• Musixmatch romanization and translation now work simultaneously\n• Added localizations support; feel free to open pull requests with your .lproj\n\n(4.6)\n\n• Fixed popups white background bug on iPad\n\n(4.5)\n\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.4)\n\n• Fixed crashes on iOS 14 (Spotify 8.9.8) and added support for 8.9.54\n• Redesigned Settings\n• Option to show romanized lyrics on Musixmatch and Genius\n• Option to show translated Musixmatch lyrics\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.3)\n\n• Fixed \"Couldn't load the lyrics for this song\" message when they are restricted on Musixmatch\n• Option to show fallback reasons in the lyrics card header\n• Updated OpenSpotifySafariExtension no longer mismatches on links like charts.spotify.com\n\n(4.2)\n\n• Real fix for crashes with LRCLIB\n• The tweak now searches only songs on Genius (no articles anymore)\n• Improved URLSession intercepts (fixes #182 and likely resolves login issues)\n• Fixed iPad Musixmatch token and blank area issues\n• Added Lyrics Colors option\n• Added version section and checking for update\n\n(4.1)\n\n• Original colors for lyrics available on Spotify\n• Fixed LRCLIB lyrics crash for some songs and issue of the settings view being too wide on iPad (pull request)\n• Overwrite Configuration option. Try using it if you experience issues like appearing ads; it might help, but it's not guaranteed\n• Musixmatch invalid token popup and better token input\n• Dynamic Premium patching method by default",
+          "size": 76500000,
+          "version": "8.9.80"
+        },
+        {
+          "date": "2024-05-28",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.42.+.Eevee.v4.0.ipa",
+          "localizedDescription": "• Dynamic Premium Patching! - The tweak can now intercept Spotify requests to load user data, deserialize it, and modify the parameters in real-time. You can select the Dynamic Premium patching method in the EeveeSpotify settings.\n• Do Not Patch Premium option (for users with an active Premium subscription)\n• Reset Data option\n• Fixed native popups white background bug\n• Fixed opening Spotify links in the app when it's closed\n\nNOTE: When updating from an older tweak version, you need to go to EeveeSpotify settings and set the Premium patching method (either static or dynamic).\n\n\n(From v3.1)\n\n• Genius Fallback: Load lyrics from Genius if there is a problem with LRCLIB or Musixmatch\n• Updated OpenSpotifySafariExtension: Now supports all Spotify links and works great\n• Dark PopUps option\n• Improved lyrics colors (not so light and washed out, looks more like the original)\n• Improved song search algorithm on Genius or LRCLIB\n• Fixed EeveeSpotify settings crash when tapping on tabbar\n• Updated Musixmatch token alert message; the tweak now allows you to paste debug info",
+          "size": 71100000,
+          "version": "8.9.42"
+        },
+        {
+          "date": "2024-05-10",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.38.+.Eevee.v3.0.ipa",
+          "localizedDescription": "• EeveeSpotify now supports LRCLIB and Musixmatch time-synced lyrics sources! You can select your preferred source in the tweak settings\n• Lyrics colors are now normalized\n• Fixed Genius issue where the tweak would pick a translation instead of the original lyrics",
+          "size": 68800000,
+          "version": "8.9.38"
+        },
+        {
+          "date": "2024-05-08",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.36.+.Eevee.v2.1.ipa",
+          "localizedDescription": "• Fixed app crashing when opening the player\n• EeveeSpotify now replaces Spotify monthly limited lyrics with Genius! (If it shows the limit has been reached there are no lyrics available on genius, this is different to the lyrics spotify provide)\n• Added OpenWithSpotify extension to open Spotify links in safari (must be enabled)\n• Updated Spotify to v8.9.36",
+          "size": 69100000,
+          "version": "8.9.36"
+        },
+        {
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.34.+.Eevee.v1.4.1.ipa",
+          "localizedDescription": "• Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
+          "size": 65900000,
+          "version": "8.9.34"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "YouTube++",
-      "bundleIdentifier" : "com.google.ios.youtube",
-      "developerName" : "Dayanch96",
-      "subtitle" : "The All-In-One Tweak for YouTube.",
-      "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "iconURL" : "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
-      "tintColor" : "f90505",
-      "category" : "Entertainment",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.spotify.client-old",
+      "category": "Entertainment",
+      "developerName": "iJulioVerne",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
+      "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
+      "localizedDescription": "USE THIS IF YOU DO NOT LIKE THE NEW ONE OR IF ITS NOT WORKING\n\nI would highly recommend you use the new Spotify tweak as it has been updated to work on newer Spotify versions and is currently being updated. However this tweak may stop working in the near future as it is an old version.\n\n\n\nSpotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
+      "name": "Spotify++ (Old)",
+      "screenshotURLs": [
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
+      ],
+      "size": 47500000,
+      "subtitle": "The original Spotilife tweak, along with other tweaks",
+      "tintColor": "1fd362",
+      "version": "8.6.42-0.2",
+      "versionDate": "2023-04-24",
+      "versionDescription": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
+      "versions": [
+        {
+          "date": "2023-04-24",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
+          "localizedDescription": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
+          "size": 47500000,
+          "version": "8.6.42-0.2"
+        },
+        {
+          "date": "2023-03-19",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked.v8.6.42-0.1.ipa",
+          "localizedDescription": "• Added SpotifyNoPodcasts\n• Added SpotifyHighQuality\n• Added Spoticentre\n• Added TrueShuffle",
+          "size": 47000000,
+          "version": "8.6.42-0.1"
+        }
+      ]
+    },
+    {
+      "beta": false,
+      "bundleIdentifier": "com.google.ios.youtube",
+      "category": "Entertainment",
+      "developerName": "Dayanch96",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
+      "iconURL": "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
+      "localizedDescription": "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
+      "name": "YouTube++",
+      "screenshotURLs": [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/nJSE7u7.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5ABmJ5d.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/B1NnJb8.jpeg",
@@ -632,60 +617,60 @@
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tZ2yvOY.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ayNc4BB.jpeg"
       ],
-      "version" : "20.09.3",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
-      "versionDescription" : "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
-      "size" : 106000000,
-      "versions" : [
+      "size": 106000000,
+      "subtitle": "The All-In-One Tweak for YouTube.",
+      "tintColor": "f90505",
+      "version": "20.09.3",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+      "versions": [
         {
-          "version" : "20.09.3",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
-          "size" : 106000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
+          "localizedDescription": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+          "size": 106000000,
+          "version": "20.09.3"
         },
         {
-          "version" : "19.39.1",
-          "date" : "2024-10-09",
-          "localizedDescription" : "• YouTube updated to v19.39.1\n• uYouEnhanced replaced with YTLiteFull v5.0.2",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.39.1.+.YTLiteFull.v5.0.2.ipa",
-          "size" : 106000000
+          "date": "2024-10-09",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.39.1.+.YTLiteFull.v5.0.2.ipa",
+          "localizedDescription": "• YouTube updated to v19.39.1\n• uYouEnhanced replaced with YTLiteFull v5.0.2",
+          "size": 106000000,
+          "version": "19.39.1"
         },
         {
-          "version" : "19.16.3",
-          "date" : "2024-04-30",
-          "localizedDescription" : "• YouTube updated to v19.16.3\n• uYouEnhanced updated to v3.0.3",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.16.3.+.uYouEnhanced.v3.0.3.ipa",
-          "size" : 119000000
+          "date": "2024-04-30",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.16.3.+.uYouEnhanced.v3.0.3.ipa",
+          "localizedDescription": "• YouTube updated to v19.16.3\n• uYouEnhanced updated to v3.0.3",
+          "size": 119000000,
+          "version": "19.16.3"
         },
         {
-          "version" : "18.49.3",
-          "date" : "2024-01-07",
-          "localizedDescription" : "• YouTube updated to v18.49.3\n• uYouEnhanced updated to v3.0.1",
-          "downloadURL" : "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1-F3/uYouEnhanced_18.49.3_3.0.1_F3.ipa",
-          "size" : 121000000
+          "date": "2024-01-07",
+          "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1-F3/uYouEnhanced_18.49.3_3.0.1_F3.ipa",
+          "localizedDescription": "• YouTube updated to v18.49.3\n• uYouEnhanced updated to v3.0.1",
+          "size": 121000000,
+          "version": "18.49.3"
         },
         {
-          "version" : "18.40.1",
-          "date" : "2023-10-22",
-          "localizedDescription" : "• YouTube updated to v18.14.1\n• uYouPlusExtra updated to v3.0.1",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v18.40.1.+.uYouPlusExtra.v3.0.1.ipa",
-          "size" : 121000000
+          "date": "2023-10-22",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v18.40.1.+.uYouPlusExtra.v3.0.1.ipa",
+          "localizedDescription": "• YouTube updated to v18.14.1\n• uYouPlusExtra updated to v3.0.1",
+          "size": 121000000,
+          "version": "18.40.1"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Duolingo++",
-      "bundleIdentifier" : "com.duolingo.DuolingoMobile",
-      "developerName" : "Laxus",
-      "subtitle" : "Duolingo with Super Duolingo Activated!",
-      "localizedDescription" : "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
-      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gl8jTYA.jpeg",
-      "tintColor" : "7cd404",
-      "category" : "Lifestyle",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "category": "Lifestyle",
+      "developerName": "Laxus",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gl8jTYA.jpeg",
+      "localizedDescription": "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
+      "name": "Duolingo++",
+      "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/85/3c/6d/853c6dcc-509f-af17-1a68-5a14a1ddfcd6/tns.lgtxetwx.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/00/a9/d000a923-fdb2-074c-29c9-b0b756210be3/tns.egimlxov.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/7d/1b/c9/7d1bc96c-d220-6613-031c-e04dfd587375/tns.jhthyhvf.png/314x0w.webp",
@@ -695,46 +680,46 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/71/50/25/7150254b-c1fe-0f0a-3080-d132ec1df02b/tns.kxzrjpco.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/d8/e5/66d8e526-9452-3aef-929c-1e91c675512a/7c022d98-f86f-4b31-8503-632ddcd73657_6.5-inch-screen9__U00283_U0029.png/314x0w.webp"
       ],
-      "version" : "7.29.0",
-      "versionDate" : "2025-03-04",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
-      "versionDescription" : "• Duolingo Updated to v7.29.0",
-      "size" : 101000000,
-      "versions" : [
+      "size": 101000000,
+      "subtitle": "Duolingo with Super Duolingo Activated!",
+      "tintColor": "7cd404",
+      "version": "7.29.0",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Duolingo Updated to v7.29.0",
+      "versions": [
         {
-          "version" : "7.29.0",
-          "date" : "2025-03-04",
-          "localizedDescription" : "• Duolingo Updated to v7.29.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
-          "size" : 101000000
+          "date": "2025-03-04",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+          "localizedDescription": "• Duolingo Updated to v7.29.0",
+          "size": 101000000,
+          "version": "7.29.0"
         },
         {
-          "version" : "7.9.0",
-          "date" : "2024-05-11",
-          "localizedDescription" : "• Duolingo Updated to v7.9.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v7.9.0.ipa",
-          "size" : 101000000
+          "date": "2024-05-11",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v7.9.0.ipa",
+          "localizedDescription": "• Duolingo Updated to v7.9.0",
+          "size": 101000000,
+          "version": "7.9.0"
         },
         {
-          "version" : "6.196.0",
-          "date" : "2023-10-23",
-          "localizedDescription" : "• Duolingo Updated to v6.196.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v6.196.0.ipa",
-          "size" : 112000000
+          "date": "2023-10-23",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v6.196.0.ipa",
+          "localizedDescription": "• Duolingo Updated to v6.196.0",
+          "size": 112000000,
+          "version": "6.196.0"
         }
-      ],
-      "beta" : false
+      ]
     },
     {
-      "name" : "Messenger++",
-      "bundleIdentifier" : "com.facebook.Messenger",
-      "developerName" : "Michael Lema",
-      "subtitle" : "The ultimate Facebook Messenger tweak!",
-      "localizedDescription" : "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
-      "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/85/36/e6/8536e6ea-7b2d-775a-bd2d-62beac227451/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220-0.png/460x0w.webp",
-      "tintColor" : "c844c6",
-      "category" : "Social",
-      "screenshotURLs" : [
+      "beta": false,
+      "bundleIdentifier": "com.facebook.Messenger",
+      "category": "Social",
+      "developerName": "Michael Lema",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/85/36/e6/8536e6ea-7b2d-775a-bd2d-62beac227451/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220-0.png/460x0w.webp",
+      "localizedDescription": "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
+      "name": "Messenger++",
+      "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b6/9b/fb/b69bfb93-41be-bdca-5b4c-c27519b474c2/391db841-c2fe-45c1-bc57-c1fbc16f3b35_iPhone_6.5__-_Screen_1.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9d/ad/c5/9dadc57c-5684-bfc6-b384-bd2a7152bde1/886304e6-ebc9-4468-b0af-5d4b33e434c2_iPhone_6.5__-_Screen_3.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/8d/cb/9e8dcb43-ce79-c4ff-43ef-e3548847d87d/0014da8a-bb5a-4fe1-923d-90c1f05530e9_iPhone_6.5__-_Screen_4.jpg/460x0w.webp",
@@ -743,162 +728,177 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/db/8f/9c/db8f9c34-d7d5-b1f3-2be4-e4fa3a6906f5/ee927225-0cfa-43a1-8b63-f97eabc3237c_iPhone_6.5__-_Screen_7.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/97/49/e59749f5-d582-4840-dbcc-0e72bdbf09ec/8ed80d4b-be7b-4048-a099-d1d0ff5555ab_iPhone_6.5__-_Screen_8.jpg/460x0w.webp"
       ],
-      "version" : "390.0",
-      "versionDate" : "2023-10-23",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-      "versionDescription" : "• Added Messenger v390.0 (Current working version with crack)",
-      "size" : 42500000,
-      "versions" : [
+      "size": 42500000,
+      "subtitle": "The ultimate Facebook Messenger tweak!",
+      "tintColor": "c844c6",
+      "version": "390.0",
+      "versionDate": "2023-10-23",
+      "versionDescription": "• Added Messenger v390.0 (Current working version with crack)",
+      "versions": [
         {
-          "version" : "390.0",
-          "date" : "2023-10-23",
-          "localizedDescription" : "• Added Messenger v390.0 (Current working version with crack)",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-          "size" : 42500000
+          "date": "2023-10-23",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
+          "localizedDescription": "• Added Messenger v390.0 (Current working version with crack)",
+          "size": 42500000,
+          "version": "390.0"
         }
-      ],
-      "beta" : false
+      ]
     }
   ],
-  "news" : [
+  "description": "Welcome to WuXu’s Library++!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
+  "featuredApps": [
+    "com.spotify.client",
+    "com.burbn.instagram",
+    "com.google.ios.youtube",
+    "com.box.hd.flix.drama.hub",
+    "com.duolingo.DuolingoMobile"
+  ],
+  "headerURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
+  "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
+  "identifier": "com.wuxulibs.wuxuslibrary++",
+  "name": "WuXu's Library++",
+  "news": [
     {
-      "title" : "HD Flix Updated!",
-      "identifier" : "hdflix-updated",
-      "caption" : "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
-      "date" : "2025-03-10",
-      "tintColor" : "16181e",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
-      "appID" : "com.box.hd.flix.drama.hub",
-      "notify" : true
+      "appID": "com.box.hd.flix.drama.hub",
+      "caption": "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
+      "date": "2025-03-10",
+      "identifier": "hdflix-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
+      "notify": true,
+      "tintColor": "16181e",
+      "title": "HD Flix Updated!"
     },
     {
-      "title" : "Snapchat Tweaks...",
-      "identifier" : "snapchat-tweaks",
-      "caption" : "Due to recent snapchat updates, tweaks have become unusable and bannable. Each tweak dev is currently working on a fix and I will post them here when they do.",
-      "date" : "2025-03-04",
-      "tintColor" : "e2e204",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Z7cCbfj.jpeg",
-      "notify" : true
+      "caption": "Due to recent snapchat updates, tweaks have become unusable and bannable. Each tweak dev is currently working on a fix and I will post them here when they do.",
+      "date": "2025-03-04",
+      "identifier": "snapchat-tweaks",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Z7cCbfj.jpeg",
+      "notify": true,
+      "tintColor": "e2e204",
+      "title": "Snapchat Tweaks..."
     },
     {
-      "title" : "X++ Updated!",
-      "identifier" : "x-updated",
-      "caption" : "X++ has been updated with a new tweak! Click Here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "0f0f0f",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/fTtIng1.jpeg",
-      "appID" : "com.atebits.Tweetie2",
-      "notify" : true
+      "appID": "com.atebits.Tweetie2",
+      "caption": "X++ has been updated with a new tweak! Click Here for more info",
+      "date": "2025-03-04",
+      "identifier": "x-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/fTtIng1.jpeg",
+      "notify": true,
+      "tintColor": "0f0f0f",
+      "title": "X++ Updated!"
     },
     {
-      "title" : "Facebook++ Updated!",
-      "identifier" : "facebook-updated",
-      "caption" : "Facebook++ has been updated to the latest version, click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "153267",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
-      "appID" : "com.facebook.Facebook",
-      "notify" : true
+      "appID": "com.facebook.Facebook",
+      "caption": "Facebook++ has been updated to the latest version, click here for more info",
+      "date": "2025-03-04",
+      "identifier": "facebook-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
+      "notify": true,
+      "tintColor": "153267",
+      "title": "Facebook++ Updated!"
     },
     {
-      "title" : "TikTok++ Updated!",
-      "identifier" : "tiktok-updated",
-      "caption" : "TikTok++ has been updated with a new tweak! Click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "131313",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
-      "appID" : "com.zhiliaoapp.musically",
-      "notify" : false
+      "appID": "com.zhiliaoapp.musically",
+      "caption": "TikTok++ has been updated with a new tweak! Click here for more info",
+      "date": "2025-03-04",
+      "identifier": "tiktok-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
+      "notify": false,
+      "tintColor": "131313",
+      "title": "TikTok++ Updated!"
     },
     {
-      "title" : "Instagram++ Updated!",
-      "identifier" : "instagram-updated",
-      "caption" : "Instagram has been updated with a new tweak! Click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "5c1859",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
-      "appID" : "com.burbn.instagram",
-      "notify" : false
+      "appID": "com.burbn.instagram",
+      "caption": "Instagram has been updated with a new tweak! Click here for more info",
+      "date": "2025-03-04",
+      "identifier": "instagram-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
+      "notify": false,
+      "tintColor": "5c1859",
+      "title": "Instagram++ Updated!"
     },
     {
-      "title" : "MyFitnessPal++ Updated!",
-      "identifier" : "myfitnesspal-updated",
-      "caption" : "MyFitnessPal++ has been updated to the latest version, click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "113361",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xrzvPez.jpeg",
-      "appID" : "com.myfitnesspal.mfp",
-      "notify" : true
+      "appID": "com.myfitnesspal.mfp",
+      "caption": "MyFitnessPal++ has been updated to the latest version, click here for more info",
+      "date": "2025-03-04",
+      "identifier": "myfitnesspal-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xrzvPez.jpeg",
+      "notify": true,
+      "tintColor": "113361",
+      "title": "MyFitnessPal++ Updated!"
     },
     {
-      "title" : "BeReal++ Updated!",
-      "identifier" : "bereal-updated",
-      "caption" : "BeReal++ has been updated to the latest version, click here for more info",
-      "date" : "2024-10-09",
-      "tintColor" : "131313",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
-      "appID" : "AlexisBarreyat.BeReal",
-      "notify" : true
+      "appID": "AlexisBarreyat.BeReal",
+      "caption": "BeReal++ has been updated to the latest version, click here for more info",
+      "date": "2024-10-09",
+      "identifier": "bereal-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
+      "notify": true,
+      "tintColor": "131313",
+      "title": "BeReal++ Updated!"
     },
     {
-      "title" : "Deezer++ Added!",
-      "identifier" : "deezer-added",
-      "caption" : "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
-      "date" : "2023-10-22",
-      "tintColor" : "0e0e0e",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
-      "appID" : "com.deezer.Deezer",
-      "notify" : false
+      "appID": "com.deezer.Deezer",
+      "caption": "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
+      "date": "2023-10-22",
+      "identifier": "deezer-added",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
+      "notify": false,
+      "tintColor": "0e0e0e",
+      "title": "Deezer++ Added!"
     },
     {
-      "title" : "SoundCloud++ has been re-added!",
-      "identifier" : "soundcloud-added",
-      "caption" : "A new SoundCloud tweak has been released! Only works with trollstore/cert",
-      "date" : "2025-03-04",
-      "tintColor" : "131313",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
-      "appID" : "com.soundcloud.TouchApp",
-      "notify" : true
+      "appID": "com.soundcloud.TouchApp",
+      "caption": "A new SoundCloud tweak has been released! Only works with trollstore/cert",
+      "date": "2025-03-04",
+      "identifier": "soundcloud-added",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
+      "notify": true,
+      "tintColor": "131313",
+      "title": "SoundCloud++ has been re-added!"
     },
     {
-      "title" : "Spotify++ Updated!",
-      "identifier" : "spotify-updated",
-      "caption" : "Spotify++ has been updated to the latest version! Click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "0e6a32",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
-      "appID" : "com.spotify.client",
-      "notify" : true
+      "appID": "com.spotify.client",
+      "caption": "Spotify++ has been updated to the latest version! Click here for more info",
+      "date": "2025-03-04",
+      "identifier": "spotify-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
+      "notify": true,
+      "tintColor": "0e6a32",
+      "title": "Spotify++ Updated!"
     },
     {
-      "title" : "YouTube++ Updated!",
-      "identifier" : "youtube-updated",
-      "caption" : "YouTube++ has been updated to the latest version! Click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "af0001",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
-      "appID" : "com.google.ios.youtube",
-      "notify" : true
+      "appID": "com.google.ios.youtube",
+      "caption": "YouTube++ has been updated to the latest version! Click here for more info",
+      "date": "2025-03-04",
+      "identifier": "youtube-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
+      "notify": true,
+      "tintColor": "af0001",
+      "title": "YouTube++ Updated!"
     },
     {
-      "title" : "Duolingo++ Updated!",
-      "identifier" : "duolingo-added",
-      "caption" : "Duolingo++ has been updated to the latest version! Click here for more info",
-      "date" : "2025-03-04",
-      "tintColor" : "244200",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
-      "appID" : "com.duolingo.DuolingoMobile",
-      "notify" : true
+      "appID": "com.duolingo.DuolingoMobile",
+      "caption": "Duolingo++ has been updated to the latest version! Click here for more info",
+      "date": "2025-03-04",
+      "identifier": "duolingo-added",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
+      "notify": true,
+      "tintColor": "244200",
+      "title": "Duolingo++ Updated!"
     },
     {
-      "title" : "Messenger++ Added!",
-      "identifier" : "messenger-added",
-      "caption" : "Messenger injected with Shark has been added to the source, click here for more info",
-      "date" : "2023-10-23",
-      "tintColor" : "532552",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
-      "appID" : "com.facebook.Messenger",
-      "notify" : true
+      "appID": "com.facebook.Messenger",
+      "caption": "Messenger injected with Shark has been added to the source, click here for more info",
+      "date": "2023-10-23",
+      "identifier": "messenger-added",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
+      "notify": true,
+      "tintColor": "532552",
+      "title": "Messenger++ Added!"
     }
-  ]
+  ],
+  "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
+  "tintColor": "d81a14",
+  "website": "https://bit.ly/wuxus-sources"
 }
