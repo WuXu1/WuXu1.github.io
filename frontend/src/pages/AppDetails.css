@@ -13,8 +13,13 @@
 .hero-developer { margin: 4px 0 0; font-size: 15px; font-weight: 400; color: var(--text-secondary); }
 .hero-subtitle { margin: 2px 0 0; font-size: 13px; color: var(--text-secondary); }
 .hero-actions { margin-top: auto; padding-top: 10px; }
-.hero-get { background: #007aff; color: #fff; font-size: 15px; font-weight: 700; padding: 7px 22px; border-radius: 16px; text-transform: uppercase; letter-spacing: -0.2px; }
+.hero-get, .hero-altstore { border: none; cursor: pointer; color: #fff; font-size: 15px; font-weight: 700; padding: 7px 22px; border-radius: 16px; text-transform: uppercase; letter-spacing: -0.2px; transition: background 0.2s, filter 0.2s; }
+.hero-get { background: #007aff; }
+.hero-get:hover { filter: brightness(1.1); }
 .hero-get:active { background: #0064d1; }
+.hero-altstore { background: #27B093; }
+.hero-altstore:hover { filter: brightness(1.1); }
+.hero-altstore:active { background: #1e8771; }
 
 .stats-strip { display: flex; justify-content: space-between; align-items: center; padding: 15px 10px; border-top: 1px solid var(--card-border); border-bottom: 1px solid var(--card-border); margin-bottom: 24px; transition: border-color 0.3s; }
 .stat { display: flex; flex-direction: column; align-items: center; flex: 1; }

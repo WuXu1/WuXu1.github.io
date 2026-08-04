@@ -26,7 +26,11 @@ export default function AppDetails({ apps, plusApps, loading }) {
     );
   }
 
-  const handleGet = () => {
+  const handleDownload = () => {
+    window.location.href = app.downloadURL;
+  };
+
+  const handleAltStore = () => {
     window.location.href = `altstore://install?url=${encodeURIComponent(app.downloadURL)}`;
   };
 
@@ -56,8 +60,9 @@ export default function AppDetails({ apps, plusApps, loading }) {
             <h1 className="hero-title">{app.name}</h1>
             <h2 className="hero-developer">{app.developerName}</h2>
             <p className="hero-subtitle">{app.subtitle}</p>
-            <div className="hero-actions">
-              <button className="hero-get" onClick={handleGet}>GET</button>
+            <div className="hero-actions" style={{ display: 'flex', gap: '10px' }}>
+              <button className="hero-get" onClick={handleDownload}>GET</button>
+              <button className="hero-altstore" onClick={handleAltStore}>ALTSTORE</button>
             </div>
           </div>
         </section>
