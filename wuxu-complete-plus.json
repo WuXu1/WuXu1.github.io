@@ -758,6 +758,51 @@
         }
       ],
       "beta" : false
+    },
+    {
+      "beta": false,
+      "name": "Code App",
+      "bundleIdentifier": "thebaselab.VS-Code",
+      "developerName": "The Base Lab",
+      "subtitle": "A full-fledged code editor for iPad",
+      "version": "1.10.2",
+      "versionDate": "2025-04-06",
+      "versionDescription": "Latest release of Code App for iPad",
+      "downloadURL": "https://github.com/thebaselab/codeapp/releases/download/1.10.2/Code.ipa",
+      "localizedDescription": "Code App is a powerful code editor for iPad that brings desktop-like editing experience to your tablet. It supports multiple programming languages, version control, and various development tools.",
+      "iconURL": "https://2795973332-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FzNRZttJUHODcLjBFRZHP%2Ficon%2FSdQ6kQQIZ9j34P2N8lpQ%2Ficon.png?alt=media&token=241051e1-df50-41a0-a989-6110631a52f4",
+      "tintColor": "007AFF",
+      "category": "developer-tools",
+      "size": 50000000,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/thebaselab/codeapp/main/screenshots/1.png",
+        "https://raw.githubusercontent.com/thebaselab/codeapp/main/screenshots/2.png",
+        "https://raw.githubusercontent.com/thebaselab/codeapp/main/screenshots/3.png"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.user-fonts",
+          "com.apple.security.app-sandbox",
+          "com.apple.security.application-groups",
+          "com.apple.security.network.client",
+          "com.apple.security.network.server",
+          "beta-reports-active"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Authentication with Face ID.",
+          "NSPhotoLibraryAddUsageDescription": "Access to Photo Library is required to save images."
+        }
+      },
+      "versions": [
+        {
+          "version": "1.10.2",
+          "date": "2025-04-06",
+          "localizedDescription": "Latest release of Code App for iPad",
+          "downloadURL": "https://github.com/thebaselab/codeapp/releases/download/1.10.2/Code.ipa",
+          "size": 50000000
+        }
+      ]
     }
   ],
   "news" : [
