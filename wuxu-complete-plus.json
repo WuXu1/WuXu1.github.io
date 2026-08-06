@@ -3,8 +3,8 @@
     {
       "appPermissions": {
         "privacy": {
-          "NSCameraUsageDescription": "",
-          "NSLocationWhenInUseUsageDescription": "",
+          "NSCameraUsageDescription": "Take photos and record videos directly within HD Flix",
+          "NSLocationWhenInUseUsageDescription": "Find location-based content and local streaming options on HD Flix",
           "NSMicrophoneUsageDescription": "The application needs access to the microphone to recognize your voice to convert voice to title of the journey.",
           "NSPhotoLibraryUsageDescription": "The application needs access to the photo library to create the journey.",
           "NSSpeechRecognitionUsageDescription": "The application needs access to speech recognition to convert your voice to title of the journey.",
