@@ -76,14 +76,14 @@
       "appstore": "com.spotify.client",
       "bundleID": "com.spotify.client",
       "category": "Entertainment",
-      "changelog": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+      "changelog": "• Spotify++ updated to v9.0.84\n• Eevee updated to v6.1.5",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
       "dev": "Eevee",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "name": "Spotify++",
       "screenshots": [
@@ -96,7 +96,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/df/e9/b9dfe9f4-7716-a072-6d8b-d683ed92c75f/IOS_-_5.5_-_S07_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/55/ca/cb55ca54-a183-ea42-3a46-9c2fa59ea289/IOS_-_5.5_-_S08_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png"
       ],
-      "version": "9.0.20"
+      "version": "9.0.84"
     },
     {
       "appstore": "com.google.ios.youtube",
@@ -302,7 +302,7 @@
       },
       "description": "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
       "dev": "Strejda603",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal++.v26.30.0.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/17/fa/8717fa12-83f0-1184-f3d1-9ff90f157708/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "name": "MyFitnessPal++",
       "screenshots": [
