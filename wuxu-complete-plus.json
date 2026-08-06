@@ -586,7 +586,7 @@
       "bundleIdentifier": "com.spotify.client",
       "category": "Entertainment",
       "developerName": "Eevee",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++%20v9.1.62.ipa",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++.v9.1.62.ipa",
       "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
       "localizedDescription": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
       "name": "Spotify++",
@@ -607,7 +607,7 @@
       "versions": [
         {
           "date": "2026-07-23",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++%20v9.1.62.ipa",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++.v9.1.62.ipa",
           "localizedDescription": "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
           "size": 122927927,
           "version": "9.1.62"
