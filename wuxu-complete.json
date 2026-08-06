@@ -626,7 +626,7 @@
       "subtitle": "A modded Clash of Clans server!",
       "tintColor": "9e6193",
       "version": "18.400.8",
-      "versionDate": "2024-05-10",
+      "versionDate": "2026-08-06",
       "versionDescription": "• Link now only installs latest version."
     },
     {
@@ -963,9 +963,9 @@
       "title": "ESign Updated!"
     },
     {
-      "appID": "com.supercell.magic",
+      "appID": "com.atrasis.original",
       "caption": "Modded Clash of Clans has been updated to the latest version, click here for more info",
-      "date": "2024-05-10",
+      "date": "2026-08-06",
       "identifier": "clashofclans-updated",
       "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pS8xh2f.jpeg",
       "notify": false,
