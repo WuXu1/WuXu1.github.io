@@ -129,6 +129,27 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.accounts.facebook.defaultaccess",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSAppleMusicUsageDescription": "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
           "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
@@ -464,6 +485,16 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.playable-content",
+          "com.apple.developer.team-identifier",
+          "com.apple.external-accessory.wireless-configuration",
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSBluetoothPeripheralUsageDescription": "Deezer needs bluetooth access to scan for nearby Cast devices.",
           "NSCalendarsUsageDescription": "Advertisement would like to create a calendar event.",
@@ -512,6 +543,17 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.mediasetup",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSBluetoothPeripheralUsageDescription": "SoundCloud would like to use bluetooth.",
           "NSCameraUsageDescription": "bla-bla-bla",
@@ -582,6 +624,25 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
           "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
@@ -755,6 +816,14 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.networking.vpn.api",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSCameraUsageDescription": "Take a photo to use for your Duolingo profile.",
           "NSContactsUsageDescription": "Your contacts will be securely uploaded to Duolingo to help you find friends.",
@@ -817,6 +886,21 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.vpn.api",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
           "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
