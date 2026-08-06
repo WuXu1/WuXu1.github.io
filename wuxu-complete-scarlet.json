@@ -295,14 +295,14 @@
       "appstore": "com.myfitnesspal.mfp",
       "bundleID": "com.myfitnesspal.mfp",
       "category": "Lifestyle",
-      "changelog": "• Updated MyFitnessPal to v25.8.0",
+      "changelog": "• MyFitnessPal++ updated to v26.30.0",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
       "dev": "Strejda603",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal++.v26.30.0.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/17/fa/8717fa12-83f0-1184-f3d1-9ff90f157708/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "name": "MyFitnessPal++",
       "screenshots": [
@@ -317,7 +317,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/61/02/226102b1-e76c-fcd3-a24a-315abd329ed9/MFP_iOS_US_6.9_Screen_9.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/ac/b8/27acb887-5caf-4594-96eb-2ca95589f07d/MFP_iOS_US_6.9_Screen_10.png/320x480bb.jpg"
       ],
-      "version": "25.8.0"
+      "version": "26.30.0"
     },
     {
       "appstore": "com.duolingo.DuolingoMobile",
