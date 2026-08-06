@@ -922,15 +922,6 @@
       "title": "HD Flix Updated!"
     },
     {
-      "caption": "Due to recent snapchat updates, tweaks have become unusable and bannable. Each tweak dev is currently working on a fix and I will post them here when they do.",
-      "date": "2025-03-04",
-      "identifier": "snapchat-tweaks",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Z7cCbfj.jpeg",
-      "notify": true,
-      "tintColor": "e2e204",
-      "title": "Snapchat Tweaks..."
-    },
-    {
       "appID": "com.atebits.Tweetie2",
       "caption": "X++ has been updated with a new tweak! Click Here for more info",
       "date": "2025-03-04",
