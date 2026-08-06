@@ -2,40 +2,13 @@
   "apps": [
     {
       "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.driverkit.allow-third-party-userclients",
-          "com.apple.developer.healthkit.background-delivery",
-          "com.apple.developer.ubiquity-container-identifiers",
-          "com.apple.developer.user-fonts",
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "com.apple.developer.game-center",
-          "com.apple.developer.healthkit.recalibrate-estimates",
-          "com.apple.developer.healthkit",
-          "com.apple.developer.homekit",
-          "com.apple.developer.networking.HotspotConfiguration",
-          "com.apple.developer.icloud-container-development-container-identifiers",
-          "com.apple.developer.icloud-container-identifiers",
-          "com.apple.developer.ubiquity-kvstore-identifier",
-          "com.apple.developer.icloud-services",
-          "com.apple.developer.networking.networkextension",
-          "com.apple.developer.pass-type-identifiers",
-          "com.apple.developer.networking.vpn.api",
-          "aps-environment",
-          "com.apple.developer.healthkit.access",
-          "com.apple.developer.applesignin",
-          "com.apple.developer.siri",
-          "com.apple.developer.weatherkit",
-          "keychain-access-groups"
-        ],
         "privacy": {
-          "NSCameraUsageDescription": "App uses the camera for capturing photos or videos.",
-          "NSLocationWhenInUseUsageDescription": "App uses location when on app.",
-          "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "App accesses the user's photo library.",
-          "NSUserTrackingUsageDescription": "App tracks user activity for advertising purposes."
+          "NSCameraUsageDescription": "",
+          "NSLocationWhenInUseUsageDescription": "",
+          "NSMicrophoneUsageDescription": "The application needs access to the microphone to recognize your voice to convert voice to title of the journey.",
+          "NSPhotoLibraryUsageDescription": "The application needs access to the photo library to create the journey.",
+          "NSSpeechRecognitionUsageDescription": "The application needs access to speech recognition to convert your voice to title of the journey.",
+          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
         }
       },
       "beta": false,
@@ -49,7 +22,7 @@
       "screenshotURLs": [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
       ],
-      "size": 2800000,
+      "size": 14664935,
       "subtitle": "The All-In-One Movie app for iOS",
       "tintColor": "a01916",
       "version": "2.0",
@@ -60,6 +33,7 @@
           "date": "2025-03-10",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
           "localizedDescription": "• Updated HD Flix",
+          "minOSVersion": "10.0",
           "size": 2800000,
           "version": "2.0"
         },
@@ -73,6 +47,23 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "X uses bluetooth to discover Cast-enabled devices near you.",
+          "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+          "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+          "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+          "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+          "NSLocalNetworkUsageDescription": "X uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+          "NSPhotoLibraryUsageDescription": "Easily add photos on X.",
+          "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+          "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.atebits.Tweetie2",
       "category": "Social",
@@ -88,7 +79,7 @@
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-4.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-5.webp"
       ],
-      "size": 119000000,
+      "size": 148914909,
       "subtitle": "An new tweak for X!",
       "tintColor": "030303",
       "version": "10.83",
@@ -99,6 +90,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
           "localizedDescription": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+          "minOSVersion": "15.0",
           "size": 119000000,
           "version": "10.83"
         },
@@ -133,6 +125,26 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
+          "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSBluetoothPeripheralUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSCalendarsFullAccessUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSCalendarsUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSCameraUsageDescription": "Facebook uses access to your camera to do things like help you take and share photos, record videos, and use visual effects.\n\nYou can always change this in your device settings.",
+          "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Facebook.",
+          "NSLocalNetworkUsageDescription": "Facebook uses your local network so you can do things like find and connect to devices and cast videos to TV.",
+          "NSLocationWhenInUseUsageDescription": "Facebook uses this to provide more relevant and personalized experiences, like helping you check-in, find local events and get better ads.",
+          "NSMicrophoneUsageDescription": "Facebook uses access to your microphone to do things like help you record audio, identify songs, search with your voice and use audio effects.\n\nYou can always change this in your device settings.",
+          "NSMotionUsageDescription": "Facebook uses this to provide more relevant and personalized experiences.",
+          "NSPhotoLibraryAddUsageDescription": "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSPhotoLibraryUsageDescription": "Facebook uses access to your photos to do things like help you share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSSiriUsageDescription": "This will let Siri help you look for photos on Facebook",
+          "NSUserTrackingUsageDescription": "This allows Facebook to provide you with a better ads experience."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.facebook.Facebook",
       "category": "Social",
@@ -149,7 +161,7 @@
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
       ],
-      "size": 137000000,
+      "size": 164092936,
       "subtitle": "Facebook with a number of new features!",
       "tintColor": "0c63f9",
       "version": "502.2.0",
@@ -160,6 +172,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
           "localizedDescription": "• Updated Facebook to v502.2.0",
+          "minOSVersion": "15.1",
           "size": 137000000,
           "version": "502.2.0"
         },
@@ -187,6 +200,22 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+          "NSBluetoothAlwaysUsageDescription": "Turn on Bluetooth to connect to your TV",
+          "NSBluetoothPeripheralUsageDescription": "Turn on Bluetooth to connect to your TV",
+          "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+          "NSCameraUsageDescription": "You'll be able to record video.",
+          "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+          "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+          "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+          "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+          "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.zhiliaoapp.musically",
       "category": "Social",
@@ -202,7 +231,7 @@
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bia0rue.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tJtEO1r.jpeg"
       ],
-      "size": 226000000,
+      "size": 368930504,
       "subtitle": "TikTok with added features.",
       "tintColor": "0b0b0b",
       "version": "38.7.0",
@@ -213,6 +242,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
           "localizedDescription": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+          "minOSVersion": "12.0",
           "size": 226000000,
           "version": "38.7.0"
         },
@@ -226,6 +256,23 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to the glasses using a Bluetooth connection.",
+          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
+          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
+          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service. Your contacts will be periodically synced and securely stored on Instagram’s servers.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
+          "NSFocusStatusUsageDescription": "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
+          "NSUserTrackingUsageDescription": "This allows Instagram to provide you with a better ads experience."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.burbn.instagram",
       "category": "Social",
@@ -241,7 +288,7 @@
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-4.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-5.webp"
       ],
-      "size": 117000000,
+      "size": 159022956,
       "subtitle": "A must-have tweak for Instagram users!",
       "tintColor": "d111c9",
       "version": "356.1.0",
@@ -252,6 +299,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
           "localizedDescription": "• Updated Instagram to v356.1.0\n• Replaced old instagram tweak with Regram",
+          "minOSVersion": "15.1",
           "size": 117000000,
           "version": "356.1.0"
         },
@@ -272,6 +320,19 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothPeripheralUsageDescription": "Allows MyFitnessPal to use Bluetooth.",
+          "NSCalendarsUsageDescription": "Allows MyFitnessPal to add class reservations to your calendar.",
+          "NSCameraUsageDescription": "We use your camera to allow you to scan barcodes, foods, and add photos to your weight entries and custom meals.",
+          "NSHealthShareUsageDescription": "Allows MyFitnessPal to read data from the Health app.",
+          "NSHealthUpdateUsageDescription": "Allows MyFitnessPal to write data to the Health app.",
+          "NSMicrophoneUsageDescription": "We use your microphone to allow you to log food with your voice.",
+          "NSPhotoLibraryUsageDescription": "Allows you to add photos to your weight entries.",
+          "NSSpeechRecognitionUsageDescription": "Voice Log uses speech recognition technology to understand and interpret what you're saying.",
+          "NSUserTrackingUsageDescription": "This info will be used to show you ads that are more relevant to you."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.myfitnesspal.mfp",
       "category": "Lifestyle",
@@ -292,7 +353,7 @@
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-9.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-10.webp"
       ],
-      "size": 76600000,
+      "size": 117059543,
       "subtitle": "MyFitnessPal With Premium Activated.",
       "tintColor": "0463ea",
       "version": "25.8.0",
@@ -303,6 +364,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
           "localizedDescription": "• Updated MyFitnessPal to v25.8.0",
+          "minOSVersion": "16.0",
           "size": 76600000,
           "version": "25.8.0"
         },
@@ -330,6 +392,18 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Music or podcast will be attached to your next BeReal if you're listening to something on Apple Music.",
+          "NSCameraUsageDescription": "BeReal uses the camera to capture and share a picture with your friends.",
+          "NSContactsUsageDescription": "BeReal will check your contacts to see who from your friends is already on BeReal. Your contacts won't be stored or shared with anyone.",
+          "NSLocationWhenInUseUsageDescription": "The location of your BeReal will only be shared with your friends if they share theirs with you. When shared publicly, only an approximate location is visible.",
+          "NSMicrophoneUsageDescription": "BeReal uses the microphone to capture and share with your friends.",
+          "NSPhotoLibraryAddUsageDescription": "To let you save your BeReal in your Library.",
+          "NSPhotoLibraryUsageDescription": "Allow Full Access to your Photo Library to use Roulette.",
+          "NSUserTrackingUsageDescription": "⚠ By allowing, your data will be used to make ads more relevant for you. ⚠"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "AlexisBarreyat.BeReal",
       "category": "Social",
@@ -346,7 +420,7 @@
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.webp"
       ],
-      "size": 63800000,
+      "size": 66866176,
       "subtitle": "See your friends BeReals without posting anything!",
       "tintColor": "0b0b0b",
       "version": "2.14.2",
@@ -357,6 +431,7 @@
           "date": "2024-10-09",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
           "localizedDescription": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
+          "minOSVersion": "15.0",
           "size": 63800000,
           "version": "2.14.2"
         },
@@ -377,6 +452,17 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothPeripheralUsageDescription": "Deezer needs bluetooth access to scan for nearby Cast devices.",
+          "NSCalendarsUsageDescription": "Advertisement would like to create a calendar event.",
+          "NSCameraUsageDescription": "Deezer would like to access your photos.",
+          "NSLocationAlwaysUsageDescription": "This will be used to improve music recommendations",
+          "NSLocationWhenInUseUsageDescription": "This will be used to improve music recommendations",
+          "NSMicrophoneUsageDescription": "Deezer needs microphone access to listen for ultrasonic tokens when pairing with nearby Cast devices.",
+          "NSPhotoLibraryUsageDescription": "Deezer would like to access your media library."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.deezer.Deezer",
       "category": "Entertainment",
@@ -396,7 +482,7 @@
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-8.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-9.webp"
       ],
-      "size": 29200000,
+      "size": 32099259,
       "subtitle": "Deezer with premium activated!",
       "tintColor": "8c4384",
       "version": "7.15.0",
@@ -407,12 +493,25 @@
           "date": "2023-10-22",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
           "localizedDescription": "• Updated Deezer to v7.15.0 - Last working version with tweak.",
+          "minOSVersion": "10.0",
           "size": 29200000,
           "version": "7.15.0"
         }
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothPeripheralUsageDescription": "SoundCloud would like to use bluetooth.",
+          "NSCameraUsageDescription": "bla-bla-bla",
+          "NSLocalNetworkUsageDescription": "SoundCloud uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSMicrophoneUsageDescription": "SoundCloud would like to use the microphone.",
+          "NSPhotoLibraryAddUsageDescription": "SoundCloud would like to access the photos library.",
+          "NSPhotoLibraryUsageDescription": "SoundCloud would like to store a photo.",
+          "NSSiriUsageDescription": "SoundCloud would like to use Siri",
+          "NSUserTrackingUsageDescription": "Your data will only be used to serve more relevant ads to you."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.soundcloud.TouchApp",
       "category": "Entertainment",
@@ -431,7 +530,7 @@
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
       ],
-      "size": 57600000,
+      "size": 92885040,
       "subtitle": "SoundCloud with no ads! Read Description.",
       "tintColor": "0a0a0a",
       "version": "7.65.4",
@@ -442,6 +541,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
           "localizedDescription": "• Updated SoundCloud to v7.65.4",
+          "minOSVersion": "15.0",
           "size": 57600000,
           "version": "7.65.4"
         },
@@ -463,35 +563,23 @@
     },
     {
       "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.carplay-audio",
-          "get-task-allow",
-          "com.apple.developer.group-session",
-          "com.apple.developer.healthkit",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.healthkit.access",
-          "com.apple.developer.applesignin",
-          "com.apple.developer.siri",
-          "com.apple.developer.networking.wifi-info"
-        ],
         "privacy": {
-          "NSAppleMusicUsageDescription": "App accesses Apple Music for streaming music.",
-          "NSBluetoothAlwaysUsageDescription": "App requires continuous access to Bluetooth.",
-          "NSBluetoothPeripheralUsageDescription": "App uses Bluetooth for peripheral devices.",
-          "NSCameraUsageDescription": "App uses the camera for capturing photos or videos.",
-          "NSFaceIDUsageDescription": "App uses Face ID for authentication.",
-          "NSHealthShareUsageDescription": "App shares health-related data with Health.",
-          "NSHealthUpdateUsageDescription": "App updates health-related data in Health.",
-          "NSLocalNetworkUsageDescription": "App accesses devices on the local network.",
-          "NSMicrophoneUsageDescription": "App uses the microphone to record audio.",
-          "NSMotionUsageDescription": "App uses motion sensors for tracking movement.",
-          "NSPhotoLibraryAddUsageDescription": "App adds photos to the user's photo library.",
-          "NSPhotoLibraryUsageDescription": "App accesses the user's photo library.",
-          "NSUserTrackingUsageDescription": "App tracks user activity for advertising purposes."
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
       },
       "beta": false,
@@ -510,7 +598,7 @@
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
       ],
-      "size": 76500000,
+      "size": 83312799,
       "subtitle": "A new and improved Spotify tweak!",
       "tintColor": "1fd362",
       "version": "9.0.20",
@@ -521,6 +609,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
           "localizedDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+          "minOSVersion": "15.0",
           "size": 76500000,
           "version": "9.0.20"
         },
@@ -562,6 +651,21 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you use Spotify with external accessories.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you use Spotify with external accessories.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSLocationWhenInUseUsageDescription": "This lets you prepopulate the SSID field with the currently connected network.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.spotify.client-old",
       "category": "Entertainment",
@@ -578,7 +682,7 @@
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
       ],
-      "size": 47500000,
+      "size": 49810801,
       "subtitle": "The original Spotilife tweak, along with other tweaks",
       "tintColor": "1fd362",
       "version": "8.6.42-0.2",
@@ -589,6 +693,7 @@
           "date": "2023-04-24",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
           "localizedDescription": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
+          "minOSVersion": "10.0",
           "size": 47500000,
           "version": "8.6.42-0.2"
         },
@@ -602,6 +707,19 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.google.ios.youtube",
       "category": "Entertainment",
@@ -618,7 +736,7 @@
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tZ2yvOY.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ayNc4BB.jpeg"
       ],
-      "size": 106000000,
+      "size": 113399273,
       "subtitle": "The All-In-One Tweak for YouTube.",
       "tintColor": "f90505",
       "version": "20.09.3",
@@ -629,6 +747,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
           "localizedDescription": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+          "minOSVersion": "15.0",
           "size": 106000000,
           "version": "20.09.3"
         },
@@ -663,6 +782,18 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSCameraUsageDescription": "Take a photo to use for your Duolingo profile.",
+          "NSContactsUsageDescription": "Your contacts will be securely uploaded to Duolingo to help you find friends.",
+          "NSLocationWhenInUseUsageDescription": "Duolingo uses your current location to find nearby events.",
+          "NSMicrophoneUsageDescription": "Speaking is essential to language learning.",
+          "NSPhotoLibraryAddUsageDescription": "In order to save screenshots of exercises like this one.",
+          "NSPhotoLibraryUsageDescription": "Find an existing photo to use for your Duolingo profile.",
+          "NSSpeechRecognitionUsageDescription": "Speaking is essential to language learning.",
+          "NSUserTrackingUsageDescription": "This will be used to show ads relevant to you."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.duolingo.DuolingoMobile",
       "category": "Lifestyle",
@@ -681,7 +812,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/71/50/25/7150254b-c1fe-0f0a-3080-d132ec1df02b/tns.kxzrjpco.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/d8/e5/66d8e526-9452-3aef-929c-1e91c675512a/7c022d98-f86f-4b31-8503-632ddcd73657_6.5-inch-screen9__U00283_U0029.png/314x0w.webp"
       ],
-      "size": 101000000,
+      "size": 114310051,
       "subtitle": "Duolingo with Super Duolingo Activated!",
       "tintColor": "7cd404",
       "version": "7.29.0",
@@ -692,6 +823,7 @@
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
           "localizedDescription": "• Duolingo Updated to v7.29.0",
+          "minOSVersion": "10.0",
           "size": 101000000,
           "version": "7.29.0"
         },
@@ -712,6 +844,25 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
+          "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
+          "NSBluetoothPeripheralUsageDescription": "This makes some features work with bluetooth accessories.",
+          "NSCalendarsUsageDescription": "This makes some features that use your calendar work.",
+          "NSCameraUsageDescription": "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
+          "NSContactsUsageDescription": "Messenger uploads your contacts to our servers to do things like connect you with people you already know, suggest new connections, and improve ads for you and others on Facebook Products.",
+          "NSFaceIDUsageDescription": "Messenger uses Face ID to unlock the app.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+          "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
+          "NSLocationUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSLocationWhenInUseUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSMicrophoneUsageDescription": "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you do things like save to your camera roll and enables other features for photos and videos.",
+          "NSPhotoLibraryUsageDescription": "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos.",
+          "NSSiriUsageDescription": "This lets you use Siri to do things like make calls and read messages."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.facebook.Messenger",
       "category": "Social",
@@ -729,7 +880,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/db/8f/9c/db8f9c34-d7d5-b1f3-2be4-e4fa3a6906f5/ee927225-0cfa-43a1-8b63-f97eabc3237c_iPhone_6.5__-_Screen_7.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/97/49/e59749f5-d582-4840-dbcc-0e72bdbf09ec/8ed80d4b-be7b-4048-a099-d1d0ff5555ab_iPhone_6.5__-_Screen_8.jpg/460x0w.webp"
       ],
-      "size": 42500000,
+      "size": 44596633,
       "subtitle": "The ultimate Facebook Messenger tweak!",
       "tintColor": "c844c6",
       "version": "390.0",
@@ -740,6 +891,7 @@
           "date": "2023-10-23",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
           "localizedDescription": "• Added Messenger v390.0 (Current working version with crack)",
+          "minOSVersion": "13.0",
           "size": 42500000,
           "version": "390.0"
         }

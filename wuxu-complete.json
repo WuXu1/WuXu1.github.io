@@ -1,6 +1,11 @@
 {
   "apps": [
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Unsandboxing with MacDirtyCow"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.Alfie.TrollInstallerX",
       "category": "utilities",
@@ -13,7 +18,7 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/aIyWLRP.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/o5REDKV.jpeg"
       ],
-      "size": 25800000,
+      "size": 6889214,
       "subtitle": "The universal TrollStore installer for iOS 14.0 - 17.0.0.0 beta 4",
       "tintColor": "0363a9",
       "version": "1.0.3",
@@ -25,6 +30,7 @@
           "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
           "localizedDescription": "• Update for Xcode 15.4+ compilation\n• Removing confusing logging around exploit deinitialisation\n• Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2",
           "maxOSVersion_0": "17.0.0",
+          "minOSVersion": "14.0",
           "size": 25800000,
           "version": "1.0.3"
         },
@@ -39,6 +45,12 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Full access to files on your device is required to apply modifications.",
+          "NSPhotoLibraryAddUsageDescription": "To save the selected image to the camera roll."
+        }
+      },
       "beta": true,
       "bundleIdentifier": "org.haxi0.santander",
       "category": "utilities",
@@ -53,7 +65,7 @@
         "https://static.appdb.to/images/cydia-1900001084-iphone-2-1674953851.png",
         "https://static.appdb.to/images/cydia-1900001084-iphone-3-1674953851.png"
       ],
-      "size": 4540000,
+      "size": 4765285,
       "subtitle": "A Modern File Manager MacDirtyCow Devices",
       "tintColor": "596d8d",
       "version": "0.4",
@@ -65,12 +77,19 @@
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
           "localizedDescription": "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
           "maxOSVersion_0": "16.1.2",
+          "minOSVersion": "14.0",
           "size": 4540000,
           "version": "0.4"
         }
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Please allow PostBox to save media into your photo library.",
+          "NSPhotoLibraryUsageDescription": "PostBox can save media (such as screenshots and banners) to your photo library."
+        }
+      },
       "beta": true,
       "bundleIdentifier": "com.simplycode.PostBox",
       "category": "utilities",
@@ -87,7 +106,7 @@
         "https://www.postbox.news/assets/images/reviewPhone.webp",
         "https://www.postbox.news/assets/images/storyboardPhone.webp"
       ],
-      "size": 8080000,
+      "size": 8474074,
       "subtitle": "The latest jailbreak news at your fingertips",
       "tintColor": "b3b3b3",
       "version": "0.8.1",
@@ -98,12 +117,16 @@
           "date": "2023-05-14",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PostBox.v0.8.1.ipa",
           "localizedDescription": "• Added PostBox v0.8.1",
+          "minOSVersion": "10.0",
           "size": 8080000,
           "version": "0.8.1"
         }
       ]
     },
     {
+      "appPermissions": {
+
+      },
       "beta": true,
       "bundleIdentifier": "com.antique.emuThreeDS",
       "category": "Games",
@@ -120,7 +143,7 @@
         "https://play-lh.googleusercontent.com/UhUl8DQRlWiITbsrYEYb89rrvpALAUn7Wgyb6PKCjgiG5gF2WHL7piRBf2enCZZWwQ=w1052-h592-rw",
         "https://play-lh.googleusercontent.com/uxwledxQN-64HfwyfbUFXa7pcgHTy_78iiKXZwArALZqhpR1PjWZfOGjdgwRCTgwnjY=w1052-h592-rw"
       ],
-      "size": 30300000,
+      "size": 31732972,
       "subtitle": "A Nintendo 3DS emulator for IOS",
       "tintColor": "acaea8",
       "version": "1.0.5.2",
@@ -131,12 +154,20 @@
           "date": "2023-05-13",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/emuThreeDS.v1.0.5.2.ipa",
           "localizedDescription": "Added:\n\n• Emulation menu to the in-game options button.\n• Pause and resume emulation option to the Emulation menu.\n• Preload textures by default to improve performance.\n• Portrait touch and drag support.\nReimplemented landscape mode for testing (screens will not be side-by-side yet).\n\nChanged:\n\n• Layout of the emulation to display below the status bar.\n• Increased priority of the emulation thread to squeeze out more performance.\n\nFixed:\n\n• Issue where the status bar would display black text on a black background.",
+          "minOSVersion": "15.0",
           "size": 30300000,
           "version": "1.0.5.2"
         }
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSCameraUsageDescription": "Your camera may be used to emulate Go!Cam, a camera accessory",
+          "NSLocationWhenInUseUsageDescription": "Your location may be used to emulate Go!Explore, a GPS accessory",
+          "NSMicrophoneUsageDescription": "Your microphone may be used to emulate Go!Cam/Talkman, a microphone accessory"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "org.ppsspp.ppsspp",
       "category": "Games",
@@ -151,10 +182,9 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
       ],
-      "size": 27700000,
+      "size": 29074633,
       "subtitle": "A fast and portable PSP emulator for IOS",
       "tintColor": "21486b",
-      "version": "1.15.3",
       "versionDate": "2023-05-14",
       "versionDescription": "• Assorted minor crash- and other fixes\n• Control mapping: Fix bugs in mapping UI causing trouble with some controllers\n\n",
       "versions": [
@@ -168,8 +198,16 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Full access to files on your device is required to apply modifications.",
+          "NSFaceIDUsageDescription": "Filza uses Face ID to authenticate",
+          "NSPhotoLibraryAddUsageDescription": "To save photos and videos to photo library.",
+          "NSPhotoLibraryUsageDescription": "To save photos and videos to photo library."
+        }
+      },
       "beta": false,
-      "bundleIdentifier": "com.tigisoftware.Filza",
+      "bundleIdentifier": "com.dry05.filzaescaped11-12",
       "category": "utilities",
       "developerName": "TIGI Software",
       "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
@@ -182,7 +220,7 @@
         "https://static.appdb.to/images/cydia-1900001095-iphone-2-1675790064.png",
         "https://static.appdb.to/images/cydia-1900001095-iphone-3-1675790064.png"
       ],
-      "size": 9040000,
+      "size": 14649688,
       "subtitle": "Filza for MacDirtyCow Devices!",
       "tintColor": "047a9a",
       "version": "3.7",
@@ -194,13 +232,18 @@
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
           "localizedDescription": "• Added Filza (MDC) v3.7",
           "maxOSVersion_0": "16.1.2",
-          "minOSVersion": "15.0.0",
+          "minOSVersion": "7.0",
           "size": 9040000,
           "version": "3.7"
         }
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "This app needs to access the local network to do wireless installs."
+        }
+      },
       "beta": true,
       "bundleIdentifier": "com.DebianArch.ScarletPersonalXYZZZ",
       "category": "utilities",
@@ -215,7 +258,7 @@
         "https://static.appdb.to/images/cydia-1900001033-iphone-2-1669967900.png",
         "https://static.appdb.to/images/cydia-1900001033-iphone-3-1669967900.png"
       ],
-      "size": 15500000,
+      "size": 15515487,
       "subtitle": "Get more than an app store. Get Scarlet.",
       "tintColor": "8d2229",
       "version": "1.0",
@@ -223,6 +266,11 @@
       "versionDescription": "• Added Ability to import/Export app backups.\n• Added ability to modify IPA (Add/Remove Tweaks etc.)"
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "For selecting a custom theme image"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "org.coolstar.odyssey",
       "category": "utilities",
@@ -236,7 +284,7 @@
         "https://theodyssey.dev/assets/images/ss-2.png",
         "https://theodyssey.dev/assets/images/ss-3.png"
       ],
-      "size": 27200000,
+      "size": 27204395,
       "subtitle": "A new jailbreak for a new era.",
       "tintColor": "9766a7",
       "version": "1.4.3",
@@ -248,12 +296,16 @@
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Odyssey.Jailbreak.v1.4.3.ipa",
           "localizedDescription": "• Update Sileo to 2.3-1",
           "maxOSVersion_0": "13.7.0",
+          "minOSVersion": "13.0",
           "size": 27200000,
           "version": "1.4.3"
         }
       ]
     },
     {
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "org.coolstar.taurine",
       "category": "utilities",
@@ -267,10 +319,10 @@
         "https://taurine.app/assets/images/ss-2.png",
         "https://taurine.app/assets/images/ss-3.png"
       ],
-      "size": 30838370,
+      "size": 32244737,
       "subtitle": "Time to get amped.",
       "tintColor": "9e3a47",
-      "version": "1.1.6",
+      "version": "1.1.7-3",
       "versionDate": "2023-09-23",
       "versionDescription": "• Fix kfd change being implemented incorrectly",
       "versions": [
@@ -279,6 +331,7 @@
           "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
           "localizedDescription": "• Fix kfd change being implemented incorrectly",
           "maxOSVersion_0": "14.8.1",
+          "minOSVersion": "14.0",
           "size": 30838370,
           "version": "1.1.7-3"
         },
@@ -293,6 +346,9 @@
       ]
     },
     {
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "science.xnu.undecimus",
       "category": "utilities",
@@ -319,12 +375,16 @@
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
           "localizedDescription": "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
           "maxOSVersion_0": "14.8.0",
+          "minOSVersion": "11.0",
           "size": 54489484,
           "version": "8.0.2"
         }
       ]
     },
     {
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "com.opa334.Dopamine",
       "category": "utilities",
@@ -337,7 +397,7 @@
         "https://ellekit.space/dopamine/assets/screenshot_one.png",
         "https://ellekit.space/dopamine/assets/screenshot_two.png"
       ],
-      "size": 47700000,
+      "size": 50005508,
       "subtitle": "The semi-untethered jailbreak for iOS 15 - 16",
       "tintColor": "0d7d65",
       "version": "2.4.1",
@@ -349,6 +409,7 @@
           "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
           "localizedDescription": "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
           "maxOSVersion_0": "16.5.1",
+          "minOSVersion": "15.0",
           "size": 47700000,
           "version": "2.4.1"
         },
@@ -363,6 +424,12 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Allow, if you want to be able to save files to Photos app",
+          "NSUserTrackingUsageDescription": "Support developer, allow personalized ads."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "ru.nonamedude.iTorrent",
       "category": "utilities",
@@ -376,7 +443,7 @@
         "https://static.appdb.to/images/cydia-1900000455-iphone-1.png",
         "https://static.appdb.to/images/cydia-1900000455-iphone-2.png"
       ],
-      "size": 12800000,
+      "size": 13454780,
       "subtitle": "An ordinary torrent client for iOS with Files app support",
       "tintColor": "b31c29",
       "version": "1.9",
@@ -394,6 +461,14 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Grant permission to the sandbox (needs it for Passcode keys + some other options)",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Cowabunga runs in the background to make sure tweaks remain applied. Usually iOS kills such apps after a period of time, but Cowabunga tricks iOS by requesting location data thus allowing much longer sessions. Data is never stored anywhere, only fetched.",
+          "NSLocationWhenInUseUsageDescription": "Cowabunga runs in the background to make sure tweaks remain applied. Usually iOS kills such apps after a period of time, but Cowabunga tricks iOS by requesting location data thus allowing much longer sessions. Data is never stored anywhere, only fetched.",
+          "NSPhotoLibraryUsageDescription": "Photos"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.leemin.Cowabunga",
       "category": "utilities",
@@ -412,7 +487,7 @@
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Misc.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Extra_Tools.PNG"
       ],
-      "size": 15500000,
+      "size": 16280833,
       "subtitle": "The MacDirtyCow Toolbox for iOS 14 – iOS 16",
       "tintColor": "0d6425",
       "version": "10.2.0",
@@ -424,7 +499,7 @@
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.2.0.ipa",
           "localizedDescription": "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
           "maxOSVersion_0": "16.1.2",
-          "minOSVersion": "14.0.0",
+          "minOSVersion": "14.0",
           "size": 15500000,
           "version": "10.2.0"
         },
@@ -449,6 +524,16 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSAppleMusicUsageDescription": "点允许，才能使用。",
+          "NSCameraUsageDescription": "授权后才能使用您的相机进行扫一扫",
+          "NSLocationWhenInUseUsageDescription": "开启定位服务，我们将根据您的位置,为您提供当前城市的相关企业信息。在未经许可前不会开启定位服务，请放心使用。",
+          "NSPhotoLibraryAddUsageDescription": "授权后才能将图片保存到本地相册",
+          "NSPhotoLibraryUsageDescription": "授权后才能访问您的手机相册，您才能上传对应的图片",
+          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you"
+        }
+      },
       "beta": false,
       "bundleIdentifier": "p3.xyz.yyyue.esign",
       "category": "utilities",
@@ -463,7 +548,7 @@
         "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
         "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
       ],
-      "size": 8750000,
+      "size": 9174870,
       "subtitle": "IPA Self Signer, Tweak Injector, File Manager",
       "tintColor": "356ead",
       "version": "4.8.1",
@@ -513,8 +598,15 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSCameraUsageDescription": "Camera access is needed for scanning QR codes.",
+          "NSPhotoLibraryUsageDescription": "Photo library access is needed if player wants to send screenshots to Supercell Player Support.",
+          "NSUserTrackingUsageDescription": "Clash of Clans would like permission to track you across apps and websites owned by other companies.\\n\\nYour data will be used for audience insights, analytics and improving our services."
+        }
+      },
       "beta": false,
-      "bundleIdentifier": "com.supercell.magic",
+      "bundleIdentifier": "com.atrasis.original",
       "category": "Games",
       "developerName": "Atrasis Team",
       "downloadURL": "https://atrasisclash.net/server-original-ios-download-ipa.php",
@@ -530,16 +622,22 @@
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-6.webp",
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-7.webp"
       ],
-      "size": 277000000,
+      "size": 506956293,
       "subtitle": "A modded Clash of Clans server!",
       "tintColor": "9e6193",
-      "version": "latest",
+      "version": "18.400.8",
       "versionDate": "2024-05-10",
       "versionDescription": "• Link now only installs latest version."
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSCameraUsageDescription": "Camera access is needed to scan QR codes.",
+          "NSPhotoLibraryUsageDescription": "Photo library access is needed to send screenshots to Supercell Player Support."
+        }
+      },
       "beta": false,
-      "bundleIdentifier": "com.supercell.scroll",
+      "bundleIdentifier": "nt.nr.ios",
       "category": "Games",
       "developerName": "Null",
       "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v4.88.4.Nulls.ipa",
@@ -554,7 +652,7 @@
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-5.webp",
         "https://img.ipa4fun.com/e8/16/53/1053012308-screenshot-6.webp"
       ],
-      "size": 329000000,
+      "size": 345169728,
       "subtitle": "A modded Clash Royale server!",
       "tintColor": "092949",
       "version": "4.88.4",
@@ -565,6 +663,7 @@
           "date": "2024-05-10",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Clash.Royale.v4.88.4.Nulls.ipa",
           "localizedDescription": "• Updated Clash Royale to v4.88.4",
+          "minOSVersion": "11.0",
           "size": 329000000,
           "version": "4.88.4"
         },
@@ -600,7 +699,7 @@
         "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-4.webp",
         "https://img.ipa4fun.com/c2/46/8a/499511971-screenshot-5.webp"
       ],
-      "size": 49900000,
+      "size": 9,
       "subtitle": "Removed from the App Store!",
       "tintColor": "06253f",
       "version": "2.2.13",
@@ -632,7 +731,7 @@
         "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-4.webp",
         "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-5.webp"
       ],
-      "size": 58200000,
+      "size": 9,
       "subtitle": "Removed from the App Store!",
       "tintColor": "082448",
       "version": "1.5.12",
@@ -649,6 +748,25 @@
       ]
     },
     {
+      "appPermissions": {
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Allows pairing to devices including peripherals and consoles.",
+          "NSBluetoothPeripheralUsageDescription": "Allows for usage of the Pokémon GO Plus",
+          "NSCalendarsUsageDescription": "In order to add Live Event calendar items",
+          "NSCameraUsageDescription": "Enabling this setting allows you to use AR when catching Pokémon.",
+          "NSContactsUsageDescription": "Pokémon GO needs to access and upload your contacts to our servers to send game invites and friend requests to people in your address book.",
+          "NSHealthShareUsageDescription": "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
+          "NSHealthUpdateUsageDescription": "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
+          "NSLocationAlwaysUsageDescription": "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
+          "NSLocationWhenInUseUsageDescription": "Pokémon GO requires your mobile device’s location permissions to be enabled in order to find Pokémon and PokéStops near you.",
+          "NSMicrophoneUsageDescription": "not used",
+          "NSMotionUsageDescription": "Pokémon GO requires your mobile device’s motion permissions to be enabled in order to let you know when new Pokémon are nearby.",
+          "NSPhotoLibraryAddUsageDescription": "In order to save pictures of encountered Pokémon",
+          "NSPhotoLibraryUsageDescription": "In order to save pictures of encountered Pokémon",
+          "NSUserTrackingUsageDescription": "If you enable this setting, your information can be used to deliver personalized ads to you regarding Pokémon GO exclusive offers, promotions, and events."
+        }
+      },
       "beta": false,
       "bundleIdentifier": "com.nianticlabs.pokemongo",
       "category": "Games",
@@ -666,7 +784,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/392x696bb.png"
       ],
-      "size": 118000000,
+      "size": 123629575,
       "subtitle": "Pokemon Go injected with SpooferPro",
       "tintColor": "184f99",
       "version": "0.269.1",
@@ -677,6 +795,7 @@
           "date": "2023-05-11",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
           "localizedDescription": "• Updated Pokemon Go to v0.269.1",
+          "minOSVersion": "14.0",
           "size": 118000000,
           "version": "0.269.1"
         },

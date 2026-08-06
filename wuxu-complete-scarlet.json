@@ -190,11 +190,11 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
       ],
-      "version": "1.15.3"
+      "version": ""
     },
     {
-      "appstore": "com.supercell.magic",
-      "bundleID": "com.supercell.magic",
+      "appstore": "com.atrasis.original",
+      "bundleID": "com.atrasis.original",
       "category": "Games",
       "changelog": "• Link now only installs latest version.",
       "contact": {
@@ -215,11 +215,11 @@
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-6.webp",
         "https://img.ipa4fun.com/cc/d5/84/529479190-screenshot-7.webp"
       ],
-      "version": "latest"
+      "version": "18.400.8"
     },
     {
-      "appstore": "com.supercell.scroll",
-      "bundleID": "com.supercell.scroll",
+      "appstore": "nt.nr.ios",
+      "bundleID": "nt.nr.ios",
       "category": "Games",
       "changelog": "• Updated Clash Royale to v4.88.4",
       "contact": {
@@ -585,8 +585,8 @@
       "version": "0.8.1"
     },
     {
-      "appstore": "com.tigisoftware.Filza",
-      "bundleID": "com.tigisoftware.Filza",
+      "appstore": "com.dry05.filzaescaped11-12",
+      "bundleID": "com.dry05.filzaescaped11-12",
       "category": "utilities",
       "changelog": "• Added Filza (MDC) v3.7",
       "contact": {
@@ -668,7 +668,7 @@
         "https://taurine.app/assets/images/ss-2.png",
         "https://taurine.app/assets/images/ss-3.png"
       ],
-      "version": "1.1.6"
+      "version": "1.1.7-3"
     },
     {
       "appstore": "science.xnu.undecimus",
