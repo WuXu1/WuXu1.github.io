@@ -873,8 +873,8 @@
   ],
   "headerURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
   "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
-  "identifier": "com.wuxulibs.wuxuslibrary++",
-  "name": "WuXu's Library++",
+  "identifier": "com.wuxulibs.wuxuslibraryplus-exp",
+  "name": "WuXu's Library++ (Experimental)",
   "news": [
     {
       "appID": "com.spotify.client",
