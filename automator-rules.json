@@ -1,8 +1,8 @@
 {
-  "com.spotify.client" : [
-    "EeveeSpotify"
-  ],
   "com.soundcloud.TouchApp" : [
     "NexaSC"
+  ],
+  "com.spotify.client" : [
+    "EeveeSpotify"
   ]
 }
