@@ -85,7 +85,7 @@
       "dev": "Eevee",
       "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
       "icon": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "name": "Spotify++ (NEW)",
+      "name": "Spotify++",
       "screenshots": [
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
@@ -95,30 +95,6 @@
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
       ],
       "version": "9.0.20"
-    },
-    {
-      "appstore": "com.spotify.client-old",
-      "bundleID": "com.spotify.client-old",
-      "category": "Entertainment",
-      "changelog": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
-      "contact": {
-        "discord": "https://bit.ly/wuxuslibrary-discord",
-        "web": "https://bit.ly/wuxus-sources"
-      },
-      "description": "USE THIS IF YOU DO NOT LIKE THE NEW ONE OR IF ITS NOT WORKING\n\nI would highly recommend you use the new Spotify tweak as it has been updated to work on newer Spotify versions and is currently being updated. However this tweak may stop working in the near future as it is an old version.\n\n\n\nSpotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
-      "dev": "iJulioVerne",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
-      "icon": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "name": "Spotify++ (Old)",
-      "screenshots": [
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
-      ],
-      "version": "8.6.42-0.2"
     },
     {
       "appstore": "com.google.ios.youtube",

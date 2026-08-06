@@ -589,7 +589,7 @@
       "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
       "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
       "localizedDescription": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
-      "name": "Spotify++ (NEW)",
+      "name": "Spotify++",
       "screenshotURLs": [
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
@@ -647,62 +647,6 @@
           "localizedDescription": "• Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
           "size": 65900000,
           "version": "8.9.34"
-        }
-      ]
-    },
-    {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
-          "NSBluetoothAlwaysUsageDescription": "This lets you use Spotify with external accessories.",
-          "NSBluetoothPeripheralUsageDescription": "This lets you use Spotify with external accessories.",
-          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
-          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
-          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
-          "NSLocationWhenInUseUsageDescription": "This lets you prepopulate the SSID field with the currently connected network.",
-          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
-          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
-          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
-        }
-      },
-      "beta": false,
-      "bundleIdentifier": "com.spotify.client-old",
-      "category": "Entertainment",
-      "developerName": "iJulioVerne",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
-      "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "localizedDescription": "USE THIS IF YOU DO NOT LIKE THE NEW ONE OR IF ITS NOT WORKING\n\nI would highly recommend you use the new Spotify tweak as it has been updated to work on newer Spotify versions and is currently being updated. However this tweak may stop working in the near future as it is an old version.\n\n\n\nSpotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n• Spotilife - Premium for free.\n\n• Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n• Volify - Adds a volume slider to Spotify.\n\n• SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.\n\n• SpotifyNoPodcasts - Hides Podcasts from from Home and Library\n\n• SpotifyHighQuality - Enables 'Very High' Quality in Audio Quality settings\n\n•TrueShuffle - Enables true random shuffling (Spotify prioritizes Songs you have listened to more often by default)\n\n• Spoticentre - Centres the song/artist in now playing (Only working on some devices)\n\n\n\nNOTE\n\nThe ‘Car’ setting has been replaced with the sposify tweak settings so unfortunatley you cannot change car settings - all good tho, nobody use that shi anyways, and when car view enables when u in the car, just click ‘turn off car view’ at the top right corner.\n\n\nAll tweaks are injected by myself, WuXu, and ensured to be working perfectly ;)\n",
-      "name": "Spotify++ (Old)",
-      "screenshotURLs": [
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
-        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
-      ],
-      "size": 49810801,
-      "subtitle": "The original Spotilife tweak, along with other tweaks",
-      "tintColor": "1fd362",
-      "version": "8.6.42-0.2",
-      "versionDate": "2023-04-24",
-      "versionDescription": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
-      "versions": [
-        {
-          "date": "2023-04-24",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked-OG.v8.6.42-0.2.ipa",
-          "localizedDescription": "• Added SpotilifeFix - May fix the issue where premium is not activated after downloading on certain devices and IOS versions\n• Added OpenSpotifySafariExtension - Enable in Safari extensions to fix Spotify links not opening the app!",
-          "minOSVersion": "10.0",
-          "size": 47500000,
-          "version": "8.6.42-0.2"
-        },
-        {
-          "date": "2023-03-19",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.Tweaked.v8.6.42-0.1.ipa",
-          "localizedDescription": "• Added SpotifyNoPodcasts\n• Added SpotifyHighQuality\n• Added Spoticentre\n• Added TrueShuffle",
-          "size": 47000000,
-          "version": "8.6.42-0.1"
         }
       ]
     },
