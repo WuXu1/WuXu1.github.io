@@ -1,159 +1,159 @@
 {
-  "apps": [
+  "apps" : [
     {
-      "appPermissions": {
-        "privacy": {
-          "NSCameraUsageDescription": "Take photos and record videos directly within HD Flix",
-          "NSLocationWhenInUseUsageDescription": "Find location-based content and local streaming options on HD Flix",
-          "NSMicrophoneUsageDescription": "The application needs access to the microphone to recognize your voice to convert voice to title of the journey.",
-          "NSPhotoLibraryUsageDescription": "The application needs access to the photo library to create the journey.",
-          "NSSpeechRecognitionUsageDescription": "The application needs access to speech recognition to convert your voice to title of the journey.",
-          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
+      "appPermissions" : {
+        "privacy" : {
+          "NSCameraUsageDescription" : "Take photos and record videos directly within HD Flix",
+          "NSLocationWhenInUseUsageDescription" : "Find location-based content and local streaming options on HD Flix",
+          "NSMicrophoneUsageDescription" : "The application needs access to the microphone to recognize your voice to convert voice to title of the journey.",
+          "NSPhotoLibraryUsageDescription" : "The application needs access to the photo library to create the journey.",
+          "NSSpeechRecognitionUsageDescription" : "The application needs access to speech recognition to convert your voice to title of the journey.",
+          "NSUserTrackingUsageDescription" : "This identifier will be used to deliver personalized ads to you."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.box.hd.flix.drama.hub",
-      "category": "Entertainment",
-      "developerName": "Dezokr",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
-      "localizedDescription": "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
-      "name": "HD Flix (No Ads)",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.box.hd.flix.drama.hub",
+      "category" : "Entertainment",
+      "developerName" : "Dezokr",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
+      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
+      "localizedDescription" : "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
+      "name" : "HD Flix (No Ads)",
+      "screenshotURLs" : [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
       ],
-      "size": 14664935,
-      "subtitle": "The All-In-One Movie app for iOS",
-      "tintColor": "a01916",
-      "version": "2.0",
-      "versionDate": "2025-03-10",
-      "versionDescription": "• Updated HD Flix to v2.0",
-      "versions": [
+      "size" : 14664935,
+      "subtitle" : "The All-In-One Movie app for iOS",
+      "tintColor" : "a01916",
+      "version" : "2.0",
+      "versionDate" : "2025-03-10",
+      "versionDescription" : "• Updated HD Flix to v2.0",
+      "versions" : [
         {
-          "date": "2025-03-10",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-          "localizedDescription": "• Updated HD Flix",
-          "minOSVersion": "10.0",
-          "size": 2800000,
-          "version": "2.0"
+          "date" : "2025-03-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
+          "localizedDescription" : "• Updated HD Flix",
+          "minOSVersion" : "10.0",
+          "size" : 2800000,
+          "version" : "2.0"
         },
         {
-          "date": "2024-05-11",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.v5.0.ipa",
-          "localizedDescription": "• Added HD Flix v5.0",
-          "size": 2940000,
-          "version": "1.0"
+          "date" : "2024-05-11",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.v5.0.ipa",
+          "localizedDescription" : "• Added HD Flix v5.0",
+          "size" : 2940000,
+          "version" : "1.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "X uses bluetooth to discover Cast-enabled devices near you.",
-          "NSCalendarsUsageDescription": "Add events to your calendar from X.",
-          "NSCameraUsageDescription": "Capture and post photos and videos from X.",
-          "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
-          "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
-          "NSLocalNetworkUsageDescription": "X uses the local network to discover Cast-enabled devices on your WiFi network.",
-          "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
-          "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
-          "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
-          "NSPhotoLibraryUsageDescription": "Easily add photos on X.",
-          "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
-          "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+      "appPermissions" : {
+        "privacy" : {
+          "NSBluetoothAlwaysUsageDescription" : "X uses bluetooth to discover Cast-enabled devices near you.",
+          "NSCalendarsUsageDescription" : "Add events to your calendar from X.",
+          "NSCameraUsageDescription" : "Capture and post photos and videos from X.",
+          "NSContactsUsageDescription" : "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+          "NSFaceIDUsageDescription" : "Use FaceID to authenticate on X.",
+          "NSLocalNetworkUsageDescription" : "X uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSLocationUsageDescription" : "Enjoy the X experience tailored to your location.",
+          "NSLocationWhenInUseUsageDescription" : "Enjoy the X experience tailored to your location.",
+          "NSMicrophoneUsageDescription" : "Capture and post videos with sound from X.",
+          "NSPhotoLibraryAddUsageDescription" : "This lets you download photos and videos to your Photos.",
+          "NSPhotoLibraryUsageDescription" : "Easily add photos on X.",
+          "NSSpeechRecognitionUsageDescription" : "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+          "NSUserTrackingUsageDescription" : "This helps X show you more relevant ads."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.atebits.Tweetie2",
-      "category": "Social",
-      "developerName": "Densor",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/HjyhiOC.jpeg",
-      "localizedDescription": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
-      "name": "X++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.atebits.Tweetie2",
+      "category" : "Social",
+      "developerName" : "Densor",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/HjyhiOC.jpeg",
+      "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
+      "name" : "X++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-1.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-2.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-3.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-4.webp",
         "https://img.ipa4fun.com/fe/b5/38/333903271-screenshot-5.webp"
       ],
-      "size": 148914909,
-      "subtitle": "An new tweak for X!",
-      "tintColor": "030303",
-      "version": "10.83",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
-      "versions": [
+      "size" : 148914909,
+      "subtitle" : "An new tweak for X!",
+      "tintColor" : "030303",
+      "version" : "10.83",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
-          "localizedDescription": "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
-          "minOSVersion": "15.0",
-          "size": 119000000,
-          "version": "10.83"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+          "localizedDescription" : "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+          "minOSVersion" : "15.0",
+          "size" : 119000000,
+          "version" : "10.83"
         },
         {
-          "date": "2024-10-09",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.62.+.BHTwitter.v4.3-4.ipa",
-          "localizedDescription": "• Updated X to v10.62\n• Updated BHTwitter to v4.3-4",
-          "size": 119000000,
-          "version": "10.62"
+          "date" : "2024-10-09",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.62.+.BHTwitter.v4.3-4.ipa",
+          "localizedDescription" : "• Updated X to v10.62\n• Updated BHTwitter to v4.3-4",
+          "size" : 119000000,
+          "version" : "10.62"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.39.+.BHX.v4.3.ipa",
-          "localizedDescription": "• Updated X to v10.39.0",
-          "size": 93000000,
-          "version": "10.39.0"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v10.39.+.BHX.v4.3.ipa",
+          "localizedDescription" : "• Updated X to v10.39.0",
+          "size" : 93000000,
+          "version" : "10.39.0"
         },
         {
-          "date": "2024-01-07",
-          "downloadURL": "https://starfilesdl.com/file/m1rSEUEHz83q?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaZE1VdHZLN0trTng2SUY3NTdWekErY2wwOTYwMlBYRUJvMFJKVjlqLyszWXQ1d2pxeHhhc2dJQVBRQ28zSDFVUXdqYTRSMXlDajcySmxBcG9lRlZYVnVxaDA1ZWxsNjJnWCtSNlFqWVpXdmNDZWJBNFpmY3VZZVNGa1BsRFYyQ01nPT0%3D",
-          "localizedDescription": "• Updated X to v10.22.0",
-          "size": 93000000,
-          "version": "10.22.0"
+          "date" : "2024-01-07",
+          "downloadURL" : "https://starfilesdl.com/file/m1rSEUEHz83q?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaZE1VdHZLN0trTng2SUY3NTdWekErY2wwOTYwMlBYRUJvMFJKVjlqLyszWXQ1d2pxeHhhc2dJQVBRQ28zSDFVUXdqYTRSMXlDajcySmxBcG9lRlZYVnVxaDA1ZWxsNjJnWCtSNlFqWVpXdmNDZWJBNFpmY3VZZVNGa1BsRFYyQ01nPT0%3D",
+          "localizedDescription" : "• Updated X to v10.22.0",
+          "size" : 93000000,
+          "version" : "10.22.0"
         },
         {
-          "date": "2023-10-19",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.X.v10.10.+.BHX.v4.0.ipa",
-          "localizedDescription": "• Updated X to v10.10.0",
-          "size": 93000000,
-          "version": "10.10.0"
+          "date" : "2023-10-19",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.X.v10.10.+.BHX.v4.0.ipa",
+          "localizedDescription" : "• Updated X to v10.10.0",
+          "size" : 93000000,
+          "version" : "10.10.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
-          "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
-          "NSBluetoothPeripheralUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
-          "NSCalendarsFullAccessUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
-          "NSCalendarsUsageDescription": "This will let Facebook sync events you're hosting or attending to your calendar.",
-          "NSCameraUsageDescription": "Facebook uses access to your camera to do things like help you take and share photos, record videos, and use visual effects.\n\nYou can always change this in your device settings.",
-          "NSContactsUsageDescription": "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
-          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Facebook.",
-          "NSLocalNetworkUsageDescription": "Facebook uses your local network so you can do things like find and connect to devices and cast videos to TV.",
-          "NSLocationWhenInUseUsageDescription": "Facebook uses this to provide more relevant and personalized experiences, like helping you check-in, find local events and get better ads.",
-          "NSMicrophoneUsageDescription": "Facebook uses access to your microphone to do things like help you record audio, identify songs, search with your voice and use audio effects.\n\nYou can always change this in your device settings.",
-          "NSMotionUsageDescription": "Facebook uses this to provide more relevant and personalized experiences.",
-          "NSPhotoLibraryAddUsageDescription": "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
-          "NSPhotoLibraryUsageDescription": "Facebook uses access to your photos to do things like help you share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
-          "NSSiriUsageDescription": "This will let Siri help you look for photos on Facebook",
-          "NSUserTrackingUsageDescription": "This allows Facebook to provide you with a better ads experience."
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
+          "NSBluetoothAlwaysUsageDescription" : "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSBluetoothPeripheralUsageDescription" : "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
+          "NSCalendarsFullAccessUsageDescription" : "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSCalendarsUsageDescription" : "This will let Facebook sync events you're hosting or attending to your calendar.",
+          "NSCameraUsageDescription" : "Facebook uses access to your camera to do things like help you take and share photos, record videos, and use visual effects.\n\nYou can always change this in your device settings.",
+          "NSContactsUsageDescription" : "Allowing access to your address book helps you see the contacts you can choose to add and helps us provide a better service.",
+          "NSFaceIDUsageDescription" : "Enable Face ID for quick and secure authentication on Facebook.",
+          "NSLocalNetworkUsageDescription" : "Facebook uses your local network so you can do things like find and connect to devices and cast videos to TV.",
+          "NSLocationWhenInUseUsageDescription" : "Facebook uses this to provide more relevant and personalized experiences, like helping you check-in, find local events and get better ads.",
+          "NSMicrophoneUsageDescription" : "Facebook uses access to your microphone to do things like help you record audio, identify songs, search with your voice and use audio effects.\n\nYou can always change this in your device settings.",
+          "NSMotionUsageDescription" : "Facebook uses this to provide more relevant and personalized experiences.",
+          "NSPhotoLibraryAddUsageDescription" : "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSPhotoLibraryUsageDescription" : "Facebook uses access to your photos to do things like help you share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
+          "NSSiriUsageDescription" : "This will let Siri help you look for photos on Facebook",
+          "NSUserTrackingUsageDescription" : "This allows Facebook to provide you with a better ads experience."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.facebook.Facebook",
-      "category": "Social",
-      "developerName": "Michael Lema",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
-      "iconURL": "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
-      "localizedDescription": "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
-      "name": "Facebook++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.facebook.Facebook",
+      "category" : "Social",
+      "developerName" : "Michael Lema",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+      "iconURL" : "https://img.ipa4fun.com/92/c2/a0/284882215-logo.webp",
+      "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
+      "name" : "Facebook++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-1.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-2.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-3.webp",
@@ -161,187 +161,187 @@
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-5.webp",
         "https://img.ipa4fun.com/92/c2/a0/284882215-screenshot-6.webp"
       ],
-      "size": 164092936,
-      "subtitle": "Facebook with a number of new features!",
-      "tintColor": "0c63f9",
-      "version": "502.2.0",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated Facebook to v502.2.0",
-      "versions": [
+      "size" : 164092936,
+      "subtitle" : "Facebook with a number of new features!",
+      "tintColor" : "0c63f9",
+      "version" : "502.2.0",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated Facebook to v502.2.0",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
-          "localizedDescription": "• Updated Facebook to v502.2.0",
-          "minOSVersion": "15.1",
-          "size": 137000000,
-          "version": "502.2.0"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+          "localizedDescription" : "• Updated Facebook to v502.2.0",
+          "minOSVersion" : "15.1",
+          "size" : 137000000,
+          "version" : "502.2.0"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v461.0.3.+.Wolf.v2.1.ipa",
-          "localizedDescription": "• Updated Facebook to v461.0.3",
-          "size": 137000000,
-          "version": "461.0.3"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v461.0.3.+.Wolf.v2.1.ipa",
+          "localizedDescription" : "• Updated Facebook to v461.0.3",
+          "size" : 137000000,
+          "version" : "461.0.3"
         },
         {
-          "date": "2024-01-07",
-          "downloadURL": "https://starfilesdl.com/file/ifrp2geRDxVH?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaUkVlN3hwYmJ3b1dibXNIUDNMLzdzTEthQXRjdFh3WlNWUXBaTXhiMVp1cHVHcDZNZlRpa1lxZ21nZEZmODFqdVljT3I2T0JweDZoODFpN0hOZG12TThwdUNac29ZNm5XZVNUakNrVmlwOEdJSnh5RHV1MEE3d0d4ajJsbGNGanpnPT0%3D",
-          "localizedDescription": "• Updated Facebook to v438.2",
-          "size": 133000000,
-          "version": "438.2"
+          "date" : "2024-01-07",
+          "downloadURL" : "https://starfilesdl.com/file/ifrp2geRDxVH?fpdi_ticket=RXgrRkx5dHhGcmJrcFVtVVh4VmtaUkVlN3hwYmJ3b1dibXNIUDNMLzdzTEthQXRjdFh3WlNWUXBaTXhiMVp1cHVHcDZNZlRpa1lxZ21nZEZmODFqdVljT3I2T0JweDZoODFpN0hOZG12TThwdUNac29ZNm5XZVNUakNrVmlwOEdJSnh5RHV1MEE3d0d4ajJsbGNGanpnPT0%3D",
+          "localizedDescription" : "• Updated Facebook to v438.2",
+          "size" : 133000000,
+          "version" : "438.2"
         },
         {
-          "date": "2023-10-19",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v435.2.+.Wolf.v2.1.ipa",
-          "localizedDescription": "• Updated Facebook to v435.2",
-          "size": 133000000,
-          "version": "435.2"
+          "date" : "2023-10-19",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v435.2.+.Wolf.v2.1.ipa",
+          "localizedDescription" : "• Updated Facebook to v435.2",
+          "size" : 133000000,
+          "version" : "435.2"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
-          "NSBluetoothAlwaysUsageDescription": "Turn on Bluetooth to connect to your TV",
-          "NSBluetoothPeripheralUsageDescription": "Turn on Bluetooth to connect to your TV",
-          "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
-          "NSCameraUsageDescription": "You'll be able to record video.",
-          "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
-          "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
-          "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
-          "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
-          "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
-          "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
-          "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "To select sound from your library, allow us to access your Apple Music.",
+          "NSBluetoothAlwaysUsageDescription" : "Turn on Bluetooth to connect to your TV",
+          "NSBluetoothPeripheralUsageDescription" : "Turn on Bluetooth to connect to your TV",
+          "NSCalendarsUsageDescription" : "Add events to your device calendar to get reminders when events start.",
+          "NSCameraUsageDescription" : "You'll be able to record video.",
+          "NSContactsUsageDescription" : "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+          "NSLocalNetworkUsageDescription" : "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+          "NSLocationWhenInUseUsageDescription" : "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+          "NSMicrophoneUsageDescription" : "To record audio, allow us to access your Microphone.",
+          "NSPhotoLibraryAddUsageDescription" : "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSPhotoLibraryUsageDescription" : "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSUserTrackingUsageDescription" : "This allows TikTok to provide you with a better ads experience."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.zhiliaoapp.musically",
-      "category": "Social",
-      "developerName": "aJBbo",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
-      "iconURL": "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
-      "localizedDescription": "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
-      "name": "TikTok++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.zhiliaoapp.musically",
+      "category" : "Social",
+      "developerName" : "aJBbo",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+      "iconURL" : "https://img.ipa4fun.com/06/ac/ac/835599320-logo.webp",
+      "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
+      "name" : "TikTok++",
+      "screenshotURLs" : [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/PMPlQVa.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YN0hG8M.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pmXZBpB.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/bia0rue.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tJtEO1r.jpeg"
       ],
-      "size": 368930504,
-      "subtitle": "TikTok with added features.",
-      "tintColor": "0b0b0b",
-      "version": "38.7.0",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
-      "versions": [
+      "size" : 368930504,
+      "subtitle" : "TikTok with added features.",
+      "tintColor" : "0b0b0b",
+      "version" : "38.7.0",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
-          "localizedDescription": "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
-          "minOSVersion": "12.0",
-          "size": 226000000,
-          "version": "38.7.0"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+          "localizedDescription" : "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
+          "minOSVersion" : "12.0",
+          "size" : 226000000,
+          "version" : "38.7.0"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v32.2.0.+.BH+.v2.3.ipa",
-          "localizedDescription": "• Updated TikTok to v32.2.0\n• Replaced TikTokLRD with BHTikTok",
-          "size": 226000000,
-          "version": "32.2.0"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v32.2.0.+.BH+.v2.3.ipa",
+          "localizedDescription" : "• Updated TikTok to v32.2.0\n• Replaced TikTokLRD with BHTikTok",
+          "size" : 226000000,
+          "version" : "32.2.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to the glasses using a Bluetooth connection.",
-          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
-          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
-          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service. Your contacts will be periodically synced and securely stored on Instagram’s servers.",
-          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
-          "NSFocusStatusUsageDescription": "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSLocationUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
-          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
-          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
-          "NSUserTrackingUsageDescription": "This allows Instagram to provide you with a better ads experience."
+      "appPermissions" : {
+        "privacy" : {
+          "NSBluetoothAlwaysUsageDescription" : "This allows your phone to find and connect to the glasses using a Bluetooth connection.",
+          "NSCalendarsUsageDescription" : "This will let Instagram sync events to your calendar.",
+          "NSCameraUsageDescription" : "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
+          "NSContactsUsageDescription" : "Instagram will use your contacts to suggest people and things you care about, and offer a better service. Your contacts will be periodically synced and securely stored on Instagram’s servers.",
+          "NSFaceIDUsageDescription" : "Enable Face ID for quick and secure authentication on Instagram.",
+          "NSFocusStatusUsageDescription" : "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription" : "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationUsageDescription" : "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationWhenInUseUsageDescription" : "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSMicrophoneUsageDescription" : "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
+          "NSPhotoLibraryAddUsageDescription" : "This lets you save photos and videos to your Camera Roll.",
+          "NSPhotoLibraryUsageDescription" : "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
+          "NSUserTrackingUsageDescription" : "This allows Instagram to provide you with a better ads experience."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.burbn.instagram",
-      "category": "Social",
-      "developerName": "Fouad Raheb",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
-      "iconURL": "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
-      "localizedDescription": "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
-      "name": "Instagram++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.burbn.instagram",
+      "category" : "Social",
+      "developerName" : "Fouad Raheb",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+      "iconURL" : "https://img.ipa4fun.com/ab/4f/56/389801252-logo.webp",
+      "localizedDescription" : "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
+      "name" : "Instagram++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-1.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-2.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-3.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-4.webp",
         "https://img.ipa4fun.com/ab/4f/56/389801252-screenshot-5.webp"
       ],
-      "size": 159022956,
-      "subtitle": "A must-have tweak for Instagram users!",
-      "tintColor": "d111c9",
-      "version": "356.1.0",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated Instagram to v320.0.4",
-      "versions": [
+      "size" : 159022956,
+      "subtitle" : "A must-have tweak for Instagram users!",
+      "tintColor" : "d111c9",
+      "version" : "356.1.0",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated Instagram to v320.0.4",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
-          "localizedDescription": "• Updated Instagram to v356.1.0\n• Replaced old instagram tweak with Regram",
-          "minOSVersion": "15.1",
-          "size": 117000000,
-          "version": "356.1.0"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+          "localizedDescription" : "• Updated Instagram to v356.1.0\n• Replaced old instagram tweak with Regram",
+          "minOSVersion" : "15.1",
+          "size" : 117000000,
+          "version" : "356.1.0"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v310.0.4.+.Rocket+.v3.8.18.+.Plus+.v2.5.0K.ipa",
-          "localizedDescription": "• Updated Instagram to v320.0.4",
-          "size": 117000000,
-          "version": "310.0.4"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v310.0.4.+.Rocket+.v3.8.18.+.Plus+.v2.5.0K.ipa",
+          "localizedDescription" : "• Updated Instagram to v320.0.4",
+          "size" : 117000000,
+          "version" : "310.0.4"
         },
         {
-          "date": "2023-10-19",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v301.1.+.Rocket.v3.8.13K.+.Plus.v2.5.0K.ipa",
-          "localizedDescription": "• Updated Instagram to v303.1",
-          "size": 107000000,
-          "version": "301.1"
+          "date" : "2023-10-19",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v301.1.+.Rocket.v3.8.13K.+.Plus.v2.5.0K.ipa",
+          "localizedDescription" : "• Updated Instagram to v303.1",
+          "size" : 107000000,
+          "version" : "301.1"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSBluetoothPeripheralUsageDescription": "Allows MyFitnessPal to use Bluetooth.",
-          "NSCalendarsUsageDescription": "Allows MyFitnessPal to add class reservations to your calendar.",
-          "NSCameraUsageDescription": "We use your camera to allow you to scan barcodes, foods, and add photos to your weight entries and custom meals.",
-          "NSHealthShareUsageDescription": "Allows MyFitnessPal to read data from the Health app.",
-          "NSHealthUpdateUsageDescription": "Allows MyFitnessPal to write data to the Health app.",
-          "NSMicrophoneUsageDescription": "We use your microphone to allow you to log food with your voice.",
-          "NSPhotoLibraryUsageDescription": "Allows you to add photos to your weight entries.",
-          "NSSpeechRecognitionUsageDescription": "Voice Log uses speech recognition technology to understand and interpret what you're saying.",
-          "NSUserTrackingUsageDescription": "This info will be used to show you ads that are more relevant to you."
+      "appPermissions" : {
+        "privacy" : {
+          "NSBluetoothPeripheralUsageDescription" : "Allows MyFitnessPal to use Bluetooth.",
+          "NSCalendarsUsageDescription" : "Allows MyFitnessPal to add class reservations to your calendar.",
+          "NSCameraUsageDescription" : "We use your camera to allow you to scan barcodes, foods, and add photos to your weight entries and custom meals.",
+          "NSHealthShareUsageDescription" : "Allows MyFitnessPal to read data from the Health app.",
+          "NSHealthUpdateUsageDescription" : "Allows MyFitnessPal to write data to the Health app.",
+          "NSMicrophoneUsageDescription" : "We use your microphone to allow you to log food with your voice.",
+          "NSPhotoLibraryUsageDescription" : "Allows you to add photos to your weight entries.",
+          "NSSpeechRecognitionUsageDescription" : "Voice Log uses speech recognition technology to understand and interpret what you're saying.",
+          "NSUserTrackingUsageDescription" : "This info will be used to show you ads that are more relevant to you."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.myfitnesspal.mfp",
-      "category": "Lifestyle",
-      "developerName": "Strejda603",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
-      "iconURL": "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp",
-      "localizedDescription": "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
-      "name": "MyFitnessPal++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.myfitnesspal.mfp",
+      "category" : "Lifestyle",
+      "developerName" : "Strejda603",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+      "iconURL" : "https://img.ipa4fun.com/33/7a/25/341232718-logo.webp",
+      "localizedDescription" : "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
+      "name" : "MyFitnessPal++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-1.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-2.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-3.webp",
@@ -353,66 +353,66 @@
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-9.webp",
         "https://img.ipa4fun.com/33/7a/25/341232718-screenshot-10.webp"
       ],
-      "size": 117059543,
-      "subtitle": "MyFitnessPal With Premium Activated.",
-      "tintColor": "0463ea",
-      "version": "25.8.0",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated MyFitnessPal to v25.8.0",
-      "versions": [
+      "size" : 117059543,
+      "subtitle" : "MyFitnessPal With Premium Activated.",
+      "tintColor" : "0463ea",
+      "version" : "25.8.0",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated MyFitnessPal to v25.8.0",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
-          "localizedDescription": "• Updated MyFitnessPal to v25.8.0",
-          "minOSVersion": "16.0",
-          "size": 76600000,
-          "version": "25.8.0"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v25.8.0.Cracked.ipa",
+          "localizedDescription" : "• Updated MyFitnessPal to v25.8.0",
+          "minOSVersion" : "16.0",
+          "size" : 76600000,
+          "version" : "25.8.0"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.24.5.ipa",
-          "localizedDescription": "• Updated MyFitnessPal to v23.24.5",
-          "size": 76600000,
-          "version": "23.24.5"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.24.5.ipa",
+          "localizedDescription" : "• Updated MyFitnessPal to v23.24.5",
+          "size" : 76600000,
+          "version" : "23.24.5"
         },
         {
-          "date": "2023-10-21",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.20.5.ipa",
-          "localizedDescription": "• Updated MyFitnessPal to v23.20.5",
-          "size": 76600000,
-          "version": "23.20.5"
+          "date" : "2023-10-21",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.20.5.ipa",
+          "localizedDescription" : "• Updated MyFitnessPal to v23.20.5",
+          "size" : 76600000,
+          "version" : "23.20.5"
         },
         {
-          "date": "2023-04-06",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.6.5.ipa",
-          "localizedDescription": "• Updated MyFitnessPal to v23.6.5",
-          "size": 53561262,
-          "version": "23.6.5"
+          "date" : "2023-04-06",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.Cracked.v23.6.5.ipa",
+          "localizedDescription" : "• Updated MyFitnessPal to v23.6.5",
+          "size" : 53561262,
+          "version" : "23.6.5"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "Music or podcast will be attached to your next BeReal if you're listening to something on Apple Music.",
-          "NSCameraUsageDescription": "BeReal uses the camera to capture and share a picture with your friends.",
-          "NSContactsUsageDescription": "BeReal will check your contacts to see who from your friends is already on BeReal. Your contacts won't be stored or shared with anyone.",
-          "NSLocationWhenInUseUsageDescription": "The location of your BeReal will only be shared with your friends if they share theirs with you. When shared publicly, only an approximate location is visible.",
-          "NSMicrophoneUsageDescription": "BeReal uses the microphone to capture and share with your friends.",
-          "NSPhotoLibraryAddUsageDescription": "To let you save your BeReal in your Library.",
-          "NSPhotoLibraryUsageDescription": "Allow Full Access to your Photo Library to use Roulette.",
-          "NSUserTrackingUsageDescription": "⚠ By allowing, your data will be used to make ads more relevant for you. ⚠"
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "Music or podcast will be attached to your next BeReal if you're listening to something on Apple Music.",
+          "NSCameraUsageDescription" : "BeReal uses the camera to capture and share a picture with your friends.",
+          "NSContactsUsageDescription" : "BeReal will check your contacts to see who from your friends is already on BeReal. Your contacts won't be stored or shared with anyone.",
+          "NSLocationWhenInUseUsageDescription" : "The location of your BeReal will only be shared with your friends if they share theirs with you. When shared publicly, only an approximate location is visible.",
+          "NSMicrophoneUsageDescription" : "BeReal uses the microphone to capture and share with your friends.",
+          "NSPhotoLibraryAddUsageDescription" : "To let you save your BeReal in your Library.",
+          "NSPhotoLibraryUsageDescription" : "Allow Full Access to your Photo Library to use Roulette.",
+          "NSUserTrackingUsageDescription" : "⚠ By allowing, your data will be used to make ads more relevant for you. ⚠"
         }
       },
-      "beta": false,
-      "bundleIdentifier": "AlexisBarreyat.BeReal",
-      "category": "Social",
-      "developerName": "Yandevelop",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
-      "iconURL": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
-      "localizedDescription": "Tap the “BeReal+” text (It may be blank) at the top of the screen to upload BeReals from the camera roll\n\nView BeReals without posting your own\n• Upload BeReals from the camera roll:\n\t- Post on time, even if you're posting late\n\t- Set a custom location\n\t- Set a custom retake count\n\t- Add what you're currently playing or add a song\n• Download BeReals",
-      "name": "BeReal++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "AlexisBarreyat.BeReal",
+      "category" : "Social",
+      "developerName" : "Yandevelop",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
+      "iconURL" : "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.webp",
+      "localizedDescription" : "Tap the “BeReal+” text (It may be blank) at the top of the screen to upload BeReals from the camera roll\n\nView BeReals without posting your own\n• Upload BeReals from the camera roll:\n\t- Post on time, even if you're posting late\n\t- Set a custom location\n\t- Set a custom retake count\n\t- Add what you're currently playing or add a song\n• Download BeReals",
+      "name" : "BeReal++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-2.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-3.webp",
@@ -420,58 +420,58 @@
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.webp",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.webp"
       ],
-      "size": 66866176,
-      "subtitle": "See your friends BeReals without posting anything!",
-      "tintColor": "0b0b0b",
-      "version": "2.14.2",
-      "versionDate": "2024-10-09",
-      "versionDescription": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
-      "versions": [
+      "size" : 66866176,
+      "subtitle" : "See your friends BeReals without posting anything!",
+      "tintColor" : "0b0b0b",
+      "version" : "2.14.2",
+      "versionDate" : "2024-10-09",
+      "versionDescription" : "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
+      "versions" : [
         {
-          "date": "2024-10-09",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
-          "localizedDescription": "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
-          "minOSVersion": "15.0",
-          "size": 63800000,
-          "version": "2.14.2"
+          "date" : "2024-10-09",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.14.2.+.Bea.v1.3.8.ipa",
+          "localizedDescription" : "• Updated BeReal to v2.14.2\n• Updated Bea to v1.3.8",
+          "minOSVersion" : "15.0",
+          "size" : 63800000,
+          "version" : "2.14.2"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.13.1.+.Bea.v1.3.6.ipa",
-          "localizedDescription": "• Updated BeReal to v2.13.1\n• Updated Bea to v1.3.6",
-          "size": 35700000,
-          "version": "2.13.1"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v2.13.1.+.Bea.v1.3.6.ipa",
+          "localizedDescription" : "• Updated BeReal to v2.13.1\n• Updated Bea to v1.3.6",
+          "size" : 35700000,
+          "version" : "2.13.1"
         },
         {
-          "date": "2023-10-21",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v1.15.0.+.Bea.v1.3.2.ipa",
-          "localizedDescription": "• Updated BeReal to v1.15.0\n• Updated Bea to v1.3.2",
-          "size": 29200000,
-          "version": "1.15.0"
+          "date" : "2023-10-21",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BeReal.v1.15.0.+.Bea.v1.3.2.ipa",
+          "localizedDescription" : "• Updated BeReal to v1.15.0\n• Updated Bea to v1.3.2",
+          "size" : 29200000,
+          "version" : "1.15.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSBluetoothPeripheralUsageDescription": "Deezer needs bluetooth access to scan for nearby Cast devices.",
-          "NSCalendarsUsageDescription": "Advertisement would like to create a calendar event.",
-          "NSCameraUsageDescription": "Deezer would like to access your photos.",
-          "NSLocationAlwaysUsageDescription": "This will be used to improve music recommendations",
-          "NSLocationWhenInUseUsageDescription": "This will be used to improve music recommendations",
-          "NSMicrophoneUsageDescription": "Deezer needs microphone access to listen for ultrasonic tokens when pairing with nearby Cast devices.",
-          "NSPhotoLibraryUsageDescription": "Deezer would like to access your media library."
+      "appPermissions" : {
+        "privacy" : {
+          "NSBluetoothPeripheralUsageDescription" : "Deezer needs bluetooth access to scan for nearby Cast devices.",
+          "NSCalendarsUsageDescription" : "Advertisement would like to create a calendar event.",
+          "NSCameraUsageDescription" : "Deezer would like to access your photos.",
+          "NSLocationAlwaysUsageDescription" : "This will be used to improve music recommendations",
+          "NSLocationWhenInUseUsageDescription" : "This will be used to improve music recommendations",
+          "NSMicrophoneUsageDescription" : "Deezer needs microphone access to listen for ultrasonic tokens when pairing with nearby Cast devices.",
+          "NSPhotoLibraryUsageDescription" : "Deezer would like to access your media library."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.deezer.Deezer",
-      "category": "Entertainment",
-      "developerName": "iJulioVerne",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
-      "iconURL": "https://img.ipa4fun.com/23/af/ed/292738169-icon.webp",
-      "localizedDescription": "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
-      "name": "Deezer++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.deezer.Deezer",
+      "category" : "Entertainment",
+      "developerName" : "iJulioVerne",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
+      "iconURL" : "https://img.ipa4fun.com/23/af/ed/292738169-icon.webp",
+      "localizedDescription" : "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity.\n\nEnjoy a massive music catalog that has everything and more with in-built algorithms that learn what you like and recommend more of it. The Deezer music player is your companion across all devices, providing access to the artists, songs and communities that speak to you. Discover and create playlists in your favorite genres: hip hop, rap, rock, lofi. No WiFi needed — download songs and enjoy offline music — perfect for when at home or on the go.\n\nThis is the most personalized and intuitive listening experience, brought to you from the home of music.\n\nWith Deezer Free*, you'll get all you need in one app:\n\n• Flow, our feature for infinite, personalized mixes (on-point recommendations every time)\n• SongCatcher, for identifying any song playing around you (try singing or humming for magic results)\n• Game on with music quiz (see how fast you can guess your favorite song)\n• A ludicrously-large catalog (go on, try to find a song that isn't there)\n• The freedom to play music based on moods, niche genres and scenes\n• Personal and collaborative playlists, favorites, radio* and more\n• Dive deeper into the music with the Lyrics feature and translated lyrics\n• Sleep timer function (for those beauty Zzzzzz)\n• Sharing function for spreading the love on socials\n\n\nLooking for a level up? Switch to Deezer Premium**, Deezer Family** or Deezer Student** and you'll benefit from these added perks:\n\n• No ads, ever!\n• Offline listening (just cause the signal cuts doesn't mean the music has to)\n• Unlimited skips, unlimited listening\n• HiFi sound (High Fidelity, lossless quality at 1,411 kbps)\n• FLAC-standard quality on millions of tracks\n• High-end sound system compatibility\n\nCompatible devices:\nGet Deezer on all your connected devices — Google Nest, HomePod Mini, Amazon Alexa, Sonos and more.",
+      "name" : "Deezer++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-1.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-2.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-3.webp",
@@ -482,45 +482,45 @@
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-8.webp",
         "https://img.ipa4fun.com/23/af/ed/292738169-screenshot-9.webp"
       ],
-      "size": 32099259,
-      "subtitle": "Deezer with premium activated!",
-      "tintColor": "8c4384",
-      "version": "7.15.0",
-      "versionDate": "2023-10-22",
-      "versionDescription": "• Updated Deezer to v7.15.0 - Last working version with tweak.",
-      "versions": [
+      "size" : 32099259,
+      "subtitle" : "Deezer with premium activated!",
+      "tintColor" : "8c4384",
+      "version" : "7.15.0",
+      "versionDate" : "2023-10-22",
+      "versionDescription" : "• Updated Deezer to v7.15.0 - Last working version with tweak.",
+      "versions" : [
         {
-          "date": "2023-10-22",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
-          "localizedDescription": "• Updated Deezer to v7.15.0 - Last working version with tweak.",
-          "minOSVersion": "10.0",
-          "size": 29200000,
-          "version": "7.15.0"
+          "date" : "2023-10-22",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Deezer.v7.15.0.+.Deezelife.v0.5.ipa",
+          "localizedDescription" : "• Updated Deezer to v7.15.0 - Last working version with tweak.",
+          "minOSVersion" : "10.0",
+          "size" : 29200000,
+          "version" : "7.15.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSBluetoothPeripheralUsageDescription": "SoundCloud would like to use bluetooth.",
-          "NSCameraUsageDescription": "bla-bla-bla",
-          "NSLocalNetworkUsageDescription": "SoundCloud uses the local network to discover Cast-enabled devices on your WiFi network.",
-          "NSMicrophoneUsageDescription": "SoundCloud would like to use the microphone.",
-          "NSPhotoLibraryAddUsageDescription": "SoundCloud would like to access the photos library.",
-          "NSPhotoLibraryUsageDescription": "SoundCloud would like to store a photo.",
-          "NSSiriUsageDescription": "SoundCloud would like to use Siri",
-          "NSUserTrackingUsageDescription": "Your data will only be used to serve more relevant ads to you."
+      "appPermissions" : {
+        "privacy" : {
+          "NSBluetoothPeripheralUsageDescription" : "SoundCloud would like to use bluetooth.",
+          "NSCameraUsageDescription" : "bla-bla-bla",
+          "NSLocalNetworkUsageDescription" : "SoundCloud uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSMicrophoneUsageDescription" : "SoundCloud would like to use the microphone.",
+          "NSPhotoLibraryAddUsageDescription" : "SoundCloud would like to access the photos library.",
+          "NSPhotoLibraryUsageDescription" : "SoundCloud would like to store a photo.",
+          "NSSiriUsageDescription" : "SoundCloud would like to use Siri",
+          "NSUserTrackingUsageDescription" : "Your data will only be used to serve more relevant ads to you."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.soundcloud.TouchApp",
-      "category": "Entertainment",
-      "developerName": "Rov3r",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
-      "localizedDescription": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
-      "name": "SoundCloud++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.soundcloud.TouchApp",
+      "category" : "Entertainment",
+      "developerName" : "Rov3r",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/a0VxTYB.jpeg",
+      "localizedDescription" : "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
+      "name" : "SoundCloud++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.webp",
@@ -530,67 +530,67 @@
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.webp",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.webp"
       ],
-      "size": 92885040,
-      "subtitle": "SoundCloud with no ads! Read Description.",
-      "tintColor": "0a0a0a",
-      "version": "7.65.4",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated SoundCloud to v7.65.4",
-      "versions": [
+      "size" : 92885040,
+      "subtitle" : "SoundCloud with no ads! Read Description.",
+      "tintColor" : "0a0a0a",
+      "version" : "7.65.4",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Updated SoundCloud to v7.65.4",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
-          "localizedDescription": "• Updated SoundCloud to v7.65.4",
-          "minOSVersion": "15.0",
-          "size": 57600000,
-          "version": "7.65.4"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+          "localizedDescription" : "• Updated SoundCloud to v7.65.4",
+          "minOSVersion" : "15.0",
+          "size" : 57600000,
+          "version" : "7.65.4"
         },
         {
-          "date": "2024-05-10",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.14.0.+.SCMusicPlus.v2.2.1.ipa",
-          "localizedDescription": "• Updated SoundCloud to v7.14.0",
-          "size": 57600000,
-          "version": "7.14.0"
+          "date" : "2024-05-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.14.0.+.SCMusicPlus.v2.2.1.ipa",
+          "localizedDescription" : "• Updated SoundCloud to v7.14.0",
+          "size" : 57600000,
+          "version" : "7.14.0"
         },
         {
-          "date": "2023-10-22",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.2.0.+.SCMusicPlus.v2.2.1.ipa",
-          "localizedDescription": "• Updated SoundCloud to v7.2.0",
-          "size": 47600000,
-          "version": "7.2.0"
+          "date" : "2023-10-22",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.2.0.+.SCMusicPlus.v2.2.1.ipa",
+          "localizedDescription" : "• Updated SoundCloud to v7.2.0",
+          "size" : 47600000,
+          "version" : "7.2.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
-          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
-          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
-          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
-          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
-          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
-          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
-          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
-          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
-          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
-          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription" : "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSBluetoothPeripheralUsageDescription" : "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription" : "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription" : "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription" : "This lets you scan Spotify Codes.",
+          "NSContactsUsageDescription" : "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription" : "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription" : "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription" : "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription" : "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSMicrophoneUsageDescription" : "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription" : "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription" : "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription" : "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription" : "Your data will be used to deliver personalized ads or content to you."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.spotify.client",
-      "category": "Entertainment",
-      "developerName": "Eevee",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
-      "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
-      "localizedDescription": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
-      "name": "Spotify++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.spotify.client",
+      "category" : "Entertainment",
+      "developerName" : "Eevee",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++%20v9.1.62.ipa",
+      "iconURL" : "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.webp",
+      "localizedDescription" : "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
+      "name" : "Spotify++",
+      "screenshotURLs" : [
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.webp",
@@ -598,81 +598,88 @@
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.webp",
         "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.webp"
       ],
-      "size": 83312799,
-      "subtitle": "A new and improved Spotify tweak!",
-      "tintColor": "1fd362",
-      "version": "9.0.20",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
-      "versions": [
+      "size" : 122927927,
+      "subtitle" : "A new and improved Spotify tweak!",
+      "tintColor" : "1fd362",
+      "version" : "9.1.62",
+      "versionDate" : "2026-07-23",
+      "versionDescription" : "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
-          "localizedDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
-          "minOSVersion": "15.0",
-          "size": 76500000,
-          "version": "9.0.20"
+          "date" : "2026-07-23",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++%20v9.1.62.ipa",
+          "localizedDescription" : "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
+          "size" : 122927927,
+          "version" : "9.1.62"
         },
         {
-          "date": "2024-10-09",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.80.+.Eevee.v5.4.ipa",
-          "localizedDescription": "(5.4 - Current)\n\n• Updated Ukrainian localization by @LIKVIDATOR1337\n• Updated Turkish localization by @gototheskinny\n• Updated Danish localization by @UnexcitingDean\n\n(5.3)\n\n• Liked Songs on artist page\n• Improved Reset Data option (now clears /Library/Caches/ too, progress animation)\n• Updated dumped configuration; fixed app crashes when clicking on three dots on song page\n• Updated swift-protobuf to 1.28.1 and Swift to version 6 (Xcode 16.0)\n• Fixed Download action app crashes, improved its hooking logic\n• PetitLyrics is now available for everyone\n• Updated Simplified Chinese localization by @xiangfeidexiaohuo\n• Updated Traditional Chinese localizaton by @ElliotCHEN37\n• Updated Vietnamese localization by @Richard-NDC\n\n(5.2)\n\n• Brazil loc by @emal0n\n• French localization corrections by @5jd\n\n(5.1)\n\n• French localization by @5jd\n\n(5.0)\n\n• Danish localization by @UnexcitingDean\n• Swiss German localization by @An0n-00\n• Polish localization by @CukierDev\n• Nepalese localization by @3xynos7\n• German localization corrections by @wlxxd\n• Azerbaijani localization by @by3lish\n\n(4.9)\n\n• Musixmatch source support for local files\n• Lyrics colors support for local files\n• Bulgarian localization by @schweppes-0x\n• Traditional Chinese localization corrections by @Neo1102\n• Korean localization by @speedyfriend433\n• Vietnamese localization by @Richard-NDC\n• German localization by @wlxxd\n• Persian localization by @Incognito-Coder\n\n(4.8)\n\n• Fixed original lyrics colors\n• Spanish localization by @longopy\n• Simplified Chinese localization by @xiangfeidexiaohuo\n• Italian localization by @LivioZ\n• Russian localization\n• Ukrainian localization by @LIKVIDATOR1337\n• Turkish localization by @gototheskinny\n• Traditional Chinese localization by @ElliotCHEN37\n\n(4.7)\n\n• Fixed lyrics not appearing issue\n• Fixed Premium patching for recent versions; removed static method\n• Musixmatch romanization and translation now work simultaneously\n• Added localizations support; feel free to open pull requests with your .lproj\n\n(4.6)\n\n• Fixed popups white background bug on iPad\n\n(4.5)\n\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.4)\n\n• Fixed crashes on iOS 14 (Spotify 8.9.8) and added support for 8.9.54\n• Redesigned Settings\n• Option to show romanized lyrics on Musixmatch and Genius\n• Option to show translated Musixmatch lyrics\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.3)\n\n• Fixed \"Couldn't load the lyrics for this song\" message when they are restricted on Musixmatch\n• Option to show fallback reasons in the lyrics card header\n• Updated OpenSpotifySafariExtension no longer mismatches on links like charts.spotify.com\n\n(4.2)\n\n• Real fix for crashes with LRCLIB\n• The tweak now searches only songs on Genius (no articles anymore)\n• Improved URLSession intercepts (fixes #182 and likely resolves login issues)\n• Fixed iPad Musixmatch token and blank area issues\n• Added Lyrics Colors option\n• Added version section and checking for update\n\n(4.1)\n\n• Original colors for lyrics available on Spotify\n• Fixed LRCLIB lyrics crash for some songs and issue of the settings view being too wide on iPad (pull request)\n• Overwrite Configuration option. Try using it if you experience issues like appearing ads; it might help, but it's not guaranteed\n• Musixmatch invalid token popup and better token input\n• Dynamic Premium patching method by default",
-          "size": 76500000,
-          "version": "8.9.80"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
+          "localizedDescription" : "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
+          "minOSVersion" : "15.0",
+          "size" : 76500000,
+          "version" : "9.0.20"
         },
         {
-          "date": "2024-05-28",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.42.+.Eevee.v4.0.ipa",
-          "localizedDescription": "• Dynamic Premium Patching! - The tweak can now intercept Spotify requests to load user data, deserialize it, and modify the parameters in real-time. You can select the Dynamic Premium patching method in the EeveeSpotify settings.\n• Do Not Patch Premium option (for users with an active Premium subscription)\n• Reset Data option\n• Fixed native popups white background bug\n• Fixed opening Spotify links in the app when it's closed\n\nNOTE: When updating from an older tweak version, you need to go to EeveeSpotify settings and set the Premium patching method (either static or dynamic).\n\n\n(From v3.1)\n\n• Genius Fallback: Load lyrics from Genius if there is a problem with LRCLIB or Musixmatch\n• Updated OpenSpotifySafariExtension: Now supports all Spotify links and works great\n• Dark PopUps option\n• Improved lyrics colors (not so light and washed out, looks more like the original)\n• Improved song search algorithm on Genius or LRCLIB\n• Fixed EeveeSpotify settings crash when tapping on tabbar\n• Updated Musixmatch token alert message; the tweak now allows you to paste debug info",
-          "size": 71100000,
-          "version": "8.9.42"
+          "date" : "2024-10-09",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.80.+.Eevee.v5.4.ipa",
+          "localizedDescription" : "(5.4 - Current)\n\n• Updated Ukrainian localization by @LIKVIDATOR1337\n• Updated Turkish localization by @gototheskinny\n• Updated Danish localization by @UnexcitingDean\n\n(5.3)\n\n• Liked Songs on artist page\n• Improved Reset Data option (now clears /Library/Caches/ too, progress animation)\n• Updated dumped configuration; fixed app crashes when clicking on three dots on song page\n• Updated swift-protobuf to 1.28.1 and Swift to version 6 (Xcode 16.0)\n• Fixed Download action app crashes, improved its hooking logic\n• PetitLyrics is now available for everyone\n• Updated Simplified Chinese localization by @xiangfeidexiaohuo\n• Updated Traditional Chinese localizaton by @ElliotCHEN37\n• Updated Vietnamese localization by @Richard-NDC\n\n(5.2)\n\n• Brazil loc by @emal0n\n• French localization corrections by @5jd\n\n(5.1)\n\n• French localization by @5jd\n\n(5.0)\n\n• Danish localization by @UnexcitingDean\n• Swiss German localization by @An0n-00\n• Polish localization by @CukierDev\n• Nepalese localization by @3xynos7\n• German localization corrections by @wlxxd\n• Azerbaijani localization by @by3lish\n\n(4.9)\n\n• Musixmatch source support for local files\n• Lyrics colors support for local files\n• Bulgarian localization by @schweppes-0x\n• Traditional Chinese localization corrections by @Neo1102\n• Korean localization by @speedyfriend433\n• Vietnamese localization by @Richard-NDC\n• German localization by @wlxxd\n• Persian localization by @Incognito-Coder\n\n(4.8)\n\n• Fixed original lyrics colors\n• Spanish localization by @longopy\n• Simplified Chinese localization by @xiangfeidexiaohuo\n• Italian localization by @LivioZ\n• Russian localization\n• Ukrainian localization by @LIKVIDATOR1337\n• Turkish localization by @gototheskinny\n• Traditional Chinese localization by @ElliotCHEN37\n\n(4.7)\n\n• Fixed lyrics not appearing issue\n• Fixed Premium patching for recent versions; removed static method\n• Musixmatch romanization and translation now work simultaneously\n• Added localizations support; feel free to open pull requests with your .lproj\n\n(4.6)\n\n• Fixed popups white background bug on iPad\n\n(4.5)\n\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.4)\n\n• Fixed crashes on iOS 14 (Spotify 8.9.8) and added support for 8.9.54\n• Redesigned Settings\n• Option to show romanized lyrics on Musixmatch and Genius\n• Option to show translated Musixmatch lyrics\n• Musixmatch lyrics translation is now integrated natively\n• Local lyrics romanization for all sources\n• PetitLyrics source (only for Japanese users)\n• Added instrumental lyrics message\n• Fixed Musixmatch language code issues for some languages\n• Fixed native popups white background bug agian\n• Other minor improvements\n\n(4.3)\n\n• Fixed \"Couldn't load the lyrics for this song\" message when they are restricted on Musixmatch\n• Option to show fallback reasons in the lyrics card header\n• Updated OpenSpotifySafariExtension no longer mismatches on links like charts.spotify.com\n\n(4.2)\n\n• Real fix for crashes with LRCLIB\n• The tweak now searches only songs on Genius (no articles anymore)\n• Improved URLSession intercepts (fixes #182 and likely resolves login issues)\n• Fixed iPad Musixmatch token and blank area issues\n• Added Lyrics Colors option\n• Added version section and checking for update\n\n(4.1)\n\n• Original colors for lyrics available on Spotify\n• Fixed LRCLIB lyrics crash for some songs and issue of the settings view being too wide on iPad (pull request)\n• Overwrite Configuration option. Try using it if you experience issues like appearing ads; it might help, but it's not guaranteed\n• Musixmatch invalid token popup and better token input\n• Dynamic Premium patching method by default",
+          "size" : 76500000,
+          "version" : "8.9.80"
         },
         {
-          "date": "2024-05-10",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.38.+.Eevee.v3.0.ipa",
-          "localizedDescription": "• EeveeSpotify now supports LRCLIB and Musixmatch time-synced lyrics sources! You can select your preferred source in the tweak settings\n• Lyrics colors are now normalized\n• Fixed Genius issue where the tweak would pick a translation instead of the original lyrics",
-          "size": 68800000,
-          "version": "8.9.38"
+          "date" : "2024-05-28",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.42.+.Eevee.v4.0.ipa",
+          "localizedDescription" : "• Dynamic Premium Patching! - The tweak can now intercept Spotify requests to load user data, deserialize it, and modify the parameters in real-time. You can select the Dynamic Premium patching method in the EeveeSpotify settings.\n• Do Not Patch Premium option (for users with an active Premium subscription)\n• Reset Data option\n• Fixed native popups white background bug\n• Fixed opening Spotify links in the app when it's closed\n\nNOTE: When updating from an older tweak version, you need to go to EeveeSpotify settings and set the Premium patching method (either static or dynamic).\n\n\n(From v3.1)\n\n• Genius Fallback: Load lyrics from Genius if there is a problem with LRCLIB or Musixmatch\n• Updated OpenSpotifySafariExtension: Now supports all Spotify links and works great\n• Dark PopUps option\n• Improved lyrics colors (not so light and washed out, looks more like the original)\n• Improved song search algorithm on Genius or LRCLIB\n• Fixed EeveeSpotify settings crash when tapping on tabbar\n• Updated Musixmatch token alert message; the tweak now allows you to paste debug info",
+          "size" : 71100000,
+          "version" : "8.9.42"
         },
         {
-          "date": "2024-05-08",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.36.+.Eevee.v2.1.ipa",
-          "localizedDescription": "• Fixed app crashing when opening the player\n• EeveeSpotify now replaces Spotify monthly limited lyrics with Genius! (If it shows the limit has been reached there are no lyrics available on genius, this is different to the lyrics spotify provide)\n• Added OpenWithSpotify extension to open Spotify links in safari (must be enabled)\n• Updated Spotify to v8.9.36",
-          "size": 69100000,
-          "version": "8.9.36"
+          "date" : "2024-05-10",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.38.+.Eevee.v3.0.ipa",
+          "localizedDescription" : "• EeveeSpotify now supports LRCLIB and Musixmatch time-synced lyrics sources! You can select your preferred source in the tweak settings\n• Lyrics colors are now normalized\n• Fixed Genius issue where the tweak would pick a translation instead of the original lyrics",
+          "size" : 68800000,
+          "version" : "8.9.38"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.34.+.Eevee.v1.4.1.ipa",
-          "localizedDescription": "• Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
-          "size": 65900000,
-          "version": "8.9.34"
+          "date" : "2024-05-08",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.36.+.Eevee.v2.1.ipa",
+          "localizedDescription" : "• Fixed app crashing when opening the player\n• EeveeSpotify now replaces Spotify monthly limited lyrics with Genius! (If it shows the limit has been reached there are no lyrics available on genius, this is different to the lyrics spotify provide)\n• Added OpenWithSpotify extension to open Spotify links in safari (must be enabled)\n• Updated Spotify to v8.9.36",
+          "size" : 69100000,
+          "version" : "8.9.36"
+        },
+        {
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.34.+.Eevee.v1.4.1.ipa",
+          "localizedDescription" : "• Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
+          "size" : 65900000,
+          "version" : "8.9.34"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
-          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
-          "NSCameraUsageDescription": "This lets you create videos using the app.",
-          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
-          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
-          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
-          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
-          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "This lets you add your own audio files to your videos.",
+          "NSBluetoothPeripheralUsageDescription" : "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSCameraUsageDescription" : "This lets you create videos using the app.",
+          "NSContactsUsageDescription" : "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSLocalNetworkUsageDescription" : "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSLocationWhenInUseUsageDescription" : "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSMicrophoneUsageDescription" : "This lets you include audio with your videos and search using your voice.",
+          "NSPhotoLibraryUsageDescription" : "This lets you upload media you've already created.",
+          "NSUserTrackingUsageDescription" : "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.google.ios.youtube",
-      "category": "Entertainment",
-      "developerName": "Dayanch96",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
-      "iconURL": "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
-      "localizedDescription": "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "name": "YouTube++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.google.ios.youtube",
+      "category" : "Entertainment",
+      "developerName" : "Dayanch96",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
+      "iconURL" : "https://img.ipa4fun.com/65/82/9f/544007664-logo.webp",
+      "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
+      "name" : "YouTube++",
+      "screenshotURLs" : [
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/nJSE7u7.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5ABmJ5d.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/B1NnJb8.jpeg",
@@ -680,73 +687,73 @@
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/tZ2yvOY.jpeg",
         "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ayNc4BB.jpeg"
       ],
-      "size": 113399273,
-      "subtitle": "The All-In-One Tweak for YouTube.",
-      "tintColor": "f90505",
-      "version": "20.09.3",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
-      "versions": [
+      "size" : 113399273,
+      "subtitle" : "The All-In-One Tweak for YouTube.",
+      "tintColor" : "f90505",
+      "version" : "20.09.3",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
-          "localizedDescription": "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
-          "minOSVersion": "15.0",
-          "size": 106000000,
-          "version": "20.09.3"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Youtube.v20.09.3.+.YTLite.v5.1.Full.ipa",
+          "localizedDescription" : "• YouTube updated to v19.39.1\n• YTLite (Full) updated to v5.1",
+          "minOSVersion" : "15.0",
+          "size" : 106000000,
+          "version" : "20.09.3"
         },
         {
-          "date": "2024-10-09",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.39.1.+.YTLiteFull.v5.0.2.ipa",
-          "localizedDescription": "• YouTube updated to v19.39.1\n• uYouEnhanced replaced with YTLiteFull v5.0.2",
-          "size": 106000000,
-          "version": "19.39.1"
+          "date" : "2024-10-09",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.39.1.+.YTLiteFull.v5.0.2.ipa",
+          "localizedDescription" : "• YouTube updated to v19.39.1\n• uYouEnhanced replaced with YTLiteFull v5.0.2",
+          "size" : 106000000,
+          "version" : "19.39.1"
         },
         {
-          "date": "2024-04-30",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.16.3.+.uYouEnhanced.v3.0.3.ipa",
-          "localizedDescription": "• YouTube updated to v19.16.3\n• uYouEnhanced updated to v3.0.3",
-          "size": 119000000,
-          "version": "19.16.3"
+          "date" : "2024-04-30",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v19.16.3.+.uYouEnhanced.v3.0.3.ipa",
+          "localizedDescription" : "• YouTube updated to v19.16.3\n• uYouEnhanced updated to v3.0.3",
+          "size" : 119000000,
+          "version" : "19.16.3"
         },
         {
-          "date": "2024-01-07",
-          "downloadURL": "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1-F3/uYouEnhanced_18.49.3_3.0.1_F3.ipa",
-          "localizedDescription": "• YouTube updated to v18.49.3\n• uYouEnhanced updated to v3.0.1",
-          "size": 121000000,
-          "version": "18.49.3"
+          "date" : "2024-01-07",
+          "downloadURL" : "https://github.com/arichorn/uYouEnhanced/releases/download/v18.49.3-3.0.1-F3/uYouEnhanced_18.49.3_3.0.1_F3.ipa",
+          "localizedDescription" : "• YouTube updated to v18.49.3\n• uYouEnhanced updated to v3.0.1",
+          "size" : 121000000,
+          "version" : "18.49.3"
         },
         {
-          "date": "2023-10-22",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v18.40.1.+.uYouPlusExtra.v3.0.1.ipa",
-          "localizedDescription": "• YouTube updated to v18.14.1\n• uYouPlusExtra updated to v3.0.1",
-          "size": 121000000,
-          "version": "18.40.1"
+          "date" : "2023-10-22",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v18.40.1.+.uYouPlusExtra.v3.0.1.ipa",
+          "localizedDescription" : "• YouTube updated to v18.14.1\n• uYouPlusExtra updated to v3.0.1",
+          "size" : 121000000,
+          "version" : "18.40.1"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSCameraUsageDescription": "Take a photo to use for your Duolingo profile.",
-          "NSContactsUsageDescription": "Your contacts will be securely uploaded to Duolingo to help you find friends.",
-          "NSLocationWhenInUseUsageDescription": "Duolingo uses your current location to find nearby events.",
-          "NSMicrophoneUsageDescription": "Speaking is essential to language learning.",
-          "NSPhotoLibraryAddUsageDescription": "In order to save screenshots of exercises like this one.",
-          "NSPhotoLibraryUsageDescription": "Find an existing photo to use for your Duolingo profile.",
-          "NSSpeechRecognitionUsageDescription": "Speaking is essential to language learning.",
-          "NSUserTrackingUsageDescription": "This will be used to show ads relevant to you."
+      "appPermissions" : {
+        "privacy" : {
+          "NSCameraUsageDescription" : "Take a photo to use for your Duolingo profile.",
+          "NSContactsUsageDescription" : "Your contacts will be securely uploaded to Duolingo to help you find friends.",
+          "NSLocationWhenInUseUsageDescription" : "Duolingo uses your current location to find nearby events.",
+          "NSMicrophoneUsageDescription" : "Speaking is essential to language learning.",
+          "NSPhotoLibraryAddUsageDescription" : "In order to save screenshots of exercises like this one.",
+          "NSPhotoLibraryUsageDescription" : "Find an existing photo to use for your Duolingo profile.",
+          "NSSpeechRecognitionUsageDescription" : "Speaking is essential to language learning.",
+          "NSUserTrackingUsageDescription" : "This will be used to show ads relevant to you."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.duolingo.DuolingoMobile",
-      "category": "Lifestyle",
-      "developerName": "Laxus",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
-      "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gl8jTYA.jpeg",
-      "localizedDescription": "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
-      "name": "Duolingo++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.duolingo.DuolingoMobile",
+      "category" : "Lifestyle",
+      "developerName" : "Laxus",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gl8jTYA.jpeg",
+      "localizedDescription" : "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
+      "name" : "Duolingo++",
+      "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/85/3c/6d/853c6dcc-509f-af17-1a68-5a14a1ddfcd6/tns.lgtxetwx.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/00/a9/d000a923-fdb2-074c-29c9-b0b756210be3/tns.egimlxov.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/7d/1b/c9/7d1bc96c-d220-6613-031c-e04dfd587375/tns.jhthyhvf.png/314x0w.webp",
@@ -756,66 +763,66 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/71/50/25/7150254b-c1fe-0f0a-3080-d132ec1df02b/tns.kxzrjpco.png/314x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/d8/e5/66d8e526-9452-3aef-929c-1e91c675512a/7c022d98-f86f-4b31-8503-632ddcd73657_6.5-inch-screen9__U00283_U0029.png/314x0w.webp"
       ],
-      "size": 114310051,
-      "subtitle": "Duolingo with Super Duolingo Activated!",
-      "tintColor": "7cd404",
-      "version": "7.29.0",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Duolingo Updated to v7.29.0",
-      "versions": [
+      "size" : 114310051,
+      "subtitle" : "Duolingo with Super Duolingo Activated!",
+      "tintColor" : "7cd404",
+      "version" : "7.29.0",
+      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Duolingo Updated to v7.29.0",
+      "versions" : [
         {
-          "date": "2025-03-04",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
-          "localizedDescription": "• Duolingo Updated to v7.29.0",
-          "minOSVersion": "10.0",
-          "size": 101000000,
-          "version": "7.29.0"
+          "date" : "2025-03-04",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+          "localizedDescription" : "• Duolingo Updated to v7.29.0",
+          "minOSVersion" : "10.0",
+          "size" : 101000000,
+          "version" : "7.29.0"
         },
         {
-          "date": "2024-05-11",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v7.9.0.ipa",
-          "localizedDescription": "• Duolingo Updated to v7.9.0",
-          "size": 101000000,
-          "version": "7.9.0"
+          "date" : "2024-05-11",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v7.9.0.ipa",
+          "localizedDescription" : "• Duolingo Updated to v7.9.0",
+          "size" : 101000000,
+          "version" : "7.9.0"
         },
         {
-          "date": "2023-10-23",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v6.196.0.ipa",
-          "localizedDescription": "• Duolingo Updated to v6.196.0",
-          "size": 112000000,
-          "version": "6.196.0"
+          "date" : "2023-10-23",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.Cracked.v6.196.0.ipa",
+          "localizedDescription" : "• Duolingo Updated to v6.196.0",
+          "size" : 112000000,
+          "version" : "6.196.0"
         }
       ]
     },
     {
-      "appPermissions": {
-        "privacy": {
-          "NSAppleMusicUsageDescription": "This lets you play Apple Music tracks, add tracks to your music library, and more.",
-          "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
-          "NSBluetoothPeripheralUsageDescription": "This makes some features work with bluetooth accessories.",
-          "NSCalendarsUsageDescription": "This makes some features that use your calendar work.",
-          "NSCameraUsageDescription": "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
-          "NSContactsUsageDescription": "Messenger uploads your contacts to our servers to do things like connect you with people you already know, suggest new connections, and improve ads for you and others on Facebook Products.",
-          "NSFaceIDUsageDescription": "Messenger uses Face ID to unlock the app.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
-          "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
-          "NSLocationUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
-          "NSLocationWhenInUseUsageDescription": "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
-          "NSMicrophoneUsageDescription": "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you do things like save to your camera roll and enables other features for photos and videos.",
-          "NSPhotoLibraryUsageDescription": "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos.",
-          "NSSiriUsageDescription": "This lets you use Siri to do things like make calls and read messages."
+      "appPermissions" : {
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "This lets you play Apple Music tracks, add tracks to your music library, and more.",
+          "NSBluetoothAlwaysUsageDescription" : " This makes some features work with bluetooth accessories.",
+          "NSBluetoothPeripheralUsageDescription" : "This makes some features work with bluetooth accessories.",
+          "NSCalendarsUsageDescription" : "This makes some features that use your calendar work.",
+          "NSCameraUsageDescription" : "Messenger uses your device’s camera so you can do things like take photos, record and stream videos, make video calls, and create and use filters and effects.",
+          "NSContactsUsageDescription" : "Messenger uploads your contacts to our servers to do things like connect you with people you already know, suggest new connections, and improve ads for you and others on Facebook Products.",
+          "NSFaceIDUsageDescription" : "Messenger uses Face ID to unlock the app.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription" : "This makes some features work, enables location sharing with friends, and more.",
+          "NSLocationAlwaysUsageDescription" : "This makes some features work, enables location sharing with friends, and more.",
+          "NSLocationUsageDescription" : "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSLocationWhenInUseUsageDescription" : "Messenger uses this to provide more relevant and personalized experiences, like live location sharing and suggesting local places.",
+          "NSMicrophoneUsageDescription" : "Messenger uses your device’s microphone so you can do things like record video with sound, make voice and video calls, and create voice messages.",
+          "NSPhotoLibraryAddUsageDescription" : "This lets you do things like save to your camera roll and enables other features for photos and videos.",
+          "NSPhotoLibraryUsageDescription" : "Messenger uses your device’s photo library from your camera roll so you can do things like share photos and videos.",
+          "NSSiriUsageDescription" : "This lets you use Siri to do things like make calls and read messages."
         }
       },
-      "beta": false,
-      "bundleIdentifier": "com.facebook.Messenger",
-      "category": "Social",
-      "developerName": "Michael Lema",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/85/36/e6/8536e6ea-7b2d-775a-bd2d-62beac227451/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220-0.png/460x0w.webp",
-      "localizedDescription": "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
-      "name": "Messenger++",
-      "screenshotURLs": [
+      "beta" : false,
+      "bundleIdentifier" : "com.facebook.Messenger",
+      "category" : "Social",
+      "developerName" : "Michael Lema",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
+      "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/85/36/e6/8536e6ea-7b2d-775a-bd2d-62beac227451/AppIcon-1x_U007emarketing-0-7-0-0-sRGB-85-220-0.png/460x0w.webp",
+      "localizedDescription" : "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
+      "name" : "Messenger++",
+      "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b6/9b/fb/b69bfb93-41be-bdca-5b4c-c27519b474c2/391db841-c2fe-45c1-bc57-c1fbc16f3b35_iPhone_6.5__-_Screen_1.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/9d/ad/c5/9dadc57c-5684-bfc6-b384-bd2a7152bde1/886304e6-ebc9-4468-b0af-5d4b33e434c2_iPhone_6.5__-_Screen_3.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/8d/cb/9e8dcb43-ce79-c4ff-43ef-e3548847d87d/0014da8a-bb5a-4fe1-923d-90c1f05530e9_iPhone_6.5__-_Screen_4.jpg/460x0w.webp",
@@ -824,169 +831,169 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/db/8f/9c/db8f9c34-d7d5-b1f3-2be4-e4fa3a6906f5/ee927225-0cfa-43a1-8b63-f97eabc3237c_iPhone_6.5__-_Screen_7.jpg/460x0w.webp",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/e5/97/49/e59749f5-d582-4840-dbcc-0e72bdbf09ec/8ed80d4b-be7b-4048-a099-d1d0ff5555ab_iPhone_6.5__-_Screen_8.jpg/460x0w.webp"
       ],
-      "size": 44596633,
-      "subtitle": "The ultimate Facebook Messenger tweak!",
-      "tintColor": "c844c6",
-      "version": "390.0",
-      "versionDate": "2023-10-23",
-      "versionDescription": "• Added Messenger v390.0 (Current working version with crack)",
-      "versions": [
+      "size" : 44596633,
+      "subtitle" : "The ultimate Facebook Messenger tweak!",
+      "tintColor" : "c844c6",
+      "version" : "390.0",
+      "versionDate" : "2023-10-23",
+      "versionDescription" : "• Added Messenger v390.0 (Current working version with crack)",
+      "versions" : [
         {
-          "date": "2023-10-23",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-          "localizedDescription": "• Added Messenger v390.0 (Current working version with crack)",
-          "minOSVersion": "13.0",
-          "size": 42500000,
-          "version": "390.0"
+          "date" : "2023-10-23",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
+          "localizedDescription" : "• Added Messenger v390.0 (Current working version with crack)",
+          "minOSVersion" : "13.0",
+          "size" : 42500000,
+          "version" : "390.0"
         }
       ]
     }
   ],
-  "description": "Welcome to WuXu’s Library++!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
-  "featuredApps": [
+  "description" : "Welcome to WuXu’s Library++!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
+  "featuredApps" : [
     "com.spotify.client",
     "com.burbn.instagram",
     "com.google.ios.youtube",
     "com.box.hd.flix.drama.hub",
     "com.duolingo.DuolingoMobile"
   ],
-  "headerURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
-  "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
-  "identifier": "com.wuxulibs.wuxuslibrary++",
-  "name": "WuXu's Library++",
-  "news": [
+  "headerURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/stTk5jP.jpeg",
+  "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
+  "identifier" : "com.wuxulibs.wuxuslibrary++",
+  "name" : "WuXu's Library++",
+  "news" : [
     {
-      "appID": "com.box.hd.flix.drama.hub",
-      "caption": "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
-      "date": "2025-03-10",
-      "identifier": "hdflix-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
-      "notify": true,
-      "tintColor": "16181e",
-      "title": "HD Flix Updated!"
+      "appID" : "com.spotify.client",
+      "caption" : "Spotify++ has been updated to the latest version! Click here for more info",
+      "date" : "2026-08-06",
+      "identifier" : "spotify-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
+      "notify" : true,
+      "tintColor" : "0e6a32",
+      "title" : "Spotify++ Updated!"
     },
     {
-      "appID": "com.atebits.Tweetie2",
-      "caption": "X++ has been updated with a new tweak! Click Here for more info",
-      "date": "2025-03-04",
-      "identifier": "x-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/fTtIng1.jpeg",
-      "notify": true,
-      "tintColor": "0f0f0f",
-      "title": "X++ Updated!"
+      "appID" : "com.box.hd.flix.drama.hub",
+      "caption" : "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
+      "date" : "2025-03-10",
+      "identifier" : "hdflix-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
+      "notify" : true,
+      "tintColor" : "16181e",
+      "title" : "HD Flix Updated!"
     },
     {
-      "appID": "com.facebook.Facebook",
-      "caption": "Facebook++ has been updated to the latest version, click here for more info",
-      "date": "2025-03-04",
-      "identifier": "facebook-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
-      "notify": true,
-      "tintColor": "153267",
-      "title": "Facebook++ Updated!"
+      "appID" : "com.atebits.Tweetie2",
+      "caption" : "X++ has been updated with a new tweak! Click Here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "x-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/fTtIng1.jpeg",
+      "notify" : true,
+      "tintColor" : "0f0f0f",
+      "title" : "X++ Updated!"
     },
     {
-      "appID": "com.zhiliaoapp.musically",
-      "caption": "TikTok++ has been updated with a new tweak! Click here for more info",
-      "date": "2025-03-04",
-      "identifier": "tiktok-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
-      "notify": false,
-      "tintColor": "131313",
-      "title": "TikTok++ Updated!"
+      "appID" : "com.facebook.Facebook",
+      "caption" : "Facebook++ has been updated to the latest version, click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "facebook-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
+      "notify" : true,
+      "tintColor" : "153267",
+      "title" : "Facebook++ Updated!"
     },
     {
-      "appID": "com.burbn.instagram",
-      "caption": "Instagram has been updated with a new tweak! Click here for more info",
-      "date": "2025-03-04",
-      "identifier": "instagram-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
-      "notify": false,
-      "tintColor": "5c1859",
-      "title": "Instagram++ Updated!"
+      "appID" : "com.zhiliaoapp.musically",
+      "caption" : "TikTok++ has been updated with a new tweak! Click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "tiktok-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
+      "notify" : false,
+      "tintColor" : "131313",
+      "title" : "TikTok++ Updated!"
     },
     {
-      "appID": "com.myfitnesspal.mfp",
-      "caption": "MyFitnessPal++ has been updated to the latest version, click here for more info",
-      "date": "2025-03-04",
-      "identifier": "myfitnesspal-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xrzvPez.jpeg",
-      "notify": true,
-      "tintColor": "113361",
-      "title": "MyFitnessPal++ Updated!"
+      "appID" : "com.burbn.instagram",
+      "caption" : "Instagram has been updated with a new tweak! Click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "instagram-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
+      "notify" : false,
+      "tintColor" : "5c1859",
+      "title" : "Instagram++ Updated!"
     },
     {
-      "appID": "AlexisBarreyat.BeReal",
-      "caption": "BeReal++ has been updated to the latest version, click here for more info",
-      "date": "2024-10-09",
-      "identifier": "bereal-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
-      "notify": true,
-      "tintColor": "131313",
-      "title": "BeReal++ Updated!"
+      "appID" : "com.myfitnesspal.mfp",
+      "caption" : "MyFitnessPal++ has been updated to the latest version, click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "myfitnesspal-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xrzvPez.jpeg",
+      "notify" : true,
+      "tintColor" : "113361",
+      "title" : "MyFitnessPal++ Updated!"
     },
     {
-      "appID": "com.deezer.Deezer",
-      "caption": "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
-      "date": "2023-10-22",
-      "identifier": "deezer-added",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
-      "notify": false,
-      "tintColor": "0e0e0e",
-      "title": "Deezer++ Added!"
+      "appID" : "AlexisBarreyat.BeReal",
+      "caption" : "BeReal++ has been updated to the latest version, click here for more info",
+      "date" : "2024-10-09",
+      "identifier" : "bereal-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
+      "notify" : true,
+      "tintColor" : "131313",
+      "title" : "BeReal++ Updated!"
     },
     {
-      "appID": "com.soundcloud.TouchApp",
-      "caption": "A new SoundCloud tweak has been released! Only works with trollstore/cert",
-      "date": "2025-03-04",
-      "identifier": "soundcloud-added",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
-      "notify": true,
-      "tintColor": "131313",
-      "title": "SoundCloud++ has been re-added!"
+      "appID" : "com.deezer.Deezer",
+      "caption" : "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
+      "date" : "2023-10-22",
+      "identifier" : "deezer-added",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
+      "notify" : false,
+      "tintColor" : "0e0e0e",
+      "title" : "Deezer++ Added!"
     },
     {
-      "appID": "com.spotify.client",
-      "caption": "Spotify++ has been updated to the latest version! Click here for more info",
-      "date": "2025-03-04",
-      "identifier": "spotify-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
-      "notify": true,
-      "tintColor": "0e6a32",
-      "title": "Spotify++ Updated!"
+      "appID" : "com.soundcloud.TouchApp",
+      "caption" : "A new SoundCloud tweak has been released! Only works with trollstore/cert",
+      "date" : "2025-03-04",
+      "identifier" : "soundcloud-added",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
+      "notify" : true,
+      "tintColor" : "131313",
+      "title" : "SoundCloud++ has been re-added!"
     },
     {
-      "appID": "com.google.ios.youtube",
-      "caption": "YouTube++ has been updated to the latest version! Click here for more info",
-      "date": "2025-03-04",
-      "identifier": "youtube-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
-      "notify": true,
-      "tintColor": "af0001",
-      "title": "YouTube++ Updated!"
+      "appID" : "com.google.ios.youtube",
+      "caption" : "YouTube++ has been updated to the latest version! Click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "youtube-updated",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
+      "notify" : true,
+      "tintColor" : "af0001",
+      "title" : "YouTube++ Updated!"
     },
     {
-      "appID": "com.duolingo.DuolingoMobile",
-      "caption": "Duolingo++ has been updated to the latest version! Click here for more info",
-      "date": "2025-03-04",
-      "identifier": "duolingo-added",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
-      "notify": true,
-      "tintColor": "244200",
-      "title": "Duolingo++ Updated!"
+      "appID" : "com.duolingo.DuolingoMobile",
+      "caption" : "Duolingo++ has been updated to the latest version! Click here for more info",
+      "date" : "2025-03-04",
+      "identifier" : "duolingo-added",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
+      "notify" : true,
+      "tintColor" : "244200",
+      "title" : "Duolingo++ Updated!"
     },
     {
-      "appID": "com.facebook.Messenger",
-      "caption": "Messenger injected with Shark has been added to the source, click here for more info",
-      "date": "2023-10-23",
-      "identifier": "messenger-added",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
-      "notify": true,
-      "tintColor": "532552",
-      "title": "Messenger++ Added!"
+      "appID" : "com.facebook.Messenger",
+      "caption" : "Messenger injected with Shark has been added to the source, click here for more info",
+      "date" : "2023-10-23",
+      "identifier" : "messenger-added",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
+      "notify" : true,
+      "tintColor" : "532552",
+      "title" : "Messenger++ Added!"
     }
   ],
-  "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
-  "tintColor": "d81a14",
-  "website": "https://bit.ly/wuxus-sources"
+  "subtitle" : "The Most Up-To-Date IPA Library on AltStore.",
+  "tintColor" : "d81a14",
+  "website" : "https://bit.ly/wuxus-sources"
 }
