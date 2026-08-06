@@ -552,6 +552,7 @@
           "date": "2026-07-28",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
           "localizedDescription": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
+          "minOSVersion": "16.4",
           "size": 114563681,
           "version": "8.71.0"
         },
