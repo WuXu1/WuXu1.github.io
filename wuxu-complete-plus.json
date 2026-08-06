@@ -526,10 +526,10 @@
       "beta": false,
       "bundleIdentifier": "com.soundcloud.TouchApp",
       "category": "Entertainment",
-      "developerName": "Rov3r",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
+      "developerName": "VAXMG",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "DOES NOT WORK ON ALTSTORE/SIDESTORE. Requires Trollstore/Cert to install\n\nEnhance your SoundCloud experience with the following features:\n\n• Remove Ads\n• Remove Promoted Playlists\n• Remove Upsell Buttons\n\n\nHOW TO INSTALL IF NOT WORKING\n\n(iOS 15):\n\n1. Download the REGULAR SoundCloud app from the app store (IMPORTANT)\n2. Sign in to the app\n3. Delete the app while still signed in\n4. Download the IPA (app file) from the table below.\n5. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n6. Once installed, you can enjoy, as you should be logged in already.\n\n\n(iOS 16):\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the IPA (app file) from the table below.\n3. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n4. Sign in using your Google or Facebook account\n5. Use the same method uYou used for bypassing the unsafe installation login error\n\n\n(iOS 16) [Method 2]:\n\n1. Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.\n2. Download the REGULAR SoundCloud app from the AppStore\n3. Sign in to the app using Google or Facebook Account sign-in\n4. Delete the app while still signed in\n5. Download the IPA (app file) from the table below.\n6. Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)\n7. Once installed, you can enjoy, as you should be logged in already.",
+      "localizedDescription": "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save\nBuild by: @ipavault\n\nCredits: \nNexaSC by @VAXMG",
       "name": "SoundCloud++",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/5c/b1/555cb18f-d974-428d-9233-e2b6d36f3694/01.jpg/320x480bb.jpg",
@@ -541,13 +541,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/a2/5d/6aa25d36-12c5-6772-2bcb-4afb4bea9b60/07.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/1f/4d/c61f4d4f-567a-fc0f-4db9-7e6c197a07c2/08.jpg/320x480bb.jpg"
       ],
-      "size": 92885040,
+      "size": 114563681,
       "subtitle": "SoundCloud with no ads! Read Description.",
       "tintColor": "0a0a0a",
-      "version": "7.65.4",
-      "versionDate": "2025-03-04",
-      "versionDescription": "• Updated SoundCloud to v7.65.4",
+      "version": "8.71.0",
+      "versionDate": "2026-07-28",
+      "versionDescription": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
       "versions": [
+        {
+          "date": "2026-07-28",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
+          "localizedDescription": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
+          "size": 114563681,
+          "version": "8.71.0"
+        },
         {
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v7.65.4.+.SCMusicPlus.v24.9.1-3.ipa",
@@ -877,6 +884,16 @@
   "name": "WuXu's Library++ (Experimental)",
   "news": [
     {
+      "appID": "com.soundcloud.TouchApp",
+      "caption": "SoundCloud++ has been updated to the latest version! Click here for more info",
+      "date": "2026-08-06",
+      "identifier": "soundcloud-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
+      "notify": true,
+      "tintColor": "131313",
+      "title": "SoundCloud++ Updated!"
+    },
+    {
       "appID": "com.spotify.client",
       "caption": "Spotify++ has been updated to the latest version! Click here for more info",
       "date": "2026-08-06",
@@ -965,16 +982,6 @@
       "notify": false,
       "tintColor": "0e0e0e",
       "title": "Deezer++ Added!"
-    },
-    {
-      "appID": "com.soundcloud.TouchApp",
-      "caption": "A new SoundCloud tweak has been released! Only works with trollstore/cert",
-      "date": "2025-03-04",
-      "identifier": "soundcloud-added",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
-      "notify": true,
-      "tintColor": "131313",
-      "title": "SoundCloud++ has been re-added!"
     },
     {
       "appID": "com.google.ios.youtube",
