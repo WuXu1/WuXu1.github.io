@@ -1,8 +1,29 @@
 {
+  "com.burbn.instagram" : [
+    "Instagram"
+  ],
+  "com.duolingo.DuolingoMobile" : [
+    "Duolingo"
+  ],
+  "com.facebook.Facebook" : [
+    "Facebook"
+  ],
+  "com.facebook.Messenger" : [
+    "Messenger"
+  ],
+  "com.google.ios.youtube" : [
+    "YouTube"
+  ],
+  "com.myfitnesspal.mfp" : [
+    "MyFitnessPal"
+  ],
   "com.soundcloud.TouchApp" : [
     "NexaSC"
   ],
   "com.spotify.client" : [
     "EeveeSpotify"
+  ],
+  "com.zhiliaoapp.musically" : [
+    "TikTok"
   ]
 }

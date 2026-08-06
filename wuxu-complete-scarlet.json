@@ -50,12 +50,12 @@
       "appstore": "com.soundcloud.TouchApp",
       "bundleID": "com.soundcloud.TouchApp",
       "category": "Entertainment",
-      "changelog": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
+      "changelog": "• SoundCloud++ updated to v8.71.0\n• Replaced Tweak",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
-      "description": "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save\nBuild by: @ipavault\n\nCredits: \nNexaSC by @VAXMG",
+      "description": "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
       "dev": "VAXMG",
       "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
@@ -76,14 +76,14 @@
       "appstore": "com.spotify.client",
       "bundleID": "com.spotify.client",
       "category": "Entertainment",
-      "changelog": "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
+      "changelog": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
       "dev": "Eevee",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++.v9.1.62.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "name": "Spotify++",
       "screenshots": [
@@ -96,7 +96,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/df/e9/b9dfe9f4-7716-a072-6d8b-d683ed92c75f/IOS_-_5.5_-_S07_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/55/ca/cb55ca54-a183-ea42-3a46-9c2fa59ea289/IOS_-_5.5_-_S08_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png"
       ],
-      "version": "9.1.62"
+      "version": "9.0.20"
     },
     {
       "appstore": "com.google.ios.youtube",

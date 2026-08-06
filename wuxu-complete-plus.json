@@ -571,7 +571,7 @@
       "developerName": "VAXMG",
       "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "localizedDescription": "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save\nBuild by: @ipavault\n\nCredits: \nNexaSC by @VAXMG",
+      "localizedDescription": "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
       "name": "SoundCloud++",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/5c/b1/555cb18f-d974-428d-9233-e2b6d36f3694/01.jpg/320x480bb.jpg",
@@ -583,19 +583,19 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/a2/5d/6aa25d36-12c5-6772-2bcb-4afb4bea9b60/07.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/1f/4d/c61f4d4f-567a-fc0f-4db9-7e6c197a07c2/08.jpg/320x480bb.jpg"
       ],
-      "size": 114563681,
+      "size": 117581520,
       "subtitle": "SoundCloud with no ads! Read Description.",
       "tintColor": "0a0a0a",
       "version": "8.71.0",
       "versionDate": "2026-07-28",
-      "versionDescription": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
+      "versionDescription": "• SoundCloud++ updated to v8.71.0\n• Replaced Tweak",
       "versions": [
         {
           "date": "2026-07-28",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
-          "localizedDescription": "• SoundCloud++ updated to v8.71.0\n• Added new tweak (NexaSC)",
+          "localizedDescription": "• SoundCloud++ updated to v8.71.0\n• Replaced Tweak",
           "minOSVersion": "16.4",
-          "size": 114563681,
+          "size": 117581520,
           "version": "8.71.0"
         },
         {
@@ -666,7 +666,7 @@
       "bundleIdentifier": "com.spotify.client",
       "category": "Entertainment",
       "developerName": "Eevee",
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++.v9.1.62.ipa",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "localizedDescription": "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
       "name": "Spotify++",
@@ -680,21 +680,13 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/df/e9/b9dfe9f4-7716-a072-6d8b-d683ed92c75f/IOS_-_5.5_-_S07_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/55/ca/cb55ca54-a183-ea42-3a46-9c2fa59ea289/IOS_-_5.5_-_S08_-_EN_-_CA_U005bEnglish__U0028Canada_U0029_U005d.png/392x696bb.png"
       ],
-      "size": 122927927,
+      "size": 76500000,
       "subtitle": "Free Spotify Premium!",
       "tintColor": "1fd362",
-      "version": "9.1.62",
-      "versionDate": "2026-07-23",
-      "versionDescription": "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
+      "version": "9.0.20",
+      "versionDate": "2025-03-04",
+      "versionDescription": "• Updated Spotify to v9.0.20\n• Updated Eevee to v5.8.7",
       "versions": [
-        {
-          "date": "2026-07-23",
-          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify++.v9.1.62.ipa",
-          "localizedDescription": "• Spotify++ updated to v9.1.62\n• Eevee updated to v6.2.2",
-          "minOSVersion": "16.1",
-          "size": 122927927,
-          "version": "9.1.62"
-        },
         {
           "date": "2025-03-04",
           "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.20.+.Eevee.v5.8.7.ipa",
@@ -969,16 +961,6 @@
   "name": "WuXu's Library++ (Experimental)",
   "news": [
     {
-      "appID": "com.spotify.client",
-      "caption": "Spotify++ has been updated to the latest version! Click here for more info",
-      "date": "2026-08-06",
-      "identifier": "spotify-updated",
-      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
-      "notify": true,
-      "tintColor": "0e6a32",
-      "title": "Spotify++ Updated!"
-    },
-    {
       "appID": "com.soundcloud.TouchApp",
       "caption": "SoundCloud++ has been updated to the latest version! Click here for more info",
       "date": "2026-08-06",
@@ -987,6 +969,16 @@
       "notify": true,
       "tintColor": "131313",
       "title": "SoundCloud++ Updated!"
+    },
+    {
+      "appID": "com.spotify.client",
+      "caption": "Spotify++ has been updated to the latest version! Click here for more info",
+      "date": "2026-08-06",
+      "identifier": "spotify-updated",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
+      "notify": true,
+      "tintColor": "0e6a32",
+      "title": "Spotify++ Updated!"
     },
     {
       "appID": "com.box.hd.flix.drama.hub",
