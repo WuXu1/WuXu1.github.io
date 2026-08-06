@@ -85,6 +85,11 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "Please allow PostBox to save media into your photo library.",
           "NSPhotoLibraryUsageDescription": "PostBox can save media (such as screenshots and banners) to your photo library."
@@ -125,7 +130,13 @@
     },
     {
       "appPermissions": {
-
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ]
       },
       "beta": true,
       "bundleIdentifier": "com.antique.emuThreeDS",
@@ -199,6 +210,12 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.private.security.no-container",
+          "platform-application",
+          "task_for_pid-allow"
+        ],
         "privacy": {
           "NSAppleMusicUsageDescription": "Full access to files on your device is required to apply modifications.",
           "NSFaceIDUsageDescription": "Filza uses Face ID to authenticate",
@@ -240,6 +257,11 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
         "privacy": {
           "NSLocalNetworkUsageDescription": "This app needs to access the local network to do wireless installs."
         }
@@ -425,6 +447,11 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "Allow, if you want to be able to save files to Photos app",
           "NSUserTrackingUsageDescription": "Support developer, allow personalized ads."
@@ -525,6 +552,11 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
         "privacy": {
           "NSAppleMusicUsageDescription": "点允许，才能使用。",
           "NSCameraUsageDescription": "授权后才能使用您的相机进行扫一扫",
@@ -599,6 +631,15 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.location.push",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSCameraUsageDescription": "Camera access is needed for scanning QR codes.",
           "NSPhotoLibraryUsageDescription": "Photo library access is needed if player wants to send screenshots to Supercell Player Support.",
@@ -631,6 +672,12 @@
     },
     {
       "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSCameraUsageDescription": "Camera access is needed to scan QR codes.",
           "NSPhotoLibraryUsageDescription": "Photo library access is needed to send screenshots to Supercell Player Support."
