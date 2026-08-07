@@ -151,14 +151,14 @@
       "appstore": "org.ppsspp.ppsspp",
       "bundleID": "org.ppsspp.ppsspp",
       "category": "Games",
-      "changelog": "• Assorted minor crash- and other fixes\n• Control mapping: Fix bugs in mapping UI causing trouble with some controllers\n\n",
+      "changelog": "• PPSSPP updated to v1.20.4",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.\n\nThe app was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka @angelxwind) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.\n\nPPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size.\n\nThe emulator is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device.",
       "dev": "Henrik Rydgård",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PPSSPP.v1.15.3.ipa",
+      "down": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
       "icon": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JP0Fncv.png",
       "name": "PPSSPP",
       "screenshots": [
@@ -167,7 +167,7 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/sGWgR6z.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/AFKTdmZ.png"
       ],
-      "version": ""
+      "version": "1.20.4"
     },
     {
       "appstore": "com.atrasis.original",
