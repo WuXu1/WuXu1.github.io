@@ -1,6 +1,19 @@
 {
   "apps": [
     {
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "Unknown",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "localizedDescription": "Run iOS apps without actually installing them!",
+      "name": "LiveContainer",
+      "size": 0,
+      "tintColor": "000000",
+      "version": "3.8.0",
+      "versionDate": "2026-08-07",
+      "versionDescription": "Initial addition."
+    },
+    {
       "appPermissions": {
         "privacy": {
           "NSAppleMusicUsageDescription": "Unsandboxing with MacDirtyCow"

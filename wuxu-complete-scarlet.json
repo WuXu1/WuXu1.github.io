@@ -350,6 +350,27 @@
     "repoIcon": "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
     "repoName": "WuXu's Library"
   },
+  "Other": [
+    {
+      "appstore": "com.kdt.livecontainer",
+      "bundleID": "com.kdt.livecontainer",
+      "category": "Other",
+      "changelog": "Initial addition.",
+      "contact": {
+        "discord": "https://bit.ly/wuxuslibrary-discord",
+        "web": "https://bit.ly/wuxus-sources"
+      },
+      "description": "Run iOS apps without actually installing them!",
+      "dev": "Unknown",
+      "down": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "icon": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "name": "LiveContainer",
+      "screenshots": [
+
+      ],
+      "version": "3.8.0"
+    }
+  ],
   "Social": [
     {
       "appstore": "com.atebits.Tweetie2",
