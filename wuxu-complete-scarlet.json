@@ -323,14 +323,14 @@
       "appstore": "com.duolingo.DuolingoMobile",
       "bundleID": "com.duolingo.DuolingoMobile",
       "category": "Lifestyle",
-      "changelog": "• Duolingo Updated to v7.29.0",
+      "changelog": "• Duolingo++ updated to v7.134.0\n\n• Sign-in with google/apple.\n• Ignore any purchase banners all features should work.",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
       "dev": "Laxus",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.29.0.Cracked.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "name": "Duolingo++",
       "screenshots": [
@@ -343,7 +343,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/e7/92/38e792e8-a229-9333-c829-175c166835fa/V2_iOS6.5_07.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/59/44/2b5944ae-3697-083c-d98d-b650c6a218c7/V2_iOS6.5_08.jpg/320x480bb.jpg"
       ],
-      "version": "7.29.0"
+      "version": "7.134.0"
     }
   ],
   "META": {
@@ -402,14 +402,14 @@
       "appstore": "com.facebook.Facebook",
       "bundleID": "com.facebook.Facebook",
       "category": "Social",
-      "changelog": "• Updated Facebook to v502.2.0",
+      "changelog": "• Facebook++ updated to v\n• Replaced Tweak (Glow v1.3.1)",
       "contact": {
         "discord": "https://bit.ly/wuxuslibrary-discord",
         "web": "https://bit.ly/wuxus-sources"
       },
       "description": "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "dev": "Michael Lema",
-      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v502.2.0.+.Wolf.v2.1.ipa",
+      "down": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v1.3.1.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name": "Facebook++",
       "screenshots": [
@@ -424,7 +424,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/29/3e/02293e8a-d565-25b2-2405-31389c8a6e6e/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/b2/32/f6b2327b-e56b-7c4c-b41b-2ee19340e8d5/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
       ],
-      "version": "502.2.0"
+      "version": "533.0.0"
     },
     {
       "appstore": "com.zhiliaoapp.musically",
