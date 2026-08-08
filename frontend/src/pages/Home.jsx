@@ -11,6 +11,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
   const [searchQuery, setSearchQuery] = useState('');
   const [heroSource, setHeroSource] = useState('wuxu-plus');
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [isRequestModalOpen, setIsRequestModalOpen] = useState(false);
   const navigate = useNavigate();
 
   const handleSearchChange = (e) => {
@@ -42,40 +43,87 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
   const displayedApps = getFilteredApps();
 
   const showcaseRef = React.useRef(null);
+  
+  const carouselApps = React.useMemo(() => {
+    const combined = [...apps, ...plusApps].filter(app => app.name && app.iconURL);
+    // Fisher-Yates shuffle
+    const shuffled = [...combined];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [apps, plusApps]);
 
   React.useEffect(() => {
-    if (currentView !== 'Discover' || news.length === 0) return;
+    if (currentView !== 'Discover' || carouselApps.length === 0) return;
     
     let animationFrameId;
     const container = showcaseRef.current;
     if (!container) return;
     
-    let isUserInteracting = false;
+    let isInteracting = false;
+    let isDown = false;
+    let startX;
+    let initialScrollLeft;
     
-    const onTouchStart = () => isUserInteracting = true;
-    const onTouchEnd = () => isUserInteracting = false;
+    const onTouchStart = () => { isInteracting = true; };
+    const onTouchEnd = () => { isInteracting = false; };
+    
+    const onMouseLeave = () => { 
+      isInteracting = false; 
+      isDown = false; 
+    };
+    const onMouseDown = (e) => {
+      isInteracting = true;
+      isDown = true;
+      startX = e.pageX - container.offsetLeft;
+      initialScrollLeft = container.scrollLeft;
+    };
+    const onMouseUp = () => {
+      isInteracting = false;
+      isDown = false;
+    };
+    const onMouseMove = (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - container.offsetLeft;
+      const walk = (x - startX) * 1.5; // Scroll speed multiplier
+      container.scrollLeft = initialScrollLeft - walk;
+    };
     
     container.addEventListener('touchstart', onTouchStart, {passive: true});
     container.addEventListener('touchend', onTouchEnd, {passive: true});
-    container.addEventListener('mousedown', onTouchStart, {passive: true});
-    container.addEventListener('mouseup', onTouchEnd, {passive: true});
-    container.addEventListener('mouseleave', onTouchEnd, {passive: true});
+    container.addEventListener('mouseleave', onMouseLeave);
+    container.addEventListener('mousedown', onMouseDown);
+    container.addEventListener('mouseup', onMouseUp);
+    container.addEventListener('mousemove', onMouseMove);
 
     let lastTime = performance.now();
     const speedPerSecond = 48; // Equivalent to 0.8 at 60Hz
+    let exactScroll = container.scrollLeft;
 
     const scrollStep = (time) => {
       const delta = time - lastTime;
       lastTime = time;
 
-      if (!isUserInteracting && delta < 100) { // delta check prevents large jumps when tab is inactive
-        container.scrollLeft += (speedPerSecond * delta) / 1000;
+      // Each card is 130px + 15px gap = 145px per item
+      const loopWidth = carouselApps.length * 145;
+
+      if (!isInteracting && delta < 100 && loopWidth > 0) { 
+        exactScroll += (speedPerSecond * delta) / 1000;
         
-        // Seamless loop check: if we've scrolled exactly halfway
-        if (container.scrollLeft >= (container.scrollWidth / 2)) {
-           container.scrollLeft -= (container.scrollWidth / 2);
+        // Seamless loop check
+        if (exactScroll >= loopWidth) {
+           exactScroll -= loopWidth;
         }
+        
+        container.scrollLeft = exactScroll;
+      } else if (isInteracting) {
+        // Sync exactScroll when user manually scrolls
+        exactScroll = container.scrollLeft;
       }
+
       animationFrameId = requestAnimationFrame(scrollStep);
     };
 
@@ -85,11 +133,12 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
       cancelAnimationFrame(animationFrameId);
       container.removeEventListener('touchstart', onTouchStart);
       container.removeEventListener('touchend', onTouchEnd);
-      container.removeEventListener('mousedown', onTouchStart);
-      container.removeEventListener('mouseup', onTouchEnd);
-      container.removeEventListener('mouseleave', onTouchEnd);
+      container.removeEventListener('mouseleave', onMouseLeave);
+      container.removeEventListener('mousedown', onMouseDown);
+      container.removeEventListener('mouseup', onMouseUp);
+      container.removeEventListener('mousemove', onMouseMove);
     };
-  }, [currentView, news]);
+  }, [currentView, carouselApps]);
 
   return (
     <div className="page">
@@ -119,17 +168,6 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           </div>
         </div>
 
-        <div className="top-actions" role="navigation" aria-label="Socials" style={{ gap: '15px' }}>
-          <a href="https://bit.ly/wuxuslibrary-discord" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Discord" style={{ color: 'var(--text)' }}>
-            <FaDiscord size={24} />
-          </a>
-          <a href="https://bit.ly/wuxustwitter" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Twitter" style={{ color: 'var(--text)' }}>
-            <FaTwitter size={24} />
-          </a>
-          <a href="https://bit.ly/wuxuslibrary-github" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="GitHub" style={{ color: 'var(--text)' }}>
-            <FaGithub size={24} />
-          </a>
-        </div>
       </header>
 
       {currentView === 'Discover' && !loading && (
@@ -148,13 +186,13 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             </div>
 
             <button 
+              className="info-btn"
               onClick={() => setIsInfoModalOpen(true)}
-              style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', fontSize: '12px', textDecoration: 'none', cursor: 'pointer', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '4px' }}
+              style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', fontSize: '12px', textDecoration: 'none', cursor: 'pointer', transition: 'color 0.2s', display: 'flex', alignItems: 'center', padding: '0 4px', marginLeft: '-4px' }}
               onMouseOver={(e) => e.currentTarget.style.color = 'var(--text)'}
               onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
             >
               <Info size={14} />
-              Difference?
             </button>
           </div>
 
@@ -182,49 +220,48 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           style={{ 
             display: 'flex', 
             overflowX: 'auto', 
-            overflowY: 'hidden',
-            minWidth: 'auto',
             width: '100%',
+            minWidth: 0,
             gap: '15px',
-            padding: '0 20px',
+            padding: '24px 20px 32px 20px',
             WebkitOverflowScrolling: 'touch',
             scrollbarWidth: 'none', // Firefox
             msOverflowStyle: 'none'  // IE/Edge
           }}
         >
-          {[...news.slice(0, 5), ...news.slice(0, 5)].map((item, index) => (
-            <article 
-              key={index} 
-              className="feature" 
-              style={{ 
-                backgroundImage: `url(${item.imageURL})`, 
-                backgroundSize: 'cover', 
-                backgroundPosition: 'center', 
-                cursor: item.appID ? 'pointer' : 'default',
-                backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
-                width: '430px',
-                flexShrink: 0
-              }}
-              onClick={() => item.appID && navigate(`/app/${item.appID}`)}
-            >
-              {/* Dark overlay to make text legible */}
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }}></div>
-              
-              <h2 style={{ 
-                position: 'absolute', 
-                left: '20px',
-                bottom: '15px', 
-                margin: 0, 
-                color: 'white', 
-                fontSize: '25px', 
-                letterSpacing: '-.9px',
-                fontWeight: 750, 
-                lineHeight: 1,
-                zIndex: 4 
-              }}>{item.title}</h2>
-            </article>
-          ))}
-          {news.length === 0 && (
+          {[...carouselApps, ...carouselApps].map((app, index) => {
+            const icon = app.iconURL;
+            const title = app.name;
+            
+            return (
+              <article 
+                key={`${app.bundleIdentifier}-${index}`} 
+                className="feature" 
+                style={{ 
+                  cursor: app.bundleIdentifier ? 'pointer' : 'default',
+                  '--base-bg': app.tintColor ? `#${app.tintColor}25` : 'var(--card-bg)',
+                  '--hover-bg': app.tintColor ? `#${app.tintColor}45` : 'var(--card-border)',
+                  backgroundColor: 'var(--base-bg)',
+                  border: app.tintColor ? `1px solid #${app.tintColor}50` : '1px solid var(--card-border)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '16px 12px',
+                  boxSizing: 'border-box'
+                }}
+                onClick={() => app.bundleIdentifier && navigate(`/app/${app.bundleIdentifier}`)}
+              >
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px', width: '100%' }}>
+                  <img src={icon} alt={title} style={{ width: '84px', height: '84px', borderRadius: '18px', boxShadow: '0 6px 16px rgba(0,0,0,0.25)', objectFit: 'cover' }} />
+                  <h3 style={{ margin: 0, fontSize: '13px', fontWeight: '700', textAlign: 'center', lineHeight: 1.2, color: 'var(--text)' }}>
+                    {title}
+                  </h3>
+                </div>
+              </article>
+            );
+          })}
+          {carouselApps.length === 0 && (
             <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
           )}
         </section>
@@ -270,7 +307,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             {currentView === 'Library' && (
               <div style={{ padding: '0 20px 20px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', flexWrap: 'wrap', gap: '15px' }}>
-                  <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', width: '100%', maxWidth: '340px' }}>
+                  <label className="search-wrap" aria-label="Search apps" style={{ display: 'flex', width: '100%', maxWidth: '420px' }}>
                     <Search size={20} strokeWidth={2.35} style={{ marginRight: '10px' }} />
                     <input 
                       id="search" 
@@ -284,8 +321,8 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
                     />
                   </label>
                   <button 
-                    onClick={() => window.open('https://github.com/WuXu1/WuXu1.github.io/issues', '_blank')} 
-                    style={{ padding: '0 20px', height: '48px', borderRadius: '12px', background: 'var(--get-bg)', color: 'var(--get-text)', fontWeight: 650, fontSize: '15px', display: 'flex', alignItems: 'center', transition: 'background 0.2s', border: 'none', cursor: 'pointer' }}
+                    onClick={() => setIsRequestModalOpen(true)} 
+                    style={{ padding: '0 16px', height: '38px', borderRadius: '10px', background: 'var(--get-bg)', color: 'var(--get-text)', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', transition: 'background 0.2s', border: 'none', cursor: 'pointer' }}
                     onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.1)'}
                     onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
                   >
@@ -365,6 +402,38 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           </div>
         </div>
       )}
+
+      {isRequestModalOpen && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999, padding: '20px', backdropFilter: 'blur(4px)', animation: 'fadeIn 0.2s ease-out' }} onClick={() => setIsRequestModalOpen(false)}>
+          <div style={{ background: 'var(--card-bg)', padding: '24px', borderRadius: '24px', maxWidth: '340px', width: '100%', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', animation: 'slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1)', textAlign: 'center' }} onClick={e => e.stopPropagation()}>
+            <div style={{ width: '48px', height: '48px', background: 'rgba(142,142,147,0.1)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', color: 'var(--text)' }}>
+              <Compass size={24} />
+            </div>
+            <h3 style={{ margin: '0 0 8px', fontSize: '20px', fontWeight: 700, color: 'var(--text)' }}>Coming Soon</h3>
+            <p style={{ margin: '0 0 24px', fontSize: '15px', color: 'var(--text-muted)', lineHeight: 1.4 }}>The app request feature is currently under development. Check back later!</p>
+            <button 
+              onClick={() => setIsRequestModalOpen(false)} 
+              style={{ width: '100%', padding: '14px', background: 'var(--get-bg)', color: 'var(--get-text)', border: 'none', borderRadius: '14px', fontWeight: 650, fontSize: '16px', cursor: 'pointer', transition: 'filter 0.2s' }}
+              onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.1)'}
+              onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
+            >
+              Okay
+            </button>
+          </div>
+        </div>
+      )}
+
+      <footer style={{ padding: '40px 20px', display: 'flex', justifyContent: 'center', gap: '24px', opacity: 0.8 }}>
+        <a href="https://bit.ly/wuxuslibrary-discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" style={{ color: 'var(--text)', transition: 'opacity 0.2s' }} onMouseOver={(e) => e.currentTarget.style.opacity = 0.6} onMouseOut={(e) => e.currentTarget.style.opacity = 1}>
+          <FaDiscord size={28} />
+        </a>
+        <a href="https://bit.ly/wuxustwitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style={{ color: 'var(--text)', transition: 'opacity 0.2s' }} onMouseOver={(e) => e.currentTarget.style.opacity = 0.6} onMouseOut={(e) => e.currentTarget.style.opacity = 1}>
+          <FaTwitter size={28} />
+        </a>
+        <a href="https://bit.ly/wuxuslibrary-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--text)', transition: 'opacity 0.2s' }} onMouseOver={(e) => e.currentTarget.style.opacity = 0.6} onMouseOut={(e) => e.currentTarget.style.opacity = 1}>
+          <FaGithub size={28} />
+        </a>
+      </footer>
     </div>
   );
 }
