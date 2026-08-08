@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft, Download } from 'lucide-react';
 import './AppDetails.css';
 
-export default function AppDetails({ apps, plusApps, loading }) {
+export default function AppDetails({ apps, loading }) {
   const { bundleId } = useParams();
   const navigate = useNavigate();
 
@@ -11,9 +11,8 @@ export default function AppDetails({ apps, plusApps, loading }) {
     return <div className="page loading-state">Loading...</div>;
   }
 
-  // Find app in either library
-  const allApps = [...apps, ...plusApps];
-  const app = allApps.find(a => a.bundleIdentifier === bundleId);
+  // Find app in library
+  const app = apps.find(a => a.bundleIdentifier === bundleId);
 
   if (!app) {
     return (

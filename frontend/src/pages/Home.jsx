@@ -4,20 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
 import NewsCard from '../components/NewsCard';
 
-export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode, librarySource, setLibrarySource }) {
+export default function Home({ apps, news = [], loading, darkMode, setDarkMode }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
-
-  const allApps = librarySource === 'both' ? [...apps, ...plusApps] :
-                  librarySource === 'wuxu' ? [...apps] : [...plusApps];
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
 
   const getFilteredApps = () => {
-    let filtered = allApps;
+    let filtered = apps;
 
     const q = searchQuery.trim().toLowerCase();
     if (q && currentView === 'Library') {
@@ -80,19 +77,17 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
       {currentView === 'Discover' && !loading && (
         <>
-        <section className="hero-banner" style={{ margin: '20px 20px 10px', padding: '30px 20px', borderRadius: '24px', background: 'linear-gradient(135deg, rgba(64,196,181,0.15) 0%, rgba(43,160,147,0.05) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(64,196,181,0.2)' }}>
-          <h2 style={{ margin: '0 0 10px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started with AltStore</h2>
+        <section className="hero-banner" style={{ margin: '20px 20px 10px', padding: '30px 20px', borderRadius: '24px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
+          <h2 style={{ margin: '0 0 10px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
           <p style={{ margin: '0 0 20px 0', color: 'var(--text-muted)', fontSize: '15px', maxWidth: '400px', lineHeight: 1.4 }}>
-            Add our repositories to AltStore to instantly install and update your favorite apps.
+            Add our repositories to your package manager to instantly install and update your favorite apps.
           </p>
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <a href="altstore://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
-              <Library size={18} style={{ marginRight: '8px' }} />
-              Add Library to AltStore
+              Add to AltStore
             </a>
-            <a href="altstore://source?url=https://wuxu1.github.io/wuxu-complete-plus.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
-              <Layers size={18} style={{ marginRight: '8px' }} />
-              Add Library++ to AltStore
+            <a href="scarlet://source?url=https://wuxu1.github.io/wuxu-complete-scarlet.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #FF2400 0%, #D91000 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(255,36,0,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+              Add to Scarlet
             </a>
           </div>
         </section>
@@ -172,7 +167,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
                     <h3>WuXu's Picks</h3>
                     <div className="mini-grid">
                       {["Spotify++ (NEW)", "YouTube++", "Instagram++", "Angry Birds Star Wars", "TikTok++", "Duolingo++"]
-                        .map(name => [...apps, ...plusApps].find(a => a.name === name))
+                        .map(name => apps.find(a => a.name === name))
                         .filter(Boolean)
                         .map((app, index) => (
                           <AppCard key={`pick-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
@@ -229,17 +224,6 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             {currentView === 'Settings' && (
               <div className="settings-container">
                 <h2>Settings</h2>
-                <div className="setting-item">
-                  <div className="setting-info">
-                    <h3>Library Source</h3>
-                    <p>Select which library to browse</p>
-                  </div>
-                  <div className="library-selector">
-                    <button className={librarySource === 'wuxu' ? 'active' : ''} onClick={() => setLibrarySource('wuxu')}>Library</button>
-                    <button className={librarySource === 'wuxu-plus' ? 'active' : ''} onClick={() => setLibrarySource('wuxu-plus')}>Library++</button>
-                    <button className={librarySource === 'both' ? 'active' : ''} onClick={() => setLibrarySource('both')}>Both</button>
-                  </div>
-                </div>
                 <div className="setting-item">
                   <div className="setting-info">
                     <h3>Dark Mode</h3>
