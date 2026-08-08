@@ -8,10 +8,10 @@
   --icon-bg: #e5e5e7;
   --search-bg: #e7e7eb;
   --search-text: #28282b;
-  --get-bg: #087fee;
+  --get-bg: #d81a14;
   --get-text: #fff;
   --get-open-bg: #e7e7eb;
-  --get-open-text: #1376d8;
+  --get-open-text: #d81a14;
   --bottom-nav-bg: rgba(250, 250, 251, 0.93);
   --bottom-nav-border: #d7d7da;
   --pill-bg: #e2e2e7;
@@ -30,10 +30,10 @@ body.dark {
   --icon-bg: #2c2c2e;
   --search-bg: #1c1c1e;
   --search-text: #ffffff;
-  --get-bg: #0a84ff;
+  --get-bg: #d81a14;
   --get-text: #fff;
   --get-open-bg: #2c2c2e;
-  --get-open-text: #0a84ff;
+  --get-open-text: #d81a14;
   --bottom-nav-bg: rgba(28, 28, 30, 0.93);
   --bottom-nav-border: #2c2c2e;
   --pill-bg: #1c1c1e;
@@ -52,10 +52,10 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
   src: url('/assets/Mareka.otf') format('opentype');
 }
 
-.page { min-height:100vh; overflow:hidden; padding-bottom:92px; }
+.page { min-height:100vh; overflow:hidden; padding-bottom:130px; }
 .topbar { height:114px; display:flex; align-items:flex-start; padding:17px max(4.15vw,28px) 0; }
 .brand { flex: 1; }
-.brand h1 { margin: 0 0 8px 0; font-family: 'Mareka', sans-serif; font-size:54px; letter-spacing:normal; line-height:56px; font-weight:300; }
+.brand h1 { margin: 0 0 8px 0; font-family: 'Reggae One', sans-serif; font-size:54px; letter-spacing:normal; line-height:56px; }
 .brand p { margin:0; color:var(--text-secondary); font-size:15px; line-height:20px; letter-spacing:-.4px; }
 .top-center { display: flex; align-items: center; justify-content: center; padding-top: 10px; }
 .premium-toggle { display: none; }
@@ -135,3 +135,5 @@ input:checked + .switch-slider:before { transform: translateX(22px); }
 @media (max-width:460px) { .topbar { padding-left:16px; padding-right:16px; } .top-center { gap:0; } .top-actions { gap:0; } .showcase { margin: 18px 0 0 16px; padding-left: 0; } .catalog { width:calc(100% - 32px); margin-left:16px; margin-right:16px; } .cards { grid-template-columns:1fr; } .mini-grid { grid-template-columns:1fr; } .bottom-nav { gap:3px; } }
 
 .loading-state { text-align: center; padding: 40px; font-size: 18px; color: var(--text-muted); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }

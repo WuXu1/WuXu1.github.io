@@ -1,26 +1,6 @@
 import React, { useState } from 'react';
-import { LayoutGrid, Library, Layers, Download, Compass, Search, Settings } from 'lucide-react';
-
-const DiscordIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M9 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-    <path d="M15 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-    <path d="M19.3 5.4c-1.6-1.1-3.5-1.7-5.5-2-.1.2-.2.6-.3.9a17.8 17.8 0 0 0-5.1 0 3.7 3.7 0 0 0-.3-.9c-2 .3-3.9.9-5.5 2C-.8 11.8-.1 18.2 2.3 21c2.1 2.3 4.5 2.6 6.5 2.6.5 0 1-.2 1.5-.5.9-.6 1.8-1.4 2.6-2.2-.4-.2-.8-.4-1.2-.7-.9-.5-1.7-1-2.4-1.8.8.5 1.7 1 2.6 1.3a13 13 0 0 0 5 0c.9-.3 1.8-.8 2.6-1.3-.7.8-1.5 1.3-2.4 1.8-.4.3-.8.5-1.2.7.8.8 1.7 1.6 2.6 2.2.5.3 1 .5 1.5.5 2 0 4.4-.3 6.5-2.6 2.4-2.8 3.1-9.2.5-15.6z"/>
-  </svg>
-);
-
-const TwitterIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
-  </svg>
-);
-
-const GithubIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-8.3a5.4 5.4 0 0 0-1.5-3.9 5.1 5.1 0 0 0-.1-3.8s-1.2-.4-3.9 1.4a13.3 13.3 0 0 0-7 0C6.2 1.4 5 1.8 5 1.8a5.1 5.1 0 0 0-.1 3.8 5.4 5.4 0 0 0-1.5 3.9c0 6.8 3 8 6 8.3a4.8 4.8 0 0 0-1 3.2v4"/>
-    <path d="M9 18c-4.5 1.5-5-2.5-7-3"/>
-  </svg>
-);
+import { LayoutGrid, Library, Layers, Compass, Search, Settings, Info } from 'lucide-react';
+import { FaDiscord, FaTwitter, FaGithub } from 'react-icons/fa';
 
 import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
@@ -30,6 +10,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
   const [heroSource, setHeroSource] = useState('wuxu-plus');
+  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
   const navigate = useNavigate();
 
   const handleSearchChange = (e) => {
@@ -116,20 +97,16 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           {/* Toggle moved to Settings */}
         </div>
 
-        <div className="top-actions" role="navigation" aria-label="Updates and Socials">
-          <a href="https://discord.gg/nKXsSdbEDc" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Discord">
-            <DiscordIcon size={24} strokeWidth={2.35} />
+        <div className="top-actions" role="navigation" aria-label="Socials" style={{ gap: '15px' }}>
+          <a href="https://bit.ly/wuxuslibrary-discord" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Discord" style={{ color: 'var(--text)' }}>
+            <FaDiscord size={24} />
           </a>
-          <a href="https://twitter.com/quarksources" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Twitter">
-            <TwitterIcon size={24} strokeWidth={2.35} />
+          <a href="https://bit.ly/wuxustwitter" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Twitter" style={{ color: 'var(--text)' }}>
+            <FaTwitter size={24} />
           </a>
-          <a href="https://github.com/WuXu1/WuXu1.github.io" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="GitHub">
-            <GithubIcon size={24} strokeWidth={2.35} />
+          <a href="https://bit.ly/wuxuslibrary-github" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="GitHub" style={{ color: 'var(--text)' }}>
+            <FaGithub size={24} />
           </a>
-          <button className={`top-action ${currentView === 'Updates' ? 'active' : ''}`} aria-pressed={currentView === 'Updates'} onClick={() => setCurrentView('Updates')}>
-            <Download size={27} strokeWidth={currentView === 'Updates' ? 3 : 2.35} />
-            <span style={{ fontWeight: currentView === 'Updates' ? 600 : 400 }}>Updates</span>
-          </button>
         </div>
       </header>
 
@@ -164,6 +141,16 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
               Add to TrollApps
             </a>
           </div>
+
+          <button 
+            onClick={() => setIsInfoModalOpen(true)}
+            style={{ marginTop: '16px', background: 'transparent', border: 'none', color: 'var(--text-muted)', fontSize: '13px', textDecoration: 'none', cursor: 'pointer', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}
+            onMouseOver={(e) => e.currentTarget.style.color = 'var(--text)'}
+            onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
+          >
+            <Info size={14} />
+            What's the difference between WuXu's Library and ++?
+          </button>
         </section>
         <section 
           className="showcase" 
@@ -254,14 +241,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
               </>
             )}
 
-            {currentView === 'Updates' && (
-              <section className="news-list" style={{ padding: '0 20px' }}>
-                {news.map((item, index) => (
-                  <NewsCard key={`news-${index}`} newsItem={item} />
-                ))}
-                {news.length === 0 && <p style={{ textAlign: 'center', color: '#8e8e93', marginTop: '40px' }}>No updates available.</p>}
-              </section>
-            )}
+
 
             {currentView === 'Library' && (
               <div style={{ padding: '0 20px 20px' }}>
@@ -315,14 +295,14 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
                 <div className="setting-item">
                   <div className="setting-info">
-                    <h3>Dark Mode</h3>
-                    <p>Toggle deep dark appearance</p>
+                    <h3>Light Mode</h3>
+                    <p>Toggle bright light appearance</p>
                   </div>
                   <label className="switch">
                     <input 
                       type="checkbox" 
-                      checked={darkMode} 
-                      onChange={(e) => setDarkMode(e.target.checked)} 
+                      checked={!darkMode} 
+                      onChange={(e) => setDarkMode(!e.target.checked)} 
                     />
                     <span className="switch-slider"></span>
                   </label>
@@ -347,6 +327,33 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           <span data-text="Settings">Settings</span>
         </button>
       </nav>
+
+      {isInfoModalOpen && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999, padding: '20px', backdropFilter: 'blur(4px)', animation: 'fadeIn 0.2s ease-out' }} onClick={() => setIsInfoModalOpen(false)}>
+          <div style={{ background: 'var(--card-bg)', padding: '24px', borderRadius: '24px', maxWidth: '400px', width: '100%', boxShadow: '0 10px 40px rgba(0,0,0,0.2)', animation: 'slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1)' }} onClick={e => e.stopPropagation()}>
+            <h3 style={{ margin: '0 0 20px', fontSize: '20px', fontWeight: 700, color: 'var(--text)' }}>Library Differences</h3>
+            
+            <div style={{ marginBottom: '16px', padding: '14px', background: 'rgba(142,142,147,0.1)', borderRadius: '16px' }}>
+              <h4 style={{ margin: '0 0 6px', fontSize: '16px', color: 'var(--text)', fontWeight: 650 }}>WuXu's Library</h4>
+              <p style={{ margin: 0, fontSize: '14px', color: 'var(--text-muted)', lineHeight: 1.4 }}>Contains all your favorite emulators, games, jailbreaks, utilities, and more.</p>
+            </div>
+            
+            <div style={{ marginBottom: '24px', padding: '14px', background: 'rgba(142,142,147,0.1)', borderRadius: '16px' }}>
+              <h4 style={{ margin: '0 0 6px', fontSize: '16px', color: 'var(--text)', fontWeight: 650 }}>WuXu's Library++</h4>
+              <p style={{ margin: 0, fontSize: '14px', color: 'var(--text-muted)', lineHeight: 1.4 }}>Contains all your favorite tweaked apps, free streaming apps, cracked apps, and more.</p>
+            </div>
+
+            <button 
+              onClick={() => setIsInfoModalOpen(false)} 
+              style={{ width: '100%', padding: '14px', background: 'var(--get-bg)', color: 'var(--get-text)', border: 'none', borderRadius: '14px', fontWeight: 650, fontSize: '16px', cursor: 'pointer', transition: 'filter 0.2s' }}
+              onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.1)'}
+              onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
+            >
+              Got it
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

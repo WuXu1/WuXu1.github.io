@@ -62,7 +62,7 @@ export default function AppDetails({ apps, plusApps, loading }) {
             <p className="hero-subtitle">{app.subtitle}</p>
             <div className="hero-actions" style={{ display: 'flex', gap: '10px' }}>
               <button className="hero-get" onClick={handleDownload}>GET</button>
-              <button className="hero-altstore" onClick={handleAltStore}>ALTSTORE</button>
+              <button className="hero-altstore" onClick={handleAltStore}>Install With AltStore</button>
             </div>
           </div>
         </section>

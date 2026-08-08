@@ -9,7 +9,8 @@ function App() {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem('theme') === 'dark';
+    const stored = localStorage.getItem('theme');
+    return stored === null ? true : stored === 'dark';
   });
   const [librarySource, setLibrarySource] = useState(() => {
     return localStorage.getItem('librarySource') || 'both';
