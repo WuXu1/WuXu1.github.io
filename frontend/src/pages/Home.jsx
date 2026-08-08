@@ -61,9 +61,15 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
     container.addEventListener('mouseup', onTouchEnd, {passive: true});
     container.addEventListener('mouseleave', onTouchEnd, {passive: true});
 
-    const scrollStep = () => {
-      if (!isUserInteracting) {
-        container.scrollLeft += 0.8; // Scrolling speed
+    let lastTime = performance.now();
+    const speedPerSecond = 48; // Equivalent to 0.8 at 60Hz
+
+    const scrollStep = (time) => {
+      const delta = time - lastTime;
+      lastTime = time;
+
+      if (!isUserInteracting && delta < 100) { // delta check prevents large jumps when tab is inactive
+        container.scrollLeft += (speedPerSecond * delta) / 1000;
         
         // Seamless loop check: if we've scrolled exactly halfway
         if (container.scrollLeft >= (container.scrollWidth / 2)) {
@@ -112,45 +118,47 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
       {currentView === 'Discover' && !loading && (
         <>
-        <section className="hero-banner" style={{ margin: '20px 20px 10px', padding: '30px 20px', borderRadius: '24px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
-          <h2 style={{ margin: '0 0 10px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
-          <p style={{ margin: '0 0 20px 0', color: 'var(--text-muted)', fontSize: '15px', maxWidth: '430px', lineHeight: 1.4 }}>
+        <section className="hero-banner" style={{ margin: '16px 20px 10px', padding: '16px 20px', borderRadius: '20px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
+          <h2 style={{ margin: '0 0 4px 0', fontSize: '20px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
+          <p style={{ margin: '0 0 12px 0', color: 'var(--text-muted)', fontSize: '14px', maxWidth: '430px', lineHeight: 1.4 }}>
             Select your desired source library below, then tap a button to add it to your package manager.
           </p>
 
-          <div className="library-selector" style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(142,142,147,0.15)', borderRadius: '999px', padding: '3px 3px 3px 12px', marginBottom: '15px', gap: '2px' }}>
-            <span style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)', marginRight: '6px' }}>Source:</span>
-            <button onClick={() => setHeroSource('wuxu-plus')} style={{ whiteSpace: 'nowrap', padding: '4px 16px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu-plus' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu-plus' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu-plus' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library++</button>
-            <button onClick={() => setHeroSource('wuxu')} style={{ whiteSpace: 'nowrap', padding: '4px 16px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library</button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '12px' }}>
+            <div className="library-selector" style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(142,142,147,0.15)', borderRadius: '999px', padding: '2px 2px 2px 10px', gap: '2px' }}>
+              <span style={{ fontSize: '12px', fontWeight: 600, color: 'var(--text-muted)', marginRight: '6px' }}>Source:</span>
+              <button onClick={() => setHeroSource('wuxu-plus')} style={{ whiteSpace: 'nowrap', padding: '4px 14px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu-plus' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu-plus' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '12px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu-plus' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library++</button>
+              <button onClick={() => setHeroSource('wuxu')} style={{ whiteSpace: 'nowrap', padding: '4px 14px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '12px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library</button>
+            </div>
+
+            <button 
+              onClick={() => setIsInfoModalOpen(true)}
+              style={{ background: 'transparent', border: 'none', color: 'var(--text-muted)', fontSize: '12px', textDecoration: 'none', cursor: 'pointer', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '4px' }}
+              onMouseOver={(e) => e.currentTarget.style.color = 'var(--text)'}
+              onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
+            >
+              <Info size={14} />
+              Difference?
+            </button>
           </div>
 
-          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <a href={`altstore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <a href={`altstore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to AltStore
             </a>
-            <a href={`sidestore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(139,92,246,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`sidestore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(139,92,246,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to SideStore
             </a>
-            <a href="scarlet://source?url=https://wuxu1.github.io/wuxu-complete-scarlet.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #FF2400 0%, #D91000 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(255,36,0,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href="scarlet://source?url=https://wuxu1.github.io/wuxu-complete-scarlet.json" style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #FF2400 0%, #D91000 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(255,36,0,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Scarlet
             </a>
-            <a href={`feather://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #8a95fb 0%, #6a76e0 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(121,133,250,0.4)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`feather://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #8a95fb 0%, #6a76e0 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(121,133,250,0.4)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Feather
             </a>
-            <a href={`trollapps://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`trollapps://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to TrollApps
             </a>
           </div>
-
-          <button 
-            onClick={() => setIsInfoModalOpen(true)}
-            style={{ marginTop: '16px', background: 'transparent', border: 'none', color: 'var(--text-muted)', fontSize: '13px', textDecoration: 'none', cursor: 'pointer', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}
-            onMouseOver={(e) => e.currentTarget.style.color = 'var(--text)'}
-            onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
-          >
-            <Info size={14} />
-            What's the difference between WuXu's Library and ++?
-          </button>
         </section>
         <section 
           className="showcase" 
