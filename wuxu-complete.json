@@ -346,7 +346,9 @@
       ]
     },
     {
-      "appPermissions": {},
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "org.coolstar.taurine",
       "category": "utilities",
@@ -387,7 +389,9 @@
       ]
     },
     {
-      "appPermissions": {},
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "science.xnu.undecimus",
       "category": "utilities",
@@ -421,7 +425,9 @@
       ]
     },
     {
-      "appPermissions": {},
+      "appPermissions": {
+
+      },
       "beta": false,
       "bundleIdentifier": "com.opa334.Dopamine",
       "category": "utilities",
@@ -1850,7 +1856,7 @@
       ]
     }
   ],
-  "description": "Welcome to WuXu’s Library!\n\nThis source contains all your favourite emulators, games, jailbreaks, utilities, and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nIf you enjoy my source please spread the word, this is essentially an updated QuarkSources, and I would like it to be as big, if not, bigger!\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
+  "description": "Welcome to WuXu’s Library!\n\nThis source contains all your favourite tweaked apps, free streaming, cracked apps, emulators, games, jailbreaks, utilities and more!\n\nThis highly organised AltSource is made up of many different tweaked apps that I, myself, inject each and every deb/dylib (tweak) into. While making sure everything is working perfectly and to my standards.\n\nThis source is updated 2-3 times a week, or more depending on the urgency. But I am working on automating updates through a python bot which I am close to completing.\n\nTo make requests, get support or chat with other users, join the discord server! https://discord.gg/nKXsSdbEDc\n\nWuXu’s Sources Official Website: https://wuxu1.github.io/",
   "featuredApps": [
     "com.opa334.Dopamine",
     "com.Alfie.TrollInstallerX",
@@ -2207,7 +2213,7 @@
       "title": "Welcome to WuXu's Library!"
     }
   ],
-  "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
+  "subtitle": "Now Merged Into One Big Source!",
   "tintColor": "d81a14",
   "website": "https://bit.ly/wuxus-sources"
 }
