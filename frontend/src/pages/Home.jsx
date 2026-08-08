@@ -79,6 +79,23 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
       </header>
 
       {currentView === 'Discover' && !loading && (
+        <>
+        <section className="hero-banner" style={{ margin: '20px 20px 10px', padding: '30px 20px', borderRadius: '24px', background: 'linear-gradient(135deg, rgba(64,196,181,0.15) 0%, rgba(43,160,147,0.05) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(64,196,181,0.2)' }}>
+          <h2 style={{ margin: '0 0 10px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started with AltStore</h2>
+          <p style={{ margin: '0 0 20px 0', color: 'var(--text-muted)', fontSize: '15px', maxWidth: '400px', lineHeight: 1.4 }}>
+            Add our repositories to AltStore to instantly install and update your favorite apps.
+          </p>
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <a href="altstore://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+              <Library size={18} style={{ marginRight: '8px' }} />
+              Add Library to AltStore
+            </a>
+            <a href="altstore://source?url=https://wuxu1.github.io/wuxu-complete-plus.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+              <Layers size={18} style={{ marginRight: '8px' }} />
+              Add Library++ to AltStore
+            </a>
+          </div>
+        </section>
         <section 
           className="showcase" 
           aria-label="Featured releases" 
@@ -129,6 +146,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             <div style={{ padding: '20px', color: '#8e8e93' }}>No featured releases at the moment.</div>
           )}
         </section>
+        </>
       )}
 
       <main className="catalog" style={{ paddingTop: currentView === 'Discover' ? '10px' : '20px' }}>

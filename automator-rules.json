@@ -9,7 +9,8 @@
     "Facebook"
   ],
   "com.facebook.Messenger" : [
-    "Messenger"
+    "Messenger",
+    "-whatsapp"
   ],
   "com.google.ios.youtube" : [
     "YouTube"
