@@ -99,8 +99,24 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           <p>The most Up-To-Date IPA Libraries on AltStore</p>
         </div>
         
-        <div className="top-center" role="navigation" aria-label="Library categories">
-          {/* Toggle moved to Settings */}
+        <div className="top-center" role="navigation" aria-label="Primary navigation">
+          <div style={{ display: 'flex', background: 'rgba(142,142,147,0.15)', borderRadius: '999px', padding: '4px' }}>
+            <button 
+              onClick={() => setCurrentView('Discover')} 
+              style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 16px', borderRadius: '999px', border: 'none', background: currentView === 'Discover' ? 'var(--card-bg)' : 'transparent', color: currentView === 'Discover' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: currentView === 'Discover' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>
+              <Compass size={16} /> Discover
+            </button>
+            <button 
+              onClick={() => setCurrentView('Library')} 
+              style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 16px', borderRadius: '999px', border: 'none', background: currentView === 'Library' ? 'var(--card-bg)' : 'transparent', color: currentView === 'Library' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: currentView === 'Library' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>
+              <Library size={16} /> Library
+            </button>
+            <button 
+              onClick={() => setCurrentView('Settings')} 
+              style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 16px', borderRadius: '999px', border: 'none', background: currentView === 'Settings' ? 'var(--card-bg)' : 'transparent', color: currentView === 'Settings' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: currentView === 'Settings' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>
+              <Settings size={16} /> Settings
+            </button>
+          </div>
         </div>
 
         <div className="top-actions" role="navigation" aria-label="Socials" style={{ gap: '15px' }}>
@@ -321,20 +337,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
         )}
       </main>
 
-      <nav className="bottom-nav" aria-label="Primary navigation">
-        <button className={currentView === 'Discover' ? 'active' : ''} onClick={() => setCurrentView('Discover')} aria-label="Discover">
-          <Compass size={24} strokeWidth={currentView === 'Discover' ? 2.5 : 2} />
-          <span data-text="Discover">Discover</span>
-        </button>
-        <button className={currentView === 'Library' ? 'active' : ''} onClick={() => setCurrentView('Library')} aria-label="Library">
-          <Library size={24} strokeWidth={currentView === 'Library' ? 2.5 : 2} />
-          <span data-text="Library">Library</span>
-        </button>
-        <button className={currentView === 'Settings' ? 'active' : ''} onClick={() => setCurrentView('Settings')} aria-label="Settings">
-          <Settings size={24} strokeWidth={currentView === 'Settings' ? 2.5 : 2} />
-          <span data-text="Settings">Settings</span>
-        </button>
-      </nav>
+
 
       {isInfoModalOpen && (
         <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999, padding: '20px', backdropFilter: 'blur(4px)', animation: 'fadeIn 0.2s ease-out' }} onClick={() => setIsInfoModalOpen(false)}>

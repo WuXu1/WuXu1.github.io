@@ -52,7 +52,7 @@ button { border:0; color:inherit; background:transparent; cursor:pointer; }
   src: url('/assets/Mareka.otf') format('opentype');
 }
 
-.page { min-height:100vh; overflow:hidden; padding-bottom:130px; }
+.page { min-height:100vh; overflow:hidden; padding-bottom:40px; }
 .topbar { height:114px; display:flex; align-items:flex-start; padding:17px max(4.15vw,28px) 0; }
 .brand { flex: 1; }
 .brand h1 { margin: 0 0 8px 0; font-family: 'Array', sans-serif; font-size:54px; letter-spacing:normal; line-height:56px; }
