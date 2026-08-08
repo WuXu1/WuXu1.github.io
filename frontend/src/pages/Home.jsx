@@ -1,20 +1,46 @@
 import React, { useState } from 'react';
 import { LayoutGrid, Library, Layers, Download, Compass, Search, Settings } from 'lucide-react';
+
+const DiscordIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M9 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    <path d="M15 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    <path d="M19.3 5.4c-1.6-1.1-3.5-1.7-5.5-2-.1.2-.2.6-.3.9a17.8 17.8 0 0 0-5.1 0 3.7 3.7 0 0 0-.3-.9c-2 .3-3.9.9-5.5 2C-.8 11.8-.1 18.2 2.3 21c2.1 2.3 4.5 2.6 6.5 2.6.5 0 1-.2 1.5-.5.9-.6 1.8-1.4 2.6-2.2-.4-.2-.8-.4-1.2-.7-.9-.5-1.7-1-2.4-1.8.8.5 1.7 1 2.6 1.3a13 13 0 0 0 5 0c.9-.3 1.8-.8 2.6-1.3-.7.8-1.5 1.3-2.4 1.8-.4.3-.8.5-1.2.7.8.8 1.7 1.6 2.6 2.2.5.3 1 .5 1.5.5 2 0 4.4-.3 6.5-2.6 2.4-2.8 3.1-9.2.5-15.6z"/>
+  </svg>
+);
+
+const TwitterIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+  </svg>
+);
+
+const GithubIcon = ({ size = 24, color = "currentColor", strokeWidth = 2, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-8.3a5.4 5.4 0 0 0-1.5-3.9 5.1 5.1 0 0 0-.1-3.8s-1.2-.4-3.9 1.4a13.3 13.3 0 0 0-7 0C6.2 1.4 5 1.8 5 1.8a5.1 5.1 0 0 0-.1 3.8 5.4 5.4 0 0 0-1.5 3.9c0 6.8 3 8 6 8.3a4.8 4.8 0 0 0-1 3.2v4"/>
+    <path d="M9 18c-4.5 1.5-5-2.5-7-3"/>
+  </svg>
+);
+
 import { useNavigate } from 'react-router-dom';
 import AppCard from '../components/AppCard';
 import NewsCard from '../components/NewsCard';
 
-export default function Home({ apps, news = [], loading, darkMode, setDarkMode }) {
+export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode, librarySource, setLibrarySource }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
+  const [heroSource, setHeroSource] = useState('wuxu-plus');
   const navigate = useNavigate();
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
 
+  const allApps = librarySource === 'both' ? [...apps, ...plusApps] :
+                  librarySource === 'wuxu' ? [...apps] : [...plusApps];
+
   const getFilteredApps = () => {
-    let filtered = apps;
+    let filtered = allApps;
 
     const q = searchQuery.trim().toLowerCase();
     if (q && currentView === 'Library') {
@@ -39,20 +65,43 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
   React.useEffect(() => {
     if (currentView !== 'Discover' || news.length === 0) return;
     
-    const interval = setInterval(() => {
-      if (showcaseRef.current) {
-        const container = showcaseRef.current;
-        const scrollAmount = container.clientWidth;
-        // If we are at the end, scroll back to 0
-        if (container.scrollLeft + scrollAmount >= container.scrollWidth - 10) {
-          container.scrollTo({ left: 0, behavior: 'smooth' });
-        } else {
-          container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    let animationFrameId;
+    const container = showcaseRef.current;
+    if (!container) return;
+    
+    let isUserInteracting = false;
+    
+    const onTouchStart = () => isUserInteracting = true;
+    const onTouchEnd = () => isUserInteracting = false;
+    
+    container.addEventListener('touchstart', onTouchStart, {passive: true});
+    container.addEventListener('touchend', onTouchEnd, {passive: true});
+    container.addEventListener('mousedown', onTouchStart, {passive: true});
+    container.addEventListener('mouseup', onTouchEnd, {passive: true});
+    container.addEventListener('mouseleave', onTouchEnd, {passive: true});
+
+    const scrollStep = () => {
+      if (!isUserInteracting) {
+        container.scrollLeft += 0.8; // Scrolling speed
+        
+        // Seamless loop check: if we've scrolled exactly halfway
+        if (container.scrollLeft >= (container.scrollWidth / 2)) {
+           container.scrollLeft -= (container.scrollWidth / 2);
         }
       }
-    }, 4000); // Rotate every 4 seconds
+      animationFrameId = requestAnimationFrame(scrollStep);
+    };
 
-    return () => clearInterval(interval);
+    animationFrameId = requestAnimationFrame(scrollStep);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      container.removeEventListener('touchstart', onTouchStart);
+      container.removeEventListener('touchend', onTouchEnd);
+      container.removeEventListener('mousedown', onTouchStart);
+      container.removeEventListener('mouseup', onTouchEnd);
+      container.removeEventListener('mouseleave', onTouchEnd);
+    };
   }, [currentView, news]);
 
   return (
@@ -67,7 +116,16 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
           {/* Toggle moved to Settings */}
         </div>
 
-        <div className="top-actions" role="navigation" aria-label="Updates">
+        <div className="top-actions" role="navigation" aria-label="Updates and Socials">
+          <a href="https://discord.gg/nKXsSdbEDc" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Discord">
+            <DiscordIcon size={24} strokeWidth={2.35} />
+          </a>
+          <a href="https://twitter.com/quarksources" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="Twitter">
+            <TwitterIcon size={24} strokeWidth={2.35} />
+          </a>
+          <a href="https://github.com/WuXu1/WuXu1.github.io" target="_blank" rel="noopener noreferrer" className="top-action" aria-label="GitHub">
+            <GithubIcon size={24} strokeWidth={2.35} />
+          </a>
           <button className={`top-action ${currentView === 'Updates' ? 'active' : ''}`} aria-pressed={currentView === 'Updates'} onClick={() => setCurrentView('Updates')}>
             <Download size={27} strokeWidth={currentView === 'Updates' ? 3 : 2.35} />
             <span style={{ fontWeight: currentView === 'Updates' ? 600 : 400 }}>Updates</span>
@@ -79,41 +137,51 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
         <>
         <section className="hero-banner" style={{ margin: '20px 20px 10px', padding: '30px 20px', borderRadius: '24px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
           <h2 style={{ margin: '0 0 10px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
-          <p style={{ margin: '0 0 20px 0', color: 'var(--text-muted)', fontSize: '15px', maxWidth: '400px', lineHeight: 1.4 }}>
-            Add our repositories to your package manager to instantly install and update your favorite apps.
+          <p style={{ margin: '0 0 20px 0', color: 'var(--text-muted)', fontSize: '15px', maxWidth: '430px', lineHeight: 1.4 }}>
+            Select your desired source library below, then tap a button to add it to your package manager.
           </p>
+
+          <div className="library-selector" style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(142,142,147,0.15)', borderRadius: '999px', padding: '3px 3px 3px 12px', marginBottom: '15px', gap: '2px' }}>
+            <span style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)', marginRight: '6px' }}>Source:</span>
+            <button onClick={() => setHeroSource('wuxu-plus')} style={{ whiteSpace: 'nowrap', padding: '4px 16px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu-plus' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu-plus' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu-plus' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library++</button>
+            <button onClick={() => setHeroSource('wuxu')} style={{ whiteSpace: 'nowrap', padding: '4px 16px', borderRadius: '999px', border: 'none', background: heroSource === 'wuxu' ? 'var(--card-bg)' : 'transparent', color: heroSource === 'wuxu' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '13px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: heroSource === 'wuxu' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>WuXu's Library</button>
+          </div>
+
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <a href="altstore://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`altstore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to AltStore
             </a>
-            <a href="sidestore://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(139,92,246,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`sidestore://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(139,92,246,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to SideStore
             </a>
             <a href="scarlet://source?url=https://wuxu1.github.io/wuxu-complete-scarlet.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #FF2400 0%, #D91000 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(255,36,0,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Scarlet
             </a>
-            <a href="feather://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(14,165,233,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`feather://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #8a95fb 0%, #6a76e0 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(121,133,250,0.4)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Feather
             </a>
-            <a href="trollapps://source?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href={`trollapps://source?url=https://wuxu1.github.io/${heroSource === 'wuxu' ? 'wuxu-complete.json' : 'wuxu-complete-plus.json'}`} style={{ padding: '12px 20px', borderRadius: '14px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to TrollApps
             </a>
           </div>
         </section>
         <section 
           className="showcase" 
-          aria-label="Featured releases" 
-          ref={showcaseRef} 
+          ref={showcaseRef}
           style={{ 
-            scrollBehavior: 'smooth', 
+            display: 'flex', 
             overflowX: 'auto', 
-            scrollSnapType: 'x mandatory',
-            minWidth: 'auto', // Override the max-content from CSS so it can scroll
+            overflowY: 'hidden',
+            minWidth: 'auto',
             width: '100%',
-            paddingRight: '20px' // Add some padding to the end of the scroll
+            gap: '15px',
+            padding: '0 20px',
+            WebkitOverflowScrolling: 'touch',
+            scrollbarWidth: 'none', // Firefox
+            msOverflowStyle: 'none'  // IE/Edge
           }}
         >
-          {news.slice(0, 5).map((item, index) => (
+          {[...news.slice(0, 5), ...news.slice(0, 5)].map((item, index) => (
             <article 
               key={index} 
               className="feature" 
@@ -124,8 +192,7 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
                 cursor: item.appID ? 'pointer' : 'default',
                 backgroundColor: item.tintColor ? `#${item.tintColor}` : '#e5e5e7',
                 width: '430px',
-                flexShrink: 0,
-                scrollSnapAlign: 'start'
+                flexShrink: 0
               }}
               onClick={() => item.appID && navigate(`/app/${item.appID}`)}
             >
@@ -134,7 +201,7 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
               
               <h2 style={{ 
                 position: 'absolute', 
-                left: '20px', // Reverting to 20px now that the double-margin is fixed
+                left: '20px',
                 bottom: '15px', 
                 margin: 0, 
                 color: 'white', 
@@ -176,7 +243,7 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
                     <h3>WuXu's Picks</h3>
                     <div className="mini-grid">
                       {["Spotify++ (NEW)", "YouTube++", "Instagram++", "Angry Birds Star Wars", "TikTok++", "Duolingo++"]
-                        .map(name => apps.find(a => a.name === name))
+                        .map(name => allApps.find(a => a.name === name))
                         .filter(Boolean)
                         .map((app, index) => (
                           <AppCard key={`pick-${app.bundleIdentifier}-${index}`} app={app} isHidden={false} />
@@ -233,6 +300,19 @@ export default function Home({ apps, news = [], loading, darkMode, setDarkMode }
             {currentView === 'Settings' && (
               <div className="settings-container">
                 <h2>Settings</h2>
+                
+                <div className="setting-item">
+                  <div className="setting-info">
+                    <h3>Library Source</h3>
+                    <p>Select which library to browse</p>
+                  </div>
+                  <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.05)', borderRadius: '14px', padding: '4px' }}>
+                    <button onClick={() => setLibrarySource('wuxu')} style={{ flex: 1, padding: '8px 12px', borderRadius: '10px', border: 'none', background: librarySource === 'wuxu' ? 'var(--get-bg)' : 'transparent', color: librarySource === 'wuxu' ? 'var(--get-text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s' }}>Library</button>
+                    <button onClick={() => setLibrarySource('wuxu-plus')} style={{ flex: 1, padding: '8px 12px', borderRadius: '10px', border: 'none', background: librarySource === 'wuxu-plus' ? 'var(--get-bg)' : 'transparent', color: librarySource === 'wuxu-plus' ? 'var(--get-text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s' }}>Library++</button>
+                    <button onClick={() => setLibrarySource('both')} style={{ flex: 1, padding: '8px 12px', borderRadius: '10px', border: 'none', background: librarySource === 'both' ? 'var(--get-bg)' : 'transparent', color: librarySource === 'both' ? 'var(--get-text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s' }}>Both</button>
+                  </div>
+                </div>
+
                 <div className="setting-item">
                   <div className="setting-info">
                     <h3>Dark Mode</h3>

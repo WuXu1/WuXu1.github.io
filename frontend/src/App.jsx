@@ -5,10 +5,14 @@ import AppDetails from './pages/AppDetails';
 
 function App() {
   const [apps, setApps] = useState([]);
+  const [plusApps, setPlusApps] = useState([]);
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('theme') === 'dark';
+  });
+  const [librarySource, setLibrarySource] = useState(() => {
+    return localStorage.getItem('librarySource') || 'both';
   });
 
   useEffect(() => {
@@ -22,18 +26,34 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
+    localStorage.setItem('librarySource', librarySource);
+  }, [librarySource]);
+
+  useEffect(() => {
     const fetchData = async () => {
       try {
-        const completeRes = await fetch('/wuxu-complete.json');
+        const [completeRes, plusRes] = await Promise.all([
+          fetch('/wuxu-complete.json'),
+          fetch('/wuxu-complete-plus.json')
+        ]);
         
+        let fetchedNews = [];
+
         if (completeRes.ok) {
           const completeData = await completeRes.json();
           setApps(completeData.apps || []);
-          
-          let fetchedNews = completeData.news || [];
-          fetchedNews.sort((a, b) => new Date(b.date) - new Date(a.date));
-          setNews(fetchedNews);
+          if (completeData.news) fetchedNews = [...fetchedNews, ...completeData.news];
         }
+        
+        if (plusRes.ok) {
+          const plusData = await plusRes.json();
+          setPlusApps(plusData.apps || []);
+          if (plusData.news) fetchedNews = [...fetchedNews, ...plusData.news];
+        }
+
+        // Sort news by date (newest first)
+        fetchedNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+        setNews(fetchedNews);
 
       } catch (error) {
         console.error("Failed to load sources:", error);
@@ -48,8 +68,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home apps={apps} news={news} loading={loading} darkMode={darkMode} setDarkMode={setDarkMode} />} />
-        <Route path="/app/:bundleId" element={<AppDetails apps={apps} loading={loading} />} />
+        <Route path="/" element={<Home apps={apps} plusApps={plusApps} news={news} loading={loading} darkMode={darkMode} setDarkMode={setDarkMode} librarySource={librarySource} setLibrarySource={setLibrarySource} />} />
+        <Route path="/app/:bundleId" element={<AppDetails apps={apps} plusApps={plusApps} loading={loading} />} />
       </Routes>
     </Router>
   );

@@ -71,6 +71,7 @@ const processFile = async (filepath) => {
 };
 
 const run = async () => {
+  await processFile('wuxu-complete-plus.json');
   await processFile('wuxu-complete.json');
 };
 
