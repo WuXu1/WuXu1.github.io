@@ -355,14 +355,14 @@
       "appstore" : "com.atebits.Tweetie2",
       "bundleID" : "com.atebits.Tweetie2",
       "category" : "Social",
-      "changelog" : "• Updated X to v10.83\n• Replaced BHTwitter with TwiGalaxy",
+      "changelog" : "Version 6.6.1\n\nFixes\n- Fixed voice message downloading (now requires 2 fingers with a long press)\n- Fixed a crash that would happen when encountering any confirmation prompt",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "dev" : "Densor",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v10.83.+.TwiGalaxy.v1.1.ipa",
+      "down" : "https://github.com/orionblur/NeoFreeBird/releases/download/v6.6.1/orionblur-NFB-BHTwitter-sideloaded-X_6.6.1_12.21.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "X++",
       "screenshots" : [
@@ -375,7 +375,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/78/72/1b787247-45dc-8eae-a4be-4a3c4e0de9da/1242x2688-7.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/df/00/79df00e8-bdab-aa97-914e-56b94a4c0a0b/1242x2688-8.jpg/320x480bb.jpg"
       ],
-      "version" : "10.83"
+      "version" : "12.21"
     },
     {
       "appstore" : "com.facebook.Facebook",
@@ -504,6 +504,27 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/87/53/638753cd-6f12-0be7-3a08-578c318b714c/messenger_appstore_iphone_1320x2868_8.png/320x480bb.jpg"
       ],
       "version" : "390.0"
+    }
+  ],
+  "Utilities" : [
+    {
+      "appstore" : "com.kdt.livecontainer",
+      "bundleID" : "com.kdt.livecontainer",
+      "category" : "Utilities",
+      "changelog" : "Initial addition.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "Run iOS apps without actually installing them!",
+      "dev" : "DuyTranKhanh",
+      "down" : "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+      "icon" : "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "name" : "LiveContainer",
+      "screenshots" : [
+
+      ],
+      "version" : "3.8.0"
     }
   ],
   "utilities" : [
@@ -769,27 +790,6 @@
         "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
       ],
       "version" : "4.8.1"
-    }
-  ],
-  "Utilities" : [
-    {
-      "appstore" : "com.kdt.livecontainer",
-      "bundleID" : "com.kdt.livecontainer",
-      "category" : "Utilities",
-      "changelog" : "Initial addition.",
-      "contact" : {
-        "discord" : "https://bit.ly/wuxuslibrary-discord",
-        "web" : "https://bit.ly/wuxus-sources"
-      },
-      "description" : "Run iOS apps without actually installing them!",
-      "dev" : "DuyTranKhanh",
-      "down" : "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
-      "icon" : "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
-      "name" : "LiveContainer",
-      "screenshots" : [
-
-      ],
-      "version" : "3.8.0"
     }
   ]
 }
