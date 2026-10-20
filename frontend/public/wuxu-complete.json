@@ -842,6 +842,16 @@
       "title" : "PPSSPP Added!"
     },
     {
+      "tintColor" : "123047",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pS8xh2f.jpeg",
+      "identifier" : "clashofclans-updated",
+      "date" : "2026-08-06",
+      "caption" : "Modded Clash of Clans has been updated to the latest version, click here for more info",
+      "notify" : false,
+      "appID" : "com.atrasis.original",
+      "title" : "Atrasis Updated!"
+    },
+    {
       "tintColor" : "0363a9",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/wtOgRBC.jpeg",
       "identifier" : "trollinstallerx-added",
@@ -850,6 +860,26 @@
       "notify" : true,
       "appID" : "com.Alfie.TrollInstallerX",
       "title" : "TrollInstallerX Updated!"
+    },
+    {
+      "tintColor" : "9e3a47",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ExAk9bo.png",
+      "identifier" : "taurine-updated ",
+      "date" : "2024-05-11",
+      "caption" : "The Taurine Jailbreak has been updated, now supporting up to iOS 14.8.1! Click here for more info",
+      "notify" : false,
+      "appID" : "org.coolstar.taurine",
+      "title" : "Taurine Updated!"
+    },
+    {
+      "tintColor" : "134771",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JlyS9ZK.jpeg",
+      "identifier" : "clashroyale-updated",
+      "date" : "2024-05-10",
+      "caption" : "Modded Clash Royale has been updated to the latest version, click here for more info!",
+      "notify" : true,
+      "appID" : "com.supercell.scroll",
+      "title" : "Null's Royale Updated!"
     },
     {
       "tintColor" : "b3b3b3",
@@ -872,6 +902,16 @@
       "title" : "emuThreeDS Added!"
     },
     {
+      "tintColor" : "184f99",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1VmxdXs.jpeg",
+      "identifier" : "pokemongo-updated",
+      "date" : "2023-05-11",
+      "caption" : "Pokemon Go has been updated to the latest version, click here for more info",
+      "notify" : true,
+      "appID" : "com.nianticlabs.pokemongo",
+      "title" : "Pokemon Go (w/ SpooferPro) Updated!"
+    },
+    {
       "tintColor" : "8d2229",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/feGeBg8.jpeg",
       "identifier" : "scarlet-added",
@@ -880,96 +920,6 @@
       "notify" : false,
       "appID" : "com.DebianArch.ScarletPersonalXYZZZ",
       "title" : "Scarlet Added!"
-    },
-    {
-      "tintColor" : "9766a7",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/246tXNC.png",
-      "identifier" : "odyssey-added",
-      "date" : "2023-04-04",
-      "caption" : "The Odyssey jailbreak tool has been added to the source! ",
-      "notify" : false,
-      "appID" : "org.coolstar.odyssey",
-      "title" : "Odyssey Added!"
-    },
-    {
-      "tintColor" : "9e3a47",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ExAk9bo.png",
-      "identifier" : "taurine-updated ",
-      "date" : "2024-05-11",
-      "caption" : "The Taurine Jailbreak has been updated, now supporting up to iOS 14.8.1! Click here for more info",
-      "notify" : false,
-      "appID" : "org.coolstar.taurine",
-      "title" : "Taurine Updated!"
-    },
-    {
-      "tintColor" : "515151",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ai6QSbt.jpeg",
-      "identifier" : "unc0ver-added",
-      "date" : "2023-04-04",
-      "caption" : "The unc0ver jailbreaking tool has been added to the source! ",
-      "notify" : false,
-      "appID" : "science.xnu.undecimus",
-      "title" : "Unc0ver Added!"
-    },
-    {
-      "tintColor" : "0d7d65",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/iz36kwo.jpeg",
-      "identifier" : "dopamine-added",
-      "date" : "2025-03-05",
-      "caption" : "Dopamine, a jailbreak for iOS 15.0 - 16.6.1 has been updated! Click here for more info",
-      "notify" : false,
-      "appID" : "com.opa334.Dopamine",
-      "title" : "Dopamine Updated!"
-    },
-    {
-      "tintColor" : "b31c29",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/jnvDDpx.jpg",
-      "identifier" : "itorrent-added",
-      "date" : "2023-02-13",
-      "caption" : "iTorrent has been added to the library! A torrent client for iOS with Files app support. ",
-      "notify" : false,
-      "appID" : "ru.nonamedude.iTorrent",
-      "title" : "iTorrent Added!"
-    },
-    {
-      "tintColor" : "0d6425",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/4IT5NhG.png",
-      "identifier" : "cowabunga-updated",
-      "date" : "2023-05-14",
-      "caption" : "Cowabunga has been updated to the latest version, click here for more info",
-      "notify" : true,
-      "appID" : "com.leemin.Cowabunga",
-      "title" : "Cowabunga Updated!"
-    },
-    {
-      "tintColor" : "356ead",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Nb9f2Zj.jpeg",
-      "identifier" : "esign-updated",
-      "date" : "2023-03-19",
-      "caption" : "ESign has been updated to the latest version, click here for more info.",
-      "notify" : true,
-      "appID" : "p3.xyz.yyyue.esign",
-      "title" : "ESign Updated!"
-    },
-    {
-      "tintColor" : "123047",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/pS8xh2f.jpeg",
-      "identifier" : "clashofclans-updated",
-      "date" : "2026-08-06",
-      "caption" : "Modded Clash of Clans has been updated to the latest version, click here for more info",
-      "notify" : false,
-      "appID" : "com.atrasis.original",
-      "title" : "Atrasis Updated!"
-    },
-    {
-      "tintColor" : "134771",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/JlyS9ZK.jpeg",
-      "identifier" : "clashroyale-updated",
-      "date" : "2024-05-10",
-      "caption" : "Modded Clash Royale has been updated to the latest version, click here for more info!",
-      "notify" : true,
-      "appID" : "com.supercell.scroll",
-      "title" : "Null's Royale Updated!"
     },
     {
       "tintColor" : "091323",
@@ -992,14 +942,24 @@
       "title" : "Angry Birds Star Wars Added!"
     },
     {
-      "tintColor" : "184f99",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1VmxdXs.jpeg",
-      "identifier" : "pokemongo-updated",
-      "date" : "2023-05-11",
-      "caption" : "Pokemon Go has been updated to the latest version, click here for more info",
-      "notify" : true,
-      "appID" : "com.nianticlabs.pokemongo",
-      "title" : "Pokemon Go (w/ SpooferPro) Updated!"
+      "tintColor" : "9766a7",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/246tXNC.png",
+      "identifier" : "odyssey-added",
+      "date" : "2023-04-04",
+      "caption" : "The Odyssey jailbreak tool has been added to the source! ",
+      "notify" : false,
+      "appID" : "org.coolstar.odyssey",
+      "title" : "Odyssey Added!"
+    },
+    {
+      "tintColor" : "515151",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ai6QSbt.jpeg",
+      "identifier" : "unc0ver-added",
+      "date" : "2023-04-04",
+      "caption" : "The unc0ver jailbreaking tool has been added to the source! ",
+      "notify" : false,
+      "appID" : "science.xnu.undecimus",
+      "title" : "Unc0ver Added!"
     },
     {
       "tintColor" : "5865f2",
@@ -1010,6 +970,16 @@
       "caption" : "Click here join the server. A place to talk about sideloading, make requests, get support and give feedback!",
       "notify" : true,
       "title" : "Join the Discord!"
+    },
+    {
+      "tintColor" : "356ead",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Nb9f2Zj.jpeg",
+      "identifier" : "esign-updated",
+      "date" : "2023-03-19",
+      "caption" : "ESign has been updated to the latest version, click here for more info.",
+      "notify" : true,
+      "appID" : "p3.xyz.yyyue.esign",
+      "title" : "ESign Updated!"
     },
     {
       "title" : "Welcome to WuXu's Library!",

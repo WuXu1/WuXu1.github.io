@@ -113,26 +113,6 @@
       "caption" : "BeReal++ has been updated to the latest version, click here for more info"
     },
     {
-      "title" : "Deezer++ Added!",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
-      "caption" : "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
-      "tintColor" : "0e0e0e",
-      "notify" : false,
-      "appID" : "com.deezer.Deezer",
-      "date" : "2023-10-22",
-      "identifier" : "deezer-added"
-    },
-    {
-      "title" : "YouTube++ Updated!",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/W7zL04X.jpeg",
-      "caption" : "YouTube++ has been updated to the latest version! Click here for more info",
-      "tintColor" : "af0001",
-      "notify" : true,
-      "appID" : "com.google.ios.youtube",
-      "date" : "2025-03-04",
-      "identifier" : "youtube-updated"
-    },
-    {
       "title" : "Messenger++ Added!",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
       "caption" : "Messenger injected with Shark has been added to the source, click here for more info",
@@ -141,6 +121,16 @@
       "appID" : "com.facebook.Messenger",
       "date" : "2023-10-23",
       "identifier" : "messenger-added"
+    },
+    {
+      "title" : "Deezer++ Added!",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/XlbkA6u.jpeg",
+      "caption" : "Deezer, with premium activated, has been added to the source! This may be the last update as the tweak dev no longer updates the tweak.",
+      "tintColor" : "0e0e0e",
+      "notify" : false,
+      "appID" : "com.deezer.Deezer",
+      "date" : "2023-10-22",
+      "identifier" : "deezer-added"
     }
   ],
   "apps" : [
