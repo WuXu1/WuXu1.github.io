@@ -337,6 +337,13 @@
       "beta" : false,
       "versions" : [
         {
+          "version" : "3.0.12",
+          "date" : "2026-10-20",
+          "localizedDescription" : "• Dopamine updated to v3.0.12",
+          "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+          "size" : 55420784
+        },
+        {
           "minOSVersion" : "15.0",
           "localizedDescription" : "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
           "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
@@ -357,16 +364,16 @@
         "https://ellekit.space/dopamine/assets/screenshot_one.png",
         "https://ellekit.space/dopamine/assets/screenshot_two.png"
       ],
-      "size" : 50005508,
-      "version" : "2.4.1",
+      "size" : 55420784,
+      "version" : "3.0.12",
       "bundleIdentifier" : "com.opa334.Dopamine",
       "tintColor" : "0d7d65",
-      "versionDate" : "2025-02-25",
-      "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+      "versionDate" : "2026-10-20",
+      "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
       "subtitle" : "The semi-untethered jailbreak for iOS 15 - 16",
       "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
       "developerName" : "opa334",
-      "versionDescription" : "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
+      "versionDescription" : "• Dopamine updated to v3.0.12",
       "name" : "Dopamine",
       "localizedDescription" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
       "appPermissions" : {}
@@ -374,6 +381,13 @@
     {
       "beta" : false,
       "versions" : [
+        {
+          "version" : "2.2.0-1",
+          "date" : "2026-07-19",
+          "localizedDescription" : "• iTorrent updated to v2.2.0-1",
+          "downloadURL" : "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "size" : 24288935
+        },
         {
           "minOSVersion" : "11.0",
           "localizedDescription" : "• iTorrent updated to v1.9",
@@ -389,16 +403,16 @@
         "https://static.appdb.to/images/cydia-1900000455-iphone-1.png",
         "https://static.appdb.to/images/cydia-1900000455-iphone-2.png"
       ],
-      "size" : 13454780,
-      "version" : "1.9",
+      "size" : 24288935,
+      "version" : "2.2.0-1",
       "bundleIdentifier" : "ru.nonamedude.iTorrent",
       "tintColor" : "b31c29",
-      "versionDate" : "2023-02-13",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/iTorrent.v1.9.ipa",
+      "versionDate" : "2026-07-19",
+      "downloadURL" : "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
       "subtitle" : "An ordinary torrent client for iOS with Files app support",
       "iconURL" : "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png",
       "developerName" : "XITRIX",
-      "versionDescription" : "• iTorrent updated to v1.9",
+      "versionDescription" : "• iTorrent updated to v2.2.0-1",
       "name" : "iTorrent",
       "localizedDescription" : "iTorrent - a torrent client for iOS with Files app support.\n\nWhat this app can do:\n\n• Download in the background\n• Sequential download (use VLC to watch films while loading)\n• Add torrent files from Share menu (Safari and other apps)\n• Add magnet links directly from Safari\n• Store files in Files app (iOS 11+)\n• File sharing directly from app\n• Download torrent by link\n• Download torrent by magnet\n• Send notification on torrent downloaded\n• WebDAV Server\n• Select files to download or not\n• Change UI to dark theme\n• RSS Feed",
       "appPermissions" : {
@@ -416,6 +430,13 @@
     {
       "beta" : false,
       "versions" : [
+        {
+          "version" : "10.3.2",
+          "date" : "2023-05-29",
+          "localizedDescription" : "• Cowabunga updated to v10.3.2",
+          "downloadURL" : "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+          "size" : 16288960
+        },
         {
           "localizedDescription" : "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
           "minOSVersion" : "14.0",
@@ -452,16 +473,16 @@
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Misc.PNG",
         "https://github.com/leminlimez/Cowabunga/raw/main/Images/Extra_Tools.PNG"
       ],
-      "size" : 16280833,
-      "version" : "10.2.0",
+      "size" : 16288960,
+      "version" : "10.3.2",
       "bundleIdentifier" : "com.leemin.Cowabunga",
       "tintColor" : "0d6425",
-      "versionDate" : "2023-05-14",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Cowabunga.v10.2.0.ipa",
+      "versionDate" : "2023-05-29",
+      "downloadURL" : "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
       "subtitle" : "The MacDirtyCow Toolbox for iOS 14 – iOS 16",
       "iconURL" : "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
       "developerName" : "Leminlimez",
-      "versionDescription" : "• Added JIT\n• Added date in status bar through breadcrumb\n• Can be automated through shortcuts using the url cowabunga://dateset\n• See below for how to set up automation\n• Can also be updated using the button on the home page\n• Added service badge customization in status bar\n• Added ability to set the data network type\n• Added changing the date string on ipads\n• Added ability to reset the status bar through a url scheme (cowabunga://statusbar:reset)\n• Added ability to choose respring type (frontboard or backboard)\n• Fixed issue with forcing mdc",
+      "versionDescription" : "• Cowabunga updated to v10.3.2",
       "name" : "Cowabunga",
       "localizedDescription" : "A Jailed toolbox application for iOS 14.0-15.7.1 and 16.0-16.1.2 using CVE-2022-46689\n\nEnable Notifications and set Location Services to Always to keep the app running in the background, keep the dock and folder background hidden, and prevent some sound effects from reverting.\n\nWarning: Some changes are permanent on iOS 14.0-14.8.1\n\n\nFeatures:\n\n• Running in the background to keep some changes from reverting\n\t- From running tests, battery loss is negligible (~1% per day on frequent), but that may vary \n\nSpringboard\n\n• Hide dock\n• Hide home bar\n• Hide folder backgrounds\n• Disable folder background blur\n• Disable app switcher blur\n• Hide CC Module Backgrounds\n• Hide Notification Banner Background\n\nApp Icon Themes\n\n• Importing folders of app icons\n• No WebClips!\n\nAudio\n\n• Custom sound effects\n• Upload your own sounds (nearly every audio format allowed!)\n• Max upload audio size of 150 kb, but will not apply for audio if too big!\n\nPasscode\n\n• Customize passcode keys\n• Import passcode keys files (.passthm) from TrollTools\n\nLocks\n\n• Importing locks from TrollLock\n• Custom number of frames + custom animation speeds (see below)\n\nExplore\n\n• Find and download themes for passcodes, locks, and app icons!\n• If you would like to submit your own works, please join the discord\n\nStatus Bar\n\n• Change carrier name\n• Change battery display detail\n• Change time text\n• Change breadcrumb text\n• Show numeric WiFi/Cellular strength\n• Hide many icons in the status bar\n\nOther Tools\n\n• Custom Fonts\n• Lock Screen Footnote\n• Notification Badges Changer (iOS 14-15 ONLY)\n• Springboard Colors\n• Settings App Customizer\n• Calculator Error Message\n\nMisc\n\n• Disable shortcut banners\n• Turn shortcuts into app clips\n• Supervise Device Warning: Use the features below at your own risk!\n• Change system version (shows in settings, iOS 15+)\n• Enable iPhone X Gestures\n• Enable Dynamic Island (iOS 16+)\n\nExtra Tools\n\n• Lock Screen Footnote\n• No Lock On Respring\n• Disable Low Power Alert",
       "appPermissions" : {
@@ -780,6 +801,36 @@
     }
   ],
   "news" : [
+    {
+      "title" : "Cowabunga Updated!",
+      "identifier" : "update-com.leemin.Cowabunga",
+      "caption" : "Cowabunga updated to v10.3.2",
+      "date" : "2026-10-20",
+      "tintColor" : "0d6425",
+      "notify" : false,
+      "appID" : "com.leemin.Cowabunga",
+      "imageURL" : "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png"
+    },
+    {
+      "title" : "iTorrent Updated!",
+      "identifier" : "update-ru.nonamedude.iTorrent",
+      "caption" : "iTorrent updated to v2.2.0-1",
+      "date" : "2026-10-20",
+      "tintColor" : "b31c29",
+      "notify" : false,
+      "appID" : "ru.nonamedude.iTorrent",
+      "imageURL" : "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png"
+    },
+    {
+      "title" : "Dopamine Updated!",
+      "identifier" : "update-com.opa334.Dopamine",
+      "caption" : "Dopamine updated to v3.0.12",
+      "date" : "2026-10-20",
+      "tintColor" : "0d7d65",
+      "notify" : false,
+      "appID" : "com.opa334.Dopamine",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg"
+    },
     {
       "tintColor" : "21486b",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/WiLmov2.jpeg",
