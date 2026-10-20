@@ -16,7 +16,52 @@
       "developerName" : "DuyTranKhanh",
       "versionDescription" : "Initial addition.",
       "name" : "LiveContainer",
-      "localizedDescription" : "Run iOS apps without actually installing them!"
+      "localizedDescription" : "Run iOS apps without actually installing them!",
+      "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.healthkit.background-delivery",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "The guest app is requesting for this permission.",
+          "NSBluetoothAlwaysUsageDescription" : "The guest app is requesting for this permission.",
+          "NSBluetoothPeripheralUsageDescription" : "The guest app is requesting for this permission.",
+          "NSCalendarsFullAccessUsageDescription" : "The guest app is requesting for this permission.",
+          "NSCalendarsWriteOnlyAccessUsageDescription" : "The guest app is requesting for this permission.",
+          "NSCameraUsageDescription" : "The guest app is requesting for this permission.",
+          "NSContactsUsageDescription" : "The guest app is requesting for this permission.",
+          "NSFaceIDUsageDescription" : "The guest app is requesting for this permission.",
+          "NSFallDetectionUsageDescription" : "The guest app is requesting for this permission.",
+          "NSGKFriendListUsageDescription" : "The guest app is requesting for this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription" : "The guest app is requesting for this permission.",
+          "NSHealthShareUsageDescription" : "The guest app is requesting for this permission.",
+          "NSHealthUpdateUsageDescription" : "The guest app is requesting for this permission.",
+          "NSHomeKitUsageDescription" : "The guest app is requesting for this permission.",
+          "NSIdentityUsageDescription" : "The guest app is requesting for this permission.",
+          "NSLocalNetworkUsageDescription" : "The guest app is requesting for this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription" : "The guest app is requesting for this permission.",
+          "NSLocationUsageDescription" : "The guest app is requesting for this permission.",
+          "NSLocationWhenInUseUsageDescription" : "The guest app is requesting for this permission.",
+          "NSMicrophoneUsageDescription" : "The guest app is requesting for this permission.",
+          "NSMotionUsageDescription" : "The guest app is requesting for this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription" : "The guest app is requesting for this permission.",
+          "NSNearbyInteractionUsageDescription" : "The guest app is requesting for this permission.",
+          "NSPhotoLibraryAddUsageDescription" : "The guest app is requesting for this permission.",
+          "NSPhotoLibraryUsageDescription" : "The guest app is requesting for this permission.",
+          "NSRemindersFullAccessUsageDescription" : "The guest app is requesting for this permission.",
+          "NSSensorKitUsageDescription" : "The guest app is requesting for this permission.",
+          "NSSiriUsageDescription" : "The guest app is requesting for this permission.",
+          "NSSpeechRecognitionUsageDescription" : "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription" : "The guest app is requesting for this permission."
+        }
+      }
     },
     {
       "beta" : false,
@@ -55,6 +100,10 @@
       "name" : "TrollInstallerX",
       "localizedDescription" : "Overview\n\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n• Direct installation: using the kfd kernel exploit, along with the dmaFail PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n\n   - Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n      • Note: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n      • Note: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n• Indirect installation: Using the kfd kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n\n   - Supports iOS 16.5.1 - 16.6.1 (arm64e).\n      • Note: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n\nUsage\n\nTrollInstallerX is extremely easy to use. Simply download the latest release from the Releases page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\nNote: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.",
       "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "com.apple.developer.team-identifier"
+        ],
         "privacy" : {
           "NSAppleMusicUsageDescription" : "Unsandboxing with MacDirtyCow"
         }
@@ -186,10 +235,24 @@
       "name" : "PPSSPP",
       "localizedDescription" : "PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.\n\nThe app was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka @angelxwind) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.\n\nPPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size.\n\nThe emulator is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device.",
       "appPermissions" : {
+        "entitlements" : [
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.private.security.container-required",
+          "com.apple.private.security.no-container",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage.AppDataContainers",
+          "com.apple.private.security.storage.MobileDocuments",
+          "com.apple.security.iokit-user-client-class",
+          "get-task-allow",
+          "platform-application"
+        ],
         "privacy" : {
-          "NSCameraUsageDescription" : "Your camera may be used to emulate Go!Cam, a camera accessory",
+          "NSPhotoLibraryUsageDescription" : "Access to your photos is needed to allow setting a background image.",
           "NSLocationWhenInUseUsageDescription" : "Your location may be used to emulate Go!Explore, a GPS accessory",
-          "NSMicrophoneUsageDescription" : "Your microphone may be used to emulate Go!Cam/Talkman, a microphone accessory"
+          "NSCameraUsageDescription" : "Your camera may be used to emulate Go!Cam, a camera accessory",
+          "NSMicrophoneUsageDescription" : "Your microphone may be used to emulate Go!Cam/Talkman, a microphone accessory",
+          "NSLocalNetworkUsageDescription" : "Your local network needs to be accessed by PPSSPP for network multiplayer support."
         }
       }
     },
@@ -340,7 +403,12 @@
       "versionDescription" : "• unc0ver updated to v8.1.0",
       "name" : "unc0ver",
       "localizedDescription" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
-      "appPermissions" : {}
+      "appPermissions" : {
+        "entitlements" : [
+          "get-task-allow"
+        ],
+        "privacy" : {}
+      }
     },
     {
       "beta" : false,
@@ -385,7 +453,27 @@
       "versionDescription" : "• Dopamine updated to v3.0.12",
       "name" : "Dopamine",
       "localizedDescription" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
-      "appPermissions" : {}
+      "appPermissions" : {
+        "entitlements" : [
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.private.mobileinstall.allowedSPI",
+          "com.apple.private.persona-mgmt",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage-exempt.heritable",
+          "com.apple.private.security.storage.AppBundles",
+          "com.apple.private.tcc.allow",
+          "com.apple.security.exception.iokit-user-client-class",
+          "com.apple.security.network.client",
+          "com.apple.springboard.CFUserNotification",
+          "com.apple.springboard.launchapplications",
+          "platform-application",
+          "proc_info-allow"
+        ],
+        "privacy" : {
+          "NSPhotoLibraryUsageDescription" : "Dopamine needs to access your photo library to support picking a boot logo"
+        }
+      }
     },
     {
       "beta" : false,
@@ -428,11 +516,11 @@
         "entitlements" : [
           "application-identifier",
           "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
           "get-task-allow"
         ],
         "privacy" : {
-          "NSPhotoLibraryAddUsageDescription" : "Allow, if you want to be able to save files to Photos app",
-          "NSUserTrackingUsageDescription" : "Support developer, allow personalized ads."
+          "NSLocalNetworkUsageDescription" : "iTorrent uses the local network to discover playback devices and cast video on your network."
         }
       }
     },
@@ -495,11 +583,35 @@
       "name" : "Cowabunga",
       "localizedDescription" : "A Jailed toolbox application for iOS 14.0-15.7.1 and 16.0-16.1.2 using CVE-2022-46689\n\nEnable Notifications and set Location Services to Always to keep the app running in the background, keep the dock and folder background hidden, and prevent some sound effects from reverting.\n\nWarning: Some changes are permanent on iOS 14.0-14.8.1\n\n\nFeatures:\n\n• Running in the background to keep some changes from reverting\n\t- From running tests, battery loss is negligible (~1% per day on frequent), but that may vary \n\nSpringboard\n\n• Hide dock\n• Hide home bar\n• Hide folder backgrounds\n• Disable folder background blur\n• Disable app switcher blur\n• Hide CC Module Backgrounds\n• Hide Notification Banner Background\n\nApp Icon Themes\n\n• Importing folders of app icons\n• No WebClips!\n\nAudio\n\n• Custom sound effects\n• Upload your own sounds (nearly every audio format allowed!)\n• Max upload audio size of 150 kb, but will not apply for audio if too big!\n\nPasscode\n\n• Customize passcode keys\n• Import passcode keys files (.passthm) from TrollTools\n\nLocks\n\n• Importing locks from TrollLock\n• Custom number of frames + custom animation speeds (see below)\n\nExplore\n\n• Find and download themes for passcodes, locks, and app icons!\n• If you would like to submit your own works, please join the discord\n\nStatus Bar\n\n• Change carrier name\n• Change battery display detail\n• Change time text\n• Change breadcrumb text\n• Show numeric WiFi/Cellular strength\n• Hide many icons in the status bar\n\nOther Tools\n\n• Custom Fonts\n• Lock Screen Footnote\n• Notification Badges Changer (iOS 14-15 ONLY)\n• Springboard Colors\n• Settings App Customizer\n• Calculator Error Message\n\nMisc\n\n• Disable shortcut banners\n• Turn shortcuts into app clips\n• Supervise Device Warning: Use the features below at your own risk!\n• Change system version (shows in settings, iOS 15+)\n• Enable iPhone X Gestures\n• Enable Dynamic Island (iOS 16+)\n\nExtra Tools\n\n• Lock Screen Footnote\n• No Lock On Respring\n• Disable Low Power Alert",
       "appPermissions" : {
+        "entitlements" : [
+          "com.apple.SystemConfiguration.SCDynamicStore-write-access",
+          "com.apple.UIKit.status-bar-override-allow",
+          "com.apple.locationd.simulation",
+          "com.apple.lsapplicationworkspace.rebuildappdatabases",
+          "com.apple.managedconfiguration.profiled-access",
+          "com.apple.mobile.deleted.AllowFreeSpace",
+          "com.apple.private.MobileContainerManager.allowed",
+          "com.apple.private.MobileInstallationHelperService.InstallDaemonOpsEnabled",
+          "com.apple.private.MobileInstallationHelperService.allowed",
+          "com.apple.private.WebClips.read-write",
+          "com.apple.private.coreservices.canmaplsdatabase",
+          "com.apple.private.persona-mgmt",
+          "com.apple.private.security.container-manager",
+          "com.apple.private.security.no-container",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage.MobileDocuments",
+          "com.apple.private.security.system-application",
+          "com.apple.private.uninstall.deletion",
+          "com.apple.security.exception.files.absolute-path.read-write",
+          "com.apple.security.iokit-user-client-class",
+          "get-task-allow",
+          "platform-application"
+        ],
         "privacy" : {
           "NSAppleMusicUsageDescription" : "Grant permission to the sandbox (needs it for Passcode keys + some other options)",
+          "NSLocationAlwaysAndWhenInUseUsageDescription" : "Cowabunga runs in the background to make sure tweaks remain applied. Usually iOS kills such apps after a period of time, but Cowabunga tricks iOS by requesting location data thus allowing much longer sessions. Data is never stored anywhere, only fetched.",
           "NSLocationWhenInUseUsageDescription" : "Cowabunga runs in the background to make sure tweaks remain applied. Usually iOS kills such apps after a period of time, but Cowabunga tricks iOS by requesting location data thus allowing much longer sessions. Data is never stored anywhere, only fetched.",
-          "NSPhotoLibraryUsageDescription" : "Photos",
-          "NSLocationAlwaysAndWhenInUseUsageDescription" : "Cowabunga runs in the background to make sure tweaks remain applied. Usually iOS kills such apps after a period of time, but Cowabunga tricks iOS by requesting location data thus allowing much longer sessions. Data is never stored anywhere, only fetched."
+          "NSPhotoLibraryUsageDescription" : "Photos"
         }
       }
     },
@@ -582,11 +694,11 @@
           "get-task-allow"
         ],
         "privacy" : {
-          "NSPhotoLibraryAddUsageDescription" : "授权后才能将图片保存到本地相册",
-          "NSPhotoLibraryUsageDescription" : "授权后才能访问您的手机相册，您才能上传对应的图片",
           "NSAppleMusicUsageDescription" : "点允许，才能使用。",
           "NSCameraUsageDescription" : "授权后才能使用您的相机进行扫一扫",
-          "NSLocationWhenInUseUsageDescription" : "开启定位服务，我们将根据您的位置,为您提供当前城市的相关企业信息。在未经许可前不会开启定位服务，请放心使用。",
+          "NSLocationWhenInUseUsageDescription" : "开启定位服务，我们将根据您的位置,为您提供相关信息。在未经许可前不会开启定位服务，请放心使用。",
+          "NSPhotoLibraryAddUsageDescription" : "授权后才能将图片保存到本地相册",
+          "NSPhotoLibraryUsageDescription" : "授权后才能访问您的手机相册，您才能上传对应的图片",
           "NSUserTrackingUsageDescription" : "This identifier will be used to deliver personalized ads to you"
         }
       }
@@ -616,20 +728,18 @@
       "name" : "Atrasis",
       "localizedDescription" : "This is a modded Clash of Clans private server. You have unlimited gems, elixir and gold. Write /help in the Global Chat for comands.\n\nNOTE: IF THE APP REQUIRES AN UPDATE, REINSTALL FROM THIS LINK AS THE DOWNLOAD URL IS ALWAYS THE LATEST AND I DO NOT MANUALLY CHANGE IT.\n\nTO KEEP YOUR PROGRESS, MAKE AN ATRASIS ID, ITS DONE THE SAME AS IF YOU ARE MAKING A SUPERCELL ID, AND SIGN IN AFTER REINSTALLING\n\n\nPlease keep in mind that this mod is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it.\n\nModded by Ksyrex. His Telegram group➡️ https://t.me/+wwYy4wEMS1gwMTAy",
       "appPermissions" : {
-        "privacy" : {
-          "NSUserTrackingUsageDescription" : "Clash of Clans would like permission to track you across apps and websites owned by other companies.\\n\\nYour data will be used for audience insights, analytics and improving our services.",
-          "NSCameraUsageDescription" : "Camera access is needed for scanning QR codes.",
-          "NSPhotoLibraryUsageDescription" : "Photo library access is needed if player wants to send screenshots to Supercell Player Support."
-        },
         "entitlements" : [
           "application-identifier",
           "aps-environment",
-          "com.apple.developer.location.push",
-          "com.apple.developer.team-identifier",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "get-task-allow",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.game-center",
           "keychain-access-groups"
-        ]
+        ],
+        "privacy" : {
+          "NSUserTrackingUsageDescription" : "Clash of Clans would like permission to track you across apps and websites owned by other companies.\\n\\nYour data will be used for audience insights, analytics and improving our services.",
+          "NSPhotoLibraryUsageDescription" : "Photo library access is needed if player wants to send screenshots to Supercell Player Support.",
+          "NSCameraUsageDescription" : "Camera access is needed for scanning QR codes."
+        }
       }
     },
     {
