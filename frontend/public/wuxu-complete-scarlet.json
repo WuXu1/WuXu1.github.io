@@ -248,31 +248,6 @@
         "https://img.ipa4fun.com/5d/50/b0/557137623-screenshot-5.webp"
       ],
       "version" : "1.5.12"
-    },
-    {
-      "appstore" : "com.nianticlabs.pokemongo",
-      "bundleID" : "com.nianticlabs.pokemongo",
-      "category" : "Games",
-      "changelog" : "• Updated Pokemon Go to v0.269.1",
-      "contact" : {
-        "discord" : "https://bit.ly/wuxuslibrary-discord",
-        "web" : "https://bit.ly/wuxus-sources"
-      },
-      "description" : "SpooferPro for POGO - iOS GPS Spoofer\n\nWith the tools from our Tweak, you can level up faster and catch the best Pokemon anywhere in the World.",
-      "dev" : "SpooferPro Team",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
-      "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/0d/a8/1e0da8c5-c56a-68ef-601f-33078883892c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "name" : "Pokemon Go (w/ SpooferPro)",
-      "screenshots" : [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/392x696bb.png"
-      ],
-      "version" : "0.269.1"
     }
   ],
   "Lifestyle" : [

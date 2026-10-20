@@ -737,67 +737,6 @@
       "versionDescription" : "• We addressed some minor issues in order to improve the user experience.",
       "name" : "Angry Birds Star Wars",
       "localizedDescription" : "JOIN THE ANGRY BIRDS IN THEIR BIGGEST ADVENTURE YET!\n\nA long time ago in a galaxy far, far away... a group of desperate rebel birds faced off against a galactic menace: the Empire’s evil Pigtroopers!\n\nRebel birds, striking from a hidden base, have won their first victory against the evil Imperial Pigs. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the PIG STAR, and are racing to deliver the plans to the Rebel Birds. Now they need your help!\n\nJoin an epic adventure with the Angry Birds in the legendary Star Wars™ universe! Use the Force, wield your lightsaber, and blast away Pigtroopers on an intergalactic journey from the deserts of Tatooine to the depths of the Pig Star -- where you’ll face off against the terrifying Darth Vader, Dark Lord of the Pigs! Can you become a Jedi Master and restore freedom to the galaxy?\n\nTime to grab your lightsaber and join the adventure! May the birds be with you!\n\nHOURS AND HOURS OF ENGAGING GAMEPLAY - Explore more than 100 levels in iconic locations like Tatooine and the Pig Star. Can you dodge Imperial pigs, laser turrets, Tusken Raider pigs, and the dark side of the Force to get all three stars?\n\nNEW GAMEPLAY MECHANICS - Use lightsabers, Blasters and Jedi powers to wreak havoc on the Imperial Pigs!\n\nLEVEL UP YOUR BIRDS - Keep playing and level up your birds to improve their skills!\n\nSECRETS AND HIDDEN GOODIES - Can you unlock all the R2-D2 and C-3PO bonus levels?\n\nFREE UPDATES - This is only the beginning of the epic saga!\n\nTHE MIGHTY FALCON\nStuck on a tricky level? Earn stars and call the Mighty Falcon to rain down the destruction. New goals, achievements and gameplay!\n\nPATH OF THE JEDI\nThe ultimate training ground for a Young Jedi, this episode features 40 Dagobah Challenge Levels with Jedi Master Yoda! Master the Path of the Jedi to unlock the ultimate Lightsaber! Available as an in-app purchase, or by earning three stars on every level.\n\nFollow @angrybirds on Twitter\n\nWatch the videos, read the comics and submit fan art at angrybirds.com/starwars\n\nLike us at facebook.com/angrybirds and say hello!\n\nTerms of Use: https://www.rovio.com/terms-of-use\nPrivacy Policy: https://www.rovio.com/privacy\n\nThis application may require internet connectivity and subsequent data transfer charges may apply.\n\n\nImportant Message for Parents\n\nThis game may include:\n- Direct links to social networking websites that are intended for an audience over the age of 13.\n- Direct links to the internet that can take players away from the game with the potential to browse any web page.\n- Advertising of Rovio products and also products from select partners.\n- The option to make in-app purchases. The bill payer should always be consulted beforehand."
-    },
-    {
-      "beta" : false,
-      "versions" : [
-        {
-          "localizedDescription" : "• Updated Pokemon Go to v0.269.1",
-          "minOSVersion" : "14.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
-          "version" : "0.269.1",
-          "size" : 118000000,
-          "date" : "2023-05-11"
-        },
-        {
-          "localizedDescription" : "• Updated Pokemon Go to v0.265.0",
-          "downloadURL" : "https://cdn.spooferpro.com/SpooferPro-0.265.0-0.137.ipa",
-          "version" : "0.265.0",
-          "size" : 115000000,
-          "date" : "2023-04-04"
-        }
-      ],
-      "category" : "Games",
-      "screenshotURLs" : [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/392x696bb.png",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/392x696bb.png"
-      ],
-      "size" : 123629575,
-      "version" : "0.269.1",
-      "bundleIdentifier" : "com.nianticlabs.pokemongo",
-      "tintColor" : "184f99",
-      "versionDate" : "2023-05-11",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Pokemon.Go.v0.269.1.+.SpooferPro.v0.148.ipa",
-      "subtitle" : "Pokemon Go injected with SpooferPro",
-      "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/0d/a8/1e0da8c5-c56a-68ef-601f-33078883892c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "developerName" : "SpooferPro Team",
-      "versionDescription" : "• Updated Pokemon Go to v0.269.1",
-      "name" : "Pokemon Go (w/ SpooferPro)",
-      "localizedDescription" : "SpooferPro for POGO - iOS GPS Spoofer\n\nWith the tools from our Tweak, you can level up faster and catch the best Pokemon anywhere in the World.",
-      "appPermissions" : {
-        "privacy" : {
-          "NSLocationAlwaysUsageDescription" : "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
-          "NSCalendarsUsageDescription" : "In order to add Live Event calendar items",
-          "NSLocationWhenInUseUsageDescription" : "Pokémon GO requires your mobile device’s location permissions to be enabled in order to find Pokémon and PokéStops near you.",
-          "NSMotionUsageDescription" : "Pokémon GO requires your mobile device’s motion permissions to be enabled in order to let you know when new Pokémon are nearby.",
-          "NSPhotoLibraryAddUsageDescription" : "In order to save pictures of encountered Pokémon",
-          "NSLocationAlwaysAndWhenInUseUsageDescription" : "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
-          "NSPhotoLibraryUsageDescription" : "In order to save pictures of encountered Pokémon",
-          "NSContactsUsageDescription" : "Pokémon GO needs to access and upload your contacts to our servers to send game invites and friend requests to people in your address book.",
-          "NSHealthUpdateUsageDescription" : "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
-          "NSMicrophoneUsageDescription" : "not used",
-          "NSUserTrackingUsageDescription" : "If you enable this setting, your information can be used to deliver personalized ads to you regarding Pokémon GO exclusive offers, promotions, and events.",
-          "NSHealthShareUsageDescription" : "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
-          "NSCameraUsageDescription" : "Enabling this setting allows you to use AR when catching Pokémon.",
-          "NSBluetoothAlwaysUsageDescription" : "Allows pairing to devices including peripherals and consoles.",
-          "NSBluetoothPeripheralUsageDescription" : "Allows for usage of the Pokémon GO Plus"
-        }
-      }
     }
   ],
   "news" : [
@@ -900,16 +839,6 @@
       "notify" : false,
       "appID" : "com.antique.emuThreeDS",
       "title" : "emuThreeDS Added!"
-    },
-    {
-      "tintColor" : "184f99",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/1VmxdXs.jpeg",
-      "identifier" : "pokemongo-updated",
-      "date" : "2023-05-11",
-      "caption" : "Pokemon Go has been updated to the latest version, click here for more info",
-      "notify" : true,
-      "appID" : "com.nianticlabs.pokemongo",
-      "title" : "Pokemon Go (w/ SpooferPro) Updated!"
     },
     {
       "tintColor" : "8d2229",
