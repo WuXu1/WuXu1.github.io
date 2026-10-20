@@ -571,28 +571,6 @@
       "version" : "0.8.1"
     },
     {
-      "appstore" : "com.dry05.filzaescaped11-12",
-      "bundleID" : "com.dry05.filzaescaped11-12",
-      "category" : "utilities",
-      "changelog" : "• Added Filza (MDC) v3.7",
-      "contact" : {
-        "discord" : "https://bit.ly/wuxuslibrary-discord",
-        "web" : "https://bit.ly/wuxus-sources"
-      },
-      "description" : "Filza with MDC Support and No Ads! (Limited Features)\n\nA Powerful File Manager for iPhone, iPad, iPod Touch. Flat design, with best performance:\n\n• File viewers: Media player, Hex editor, Text editor, SQLite Editor, IPA Installer, DEB Installer, Web viewer, Terminal ...\n• SQLite Editor was design for large query, works well with over 100k+ rows in result\n• Execute shell scripts and applications just few tap\n• Cloud services: Dropbox, Box, Google Drive, WebDAV, FTP, SFTP\n• Supports SMB (Windows File Sharing)\n• Search files and folders easily\n• Powerful files copy/move design, just few taps\n• Download normal/html file with easy way: copy html link to Pasteboard, and paste it to destination folder\n• Manage Music library easily: import/export/delete/rename ... just do same as normal files\n• Explore files in list view mode or grid view mode, with thumbnail\n• Compress zip file, decompress zip/7z/rar/tar/tar.gz/gz ...\n• Install and extract DEB/IPA file, view DEB/IPA file information\n• Black theme and white theme, custom folder icon, file",
-      "dev" : "TIGI Software",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
-      "icon" : "https://static.appdb.to/images/cydia-1900000088-icon.png",
-      "name" : "Filza (MDC)",
-      "screenshots" : [
-        "https://static.appdb.to/images/cydia-1900001095-iphone-0-1675790063.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-1-1675790064.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-2-1675790064.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-3-1675790064.png"
-      ],
-      "version" : "3.7"
-    },
-    {
       "appstore" : "com.DebianArch.ScarletPersonalXYZZZ",
       "bundleID" : "com.DebianArch.ScarletPersonalXYZZZ",
       "category" : "utilities",

@@ -194,52 +194,6 @@
       }
     },
     {
-      "beta" : false,
-      "versions" : [
-        {
-          "localizedDescription" : "• Added Filza (MDC) v3.7",
-          "minOSVersion" : "7.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
-          "version" : "3.7",
-          "size" : 9040000,
-          "date" : "2023-05-14"
-        }
-      ],
-      "category" : "utilities",
-      "screenshotURLs" : [
-        "https://static.appdb.to/images/cydia-1900001095-iphone-0-1675790063.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-1-1675790064.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-2-1675790064.png",
-        "https://static.appdb.to/images/cydia-1900001095-iphone-3-1675790064.png"
-      ],
-      "size" : 14649688,
-      "version" : "3.7",
-      "bundleIdentifier" : "com.dry05.filzaescaped11-12",
-      "tintColor" : "047a9a",
-      "versionDate" : "2023-05-14",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Filza.MDC.No.Ads.v3.7.ipa",
-      "subtitle" : "Filza for MacDirtyCow Devices!",
-      "iconURL" : "https://static.appdb.to/images/cydia-1900000088-icon.png",
-      "developerName" : "TIGI Software",
-      "versionDescription" : "• Added Filza (MDC) v3.7",
-      "name" : "Filza (MDC)",
-      "localizedDescription" : "Filza with MDC Support and No Ads! (Limited Features)\n\nA Powerful File Manager for iPhone, iPad, iPod Touch. Flat design, with best performance:\n\n• File viewers: Media player, Hex editor, Text editor, SQLite Editor, IPA Installer, DEB Installer, Web viewer, Terminal ...\n• SQLite Editor was design for large query, works well with over 100k+ rows in result\n• Execute shell scripts and applications just few tap\n• Cloud services: Dropbox, Box, Google Drive, WebDAV, FTP, SFTP\n• Supports SMB (Windows File Sharing)\n• Search files and folders easily\n• Powerful files copy/move design, just few taps\n• Download normal/html file with easy way: copy html link to Pasteboard, and paste it to destination folder\n• Manage Music library easily: import/export/delete/rename ... just do same as normal files\n• Explore files in list view mode or grid view mode, with thumbnail\n• Compress zip file, decompress zip/7z/rar/tar/tar.gz/gz ...\n• Install and extract DEB/IPA file, view DEB/IPA file information\n• Black theme and white theme, custom folder icon, file",
-      "appPermissions" : {
-        "privacy" : {
-          "NSFaceIDUsageDescription" : "Filza uses Face ID to authenticate",
-          "NSAppleMusicUsageDescription" : "Full access to files on your device is required to apply modifications.",
-          "NSPhotoLibraryAddUsageDescription" : "To save photos and videos to photo library.",
-          "NSPhotoLibraryUsageDescription" : "To save photos and videos to photo library."
-        },
-        "entitlements" : [
-          "application-identifier",
-          "com.apple.private.security.no-container",
-          "platform-application",
-          "task_for_pid-allow"
-        ]
-      }
-    },
-    {
       "beta" : true,
       "category" : "utilities",
       "screenshotURLs" : [
