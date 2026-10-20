@@ -5,7 +5,7 @@
     {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
-      "caption" : "YouTube 21.41.5 (YTPlus 6.0~b2 cracked)",
+      "caption" : "YouTube updated to v21.41.5",
       "date" : "2026-10-14",
       "tintColor" : "f90505",
       "notify" : false,
@@ -895,7 +895,7 @@
         {
           "version" : "21.41.5",
           "date" : "2026-10-11",
-          "localizedDescription" : "YouTube 21.41.5 (YTPlus 6.0~b2 cracked)\n\n▪Updated to YouTube 21.41.5\nBuilds:\n▪YouTube 21.40.5 (iOS 17+)\n▪iOS 15 and iOS 16 users use the IPAs here: https://t.me/ipavault/730\nAdded Tweaks:\n \nYTABConfig, YTweaks, YouPIP, VolumeBoostYT,  DontEatMyContent, ReturnYouTubeDislike, LowContrastMode, VideoOve",
+          "localizedDescription" : "• YouTube updated to v21.41.5\n• YTPlus updated to v6.0b2",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.41.5.+.YTPlus.v6.0b2.ipa",
           "size" : 159411487,
           "sha256" : "ce6acd806bb657a0c7da3d669fba13f7677828edd490b76176e9bcc331ef1edb"
@@ -942,7 +942,7 @@
       "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.41.5.+.YTPlus.v6.0b2.ipa",
       "versionDate" : "2026-10-11",
       "beta" : false,
-      "versionDescription" : "YouTube 21.41.5 (YTPlus 6.0~b2 cracked)\n\n▪Updated to YouTube 21.41.5\nBuilds:\n▪YouTube 21.40.5 (iOS 17+)\n▪iOS 15 and iOS 16 users use the IPAs here: https://t.me/ipavault/730\nAdded Tweaks:\n \nYTABConfig, YTweaks, YouPIP, VolumeBoostYT,  DontEatMyContent, ReturnYouTubeDislike, LowContrastMode, VideoOve",
+      "versionDescription" : "• YouTube updated to v21.41.5\n• YTPlus updated to v6.0b2",
       "appPermissions" : {
         "privacy" : {
           "NSUserTrackingUsageDescription" : "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
