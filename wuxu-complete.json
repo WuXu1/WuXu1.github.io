@@ -64,44 +64,6 @@
       "beta" : true,
       "versions" : [
         {
-          "minOSVersion" : "14.0",
-          "localizedDescription" : "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
-          "date" : "2023-02-10",
-          "size" : 4540000,
-          "version" : "0.4"
-        }
-      ],
-      "category" : "utilities",
-      "screenshotURLs" : [
-        "https://static.appdb.to/images/cydia-1900001084-iphone-0-1674953851.png",
-        "https://static.appdb.to/images/cydia-1900001084-iphone-1-1674953851.png",
-        "https://static.appdb.to/images/cydia-1900001084-iphone-2-1674953851.png",
-        "https://static.appdb.to/images/cydia-1900001084-iphone-3-1674953851.png"
-      ],
-      "size" : 4765285,
-      "version" : "0.4",
-      "bundleIdentifier" : "org.haxi0.santander",
-      "tintColor" : "596d8d",
-      "versionDate" : "2023-02-10",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Santander.MDC.v0.4.ipa",
-      "subtitle" : "A Modern File Manager MacDirtyCow Devices",
-      "iconURL" : "https://static.appdb.to/images/cydia-1900001066-icon-1673074358.png",
-      "developerName" : "haxi0",
-      "versionDescription" : "• Classic MDC overwrite is in the app, that means you can overwrite files in /System (hold a file to see a Replace action)\n\n• Respring action added.",
-      "name" : "Santander (MDC)",
-      "localizedDescription" : "A new, enhanced File Manager for iOS devices with the MDC exploit (IOS 14.0 - 16.1.2) for full file access.\n\nSantander aims to enhance the experience of a file manager on an iOS device, using modern and familiar UI alongside new APIs.\n\nNote: The project is still in beta, and there still quite a lot of bugs to fix & enhancements to make.",
-      "appPermissions" : {
-        "privacy" : {
-          "NSPhotoLibraryAddUsageDescription" : "To save the selected image to the camera roll.",
-          "NSAppleMusicUsageDescription" : "Full access to files on your device is required to apply modifications."
-        }
-      }
-    },
-    {
-      "beta" : true,
-      "versions" : [
-        {
           "localizedDescription" : "• Added PostBox v0.8.1",
           "minOSVersion" : "10.0",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/PostBox.v0.8.1.ipa",
@@ -382,9 +344,7 @@
       "versionDescription" : "• Fix kfd change being implemented incorrectly",
       "name" : "Taurine",
       "localizedDescription" : "Taurine is an iOS 14.0-14.8.1 jailbreak, utilizing Procursus and Libhooker.",
-      "appPermissions" : {
-
-      }
+      "appPermissions" : {}
     },
     {
       "beta" : false,
@@ -417,9 +377,7 @@
       "versionDescription" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
       "name" : "unc0ver",
       "localizedDescription" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
-      "appPermissions" : {
-
-      }
+      "appPermissions" : {}
     },
     {
       "beta" : false,
@@ -457,9 +415,7 @@
       "versionDescription" : "• Fix support for iOS 16.0.x [2.4 regression]\n• (See older update notes on official github page as this is only for 2.4.1)",
       "name" : "Dopamine",
       "localizedDescription" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
-      "appPermissions" : {
-
-      }
+      "appPermissions" : {}
     },
     {
       "beta" : false,
@@ -889,16 +845,6 @@
       "notify" : true,
       "appID" : "com.Alfie.TrollInstallerX",
       "title" : "TrollInstallerX Updated!"
-    },
-    {
-      "tintColor" : "596d8d",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/K83MXp4.png",
-      "identifier" : "santander-added",
-      "date" : "2023-05-21",
-      "caption" : "Santander, a new, enhanced File Manager for MDC devices has been added to the source! Click here for more info",
-      "notify" : false,
-      "appID" : "org.haxi0.santander",
-      "title" : "Santander (MDC) Added!"
     },
     {
       "tintColor" : "b3b3b3",
