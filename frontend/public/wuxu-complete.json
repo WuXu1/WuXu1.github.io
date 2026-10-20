@@ -498,6 +498,15 @@
       "beta" : false,
       "versions" : [
         {
+          "version" : "5.0.2",
+          "date" : "2026-10-20",
+          "localizedDescription" : "• ESign updated to v5.0.2",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/esign.v5.0.2.ipa",
+          "size" : 7522792,
+          "sha256" : "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+          "minOSVersion" : "11.0"
+        },
+        {
           "minOSVersion" : "11.0",
           "localizedDescription" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
@@ -545,16 +554,16 @@
         "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
         "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
       ],
-      "size" : 9174870,
-      "version" : "4.8.1",
+      "size" : 7522792,
+      "version" : "5.0.2",
       "bundleIdentifier" : "p3.xyz.yyyue.esign",
       "tintColor" : "356ead",
-      "versionDate" : "2023-03-19",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
+      "versionDate" : "2026-10-20",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/esign.v5.0.2.ipa",
       "subtitle" : "IPA Self Signer, Tweak Injector, File Manager",
       "iconURL" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
       "developerName" : "esign.yyyue.xyz",
-      "versionDescription" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
+      "versionDescription" : "• ESign updated to v5.0.2",
       "name" : "ESign",
       "localizedDescription" : "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
       "appPermissions" : {
@@ -741,6 +750,16 @@
   ],
   "news" : [
     {
+      "title" : "ESign Updated!",
+      "identifier" : "update-p3.xyz.yyyue.esign",
+      "caption" : "ESign updated to v5.0.2",
+      "date" : "2026-10-20",
+      "tintColor" : "356ead",
+      "notify" : true,
+      "appID" : "p3.xyz.yyyue.esign",
+      "imageURL" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png"
+    },
+    {
       "title" : "Cowabunga Updated!",
       "identifier" : "update-com.leemin.Cowabunga",
       "caption" : "Cowabunga updated to v10.3.2",
@@ -899,16 +918,6 @@
       "caption" : "Click here join the server. A place to talk about sideloading, make requests, get support and give feedback!",
       "notify" : true,
       "title" : "Join the Discord!"
-    },
-    {
-      "tintColor" : "356ead",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Nb9f2Zj.jpeg",
-      "identifier" : "esign-updated",
-      "date" : "2023-03-19",
-      "caption" : "ESign has been updated to the latest version, click here for more info.",
-      "notify" : true,
-      "appID" : "p3.xyz.yyyue.esign",
-      "title" : "ESign Updated!"
     },
     {
       "title" : "Welcome to WuXu's Library!",

@@ -683,14 +683,14 @@
       "appstore" : "p3.xyz.yyyue.esign",
       "bundleID" : "p3.xyz.yyyue.esign",
       "category" : "utilities",
-      "changelog" : "• ESign updated to v4.8.1\n• The list of installed applications supports filtering",
+      "changelog" : "• ESign updated to v5.0.2",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
       "dev" : "esign.yyyue.xyz",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v4.8.1.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/esign.v5.0.2.ipa",
       "icon" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
       "name" : "ESign",
       "screenshots" : [
@@ -699,7 +699,7 @@
         "https://static.appdb.to/images/cydia-1900000897-iphone-2-1670149927.png",
         "https://static.appdb.to/images/cydia-1900000897-iphone-3-1670149927.png"
       ],
-      "version" : "4.8.1"
+      "version" : "5.0.2"
     }
   ]
 }
