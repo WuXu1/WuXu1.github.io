@@ -3,6 +3,56 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "Messenger++ Updated!",
+      "identifier" : "update-com.facebook.Messenger",
+      "caption" : "Messenger updated to v584.0.0",
+      "date" : "2026-10-20",
+      "tintColor" : "c844c6",
+      "notify" : true,
+      "appID" : "com.facebook.Messenger",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/90/0d/05900d52-cace-057b-aa3a-3c08aa064c4c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title" : "SoundCloud++ Updated!",
+      "identifier" : "update-com.soundcloud.TouchApp",
+      "caption" : "SoundCloud updated to v8.83.0",
+      "date" : "2026-10-20",
+      "tintColor" : "0a0a0a",
+      "notify" : true,
+      "appID" : "com.soundcloud.TouchApp",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title" : "Instagram++ Updated!",
+      "identifier" : "update-com.burbn.instagram",
+      "caption" : "Instagram updated to v448.0.0",
+      "date" : "2026-10-20",
+      "tintColor" : "d111c9",
+      "notify" : false,
+      "appID" : "com.burbn.instagram",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/be/de/4cbedeca-02d7-e15c-9e14-b0ac165eeb5a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title" : "TikTok++ Updated!",
+      "identifier" : "update-com.zhiliaoapp.musically",
+      "caption" : "TikTok updated to v47.4.0",
+      "date" : "2026-10-20",
+      "tintColor" : "0b0b0b",
+      "notify" : false,
+      "appID" : "com.zhiliaoapp.musically",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title" : "Facebook++ Updated!",
+      "identifier" : "update-com.facebook.Facebook",
+      "caption" : "Facebook updated to v584.0.0",
+      "date" : "2026-10-20",
+      "tintColor" : "0c63f9",
+      "notify" : true,
+      "appID" : "com.facebook.Facebook",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
       "caption" : "YouTube updated to v21.41.5",
@@ -21,16 +71,6 @@
       "title" : "Duolingo++ Updated!",
       "date" : "2026-08-07",
       "identifier" : "duolingo-added"
-    },
-    {
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/Vh2sSPk.jpeg",
-      "notify" : true,
-      "appID" : "com.facebook.Facebook",
-      "caption" : "Facebook++ has been updated to the latest version, click here for more info",
-      "tintColor" : "153267",
-      "title" : "Facebook++ Updated!",
-      "date" : "2026-08-07",
-      "identifier" : "facebook-updated"
     },
     {
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/NvxAusn.jpeg",
@@ -53,16 +93,6 @@
       "identifier" : "myfitnesspal-updated"
     },
     {
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5pl1dGh.jpeg",
-      "notify" : true,
-      "appID" : "com.soundcloud.TouchApp",
-      "caption" : "SoundCloud++ has been updated to the latest version! Click here for more info",
-      "tintColor" : "131313",
-      "title" : "SoundCloud++ Updated!",
-      "date" : "2026-08-06",
-      "identifier" : "soundcloud-updated"
-    },
-    {
       "tintColor" : "0f0f0f",
       "identifier" : "x-updated",
       "title" : "X++ Updated!",
@@ -74,26 +104,6 @@
     },
     {
       "tintColor" : "131313",
-      "identifier" : "tiktok-updated",
-      "title" : "TikTok++ Updated!",
-      "date" : "2025-03-04",
-      "notify" : false,
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/xFBKw7B.jpeg",
-      "appID" : "com.zhiliaoapp.musically",
-      "caption" : "TikTok++ has been updated with a new tweak! Click here for more info"
-    },
-    {
-      "tintColor" : "5c1859",
-      "identifier" : "instagram-updated",
-      "title" : "Instagram++ Updated!",
-      "date" : "2025-03-04",
-      "notify" : false,
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/b6ifsl3.jpeg",
-      "appID" : "com.burbn.instagram",
-      "caption" : "Instagram has been updated with a new tweak! Click here for more info"
-    },
-    {
-      "tintColor" : "131313",
       "identifier" : "bereal-updated",
       "title" : "BeReal++ Updated!",
       "date" : "2024-10-09",
@@ -101,16 +111,6 @@
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/YuwXfHb.jpeg",
       "appID" : "AlexisBarreyat.BeReal",
       "caption" : "BeReal++ has been updated to the latest version, click here for more info"
-    },
-    {
-      "title" : "Messenger++ Added!",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/FAl2VYQ.jpeg",
-      "caption" : "Messenger injected with Shark has been added to the source, click here for more info",
-      "tintColor" : "532552",
-      "notify" : true,
-      "appID" : "com.facebook.Messenger",
-      "date" : "2023-10-23",
-      "identifier" : "messenger-added"
     },
     {
       "title" : "Deezer++ Added!",
@@ -207,8 +207,8 @@
     },
     {
       "category" : "Social",
-      "version" : "533.0.0",
-      "size" : 163114417,
+      "version" : "584.0.0",
+      "size" : 239358167,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -225,8 +225,8 @@
       "bundleIdentifier" : "com.facebook.Facebook",
       "subtitle" : "Facebook with a number of new features!",
       "beta" : false,
-      "versionDescription" : "• Facebook++ updated to v\n• Replaced Tweak (Glow v1.3.1)",
-      "versionDate" : "2025-10-04",
+      "versionDescription" : "• Facebook updated to v584.0.0",
+      "versionDate" : "2026-10-19",
       "appPermissions" : {
         "privacy" : {
           "NSPhotoLibraryAddUsageDescription" : "Facebook uses access to your photos to do things like help you save images to your device, share and apply visual effects to your photos and videos, and to suggest photos and videos to share.",
@@ -253,8 +253,16 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v1.3.1.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.0.0.iQFace.ipa",
       "versions" : [
+        {
+          "version" : "584.0.0",
+          "date" : "2026-10-19",
+          "localizedDescription" : "• Facebook updated to v584.0.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.0.0.iQFace.ipa",
+          "size" : 239358167,
+          "sha256" : "cbe3b7571e3150d3026c218eddda97c07316356fe3c109af39cd4787d2efe326"
+        },
         {
           "version" : "1.3.1",
           "date" : "2025-10-04",
@@ -296,8 +304,8 @@
     },
     {
       "category" : "Social",
-      "version" : "38.7.0",
-      "size" : 368930504,
+      "version" : "47.4.0",
+      "size" : 504394824,
       "tintColor" : "0b0b0b",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/a1/6a/6ca16a58-1937-7122-e65b-2d901f84fdbb/oEEEv6yBAvIC3s9IGZ1A83wu5TAjAsxiAjLig.png/392x696bb.png",
@@ -311,8 +319,8 @@
       "bundleIdentifier" : "com.zhiliaoapp.musically",
       "subtitle" : "TikTok with added features.",
       "beta" : false,
-      "versionDescription" : "• Updated TikTok to v38.7.0\n• Replaced BHTikTok with AC",
-      "versionDate" : "2025-03-04",
+      "versionDescription" : "• TikTok updated to v47.4.0",
+      "versionDate" : "2026-10-19",
       "appPermissions" : {
         "privacy" : {
           "NSLocalNetworkUsageDescription" : "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
@@ -333,8 +341,16 @@
       "developerName" : "aJBbo",
       "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "name" : "TikTok++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.4.0.Infinitok.ipa",
       "versions" : [
+        {
+          "version" : "47.4.0",
+          "date" : "2026-10-19",
+          "localizedDescription" : "• TikTok updated to v47.4.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.4.0.Infinitok.ipa",
+          "size" : 504394824,
+          "sha256" : "d9b5f1e50f6cb46b2a55508ee8e66ba121e05abdc6332514358c645d6d0a084e"
+        },
         {
           "version" : "38.7.0",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v38.7.0.+.AC.v2.0.ipa",
@@ -354,8 +370,8 @@
     },
     {
       "category" : "Social",
-      "version" : "356.1.0",
-      "size" : 159022956,
+      "version" : "448.0.0",
+      "size" : 320779297,
       "tintColor" : "d111c9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/59/47/3b5947df-d8d9-604f-ea09-fd0fb15c15f2/1_iOS_5.5.jpg/392x696bb.jpg",
@@ -369,8 +385,8 @@
       "bundleIdentifier" : "com.burbn.instagram",
       "subtitle" : "A must-have tweak for Instagram users!",
       "beta" : false,
-      "versionDescription" : "• Updated Instagram to v320.0.4",
-      "versionDate" : "2025-03-04",
+      "versionDescription" : "• Instagram updated to v448.0.0",
+      "versionDate" : "2026-10-01",
       "appPermissions" : {
         "privacy" : {
           "NSFocusStatusUsageDescription" : "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
@@ -392,8 +408,16 @@
       "developerName" : "Fouad Raheb",
       "localizedDescription" : "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
       "name" : "Instagram++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/com.burbn.instagram.v448.0.0.regram.6.3.sl.patched.ipa",
       "versions" : [
+        {
+          "version" : "448.0.0",
+          "date" : "2026-10-01",
+          "localizedDescription" : "• Instagram updated to v448.0.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/com.burbn.instagram.v448.0.0.regram.6.3.sl.patched.ipa",
+          "size" : 320779297,
+          "sha256" : "bbf0b827464b4d61504692eb56bde4ca26d957e938de3f44c86de317cdf53cbd"
+        },
         {
           "version" : "356.1.0",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v356.1.0.+.Regram.B15.Cracked.ipa",
@@ -630,6 +654,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "8.83.0",
+          "date" : "2026-10-19",
+          "localizedDescription" : "• SoundCloud updated to v8.83.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.0.NexaSC.ipa",
+          "size" : 227377895,
+          "sha256" : "372650e63febf9bd7f5ddf20b7cd7a74d9e038074bcb0fd5928095dd2b21cbb2"
+        },
+        {
           "date" : "2026-07-28",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
           "localizedDescription" : "• SoundCloud++ updated to v8.71.0\n• Replaced Tweak",
@@ -661,11 +693,11 @@
         }
       ],
       "localizedDescription" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
-      "size" : 117581520,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud++.v8.71.0.ipa",
-      "versionDate" : "2026-07-28",
+      "size" : 227377895,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.0.NexaSC.ipa",
+      "versionDate" : "2026-10-19",
       "beta" : false,
-      "versionDescription" : "• SoundCloud++ updated to v8.71.0\n• Replaced Tweak",
+      "versionDescription" : "• SoundCloud updated to v8.83.0",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -705,7 +737,7 @@
       "subtitle" : "SoundCloud with no ads! Read Description.",
       "tintColor" : "0a0a0a",
       "bundleIdentifier" : "com.soundcloud.TouchApp",
-      "version" : "8.71.0"
+      "version" : "8.83.0"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
@@ -999,6 +1031,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/90/0d/05900d52-cace-057b-aa3a-3c08aa064c4c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "584.0.0",
+          "date" : "2026-10-17",
+          "localizedDescription" : "• Messenger updated to v584.0.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v584.0.0.Flow.ipa",
+          "size" : 125027873,
+          "sha256" : "c4e97e93781e2fc6abbfa415d9d8610ab17c13bd403df816626ee3b3e184404c"
+        },
+        {
           "version" : "390.0",
           "localizedDescription" : "• Added Messenger v390.0 (Current working version with crack)",
           "size" : 42500000,
@@ -1008,11 +1048,11 @@
         }
       ],
       "localizedDescription" : "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
-      "size" : 44596633,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v390.0.+.Shark.v2.2.1.ipa",
-      "versionDate" : "2023-10-23",
+      "size" : 125027873,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v584.0.0.Flow.ipa",
+      "versionDate" : "2026-10-17",
       "beta" : false,
-      "versionDescription" : "• Added Messenger v390.0 (Current working version with crack)",
+      "versionDescription" : "• Messenger updated to v584.0.0",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1063,7 +1103,7 @@
       "subtitle" : "The ultimate Facebook Messenger tweak!",
       "tintColor" : "c844c6",
       "bundleIdentifier" : "com.facebook.Messenger",
-      "version" : "390.0"
+      "version" : "584.0.0"
     }
   ],
   "featuredApps" : [
