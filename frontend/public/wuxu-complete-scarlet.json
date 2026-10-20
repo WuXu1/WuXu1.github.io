@@ -5,25 +5,6 @@
   },
   "Entertainment" : [
     {
-      "appstore" : "com.box.hd.flix.drama.hub",
-      "bundleID" : "com.box.hd.flix.drama.hub",
-      "category" : "Entertainment",
-      "changelog" : "• Updated HD Flix to v2.0",
-      "contact" : {
-        "discord" : "https://bit.ly/wuxuslibrary-discord",
-        "web" : "https://bit.ly/wuxus-sources"
-      },
-      "description" : "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
-      "dev" : "Dezokr",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-      "icon" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
-      "name" : "HD Flix (No Ads)",
-      "screenshots" : [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
-      ],
-      "version" : "2.0"
-    },
-    {
       "appstore" : "com.deezer.Deezer",
       "bundleID" : "com.deezer.Deezer",
       "category" : "Entertainment",

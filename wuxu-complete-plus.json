@@ -63,16 +63,6 @@
       "identifier" : "soundcloud-updated"
     },
     {
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/uRO0Hiu.jpeg",
-      "notify" : true,
-      "appID" : "com.box.hd.flix.drama.hub",
-      "caption" : "HD Flix, An all-in-one movie app, has been updated and fixed! Click here for more info",
-      "tintColor" : "16181e",
-      "title" : "HD Flix Updated!",
-      "date" : "2025-03-10",
-      "identifier" : "hdflix-updated"
-    },
-    {
       "tintColor" : "0f0f0f",
       "identifier" : "x-updated",
       "title" : "X++ Updated!",
@@ -134,52 +124,6 @@
     }
   ],
   "apps" : [
-    {
-      "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3tQFB9N.png",
-      "size" : 14664935,
-      "category" : "Entertainment",
-      "beta" : false,
-      "versionDescription" : "• Updated HD Flix to v2.0",
-      "developerName" : "Dezokr",
-      "localizedDescription" : "WHEN YOU FIRST OPEN THE APP IT WILL LOOK LIKE A DIFFERENT APP JUST WAIT AND IT WILL CHANGE TO THE MOVIE APP\n\nWith HD Flix for iOS you can able to watch any movie/tv show. The User Interface that you see in the app is truly the best thing about it. Easy navigation and responsive design made it stand at the top of the list.\n\nIt will display all the trending content from Action, Comedy, Sci-Fi and other genres at the home page for the best user experience. Moreover, you will get to read the complete information about any particular movie including IMDB Rating, Year Of Release, Start Cast, etc.",
-      "subtitle" : "The All-In-One Movie app for iOS",
-      "bundleIdentifier" : "com.box.hd.flix.drama.hub",
-      "versions" : [
-        {
-          "minOSVersion" : "10.0",
-          "localizedDescription" : "• Updated HD Flix",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-          "date" : "2025-03-10",
-          "version" : "2.0",
-          "size" : 2800000
-        },
-        {
-          "localizedDescription" : "• Added HD Flix v5.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.v5.0.ipa",
-          "date" : "2024-05-11",
-          "version" : "1.0",
-          "size" : 2940000
-        }
-      ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/HD.Flix.No.Ads.v2.0.ipa",
-      "tintColor" : "a01916",
-      "version" : "2.0",
-      "screenshotURLs" : [
-        "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/MKWusvU.png"
-      ],
-      "appPermissions" : {
-        "privacy" : {
-          "NSCameraUsageDescription" : "Take photos and record videos directly within HD Flix",
-          "NSSpeechRecognitionUsageDescription" : "The application needs access to speech recognition to convert your voice to title of the journey.",
-          "NSLocationWhenInUseUsageDescription" : "Find location-based content and local streaming options on HD Flix",
-          "NSUserTrackingUsageDescription" : "This identifier will be used to deliver personalized ads to you.",
-          "NSPhotoLibraryUsageDescription" : "The application needs access to the photo library to create the journey.",
-          "NSMicrophoneUsageDescription" : "The application needs access to the microphone to recognize your voice to convert voice to title of the journey."
-        }
-      },
-      "name" : "HD Flix (No Ads)",
-      "versionDate" : "2025-03-10"
-    },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "size" : 148914909,
@@ -1126,7 +1070,6 @@
     "com.spotify.client",
     "com.burbn.instagram",
     "com.google.ios.youtube",
-    "com.box.hd.flix.drama.hub",
     "com.duolingo.DuolingoMobile"
   ],
   "identifier" : "com.wuxulibs.wuxuslibraryplus",
