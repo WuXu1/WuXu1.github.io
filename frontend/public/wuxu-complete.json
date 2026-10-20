@@ -872,16 +872,6 @@
       "title" : "emuThreeDS Added!"
     },
     {
-      "tintColor" : "047a9a",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/zMIbbji.jpeg",
-      "identifier" : "filza-mdc-added",
-      "date" : "2023-05-14",
-      "caption" : "Filza for MacDirtyCow devices has been added to the source! Click here for more info",
-      "notify" : false,
-      "appID" : "com.tigisoftware.Filza",
-      "title" : "Filza (MDC) Added!"
-    },
-    {
       "tintColor" : "8d2229",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/feGeBg8.jpeg",
       "identifier" : "scarlet-added",
