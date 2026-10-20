@@ -594,14 +594,14 @@
       "appstore" : "science.xnu.undecimus",
       "bundleID" : "science.xnu.undecimus",
       "category" : "utilities",
-      "changelog" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
+      "changelog" : "• unc0ver updated to v8.1.0",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
       "dev" : "Pwn20wnd",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/unc0ver.Release.v8.1.0.ipa",
       "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
       "name" : "unc0ver",
       "screenshots" : [
@@ -610,7 +610,7 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
       ],
-      "version" : "8.0.2"
+      "version" : "8.1.0"
     },
     {
       "appstore" : "com.opa334.Dopamine",

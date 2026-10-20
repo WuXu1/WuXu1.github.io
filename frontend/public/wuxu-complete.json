@@ -304,6 +304,15 @@
       "beta" : false,
       "versions" : [
         {
+          "version" : "8.1.0",
+          "date" : "2026-10-20",
+          "localizedDescription" : "• unc0ver updated to v8.1.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/unc0ver.Release.v8.1.0.ipa",
+          "size" : 54475719,
+          "sha256" : "c7c68d0b74de3b91633f63f39f140f41bb1c5f28bef475d6066ee5af380ea649",
+          "minOSVersion" : "11.0"
+        },
+        {
           "minOSVersion" : "11.0",
           "localizedDescription" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
@@ -319,16 +328,16 @@
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/3TMGkaO.png",
         "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/gTYfncm.png"
       ],
-      "size" : 54489484,
-      "version" : "8.0.2",
+      "size" : 54475719,
+      "version" : "8.1.0",
       "bundleIdentifier" : "science.xnu.undecimus",
       "tintColor" : "515151",
-      "versionDate" : "2021-12-29",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.0.2.ipa",
+      "versionDate" : "2026-10-20",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/unc0ver.Release.v8.1.0.ipa",
       "subtitle" : "The most advanced jailbreak tool.",
       "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
       "developerName" : "Pwn20wnd",
-      "versionDescription" : "• Added exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\n• Fixed exploit reliability on iPhone XS devices running iOS 14.6-14.8",
+      "versionDescription" : "• unc0ver updated to v8.1.0",
       "name" : "unc0ver",
       "localizedDescription" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
       "appPermissions" : {}
@@ -750,6 +759,16 @@
   ],
   "news" : [
     {
+      "title" : "unc0ver Updated!",
+      "identifier" : "update-science.xnu.undecimus",
+      "caption" : "unc0ver updated to v8.1.0",
+      "date" : "2026-10-20",
+      "tintColor" : "515151",
+      "notify" : false,
+      "appID" : "science.xnu.undecimus",
+      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png"
+    },
+    {
       "title" : "ESign Updated!",
       "identifier" : "update-p3.xyz.yyyue.esign",
       "caption" : "ESign updated to v5.0.2",
@@ -898,16 +917,6 @@
       "notify" : false,
       "appID" : "org.coolstar.odyssey",
       "title" : "Odyssey Added!"
-    },
-    {
-      "tintColor" : "515151",
-      "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/ai6QSbt.jpeg",
-      "identifier" : "unc0ver-added",
-      "date" : "2023-04-04",
-      "caption" : "The unc0ver jailbreaking tool has been added to the source! ",
-      "notify" : false,
-      "appID" : "science.xnu.undecimus",
-      "title" : "Unc0ver Added!"
     },
     {
       "tintColor" : "5865f2",
