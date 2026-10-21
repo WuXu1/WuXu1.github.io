@@ -5,8 +5,8 @@
     {
       "title" : "X++ Updated!",
       "identifier" : "update-com.atebits.Tweetie2",
-      "caption" : "X updated to v12.35",
-      "date" : "2026-10-20",
+      "caption" : "X updated to v12.36",
+      "date" : "2026-10-21",
       "tintColor" : "030303",
       "notify" : true,
       "appID" : "com.atebits.Tweetie2",
@@ -126,15 +126,23 @@
   "apps" : [
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 266435836,
+      "size" : 270082729,
       "category" : "Social",
       "beta" : false,
-      "versionDescription" : "• X updated to v12.35\n• NFB updated to v7.2.0",
+      "versionDescription" : "• X updated to v12.36",
       "developerName" : "Densor",
       "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle" : "An new tweak for X!",
       "bundleIdentifier" : "com.atebits.Tweetie2",
       "versions" : [
+        {
+          "version" : "12.36",
+          "date" : "2026-10-21",
+          "localizedDescription" : "• X updated to v12.36",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.36.+.NFB.v7.2.0.ipa",
+          "size" : 270082729,
+          "sha256" : "3d1996d0b50149187d5fcfb727dcbe059bfaee93e260a68de9fb0f5ba43edb07"
+        },
         {
           "version" : "12.35",
           "date" : "2026-10-16",
@@ -180,9 +188,9 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.35.+.NFB.v7.2.0.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.36.+.NFB.v7.2.0.ipa",
       "tintColor" : "030303",
-      "version" : "12.35",
+      "version" : "12.36",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -194,6 +202,26 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/df/00/79df00e8-bdab-aa97-914e-56b94a4c0a0b/1242x2688-8.jpg/320x480bb.jpg"
       ],
       "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.networking.carrier-constrained.app-optimized",
+          "com.apple.developer.networking.carrier-constrained.appcategory",
+          "com.apple.developer.pass-type-identifiers",
+          "com.apple.developer.payment-pass-provisioning",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy" : {
           "NSCalendarsUsageDescription" : "Add events to your calendar from X.",
           "NSCameraUsageDescription" : "Capture and post photos and videos from X.",
@@ -209,7 +237,7 @@
         }
       },
       "name" : "X++",
-      "versionDate" : "2026-10-16"
+      "versionDate" : "2026-10-21"
     },
     {
       "category" : "Social",
