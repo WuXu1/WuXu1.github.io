@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "YouTube++ Updated!",
+      "identifier" : "update-com.google.ios.youtube",
+      "caption" : "YouTube updated to v21.42.4",
+      "date" : "2026-10-22",
+      "tintColor" : "f90505",
+      "notify" : false,
+      "appID" : "com.google.ios.youtube",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "X++ Updated!",
       "identifier" : "update-com.atebits.Tweetie2",
       "caption" : "X updated to v12.36",
@@ -61,16 +71,6 @@
       "notify" : true,
       "appID" : "com.facebook.Facebook",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "YouTube++ Updated!",
-      "identifier" : "update-com.google.ios.youtube",
-      "caption" : "YouTube updated to v21.41.5",
-      "date" : "2026-10-14",
-      "tintColor" : "f90505",
-      "notify" : false,
-      "appID" : "com.google.ios.youtube",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
@@ -952,6 +952,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "21.42.4",
+          "date" : "2026-10-22",
+          "localizedDescription" : "• YouTube updated to v21.42.4",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.42.4.+.YTPlus.v6.0b2.ipa",
+          "size" : 156074761,
+          "sha256" : "6c809815d46b88929681f163169244088897f6f7f111470f2523823060a4a050"
+        },
+        {
           "version" : "21.41.5",
           "date" : "2026-10-11",
           "localizedDescription" : "• YouTube updated to v21.41.5\n• YTPlus updated to v6.0b2",
@@ -997,11 +1005,11 @@
         }
       ],
       "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size" : 159411487,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.41.5.+.YTPlus.v6.0b2.ipa",
-      "versionDate" : "2026-10-11",
+      "size" : 156074761,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.42.4.+.YTPlus.v6.0b2.ipa",
+      "versionDate" : "2026-10-22",
       "beta" : false,
-      "versionDescription" : "• YouTube updated to v21.41.5\n• YTPlus updated to v6.0b2",
+      "versionDescription" : "• YouTube updated to v21.42.4",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1045,7 +1053,7 @@
       "subtitle" : "The All-In-One Tweak for YouTube.",
       "tintColor" : "f90505",
       "bundleIdentifier" : "com.google.ios.youtube",
-      "version" : "21.41.5"
+      "version" : "21.42.4"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",

@@ -87,14 +87,14 @@
       "appstore" : "com.google.ios.youtube",
       "bundleID" : "com.google.ios.youtube",
       "category" : "Entertainment",
-      "changelog" : "• YouTube updated to v21.41.5\n• YTPlus updated to v6.0b2",
+      "changelog" : "• YouTube updated to v21.42.4",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
       "dev" : "Dayanch96",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.41.5.+.YTPlus.v6.0b2.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.42.4.+.YTPlus.v6.0b2.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "YouTube++",
       "screenshots" : [
@@ -104,7 +104,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/60/bd/af60bd87-4c94-1f9c-2af5-099ca41c2eba/45519fca-0e0b-466e-9ed6-9a43232a0bf8_iOS-5.5-in_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/93/ac/cc93ac38-9f1f-364b-2127-a53f30a735e2/bace9abd-71f3-4700-8adf-cedcba275a67_iOS-5.5-in_5.jpg/392x696bb.jpg"
       ],
-      "version" : "21.41.5"
+      "version" : "21.42.4"
     }
   ],
   "Games" : [
