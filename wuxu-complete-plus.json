@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "Facebook++ Updated!",
+      "identifier" : "update-com.facebook.Facebook",
+      "caption" : "Facebook updated to v584.1.0",
+      "date" : "2026-10-23",
+      "tintColor" : "0c63f9",
+      "notify" : true,
+      "appID" : "com.facebook.Facebook",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
       "caption" : "YouTube updated to v21.42.4",
@@ -61,16 +71,6 @@
       "notify" : false,
       "appID" : "com.zhiliaoapp.musically",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "Facebook++ Updated!",
-      "identifier" : "update-com.facebook.Facebook",
-      "caption" : "Facebook updated to v584.0.0",
-      "date" : "2026-10-20",
-      "tintColor" : "0c63f9",
-      "notify" : true,
-      "appID" : "com.facebook.Facebook",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
     },
     {
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
@@ -241,8 +241,8 @@
     },
     {
       "category" : "Social",
-      "version" : "584.0.0",
-      "size" : 239358167,
+      "version" : "584.1.0",
+      "size" : 241651824,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -259,9 +259,36 @@
       "bundleIdentifier" : "com.facebook.Facebook",
       "subtitle" : "Facebook with a number of new features!",
       "beta" : false,
-      "versionDescription" : "• Facebook updated to v584.0.0",
-      "versionDate" : "2026-10-19",
+      "versionDescription" : "• Facebook updated to v584.1.0",
+      "versionDate" : "2026-10-23",
       "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.accounts.facebook.defaultaccess",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.in-app-payments",
+          "com.apple.developer.in-app-payments-delegate",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.nfc.readersession.formats",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy" : {
           "NSAppleMusicUsageDescription" : "Facebook uses access to your media library to do things like help you play music and other audio from your device, and to save audio to your device.",
           "NSBluetoothAlwaysUsageDescription" : "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
@@ -287,8 +314,16 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.0.0.iQFace.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.1.0.iQFace.ipa",
       "versions" : [
+        {
+          "version" : "584.1.0",
+          "date" : "2026-10-23",
+          "localizedDescription" : "• Facebook updated to v584.1.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.1.0.iQFace.ipa",
+          "size" : 241651824,
+          "sha256" : "c7276e0199ed030eb344848bb2c25f71c1fe65d77703441db371bd1a250f7b61"
+        },
         {
           "version" : "584.0.0",
           "date" : "2026-10-19",
