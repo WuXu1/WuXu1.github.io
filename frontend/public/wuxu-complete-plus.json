@@ -8,8 +8,9 @@
       "caption" : "SceneBox has been added to the source! Click here for more info",
       "date" : "2026-10-24",
       "tintColor" : "d81a14",
-      "notify" : false,
-      "appID" : "app.scenebox.SceneBox"
+      "notify" : true,
+      "appID" : "app.scenebox.SceneBox",
+      "imageURL" : "https://i.pinimg.com/736x/3c/f6/56/3cf656908a2481110485bac3bf1297d9.jpg"
     },
     {
       "title" : "X++ Updated!",
@@ -1282,22 +1283,25 @@
       "bundleIdentifier" : "app.scenebox.SceneBox",
       "developerName" : "",
       "subtitle" : "",
-      "localizedDescription" : "",
-      "iconURL" : "",
-      "tintColor" : "d81a14",
-      "category" : "Utilities",
+      "localizedDescription" : "SceneBox is a media player and BitTorrent/HTTP client. It does not provide, host, index, upload, store, or distribute any media content, and it has no affiliation with any content source.\n\n- All catalog metadata, stream listings, and media files come from third-party services and peers that users configure or connect to. These services are independent of SceneBox, are not operated, controlled, endorsed, or reviewed by its author, and may be changed or removed at any time.\n- Users are solely responsible for the content they choose to access, for ensuring they have the legal right to do so, and for complying with the copyright and other laws of their jurisdiction. The author does not encourage, condone, or accept responsibility for any infringing use.\n- The software is provided \"as is\", without warranty of any kind, for personal and lawful use only. See LICENSE.\nIf you are a rights holder and believe a third-party source accessible through this software infringes your rights, please contact that source directly, as the author has no control over it.\n\nSources come from Stremio-compatible addons. Streams play through a vendored libtorrent engine and a local HTTP server feeding VLC; debrid-cached releases play directly over HTTPS.",
+      "iconURL" : "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/SceneBox/icon.png",
+      "tintColor" : "8e8a1a",
+      "category" : "Entertainment",
       "beta" : false,
-      "screenshotURLs" : [],
+      "screenshotURLs" : [
+        "https://onejailbreak.com/site/assets/files/3996/scenebox-2.414x0-is.webp",
+        "https://onejailbreak.com/site/assets/files/3996/scenebox-4.414x0-is.webp"
+      ],
       "version" : "1.0.4",
       "versionDate" : "2026-10-24",
-      "versionDescription" : "Initial addition.",
+      "versionDescription" : "Added v1.0.4",
       "size" : 30593765,
       "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SceneBox.v1.0.4.ipa",
       "versions" : [
         {
           "version" : "1.0.4",
           "date" : "2026-10-24",
-          "localizedDescription" : "Initial addition.",
+          "localizedDescription" : "Added v1.0.4",
           "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SceneBox.v1.0.4.ipa",
           "size" : 30593765,
           "sha256" : "d8b57f581a9428815bf28c50b8cdbee82a584831b927963983797f29cad15a5e",
