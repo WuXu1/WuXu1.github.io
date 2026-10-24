@@ -479,6 +479,23 @@
       "name" : "LiveContainer",
       "screenshots" : [],
       "version" : "3.8.0"
+    },
+    {
+      "appstore" : "app.scenebox.SceneBox",
+      "bundleID" : "app.scenebox.SceneBox",
+      "category" : "Utilities",
+      "changelog" : "Initial addition.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "",
+      "dev" : "",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SceneBox.v1.0.4.ipa",
+      "icon" : "",
+      "name" : "SceneBox",
+      "screenshots" : [],
+      "version" : "1.0.4"
     }
   ],
   "utilities" : [

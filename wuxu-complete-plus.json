@@ -3,6 +3,15 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "SceneBox Added!",
+      "identifier" : "scenebox-added",
+      "caption" : "SceneBox has been added to the source! Click here for more info",
+      "date" : "2026-10-24",
+      "tintColor" : "d81a14",
+      "notify" : false,
+      "appID" : "app.scenebox.SceneBox"
+    },
+    {
       "title" : "X++ Updated!",
       "identifier" : "update-com.atebits.Tweetie2",
       "caption" : "X updated to v12.37",
@@ -1267,6 +1276,39 @@
       "tintColor" : "c844c6",
       "bundleIdentifier" : "com.facebook.Messenger",
       "version" : "584.0.0"
+    },
+    {
+      "name" : "SceneBox",
+      "bundleIdentifier" : "app.scenebox.SceneBox",
+      "developerName" : "",
+      "subtitle" : "",
+      "localizedDescription" : "",
+      "iconURL" : "",
+      "tintColor" : "d81a14",
+      "category" : "Utilities",
+      "beta" : false,
+      "screenshotURLs" : [],
+      "version" : "1.0.4",
+      "versionDate" : "2026-10-24",
+      "versionDescription" : "Initial addition.",
+      "size" : 30593765,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SceneBox.v1.0.4.ipa",
+      "versions" : [
+        {
+          "version" : "1.0.4",
+          "date" : "2026-10-24",
+          "localizedDescription" : "Initial addition.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SceneBox.v1.0.4.ipa",
+          "size" : 30593765,
+          "sha256" : "d8b57f581a9428815bf28c50b8cdbee82a584831b927963983797f29cad15a5e",
+          "minOSVersion" : "18.0"
+        }
+      ],
+      "appPermissions" : {
+        "privacy" : {
+          "NSLocalNetworkUsageDescription" : "SceneBox connects directly to peers over your local network and the internet to stream and download."
+        }
+      }
     }
   ],
   "featuredApps" : [
