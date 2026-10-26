@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "SoundCloud++ Updated!",
+      "identifier" : "update-com.soundcloud.TouchApp",
+      "caption" : "SoundCloud updated to v8.83.1",
+      "date" : "2026-10-26",
+      "tintColor" : "0a0a0a",
+      "notify" : true,
+      "appID" : "com.soundcloud.TouchApp",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "SceneBox Added!",
       "identifier" : "scenebox-added",
       "caption" : "SceneBox has been added to the source! Click here for more info",
@@ -51,16 +61,6 @@
       "notify" : true,
       "appID" : "com.facebook.Messenger",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/90/0d/05900d52-cace-057b-aa3a-3c08aa064c4c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "SoundCloud++ Updated!",
-      "identifier" : "update-com.soundcloud.TouchApp",
-      "caption" : "SoundCloud updated to v8.83.0",
-      "date" : "2026-10-20",
-      "tintColor" : "0a0a0a",
-      "notify" : true,
-      "appID" : "com.soundcloud.TouchApp",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "Instagram++ Updated!",
@@ -800,6 +800,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "8.83.1",
+          "date" : "2026-10-25",
+          "localizedDescription" : "• SoundCloud updated to v8.83.1",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.1.NexaSC.ipa",
+          "size" : 227742189,
+          "sha256" : "f2f986efc8ee5e32127378852cb6f429084e71b344cafadff9ce0d2348e47054"
+        },
+        {
           "version" : "8.83.0",
           "date" : "2026-10-19",
           "localizedDescription" : "• SoundCloud updated to v8.83.0",
@@ -839,11 +847,11 @@
         }
       ],
       "localizedDescription" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
-      "size" : 227377895,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.0.NexaSC.ipa",
-      "versionDate" : "2026-10-19",
+      "size" : 227742189,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.1.NexaSC.ipa",
+      "versionDate" : "2026-10-25",
       "beta" : false,
-      "versionDescription" : "• SoundCloud updated to v8.83.0",
+      "versionDescription" : "• SoundCloud updated to v8.83.1",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -883,7 +891,7 @@
       "subtitle" : "SoundCloud with no ads! Read Description.",
       "tintColor" : "0a0a0a",
       "bundleIdentifier" : "com.soundcloud.TouchApp",
-      "version" : "8.83.0"
+      "version" : "8.83.1"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
