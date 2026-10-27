@@ -385,14 +385,14 @@
       "appstore" : "com.zhiliaoapp.musically",
       "bundleID" : "com.zhiliaoapp.musically",
       "category" : "Social",
-      "changelog" : "• TikTok updated to v47.4.0",
+      "changelog" : "• TikTok updated to v47.5.0\n• RXTikTok updated to v2.0.4",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "dev" : "aJBbo",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.4.0.Infinitok.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.RXTikTok.2.0.4.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "TikTok++",
       "screenshots" : [
@@ -404,7 +404,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/ea/c0/bceac0a7-89bb-7aac-eeec-4ee64625ce47/4e4d8986-3144-4362-a170-18cb3bab6dd6_Hocky_iOS_2208.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/77/bd/2177bd1d-f668-33ec-0c40-dd2d15e1ff1a/1c75c2b6-1845-4523-b90b-01b54f039b78_Pet_iOS_2208.png/392x696bb.png"
       ],
-      "version" : "47.4.0"
+      "version" : "47.5.0"
     },
     {
       "appstore" : "com.burbn.instagram",

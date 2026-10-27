@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "TikTok++ Updated!",
+      "identifier" : "update-com.zhiliaoapp.musically",
+      "caption" : "TikTok updated to v47.5.0",
+      "date" : "2026-10-27",
+      "tintColor" : "0b0b0b",
+      "notify" : false,
+      "appID" : "com.zhiliaoapp.musically",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "SoundCloud++ Updated!",
       "identifier" : "update-com.soundcloud.TouchApp",
       "caption" : "SoundCloud updated to v8.83.1",
@@ -71,16 +81,6 @@
       "notify" : false,
       "appID" : "com.burbn.instagram",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/be/de/4cbedeca-02d7-e15c-9e14-b0ac165eeb5a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "TikTok++ Updated!",
-      "identifier" : "update-com.zhiliaoapp.musically",
-      "caption" : "TikTok updated to v47.4.0",
-      "date" : "2026-10-20",
-      "tintColor" : "0b0b0b",
-      "notify" : false,
-      "appID" : "com.zhiliaoapp.musically",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/icxcPrT.jpeg",
@@ -391,8 +391,8 @@
     },
     {
       "category" : "Social",
-      "version" : "47.4.0",
-      "size" : 504394824,
+      "version" : "47.5.0",
+      "size" : 531863321,
       "tintColor" : "0b0b0b",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/a1/6a/6ca16a58-1937-7122-e65b-2d901f84fdbb/oEEEv6yBAvIC3s9IGZ1A83wu5TAjAsxiAjLig.png/392x696bb.png",
@@ -406,8 +406,8 @@
       "bundleIdentifier" : "com.zhiliaoapp.musically",
       "subtitle" : "TikTok with added features.",
       "beta" : false,
-      "versionDescription" : "• TikTok updated to v47.4.0",
-      "versionDate" : "2026-10-19",
+      "versionDescription" : "• TikTok updated to v47.5.0\n• RXTikTok updated to v2.0.4",
+      "versionDate" : "2026-10-26",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -429,7 +429,6 @@
           "com.apple.developer.usernotifications.communication",
           "com.apple.developer.usernotifications.time-sensitive",
           "com.apple.security.application-groups",
-          "get-task-allow",
           "keychain-access-groups"
         ],
         "privacy" : {
@@ -452,8 +451,16 @@
       "developerName" : "aJBbo",
       "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "name" : "TikTok++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.4.0.Infinitok.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.RXTikTok.2.0.4.ipa",
       "versions" : [
+        {
+          "version" : "47.5.0",
+          "date" : "2026-10-26",
+          "localizedDescription" : "• TikTok updated to v47.5.0\n• RXTikTok updated to v2.0.4",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.RXTikTok.2.0.4.ipa",
+          "size" : 531863321,
+          "sha256" : "ee32135f3d116db2c22af9871620ecec28c5cc0fec7f5da827c19934e0379373"
+        },
         {
           "version" : "47.4.0",
           "date" : "2026-10-19",
