@@ -35,14 +35,14 @@
       "appstore" : "com.soundcloud.TouchApp",
       "bundleID" : "com.soundcloud.TouchApp",
       "category" : "Entertainment",
-      "changelog" : "• SoundCloud updated to v8.83.1",
+      "changelog" : "• SoundCloud updated to v8.84.0",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
       "dev" : "VAXMG",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.83.1.NexaSC.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.84.0.NexaSC.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "SoundCloud++",
       "screenshots" : [
@@ -55,7 +55,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/a2/5d/6aa25d36-12c5-6772-2bcb-4afb4bea9b60/07.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/1f/4d/c61f4d4f-567a-fc0f-4db9-7e6c197a07c2/08.jpg/320x480bb.jpg"
       ],
-      "version" : "8.83.1"
+      "version" : "8.84.0"
     },
     {
       "appstore" : "com.spotify.client",
