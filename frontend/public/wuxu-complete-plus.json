@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "Facebook++ Updated!",
+      "identifier" : "update-com.facebook.Facebook",
+      "caption" : "Facebook updated to v585.0.0",
+      "date" : "2026-10-28",
+      "tintColor" : "0c63f9",
+      "notify" : true,
+      "appID" : "com.facebook.Facebook",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
       "caption" : "YouTube updated to v21.43.5",
@@ -51,16 +61,6 @@
       "notify" : true,
       "appID" : "app.scenebox.SceneBox",
       "imageURL" : "https://i.pinimg.com/736x/3c/f6/56/3cf656908a2481110485bac3bf1297d9.jpg"
-    },
-    {
-      "title" : "Facebook++ Updated!",
-      "identifier" : "update-com.facebook.Facebook",
-      "caption" : "Facebook updated to v584.1.0",
-      "date" : "2026-10-23",
-      "tintColor" : "0c63f9",
-      "notify" : true,
-      "appID" : "com.facebook.Facebook",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "Messenger++ Updated!",
@@ -275,8 +275,8 @@
     },
     {
       "category" : "Social",
-      "version" : "584.1.0",
-      "size" : 241651824,
+      "version" : "585.0.0",
+      "size" : 244950580,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -293,8 +293,8 @@
       "bundleIdentifier" : "com.facebook.Facebook",
       "subtitle" : "Facebook with a number of new features!",
       "beta" : false,
-      "versionDescription" : "• Facebook updated to v584.1.0",
-      "versionDate" : "2026-10-23",
+      "versionDescription" : "• Facebook updated to v585.0.0",
+      "versionDate" : "2026-10-28",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -348,8 +348,16 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.1.0.iQFace.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.iQFace.ipa",
       "versions" : [
+        {
+          "version" : "585.0.0",
+          "date" : "2026-10-28",
+          "localizedDescription" : "• Facebook updated to v585.0.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.iQFace.ipa",
+          "size" : 244950580,
+          "sha256" : "ba03202c047bcd1564315bf0634a070e1a919fb33cfa63c1a64805ad73e4e3b9"
+        },
         {
           "version" : "584.1.0",
           "date" : "2026-10-23",

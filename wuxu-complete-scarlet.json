@@ -357,14 +357,14 @@
       "appstore" : "com.facebook.Facebook",
       "bundleID" : "com.facebook.Facebook",
       "category" : "Social",
-      "changelog" : "• Facebook updated to v584.1.0",
+      "changelog" : "• Facebook updated to v585.0.0",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "dev" : "Michael Lema",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v584.1.0.iQFace.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.iQFace.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Facebook++",
       "screenshots" : [
@@ -379,7 +379,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/29/3e/02293e8a-d565-25b2-2405-31389c8a6e6e/ee650e7b-1eaa-4de6-81a2-0b35dac16446_9-iOS-5.5-Write_with_AI.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/b2/32/f6b2327b-e56b-7c4c-b41b-2ee19340e8d5/89fe27f2-ff0a-4a61-a502-73c2bd05da89_10-iOS-5.5-Notifications.png/392x696bb.png"
       ],
-      "version" : "584.1.0"
+      "version" : "585.0.0"
     },
     {
       "appstore" : "com.zhiliaoapp.musically",
