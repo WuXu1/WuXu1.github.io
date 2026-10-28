@@ -87,14 +87,14 @@
       "appstore" : "com.google.ios.youtube",
       "bundleID" : "com.google.ios.youtube",
       "category" : "Entertainment",
-      "changelog" : "• YouTube updated to v21.42.4",
+      "changelog" : "• YouTube updated to v21.43.5",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
       "dev" : "Dayanch96",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.42.4.+.YTPlus.v6.0b2.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.43.5.+.YTPlus.v6.0b2.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "YouTube++",
       "screenshots" : [
@@ -104,7 +104,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/60/bd/af60bd87-4c94-1f9c-2af5-099ca41c2eba/45519fca-0e0b-466e-9ed6-9a43232a0bf8_iOS-5.5-in_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/93/ac/cc93ac38-9f1f-364b-2127-a53f30a735e2/bace9abd-71f3-4700-8adf-cedcba275a67_iOS-5.5-in_5.jpg/392x696bb.jpg"
       ],
-      "version" : "21.42.4"
+      "version" : "21.43.5"
     },
     {
       "appstore" : "app.scenebox.SceneBox",
@@ -331,14 +331,14 @@
       "appstore" : "com.atebits.Tweetie2",
       "bundleID" : "com.atebits.Tweetie2",
       "category" : "Social",
-      "changelog" : "• X updated to v12.38",
+      "changelog" : "• X updated to v12.38.1",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "dev" : "Densor",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.38.+.NFB.v7.2.0.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.38.1.+.NFB.v7.2.0.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "X++",
       "screenshots" : [
@@ -351,7 +351,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/78/72/1b787247-45dc-8eae-a4be-4a3c4e0de9da/1242x2688-7.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/df/00/79df00e8-bdab-aa97-914e-56b94a4c0a0b/1242x2688-8.jpg/320x480bb.jpg"
       ],
-      "version" : "12.38"
+      "version" : "12.38.1"
     },
     {
       "appstore" : "com.facebook.Facebook",
