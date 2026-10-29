@@ -3,6 +3,16 @@
   "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.jpeg",
   "news" : [
     {
+      "title" : "X++ Updated!",
+      "identifier" : "update-com.atebits.Tweetie2",
+      "caption" : "X updated to v12.39",
+      "date" : "2026-10-29",
+      "tintColor" : "030303",
+      "notify" : true,
+      "appID" : "com.atebits.Tweetie2",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "Facebook++ Updated!",
       "identifier" : "update-com.facebook.Facebook",
       "caption" : "Facebook updated to v585.0.0",
@@ -21,16 +31,6 @@
       "notify" : false,
       "appID" : "com.google.ios.youtube",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "X++ Updated!",
-      "identifier" : "update-com.atebits.Tweetie2",
-      "caption" : "X updated to v12.38.1",
-      "date" : "2026-10-28",
-      "tintColor" : "030303",
-      "notify" : true,
-      "appID" : "com.atebits.Tweetie2",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "SoundCloud++ Updated!",
@@ -136,15 +136,23 @@
   "apps" : [
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 269750542,
+      "size" : 273566238,
       "category" : "Social",
       "beta" : false,
-      "versionDescription" : "• X updated to v12.38.1",
+      "versionDescription" : "• X updated to v12.39\n• NFB updated to v7.3.0",
       "developerName" : "Densor",
       "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle" : "An new tweak for X!",
       "bundleIdentifier" : "com.atebits.Tweetie2",
       "versions" : [
+        {
+          "version" : "12.39",
+          "date" : "2026-10-29",
+          "localizedDescription" : "• X updated to v12.39\n• NFB updated to v7.3.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.39.+.NFB.v7.3.0.ipa",
+          "size" : 273566238,
+          "sha256" : "066a580c7c1ca51cf32ecb3c63ae4bc22a955a26cba49ffdb05790f5afd53fce"
+        },
         {
           "version" : "12.38.1",
           "date" : "2026-10-27",
@@ -222,9 +230,9 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.38.1.+.NFB.v7.2.0.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.39.+.NFB.v7.3.0.ipa",
       "tintColor" : "030303",
-      "version" : "12.38.1",
+      "version" : "12.39",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -271,7 +279,7 @@
         }
       },
       "name" : "X++",
-      "versionDate" : "2026-10-27"
+      "versionDate" : "2026-10-29"
     },
     {
       "category" : "Social",
