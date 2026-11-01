@@ -233,7 +233,10 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             </a>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '12px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', width: '100%', marginTop: '16px' }}>
+            <span style={{ fontSize: '13px', color: 'var(--text-muted)', fontWeight: 500 }}>
+              Platform not listed?
+            </span>
             <button 
               onClick={handleCopySource}
               style={{ padding: '8px 18px', borderRadius: '12px', background: copied ? '#34c759' : 'var(--card-bg)', color: copied ? '#ffffff' : 'var(--text)', border: '1px solid var(--border-color, rgba(142,142,147,0.3))', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', justifyContent: 'center', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', transition: 'transform 0.2s, filter 0.2s, background 0.2s', cursor: 'pointer' }}
