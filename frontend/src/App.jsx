@@ -5,7 +5,7 @@ import AppDetails from './pages/AppDetails';
 
 function App() {
   const [apps, setApps] = useState([]);
-  const [plusApps, setPlusApps] = useState([]);
+  const plusApps = [];
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [darkMode, setDarkMode] = useState(() => {
@@ -33,23 +33,15 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [completeRes, plusRes] = await Promise.all([
-          fetch('/wuxu-complete.json'),
-          fetch('/wuxu-complete-plus.json')
-        ]);
-        
+        // One source since 1 Nov 2026: WuXu's Library carries every app (Library++ is a generated copy of it for people who added that one)
+        const completeRes = await fetch('/wuxu-complete.json');
+
         let fetchedNews = [];
 
         if (completeRes.ok) {
           const completeData = await completeRes.json();
           setApps(completeData.apps || []);
           if (completeData.news) fetchedNews = [...fetchedNews, ...completeData.news];
-        }
-        
-        if (plusRes.ok) {
-          const plusData = await plusRes.json();
-          setPlusApps(plusData.apps || []);
-          if (plusData.news) fetchedNews = [...fetchedNews, ...plusData.news];
         }
 
         // Sort news by date (newest first)
