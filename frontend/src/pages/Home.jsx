@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LayoutGrid, Library, Layers, Compass, Search, Settings } from 'lucide-react';
+import { Library, Compass, Search, Sun, Moon, Copy, Check } from 'lucide-react';
 import { FaDiscord, FaTwitter, FaGithub } from 'react-icons/fa';
 
 import { useNavigate } from 'react-router-dom';
@@ -9,8 +9,17 @@ import NewsCard from '../components/NewsCard';
 export default function Home({ apps, plusApps, news = [], loading, darkMode, setDarkMode, librarySource, setLibrarySource }) {
   const [currentView, setCurrentView] = useState('Discover');
   const [searchQuery, setSearchQuery] = useState('');
+  const [copied, setCopied] = useState(false);
   const [isRequestModalOpen, setIsRequestModalOpen] = useState(false);
   const navigate = useNavigate();
+
+  const handleCopySource = () => {
+    navigator.clipboard.writeText('https://bit.ly/wuxuslibrary');
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
+  };
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
@@ -139,7 +148,35 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
   return (
     <div className="page">
-      <header className="topbar">
+      <header className="topbar" style={{ position: 'relative' }}>
+        <button
+          onClick={() => setDarkMode(!darkMode)}
+          title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+          aria-label="Toggle theme"
+          style={{
+            position: 'absolute',
+            top: '20px',
+            right: 'max(4.15vw, 20px)',
+            width: '40px',
+            height: '40px',
+            borderRadius: '50%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'var(--card-bg)',
+            border: '1px solid var(--border-color, rgba(142,142,147,0.25))',
+            color: 'var(--text)',
+            cursor: 'pointer',
+            transition: 'transform 0.2s, background 0.2s',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            zIndex: 10
+          }}
+          onMouseOver={(e) => { e.currentTarget.style.transform = 'scale(1.08)'; }}
+          onMouseOut={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
+        >
+          {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+        </button>
+
         <div className="brand">
           <h1>WuXu's Library</h1>
           <p>The most Up-To-Date IPA Libraries on AltStore</p>
@@ -157,11 +194,6 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
               style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 16px', borderRadius: '999px', border: 'none', background: currentView === 'Library' ? 'var(--card-bg)' : 'transparent', color: currentView === 'Library' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: currentView === 'Library' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>
               <Library size={16} /> Library
             </button>
-            <button 
-              onClick={() => setCurrentView('Settings')} 
-              style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 16px', borderRadius: '999px', border: 'none', background: currentView === 'Settings' ? 'var(--card-bg)' : 'transparent', color: currentView === 'Settings' ? 'var(--text)' : 'var(--text-muted)', fontWeight: 600, fontSize: '14px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: currentView === 'Settings' ? '0 2px 10px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.08)' : 'none' }}>
-              <Settings size={16} /> Settings
-            </button>
           </div>
         </div>
 
@@ -169,13 +201,27 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
       {currentView === 'Discover' && !loading && (
         <>
-        <section className="hero-banner" style={{ margin: '16px 20px 10px', padding: '16px 20px', borderRadius: '20px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
-          <h2 style={{ margin: '0 0 4px 0', fontSize: '20px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
-          <p style={{ margin: '0 0 12px 0', color: 'var(--text-muted)', fontSize: '14px', maxWidth: '430px', lineHeight: 1.4 }}>
-            Tap a button to add WuXu's Library to your package manager. Already use WuXu's Library++? Nothing to do: it shows the same apps.
+        <section className="hero-banner" style={{ margin: '16px 20px 10px', padding: '20px 24px', borderRadius: '20px', background: 'linear-gradient(135deg, rgba(216,26,20,0.08) 0%, rgba(216,26,20,0.03) 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', border: '1px solid rgba(216,26,20,0.15)' }}>
+          <h2 style={{ margin: '0 0 6px 0', fontSize: '22px', fontWeight: 700, color: 'var(--text)' }}>Get Started</h2>
+          <p style={{ margin: '0 0 12px 0', color: 'var(--text-muted)', fontSize: '14.5px', maxWidth: '520px', lineHeight: 1.45 }}>
+            Tap your package manager below or copy the source URL to add WuXu's Library.
           </p>
+          <div style={{ margin: '0 0 18px 0', padding: '12px 18px', background: 'rgba(216,26,20,0.08)', borderRadius: '14px', border: '1px solid rgba(216,26,20,0.2)', maxWidth: '580px' }}>
+            <p style={{ margin: 0, color: 'var(--text)', fontSize: '13.5px', lineHeight: 1.5 }}>
+              ⚠️ <strong>Note: WuXu's Library++ is old and has retired.</strong> Both sources have been unified into one single master repository — <strong>WuXu's Library</strong> — which now carries all tweaked apps, games, emulators, and utilities in one place. If you previously added Library++, your existing apps will still receive updates, but WuXu's Library is now the only source you need.
+            </p>
+          </div>
 
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <button 
+              onClick={handleCopySource}
+              style={{ padding: '8px 16px', borderRadius: '12px', background: copied ? '#34c759' : 'var(--card-bg)', color: copied ? '#ffffff' : 'var(--text)', border: '1px solid var(--border-color, rgba(142,142,147,0.3))', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', justifyContent: 'center', boxShadow: '0 4px 14px rgba(0,0,0,0.08)', transition: 'transform 0.2s, filter 0.2s, background 0.2s', cursor: 'pointer' }}
+              onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; }}
+              onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
+              {copied ? <Check size={16} /> : <Copy size={16} />}
+              {copied ? 'Copied Link!' : 'Copy Source URL'}
+            </button>
             <a href={`altstore://source?url=https://wuxu1.github.io/wuxu-complete.json`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to AltStore
             </a>
@@ -185,10 +231,10 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             <a href="scarlet://source?url=https://wuxu1.github.io/wuxu-complete-scarlet.json" style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #FF2400 0%, #D91000 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(255,36,0,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Scarlet
             </a>
-            <a href={`feather://source?url=https://wuxu1.github.io/wuxu-complete.json`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #8a95fb 0%, #6a76e0 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(121,133,250,0.4)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href="feather://source/https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #8a95fb 0%, #6a76e0 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(121,133,250,0.4)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to Feather
             </a>
-            <a href={`trollapps://source?url=https://wuxu1.github.io/wuxu-complete.json`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <a href="trollapps://add?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to TrollApps
             </a>
           </div>
@@ -314,27 +360,6 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
                   ))}
                   {displayedApps.length === 0 && <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '40px' }}>No results found.</p>}
                 </section>
-              </div>
-            )}
-
-            {currentView === 'Settings' && (
-              <div className="settings-container">
-                <h2>Settings</h2>
-                
-                <div className="setting-item">
-                  <div className="setting-info">
-                    <h3>Light Mode</h3>
-                    <p>Toggle bright light appearance</p>
-                  </div>
-                  <label className="switch">
-                    <input 
-                      type="checkbox" 
-                      checked={!darkMode} 
-                      onChange={(e) => setDarkMode(!e.target.checked)} 
-                    />
-                    <span className="switch-slider"></span>
-                  </label>
-                </div>
               </div>
             )}
           </>
