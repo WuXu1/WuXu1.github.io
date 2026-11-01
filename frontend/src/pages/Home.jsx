@@ -182,7 +182,7 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
 
         <div className="brand">
           <h1>WuXu's Library</h1>
-          <p>The most Up-To-Date IPA Libraries on AltStore</p>
+          <p>The most Up-To-Date IPA Library</p>
         </div>
         
         <div className="top-center" role="navigation" aria-label="Primary navigation">

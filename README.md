@@ -2,7 +2,7 @@
 
 # Welcome To WuXu's Library! 
 
-The most active AltSource and IPA Library - Updated Daily!
+The most Up-To-Date IPA Library - Updated Daily!
 
 ## WuXu's Library
 
