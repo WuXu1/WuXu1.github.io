@@ -42,7 +42,7 @@
       },
       "description" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
       "dev" : "VAXMG",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.84.0.NexaSC.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.84.0.+.NexaSC.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "SoundCloud++",
       "screenshots" : [
@@ -338,7 +338,7 @@
       },
       "description" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "dev" : "Densor",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitter.v12.39.+.NFB.v7.3.0.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.39.+.NFB.v7.3.0.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "X++",
       "screenshots" : [
@@ -364,7 +364,7 @@
       },
       "description" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "dev" : "Michael Lema",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.iQFace.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Facebook++",
       "screenshots" : [
@@ -392,7 +392,7 @@
       },
       "description" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "dev" : "aJBbo",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.RXTikTok.2.0.4.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.+.RXTikTok.v2.0.4.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "TikTok++",
       "screenshots" : [
@@ -417,7 +417,7 @@
       },
       "description" : "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
       "dev" : "Fouad Raheb",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/com.burbn.instagram.v448.0.0.regram.6.3.sl.patched.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v448.0.0.+.regram.6.3.sl.patched.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/be/de/4cbedeca-02d7-e15c-9e14-b0ac165eeb5a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Instagram++",
       "screenshots" : [
@@ -466,7 +466,7 @@
       },
       "description" : "Shark is the ultimate Facebook Messenger tweak. It is the first and only tweak to add additional security to the app. You can access the tweak settings on the Messenger's settings page.\n\nFeatures\n- Disable Marking Messages\n- Disable Marking Stories\n- Disable Typing Status\n- Save Story images and videos\n\nAuthentication\n- Shark adds an extra layer of security with Face ID/Touch ID to view the Messenger App\n\nNote: There is a bug where nothing loads when you first sign in. Simply relaunch the app to fix this issue.",
       "dev" : "Michael Lema",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v584.0.0.Flow.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Messenger.v584.0.0.+.Flow.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/90/0d/05900d52-cace-057b-aa3a-3c08aa064c4c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Messenger++",
       "screenshots" : [
@@ -621,7 +621,7 @@
       },
       "description" : "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n• unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n• Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n• Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
       "dev" : "Pwn20wnd",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/unc0ver.Release.v8.1.0.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Unc0ver.Jailbreak.v8.1.0.ipa",
       "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/5aehDxj.png",
       "name" : "unc0ver",
       "screenshots" : [
@@ -710,7 +710,7 @@
       },
       "description" : "Easy Sign (esign) is a tool that can sign IPA files without a jailbreak and is capable of injecting libraries, removing libraries, and so on.",
       "dev" : "esign.yyyue.xyz",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/esign.v5.0.2.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/ESign.v5.0.2.ipa",
       "icon" : "https://static.appdb.to/images/cydia-1900000897-icon-1651011412.png",
       "name" : "ESign",
       "screenshots" : [
