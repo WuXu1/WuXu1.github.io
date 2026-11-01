@@ -155,26 +155,29 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           aria-label="Toggle theme"
           style={{
             position: 'absolute',
-            top: '20px',
+            top: '22px',
             right: 'max(4.15vw, 20px)',
-            width: '40px',
-            height: '40px',
-            borderRadius: '50%',
+            background: 'none',
+            border: 'none',
+            padding: '6px',
+            color: 'var(--text-muted)',
+            cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            background: 'var(--card-bg)',
-            border: '1px solid var(--border-color, rgba(142,142,147,0.25))',
-            color: 'var(--text)',
-            cursor: 'pointer',
-            transition: 'transform 0.2s, background 0.2s',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            transition: 'color 0.2s, transform 0.2s',
             zIndex: 10
           }}
-          onMouseOver={(e) => { e.currentTarget.style.transform = 'scale(1.08)'; }}
-          onMouseOut={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.color = 'var(--text)';
+            e.currentTarget.style.transform = 'scale(1.15)';
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.color = 'var(--text-muted)';
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
-          {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+          {darkMode ? <Sun size={22} strokeWidth={2.2} /> : <Moon size={22} strokeWidth={2.2} />}
         </button>
 
         <div className="brand">
@@ -213,15 +216,6 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
           </div>
 
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <button 
-              onClick={handleCopySource}
-              style={{ padding: '8px 16px', borderRadius: '12px', background: copied ? '#34c759' : 'var(--card-bg)', color: copied ? '#ffffff' : 'var(--text)', border: '1px solid var(--border-color, rgba(142,142,147,0.3))', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', justifyContent: 'center', boxShadow: '0 4px 14px rgba(0,0,0,0.08)', transition: 'transform 0.2s, filter 0.2s, background 0.2s', cursor: 'pointer' }}
-              onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; }}
-              onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
-            >
-              {copied ? <Check size={16} /> : <Copy size={16} />}
-              {copied ? 'Copied Link!' : 'Copy Source URL'}
-            </button>
             <a href={`altstore://source?url=https://wuxu1.github.io/wuxu-complete.json`} style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #40C4B5 0%, #2BA093 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(51,181,166,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to AltStore
             </a>
@@ -237,6 +231,18 @@ export default function Home({ apps, plusApps, news = [], loading, darkMode, set
             <a href="trollapps://add?url=https://wuxu1.github.io/wuxu-complete.json" style={{ padding: '8px 16px', borderRadius: '12px', background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color: 'white', textDecoration: 'none', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 14px rgba(37,99,235,0.3)', transition: 'transform 0.2s, filter 0.2s' }} onMouseOver={(e) => { e.currentTarget.style.filter = 'brightness(1.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.filter = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}>
               Add to TrollApps
             </a>
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '12px' }}>
+            <button 
+              onClick={handleCopySource}
+              style={{ padding: '8px 18px', borderRadius: '12px', background: copied ? '#34c759' : 'var(--card-bg)', color: copied ? '#ffffff' : 'var(--text)', border: '1px solid var(--border-color, rgba(142,142,147,0.3))', fontWeight: 600, fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', justifyContent: 'center', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', transition: 'transform 0.2s, filter 0.2s, background 0.2s', cursor: 'pointer' }}
+              onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; }}
+              onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
+              {copied ? <Check size={16} /> : <Copy size={16} />}
+              {copied ? 'Copied Link!' : 'Copy Source URL'}
+            </button>
           </div>
         </section>
         <section 
