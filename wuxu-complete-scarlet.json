@@ -501,6 +501,25 @@
       "version" : "3.8.0"
     }
   ],
+  "photo-video" : [
+    {
+      "appstore" : "com.mikevillarroel.tendiemaker",
+      "bundleID" : "com.mikevillarroel.tendiemaker",
+      "category" : "photo-video",
+      "changelog" : "App icon fix.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "Turn your videos into .tendie live wallpapers right on your iPhone. Includes a built-in gallery of community tendies. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "dev" : "MikeBuilds",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TendieMaker.v1.0.9.ipa",
+      "icon" : "https://mikevillarroel.github.io/mikebuilds-source/icons/tendiemaker.png",
+      "name" : "TendieMaker",
+      "screenshots" : [],
+      "version" : "1.0.9"
+    }
+  ],
   "utilities" : [
     {
       "appstore" : "com.Alfie.TrollInstallerX",

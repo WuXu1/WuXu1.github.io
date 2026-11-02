@@ -2139,6 +2139,37 @@
       "appPermissions" : {
         "privacy" : {}
       }
+    },
+    {
+      "name" : "TendieMaker",
+      "bundleIdentifier" : "com.mikevillarroel.tendiemaker",
+      "developerName" : "MikeBuilds",
+      "subtitle" : "Make .tendie live wallpapers from your own videos",
+      "localizedDescription" : "Turn your videos into .tendie live wallpapers right on your iPhone. Includes a built-in gallery of community tendies. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "iconURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/tendiemaker.png",
+      "tintColor" : "fdac03",
+      "category" : "photo-video",
+      "beta" : false,
+      "screenshotURLs" : [],
+      "version" : "1.0.9",
+      "versionDate" : "2026-11-02",
+      "versionDescription" : "App icon fix.",
+      "size" : 3697748,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TendieMaker.v1.0.9.ipa",
+      "versions" : [
+        {
+          "version" : "1.0.9",
+          "date" : "2026-11-02",
+          "localizedDescription" : "App icon fix.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TendieMaker.v1.0.9.ipa",
+          "size" : 3697748,
+          "sha256" : "41ad5467138ac79cfe05400396f8258743f9434813e1409d3ea41361ab43ab8b",
+          "minOSVersion" : "17.0"
+        }
+      ],
+      "appPermissions" : {
+        "privacy" : {}
+      }
     }
   ],
   "news" : [
