@@ -499,6 +499,23 @@
       "name" : "LiveContainer",
       "screenshots" : [],
       "version" : "3.8.0"
+    },
+    {
+      "appstore" : "com.lemon.lvoverseas",
+      "bundleID" : "com.lemon.lvoverseas",
+      "category" : "Utilities",
+      "changelog" : "Initial addition.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "",
+      "dev" : "",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/CapCut.v12.6.0.ipa",
+      "icon" : "",
+      "name" : "CapCut",
+      "screenshots" : [],
+      "version" : "12.6.0"
     }
   ],
   "photo-video" : [

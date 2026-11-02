@@ -2203,6 +2203,54 @@
           "NSPhotoLibraryAddUsageDescription" : "Layers saves your finished wallpaper to Photos so you can set it as your Home Screen wallpaper."
         }
       }
+    },
+    {
+      "name" : "CapCut",
+      "bundleIdentifier" : "com.lemon.lvoverseas",
+      "developerName" : "",
+      "subtitle" : "",
+      "localizedDescription" : "",
+      "iconURL" : "",
+      "tintColor" : "d81a14",
+      "category" : "Utilities",
+      "beta" : false,
+      "screenshotURLs" : [],
+      "version" : "12.6.0",
+      "versionDate" : "2026-11-02",
+      "versionDescription" : "Initial addition.",
+      "size" : 146689221,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/CapCut.v12.6.0.ipa",
+      "versions" : [
+        {
+          "version" : "12.6.0",
+          "date" : "2026-11-02",
+          "localizedDescription" : "Initial addition.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/CapCut.v12.6.0.ipa",
+          "size" : 146689221,
+          "sha256" : "e0c176b049c0a7e8f7b619de6481aaaf892993d59e701de0393e26b26e5a5fe3",
+          "minOSVersion" : "10.0"
+        }
+      ],
+      "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.networking.networkextension",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy" : {
+          "NSAppleMusicUsageDescription" : "CapCut requires permission to import and add music from Apple's media library to video editing project files.",
+          "NSCameraUsageDescription" : "CapCut requires permission to use the camera to capture photos and videos for video editing, saving, publishing.",
+          "NSMicrophoneUsageDescription" : "CapCut requires permission to access your microphone to record sounds for video editing, saving, publishing.",
+          "NSPhotoLibraryUsageDescription" : "CapCut requires access to the album to import photos and videos to video editing project files and save videos to the device.",
+          "NSUserTrackingUsageDescription" : "CapCut requires access to UserTracking to identify the device for managing data statistics, analyzing service effects, ensuring service security and improving user experience.Please rest assured that opening the permission will not obtain your private information on other sites."
+        }
+      }
     }
   ],
   "news" : [
