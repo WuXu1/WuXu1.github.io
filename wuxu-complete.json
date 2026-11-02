@@ -2170,9 +2170,52 @@
       "appPermissions" : {
         "privacy" : {}
       }
+    },
+    {
+      "name" : "Layers",
+      "bundleIdentifier" : "com.mikevillarroel.layers",
+      "developerName" : "MikeBuilds",
+      "subtitle" : "Icon borders, dock tint and depth shadows in your wallpaper",
+      "localizedDescription" : "Bakes icon borders, dock tint and depth shadows into your wallpaper at the exact icon-grid positions - home screen customization, no jailbreak. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "iconURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/layers.png",
+      "tintColor" : "7d5cff",
+      "category" : "utilities",
+      "beta" : false,
+      "screenshotURLs" : [],
+      "version" : "1.0.5",
+      "versionDate" : "2026-11-02",
+      "versionDescription" : "Effect presets (Soft/Medium/Strong pills for Depth shadow and 3D border); tighter 3D frame and smaller shadows.",
+      "size" : 889664,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Layers.v1.0.5.ipa",
+      "versions" : [
+        {
+          "version" : "1.0.5",
+          "date" : "2026-11-02",
+          "localizedDescription" : "Effect presets (Soft/Medium/Strong pills for Depth shadow and 3D border); tighter 3D frame and smaller shadows.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Layers.v1.0.5.ipa",
+          "size" : 889664,
+          "sha256" : "d687a0e7d5aad0947a719427cdea3d45ebda938fe3d59918a68bd8359e4d49ad",
+          "minOSVersion" : "17.0"
+        }
+      ],
+      "appPermissions" : {
+        "privacy" : {
+          "NSPhotoLibraryAddUsageDescription" : "Layers saves your finished wallpaper to Photos so you can set it as your Home Screen wallpaper."
+        }
+      }
     }
   ],
   "news" : [
+    {
+      "title" : "Layers Added!",
+      "identifier" : "layers-added",
+      "caption" : "Layers has been added to the source! Click here for more info",
+      "date" : "2026-11-02",
+      "tintColor" : "7d5cff",
+      "notify" : false,
+      "appID" : "com.mikevillarroel.layers",
+      "imageURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/layers.png"
+    },
     {
       "title" : "TendieMaker Added!",
       "identifier" : "tendiemaker-added",

@@ -756,6 +756,23 @@
       "name" : "BuildBox",
       "screenshots" : [],
       "version" : "2.1.0"
+    },
+    {
+      "appstore" : "com.mikevillarroel.layers",
+      "bundleID" : "com.mikevillarroel.layers",
+      "category" : "utilities",
+      "changelog" : "Effect presets (Soft/Medium/Strong pills for Depth shadow and 3D border); tighter 3D frame and smaller shadows.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "Bakes icon borders, dock tint and depth shadows into your wallpaper at the exact icon-grid positions - home screen customization, no jailbreak. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "dev" : "MikeBuilds",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Layers.v1.0.5.ipa",
+      "icon" : "https://mikevillarroel.github.io/mikebuilds-source/icons/layers.png",
+      "name" : "Layers",
+      "screenshots" : [],
+      "version" : "1.0.5"
     }
   ]
 }
