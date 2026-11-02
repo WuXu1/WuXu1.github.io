@@ -2108,9 +2108,50 @@
           "NSLocalNetworkUsageDescription" : "SceneBox connects directly to peers over your local network and the internet to stream and download."
         }
       }
+    },
+    {
+      "name" : "BuildBox",
+      "bundleIdentifier" : "com.mikevillarroel.buildbox",
+      "developerName" : "MikeBuilds",
+      "subtitle" : "Compile, sign and install iOS apps from your iPhone",
+      "localizedDescription" : "Compile Swift apps straight from your iPhone (GitHub Actions backend), then sign them on-device with your own certificate and install - the full cycle in one app. It can also import any IPA just to sign it, and inject .deb/.zip tweak packages before signing. Ships as an unsigned IPA. Free with a donate button.",
+      "iconURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png",
+      "tintColor" : "2f7cf6",
+      "category" : "utilities",
+      "beta" : false,
+      "screenshotURLs" : [],
+      "version" : "2.1.0",
+      "versionDate" : "2026-11-02",
+      "versionDescription" : "Catalog-first redesign (Catalog home tab, Sources as a sheet, restyled Signed tab), signing fixed (release apps open again, catalog signing no longer closes the app), Catalog refresh, Clear All logs, matching page titles; requires iOS 18+.",
+      "size" : 17956353,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BuildBox.v2.1.0.ipa",
+      "versions" : [
+        {
+          "version" : "2.1.0",
+          "date" : "2026-11-02",
+          "localizedDescription" : "Catalog-first redesign (Catalog home tab, Sources as a sheet, restyled Signed tab), signing fixed (release apps open again, catalog signing no longer closes the app), Catalog refresh, Clear All logs, matching page titles; requires iOS 18+.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BuildBox.v2.1.0.ipa",
+          "size" : 17956353,
+          "sha256" : "3c33a63f15589add88f7fd8d965192f37ef20005b7a3e959a2a7a5e65b746df8",
+          "minOSVersion" : "18.0"
+        }
+      ],
+      "appPermissions" : {
+        "privacy" : {}
+      }
     }
   ],
   "news" : [
+    {
+      "title" : "BuildBox Added!",
+      "identifier" : "buildbox-added",
+      "caption" : "BuildBox has been added to the source! Click here for more info",
+      "date" : "2026-11-02",
+      "tintColor" : "2f7cf6",
+      "notify" : false,
+      "appID" : "com.mikevillarroel.buildbox",
+      "imageURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
+    },
     {
       "title" : "X++ Updated!",
       "identifier" : "update-com.atebits.Tweetie2",
