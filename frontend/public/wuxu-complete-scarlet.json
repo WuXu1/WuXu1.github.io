@@ -771,18 +771,18 @@
       "appstore" : "com.mikevillarroel.buildbox",
       "bundleID" : "com.mikevillarroel.buildbox",
       "category" : "utilities",
-      "changelog" : "• BuildBox updated to v2.1.1",
+      "changelog" : "• BuildBox updated to v2.1.3",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Compile Swift apps straight from your iPhone (GitHub Actions backend), then sign them on-device with your own certificate and install - the full cycle in one app. It can also import any IPA just to sign it, and inject .deb/.zip tweak packages before signing. Ships as an unsigned IPA. Free with a donate button.",
       "dev" : "MikeBuilds",
-      "down" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.1/BuildBox-2.1.1.ipa",
+      "down" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.3/BuildBox-2.1.3.ipa",
       "icon" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png",
       "name" : "BuildBox",
       "screenshots" : [],
-      "version" : "2.1.1"
+      "version" : "2.1.3"
     },
     {
       "appstore" : "com.mikevillarroel.layers",
