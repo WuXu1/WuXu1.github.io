@@ -1819,6 +1819,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "21.44.4",
+          "date" : "2026-11-03",
+          "localizedDescription" : "• YouTube updated to v21.44.4",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.ipa",
+          "size" : 161789782,
+          "sha256" : "a6e8ca696deef26496df5fc2cf5528e6a572b99f5396eecbe2a36a05b53817d9"
+        },
+        {
           "version" : "21.43.5",
           "date" : "2026-10-27",
           "localizedDescription" : "• YouTube updated to v21.43.5",
@@ -1880,11 +1888,11 @@
         }
       ],
       "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size" : 156330159,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.43.5.+.YTPlus.v6.0b2.ipa",
-      "versionDate" : "2026-10-27",
+      "size" : 161789782,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.ipa",
+      "versionDate" : "2026-11-03",
       "beta" : false,
-      "versionDescription" : "• YouTube updated to v21.43.5",
+      "versionDescription" : "• YouTube updated to v21.44.4",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1928,7 +1936,7 @@
       "subtitle" : "The All-In-One Tweak for YouTube.",
       "tintColor" : "f90505",
       "bundleIdentifier" : "com.google.ios.youtube",
-      "version" : "21.43.5"
+      "version" : "21.44.4"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
