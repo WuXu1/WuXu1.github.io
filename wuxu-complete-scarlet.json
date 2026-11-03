@@ -42,7 +42,7 @@
       },
       "description" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
       "dev" : "VAXMG",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "SoundCloud++",
       "screenshots" : [
@@ -68,7 +68,7 @@
       },
       "description" : "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
       "dev" : "Eevee",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Spotify++",
       "screenshots" : [
@@ -94,7 +94,7 @@
       },
       "description" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
       "dev" : "Dayanch96",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "YouTube++",
       "screenshots" : [
@@ -309,7 +309,7 @@
       },
       "description" : "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
       "dev" : "Strejda603",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/17/fa/8717fa12-83f0-1184-f3d1-9ff90f157708/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "name" : "MyFitnessPal++",
       "screenshots" : [
@@ -337,7 +337,7 @@
       },
       "description" : "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
       "dev" : "Laxus",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "name" : "Duolingo++",
       "screenshots" : [
@@ -391,7 +391,7 @@
       },
       "description" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "dev" : "Michael Lema",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "name" : "Facebook++",
       "screenshots" : [
@@ -419,7 +419,7 @@
       },
       "description" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "dev" : "aJBbo",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.fixed.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "TikTok++",
       "screenshots" : [
