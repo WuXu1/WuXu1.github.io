@@ -1166,8 +1166,8 @@
     },
     {
       "category" : "Social",
-      "version" : "47.5.0",
-      "size" : 531863321,
+      "version" : "47.6.0",
+      "size" : 521461976,
       "tintColor" : "0b0b0b",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/a1/6a/6ca16a58-1937-7122-e65b-2d901f84fdbb/oEEEv6yBAvIC3s9IGZ1A83wu5TAjAsxiAjLig.png/392x696bb.png",
@@ -1181,8 +1181,8 @@
       "bundleIdentifier" : "com.zhiliaoapp.musically",
       "subtitle" : "TikTok with added features.",
       "beta" : false,
-      "versionDescription" : "• TikTok updated to v47.5.0\n• RXTikTok updated to v2.0.4",
-      "versionDate" : "2026-10-26",
+      "versionDescription" : "• TikTok updated to v47.6.0\n• gtok updated to v2.5",
+      "versionDate" : "2026-11-03",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1226,8 +1226,16 @@
       "developerName" : "aJBbo",
       "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "name" : "TikTok++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.5.0.+.RXTikTok.v2.0.4.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.ipa",
       "versions" : [
+        {
+          "version" : "47.6.0",
+          "date" : "2026-11-03",
+          "localizedDescription" : "• TikTok updated to v47.6.0\n• gtok updated to v2.5",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.ipa",
+          "size" : 521461976,
+          "sha256" : "cbd9ee6226fec5cf2fa8894cd9f45add058590c796f8e37bf617fac32e3ea71d"
+        },
         {
           "version" : "47.5.0",
           "date" : "2026-10-26",
@@ -2308,6 +2316,16 @@
   ],
   "news" : [
     {
+      "title" : "TikTok++ Updated!",
+      "identifier" : "update-com.zhiliaoapp.musically",
+      "caption" : "TikTok updated to v47.6.0",
+      "date" : "2026-11-03",
+      "tintColor" : "0b0b0b",
+      "notify" : false,
+      "appID" : "com.zhiliaoapp.musically",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "X++ Updated!",
       "identifier" : "update-com.atebits.Tweetie2",
       "caption" : "X updated to v12.40",
@@ -2386,16 +2404,6 @@
       "notify" : false,
       "appID" : "com.google.ios.youtube",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "TikTok++ Updated!",
-      "identifier" : "update-com.zhiliaoapp.musically",
-      "caption" : "TikTok updated to v47.5.0",
-      "date" : "2026-10-27",
-      "tintColor" : "0b0b0b",
-      "notify" : false,
-      "appID" : "com.zhiliaoapp.musically",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "SceneBox Added!",
