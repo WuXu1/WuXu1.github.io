@@ -2128,12 +2128,20 @@
       "category" : "utilities",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "2.1.3",
+      "version" : "2.1.4",
       "versionDate" : "2026-11-02",
-      "versionDescription" : "• BuildBox updated to v2.1.3",
-      "size" : 15651369,
-      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.3/BuildBox-2.1.3.ipa",
+      "versionDescription" : "• BuildBox updated to v2.1.4",
+      "size" : 15595926,
+      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.4/BuildBox-2.1.4.ipa",
       "versions" : [
+        {
+          "version" : "2.1.4",
+          "date" : "2026-11-02",
+          "localizedDescription" : "• BuildBox updated to v2.1.4",
+          "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.4/BuildBox-2.1.4.ipa",
+          "size" : 15595926,
+          "minOSVersion" : "18.0"
+        },
         {
           "version" : "2.1.3",
           "date" : "2026-11-02",

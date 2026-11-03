@@ -2128,12 +2128,20 @@
       "category" : "utilities",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "2.1.3",
+      "version" : "2.1.4",
       "versionDate" : "2026-11-02",
-      "versionDescription" : "• BuildBox updated to v2.1.3",
-      "size" : 15651369,
-      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.3/BuildBox-2.1.3.ipa",
+      "versionDescription" : "• BuildBox updated to v2.1.4",
+      "size" : 15595926,
+      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.4/BuildBox-2.1.4.ipa",
       "versions" : [
+        {
+          "version" : "2.1.4",
+          "date" : "2026-11-02",
+          "localizedDescription" : "• BuildBox updated to v2.1.4",
+          "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.4/BuildBox-2.1.4.ipa",
+          "size" : 15595926,
+          "minOSVersion" : "18.0"
+        },
         {
           "version" : "2.1.3",
           "date" : "2026-11-02",
@@ -2289,6 +2297,16 @@
   ],
   "news" : [
     {
+      "title" : "BuildBox Updated!",
+      "identifier" : "update-com.mikevillarroel.buildbox",
+      "caption" : "BuildBox updated to v2.1.4",
+      "date" : "2026-11-03",
+      "tintColor" : "2f7cf6",
+      "notify" : false,
+      "appID" : "com.mikevillarroel.buildbox",
+      "imageURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
+    },
+    {
       "title" : "SoundCloud++ Updated!",
       "identifier" : "update-com.soundcloud.TouchApp",
       "caption" : "SoundCloud updated to v8.85.0",
@@ -2297,16 +2315,6 @@
       "notify" : true,
       "appID" : "com.soundcloud.TouchApp",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "BuildBox Updated!",
-      "identifier" : "update-com.mikevillarroel.buildbox",
-      "caption" : "BuildBox updated to v2.1.3",
-      "date" : "2026-11-02",
-      "tintColor" : "2f7cf6",
-      "notify" : false,
-      "appID" : "com.mikevillarroel.buildbox",
-      "imageURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
     },
     {
       "title" : "CapCut++ Added!",
