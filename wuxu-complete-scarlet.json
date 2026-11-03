@@ -682,21 +682,21 @@
       "appstore" : "com.opa334.Dopamine",
       "bundleID" : "com.opa334.Dopamine",
       "category" : "utilities",
-      "changelog" : "• Dopamine updated to v3.0.12",
+      "changelog" : "• Dopamine updated to v3.0.13",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
       "dev" : "opa334",
-      "down" : "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+      "down" : "https://github.com/opa334/Dopamine/releases/download/3.0.13/Dopamine.ipa",
       "icon" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
       "name" : "Dopamine",
       "screenshots" : [
         "https://ellekit.space/dopamine/assets/screenshot_one.png",
         "https://ellekit.space/dopamine/assets/screenshot_two.png"
       ],
-      "version" : "3.0.12"
+      "version" : "3.0.13"
     },
     {
       "appstore" : "ru.nonamedude.iTorrent",

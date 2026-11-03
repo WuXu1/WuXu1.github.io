@@ -414,6 +414,13 @@
       "beta" : false,
       "versions" : [
         {
+          "version" : "3.0.13",
+          "date" : "2026-11-03",
+          "localizedDescription" : "• Dopamine updated to v3.0.13",
+          "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/3.0.13/Dopamine.ipa",
+          "size" : 55422988
+        },
+        {
           "version" : "3.0.12",
           "date" : "2026-10-20",
           "localizedDescription" : "• Dopamine updated to v3.0.12",
@@ -441,16 +448,16 @@
         "https://ellekit.space/dopamine/assets/screenshot_one.png",
         "https://ellekit.space/dopamine/assets/screenshot_two.png"
       ],
-      "size" : 55420784,
-      "version" : "3.0.12",
+      "size" : 55422988,
+      "version" : "3.0.13",
       "bundleIdentifier" : "com.opa334.Dopamine",
       "tintColor" : "0d7d65",
-      "versionDate" : "2026-10-20",
-      "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/3.0.12/Dopamine.ipa",
+      "versionDate" : "2026-11-03",
+      "downloadURL" : "https://github.com/opa334/Dopamine/releases/download/3.0.13/Dopamine.ipa",
       "subtitle" : "The semi-untethered jailbreak for iOS 15 - 16",
       "iconURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg",
       "developerName" : "opa334",
-      "versionDescription" : "• Dopamine updated to v3.0.12",
+      "versionDescription" : "• Dopamine updated to v3.0.13",
       "name" : "Dopamine",
       "localizedDescription" : "Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
       "appPermissions" : {
