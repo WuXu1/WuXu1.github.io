@@ -1027,7 +1027,7 @@
     {
       "category" : "Social",
       "version" : "585.0.0",
-      "size" : 244950580,
+      "size" : 242479481,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -1099,15 +1099,15 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.fixed.ipa",
       "versions" : [
         {
           "version" : "585.0.0",
           "date" : "2026-10-28",
           "localizedDescription" : "• Facebook updated to v585.0.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.ipa",
-          "size" : 244950580,
-          "sha256" : "ba03202c047bcd1564315bf0634a070e1a919fb33cfa63c1a64805ad73e4e3b9"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v585.0.0.+.iQFace.fixed.ipa",
+          "size" : 242479481,
+          "sha256" : "1b990423649b7a5b74a87d7cae861c490c4913808cea731ec8e9343218746532"
         },
         {
           "version" : "584.1.0",
@@ -1167,7 +1167,7 @@
     {
       "category" : "Social",
       "version" : "47.6.0",
-      "size" : 521461976,
+      "size" : 520080338,
       "tintColor" : "0b0b0b",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/a1/6a/6ca16a58-1937-7122-e65b-2d901f84fdbb/oEEEv6yBAvIC3s9IGZ1A83wu5TAjAsxiAjLig.png/392x696bb.png",
@@ -1226,15 +1226,15 @@
       "developerName" : "aJBbo",
       "localizedDescription" : "AC - An awesome tweak for TikTok!\n\nFeatures:\n\n• No Ads\n• Download Videos\n• Download Musics\n• Show/Hide UI button\n• Copy video decription\n• Copy video link\n• Copy Music link\n• Auto Play Next Video\n• Show progress bar\n• Confirm like\n• Confirm comment like\n• Confirm comment dislike\n• Confirm follow\n• Save profile image\n• Copy profile information\n• Extend bio\n• Extend comment\n• Always open in Safari\n• Changing region\n• Fake verify blue mark\n• Fake Follower count\n• Fake Following count\n• Padlock",
       "name" : "TikTok++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.fixed.ipa",
       "versions" : [
         {
           "version" : "47.6.0",
           "date" : "2026-11-03",
           "localizedDescription" : "• TikTok updated to v47.6.0\n• gtok updated to v2.5",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.ipa",
-          "size" : 521461976,
-          "sha256" : "cbd9ee6226fec5cf2fa8894cd9f45add058590c796f8e37bf617fac32e3ea71d"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TikTok.v47.6.0.+.gtok.v2.5.fixed.ipa",
+          "size" : 520080338,
+          "sha256" : "1ecc8d221650c53a1c606538b60cbd38f2b9c9290099c0da29c8b302644e4a40"
         },
         {
           "version" : "47.5.0",
@@ -1373,7 +1373,7 @@
     {
       "category" : "Lifestyle",
       "version" : "26.30.0",
-      "size" : 150927743,
+      "size" : 144735242,
       "tintColor" : "0463ea",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/90/0e/04900ea5-3aba-b487-8185-a8daa4677500/MFP_iOS_US_6.9_Screen_1.png/320x480bb.jpg",
@@ -1419,15 +1419,16 @@
       "developerName" : "Strejda603",
       "localizedDescription" : "• Premium Features Enabled\n\nTrack progress toward your nutrition, water, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker and health app is like having a nutrition coach, meal planner, and food diary with you at all times.\n\nMyFitnessPal isn't another restrictive diet app. This is a health app to help you learn about your habits u2026 see how you eat u2026 make smarter food choices u2026 find motivation & support ... and conquer your health goals.",
       "name" : "MyFitnessPal++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.fixed.ipa",
       "versions" : [
         {
           "date" : "2026-07-28",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.ipa",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/MyFitnessPal.v26.30.0.fixed.ipa",
           "localizedDescription" : "• MyFitnessPal++ updated to v26.30.0",
           "version" : "26.30.0",
-          "size" : 150927743,
-          "minOSVersion" : "17.0"
+          "size" : 144735242,
+          "minOSVersion" : "17.0",
+          "sha256" : "bc94c6e65191c7683dea3a58997136181d8bfa7fbfed2502f8e8452cf4e488d8"
         },
         {
           "date" : "2025-03-04",
@@ -1593,9 +1594,9 @@
           "version" : "8.85.0",
           "date" : "2026-11-02",
           "localizedDescription" : "• SoundCloud updated to v8.85.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.ipa",
-          "size" : 356714248,
-          "sha256" : "fb8694dd116bf55f62a4ad80bed3c26910c0574f74346642ce6d564f4275829c"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.fixed.ipa",
+          "size" : 340224194,
+          "sha256" : "ca4bd0286bee8bb7fe96eb46532da97842dfff4113bf21d0ca27b2c32af92209"
         },
         {
           "version" : "8.84.0",
@@ -1653,8 +1654,8 @@
         }
       ],
       "localizedDescription" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
-      "size" : 356714248,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.ipa",
+      "size" : 340224194,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.fixed.ipa",
       "versionDate" : "2026-11-02",
       "beta" : false,
       "versionDescription" : "• SoundCloud updated to v8.85.0",
@@ -1704,11 +1705,12 @@
       "versions" : [
         {
           "date" : "2025-10-05",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.ipa",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.fixed.ipa",
           "localizedDescription" : "• Spotify++ updated to v9.0.84\n• Eevee updated to v6.1.5",
           "version" : "9.0.84",
-          "size" : 91684155,
-          "minOSVersion" : "16.1"
+          "size" : 85004252,
+          "minOSVersion" : "16.1",
+          "sha256" : "2314ad2252bae6cde8af89392c3af72f484a39b736a261c53d8e96678dd37fec"
         },
         {
           "date" : "2025-03-04",
@@ -1755,8 +1757,8 @@
         }
       ],
       "localizedDescription" : "This tweak makes Spotify think that you have a Premium subscription, granting free listening, just like Spotilife.\n\nAlthough there are restrictions:\n\n• Using \"Very High\" audio quality\n• Downloading songs/playlists (podcast downloads work, though)\n",
-      "size" : 91684155,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.ipa",
+      "size" : 85004252,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v9.0.84.fixed.ipa",
       "versionDate" : "2025-10-05",
       "beta" : false,
       "versionDescription" : "• Spotify++ updated to v9.0.84\n• Eevee updated to v6.1.5",
@@ -1822,9 +1824,9 @@
           "version" : "21.44.4",
           "date" : "2026-11-03",
           "localizedDescription" : "• YouTube updated to v21.44.4",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.ipa",
-          "size" : 161789782,
-          "sha256" : "a6e8ca696deef26496df5fc2cf5528e6a572b99f5396eecbe2a36a05b53817d9"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.fixed.ipa",
+          "size" : 153444491,
+          "sha256" : "20475eb6a09f92fca70121e695c84f955d302926167a1209715e89fb165705a6"
         },
         {
           "version" : "21.43.5",
@@ -1888,8 +1890,8 @@
         }
       ],
       "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size" : 161789782,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.ipa",
+      "size" : 153444491,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.fixed.ipa",
       "versionDate" : "2026-11-03",
       "beta" : false,
       "versionDescription" : "• YouTube updated to v21.44.4",
@@ -1946,8 +1948,9 @@
           "version" : "7.134.0",
           "localizedDescription" : "• Duolingo++ updated to v7.134.0\n\n• Sign-in with google/apple.\n• Ignore any purchase banners all features should work.",
           "minOSVersion" : "17.0",
-          "size" : 203571004,
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.ipa"
+          "size" : 190008743,
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.fixed.ipa",
+          "sha256" : "b1426d8d6791ae288bfb4a29ca211d490d1a7e4aafd1978b24d88ec8a23b0b20"
         },
         {
           "date" : "2025-03-04",
@@ -1973,8 +1976,8 @@
         }
       ],
       "localizedDescription" : "Learn a new language with the world’s most-downloaded education app! Duolingo is the fun, free app for learning 40+ languages through quick, bite-sized lessons. Practice speaking, reading, listening, and writing to build your vocabulary and grammar skills.\n\nDesigned by language experts and loved by hundreds of millions of learners worldwide, Duolingo helps you prepare for real conversations in Spanish, French, Chinese, Italian, German, English, and more.\n\nWhether you’re learning a language for travel, school, career, family and friends, or your brain health, you’ll love learning with Duolingo.\n\nWhy Duolingo?\n• Duolingo is fun and effective. Game-like lessons and fun characters help you build solid speaking, reading, listening, and writing skills.\n\n• Duolingo works. Designed by language experts, Duolingo has a science-based teaching methodology proven to foster long-term language retention.\n\n• Track your progress. Work toward your language learning goals with playful rewards and achievements when you make practicing a daily habit!\n\n• Join 300+ million learners. Stay motivated with competitive Leaderboards as you learn alongside our global community.\n\n• Every language course is free. Learn Spanish, French, German, Italian, Russian, Portuguese, Turkish, Dutch, Irish, Danish, Swedish, Ukrainian, Esperanto, Polish, Greek, Hungarian, Norwegian, Hebrew, Welsh, Arabic, Latin, Hawaiian, Scottish Gaelic, Vietnamese, Korean, Japanese, English, and even High Valyrian!",
-      "size" : 203571004,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.ipa",
+      "size" : 190008743,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Duolingo.v7.134.0.fixed.ipa",
       "versionDate" : "2026-08-03",
       "beta" : false,
       "versionDescription" : "• Duolingo++ updated to v7.134.0\n\n• Sign-in with google/apple.\n• Ignore any purchase banners all features should work.",
