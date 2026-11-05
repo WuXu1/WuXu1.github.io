@@ -351,6 +351,29 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/59/44/2b5944ae-3697-083c-d98d-b650c6a218c7/V2_iOS6.5_08.jpg/320x480bb.jpg"
       ],
       "version" : "7.134.0"
+    },
+    {
+      "appstore" : "com.reddit.Reddit",
+      "bundleID" : "com.reddit.Reddit",
+      "category" : "Lifestyle",
+      "changelog" : "Initial addition.",
+      "contact" : {
+        "discord" : "https://bit.ly/wuxuslibrary-discord",
+        "web" : "https://bit.ly/wuxus-sources"
+      },
+      "description" : "Features:\n\n• (Coming soon)",
+      "dev" : "Moe",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.0.ipa",
+      "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/74/9d/a1749d85-1061-a0ac-0731-6ea329d668cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "name" : "Reddit++",
+      "screenshots" : [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/4b/53/b54b5327-21a6-8edb-e501-1cad4de9be0f/2f5e42be-b39e-4832-afa2-35480ddeab3c_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/e5/67/06e5675b-2ac9-726d-d3f5-e4a01e99b280/a69a9c76-db1f-4d3e-8c8a-14728d2a7302_Reddit_SS_5.5_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/03/df/dc03dfc4-1a75-58fb-008a-b376ebe0faa4/d6df48a8-9439-40d2-857e-090f02a9e3e7_Reddit_SS_5.5_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
+      ],
+      "version" : "2026.44.0"
     }
   ],
   "Social" : [

@@ -2346,9 +2346,77 @@
           "NSUserTrackingUsageDescription" : "CapCut requires access to UserTracking to identify the device for managing data statistics, analyzing service effects, ensuring service security and improving user experience.Please rest assured that opening the permission will not obtain your private information on other sites."
         }
       }
+    },
+    {
+      "name" : "Reddit++",
+      "bundleIdentifier" : "com.reddit.Reddit",
+      "developerName" : "Moe",
+      "subtitle" : "Reddit with added features!",
+      "localizedDescription" : "Features:\n\n• (Coming soon)",
+      "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/74/9d/a1749d85-1061-a0ac-0731-6ea329d668cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "tintColor" : "a24320",
+      "category" : "Lifestyle",
+      "beta" : false,
+      "screenshotURLs" : [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/4b/53/b54b5327-21a6-8edb-e501-1cad4de9be0f/2f5e42be-b39e-4832-afa2-35480ddeab3c_Reddit_SS_5.5_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/e5/67/06e5675b-2ac9-726d-d3f5-e4a01e99b280/a69a9c76-db1f-4d3e-8c8a-14728d2a7302_Reddit_SS_5.5_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/03/df/dc03dfc4-1a75-58fb-008a-b376ebe0faa4/d6df48a8-9439-40d2-857e-090f02a9e3e7_Reddit_SS_5.5_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
+      ],
+      "version" : "2026.44.0",
+      "versionDate" : "2026-11-05",
+      "versionDescription" : "Initial addition.",
+      "size" : 147004450,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.0.ipa",
+      "versions" : [
+        {
+          "version" : "2026.44.0",
+          "date" : "2026-11-05",
+          "localizedDescription" : "Initial addition.",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.0.ipa",
+          "size" : 147004450,
+          "sha256" : "fbcbfb1429afa8c6d1b5f07b044bc9a3c68b37f76bed2094a40c353f1de1d593",
+          "minOSVersion" : "16.0"
+        }
+      ],
+      "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.multipath",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy" : {
+          "NSCalendarsUsageDescription" : "Reddit needs access to your calendar to operate the community calendar widget.",
+          "NSCameraUsageDescription" : "Use your camera to record videos. See our Privacy Policy for more information.",
+          "NSFaceIDUsageDescription" : "Reddit needs access to Face ID to unlock your Vault.",
+          "NSMicrophoneUsageDescription" : "Reddit needs access to your microphone to post videos with audio.",
+          "NSPhotoLibraryAddUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+          "NSPhotoLibraryUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos.",
+          "NSUserTrackingUsageDescription" : "This allows Reddit to provide you with a better ads experience."
+        }
+      }
     }
   ],
   "news" : [
+    {
+      "title" : "Reddit++ Added!",
+      "identifier" : "reddit-added",
+      "caption" : "Reddit++ has been added to the source! Click here for more info",
+      "date" : "2026-11-05",
+      "tintColor" : "a24320",
+      "notify" : false,
+      "appID" : "com.reddit.Reddit",
+      "imageURL" : "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
+    },
     {
       "title" : "Facebook++ Updated!",
       "identifier" : "update-com.facebook.Facebook",
