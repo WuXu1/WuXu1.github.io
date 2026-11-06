@@ -2388,12 +2388,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
       ],
-      "version" : "2026.44.0",
-      "versionDate" : "2026-11-05",
-      "versionDescription" : "Initial addition.",
-      "size" : 147004450,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.0.ipa",
+      "version" : "2026.44.1",
+      "versionDate" : "2026-11-06",
+      "versionDescription" : "• Reddit updated to v2026.44.1",
+      "size" : 146986354,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.ipa",
       "versions" : [
+        {
+          "version" : "2026.44.1",
+          "date" : "2026-11-06",
+          "localizedDescription" : "• Reddit updated to v2026.44.1",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.ipa",
+          "size" : 146986354,
+          "sha256" : "41c0ea83ff8a023faa0f3d336feef828a2d32a8dc61024f75687d5f7235a33f6"
+        },
         {
           "version" : "2026.44.0",
           "date" : "2026-11-05",
