@@ -875,7 +875,7 @@
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 275510462,
+      "size" : 274889499,
       "category" : "Social",
       "beta" : false,
       "versionDescription" : "• X updated to v12.41",
@@ -888,9 +888,9 @@
           "version" : "12.41",
           "date" : "2026-11-05",
           "localizedDescription" : "• X updated to v12.41",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.41.+.NFB.v7.3.1.ipa",
-          "size" : 275510462,
-          "sha256" : "d4a23d0e980d8b4b33d8d5840be7b1be99c0e3bdbb4bdaad6859eafc7e90731f"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.41.+.NFB.v7.3.1.fixed.ipa",
+          "size" : 274889499,
+          "sha256" : "13ba6b3d574d7143e778a580f357297f7d143d5c159013468f6ae625a90ba54d"
         },
         {
           "version" : "12.40.1",
@@ -993,7 +993,7 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.41.+.NFB.v7.3.1.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.41.+.NFB.v7.3.1.fixed.ipa",
       "tintColor" : "030303",
       "version" : "12.41",
       "screenshotURLs" : [
@@ -1303,7 +1303,7 @@
     {
       "category" : "Social",
       "version" : "448.0.0",
-      "size" : 320779297,
+      "size" : 290791743,
       "tintColor" : "d111c9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/59/47/3b5947df-d8d9-604f-ea09-fd0fb15c15f2/1_iOS_5.5.jpg/392x696bb.jpg",
@@ -1367,15 +1367,15 @@
       "developerName" : "Fouad Raheb",
       "localizedDescription" : "Regram for instagram!\n\nFeed Enhancements\n• Download posts (Videos and Photos)\n• Repost posts (Videos and Photos)\n• Long press on posts to zoom\n• Copy text captions from posts\n\nStories\n• Save stories to Camera Roll\n• View stories anonymously\n• Manually mark stories as seen\n• Mute and unmute video stories\n• Upload from Camera Roll (Swipe up)\n• Disable auto switch between stories\n• Hide stories bar from feed\n\nProfile\n• Show if other users follow you\n• Long press on profile image to zoom\n• Show exact value of numerical stats\n\nDirect Messages\n• Disable read receipts\n• Save messaged stories to Camera Roll\n• Disable screenshot detection in stories\n\nSpoofing (Local Only)\n• Verify your profile\n• Followers count\n• Following count\n• Uploads count\n\nAnd More!",
       "name" : "Instagram++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v448.0.0.+.regram.6.3.sl.patched.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v448.0.0.+.regram.6.3.sl.patched.fixed.ipa",
       "versions" : [
         {
           "version" : "448.0.0",
           "date" : "2026-10-01",
           "localizedDescription" : "• Instagram updated to v448.0.0",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v448.0.0.+.regram.6.3.sl.patched.ipa",
-          "size" : 320779297,
-          "sha256" : "bbf0b827464b4d61504692eb56bde4ca26d957e938de3f44c86de317cdf53cbd"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Instagram.v448.0.0.+.regram.6.3.sl.patched.fixed.ipa",
+          "size" : 290791743,
+          "sha256" : "636b9fa00a304a9eda6e7284508c3b7562333abc6975d274297cf5a512acd01c"
         },
         {
           "version" : "356.1.0",
@@ -2399,16 +2399,16 @@
       "version" : "2026.44.1",
       "versionDate" : "2026-11-06",
       "versionDescription" : "• Reddit updated to v2026.44.1",
-      "size" : 146986354,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.ipa",
+      "size" : 146915526,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.fixed.ipa",
       "versions" : [
         {
           "version" : "2026.44.1",
           "date" : "2026-11-06",
           "localizedDescription" : "• Reddit updated to v2026.44.1",
-          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.ipa",
-          "size" : 146986354,
-          "sha256" : "41c0ea83ff8a023faa0f3d336feef828a2d32a8dc61024f75687d5f7235a33f6"
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.fixed.ipa",
+          "size" : 146915526,
+          "sha256" : "f051115a36c2047694b1bf9df47e54b3a3fc168f6902e2bdf11132f6f2454b7a"
         },
         {
           "version" : "2026.44.0",
