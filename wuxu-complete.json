@@ -875,15 +875,23 @@
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 274889499,
+      "size" : 278110517,
       "category" : "Social",
       "beta" : false,
-      "versionDescription" : "• X updated to v12.41",
+      "versionDescription" : "• X updated to v12.42\n• NFB updated to v7.3.1",
       "developerName" : "Densor",
       "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle" : "An new tweak for X!",
       "bundleIdentifier" : "com.atebits.Tweetie2",
       "versions" : [
+        {
+          "version" : "12.42",
+          "date" : "2026-11-09",
+          "localizedDescription" : "• X updated to v12.42\n• NFB updated to v7.3.1",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.42.+.NFB.v7.3.1.ipa",
+          "size" : 278110517,
+          "sha256" : "82cf2cc5d3a2dde3e94932ef87f4b346be3532e30420b397f837f3a4df447730"
+        },
         {
           "version" : "12.41",
           "date" : "2026-11-05",
@@ -993,9 +1001,9 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.41.+.NFB.v7.3.1.fixed.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.42.+.NFB.v7.3.1.ipa",
       "tintColor" : "030303",
-      "version" : "12.41",
+      "version" : "12.42",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -1045,7 +1053,7 @@
         }
       },
       "name" : "X++",
-      "versionDate" : "2026-11-05"
+      "versionDate" : "2026-11-09"
     },
     {
       "category" : "Social",
@@ -1852,6 +1860,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "21.45.4",
+          "date" : "2026-11-09",
+          "localizedDescription" : "• YouTube updated to v21.45.4\n• YTPlus updated to v6.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.45.4.+.YTPlus.v6.0.ipa",
+          "size" : 154505977,
+          "sha256" : "5ae8a0e42af439d59d5d0b49d402b9f1118d1c3e642ba42b19ba69afa347e5c7"
+        },
+        {
           "version" : "21.44.4",
           "date" : "2026-11-03",
           "localizedDescription" : "• YouTube updated to v21.44.4",
@@ -1921,11 +1937,11 @@
         }
       ],
       "localizedDescription" : "Tweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size" : 153444491,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.44.4.+.YTPlus.v6.0b2.fixed.ipa",
-      "versionDate" : "2026-11-03",
+      "size" : 154505977,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.45.4.+.YTPlus.v6.0.ipa",
+      "versionDate" : "2026-11-09",
       "beta" : false,
-      "versionDescription" : "• YouTube updated to v21.44.4",
+      "versionDescription" : "• YouTube updated to v21.45.4\n• YTPlus updated to v6.0",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1969,7 +1985,7 @@
       "subtitle" : "The All-In-One Tweak for YouTube.",
       "tintColor" : "f90505",
       "bundleIdentifier" : "com.google.ios.youtube",
-      "version" : "21.44.4"
+      "version" : "21.45.4"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -2448,6 +2464,26 @@
   ],
   "news" : [
     {
+      "title" : "YouTube++ Updated!",
+      "identifier" : "update-com.google.ios.youtube",
+      "caption" : "YouTube updated to v21.45.4",
+      "date" : "2026-11-09",
+      "tintColor" : "f90505",
+      "notify" : false,
+      "appID" : "com.google.ios.youtube",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title" : "X++ Updated!",
+      "identifier" : "update-com.atebits.Tweetie2",
+      "caption" : "X updated to v12.42",
+      "date" : "2026-11-09",
+      "tintColor" : "030303",
+      "notify" : true,
+      "appID" : "com.atebits.Tweetie2",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "BuildBox Updated!",
       "identifier" : "update-com.mikevillarroel.buildbox",
       "caption" : "BuildBox updated to v2.1.7",
@@ -2468,16 +2504,6 @@
       "imageURL" : "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
     },
     {
-      "title" : "X++ Updated!",
-      "identifier" : "update-com.atebits.Tweetie2",
-      "caption" : "X updated to v12.41",
-      "date" : "2026-11-06",
-      "tintColor" : "030303",
-      "notify" : true,
-      "appID" : "com.atebits.Tweetie2",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "title" : "Facebook++ Updated!",
       "identifier" : "update-com.facebook.Facebook",
       "caption" : "Facebook updated to v586.0.0",
@@ -2496,16 +2522,6 @@
       "notify" : false,
       "appID" : "com.opa334.Dopamine",
       "imageURL" : "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/67ffxsD.jpeg"
-    },
-    {
-      "title" : "YouTube++ Updated!",
-      "identifier" : "update-com.google.ios.youtube",
-      "caption" : "YouTube updated to v21.44.4",
-      "date" : "2026-11-03",
-      "tintColor" : "f90505",
-      "notify" : false,
-      "appID" : "com.google.ios.youtube",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "TikTok++ Updated!",
