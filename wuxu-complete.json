@@ -1630,6 +1630,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "8.86.0",
+          "date" : "2026-11-09",
+          "localizedDescription" : "• SoundCloud updated to v8.86.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.86.0.+.NexaSC-b5.ipa",
+          "size" : 214716051,
+          "sha256" : "3e37c8bef0198262b6b8a936772edfeed19c68ba4e528497dc9f382a117ff660"
+        },
+        {
           "version" : "8.85.0",
           "date" : "2026-11-02",
           "localizedDescription" : "• SoundCloud updated to v8.85.0",
@@ -1693,11 +1701,11 @@
         }
       ],
       "localizedDescription" : "Steps to unlock SoundCloud Go+ and Downloading Songs:\n\n1.) Open SoundCloud\n2.) Press and hold the Home button on the bottom-left corner of the tab bar\n3.) Tap Settings ⚙️ on the bottom\n4.) Toggle on: Unlock Plus Subscription, Download Songs\n5.) Tap the checkmark ✔️ icon on the top-right corner and click Restart Now\n\nSteps to Download Songs:\n\n1.) Play any song\n2.) Tap the orange 🟠 Download icon ⬇️ to download the song\n3.) Swipe down to exit the song\n4.) Press and hold the Home button on the bottom-left corner of the tab bar\n5.) Tap the downloaded song to play it\n6.) Swipe down to exit the song\n7.) Swipe from right-to-left on the downloaded song you want to export\n8.) Tap Save to Files, choose where you want to save the song, then tap Save",
-      "size" : 340224194,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.85.0.+.NexaSC.fixed.ipa",
-      "versionDate" : "2026-11-02",
+      "size" : 214716051,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/SoundCloud.v8.86.0.+.NexaSC-b5.ipa",
+      "versionDate" : "2026-11-09",
       "beta" : false,
-      "versionDescription" : "• SoundCloud updated to v8.85.0",
+      "versionDescription" : "• SoundCloud updated to v8.86.0",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1737,7 +1745,7 @@
       "subtitle" : "SoundCloud with no ads! Read Description.",
       "tintColor" : "0a0a0a",
       "bundleIdentifier" : "com.soundcloud.TouchApp",
-      "version" : "8.85.0"
+      "version" : "8.86.0"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b4/f5/01b4f500-a216-ede2-81dd-e6b4668e53cf/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
@@ -2464,6 +2472,16 @@
   ],
   "news" : [
     {
+      "title" : "SoundCloud++ Updated!",
+      "identifier" : "update-com.soundcloud.TouchApp",
+      "caption" : "SoundCloud updated to v8.86.0",
+      "date" : "2026-11-09",
+      "tintColor" : "0a0a0a",
+      "notify" : true,
+      "appID" : "com.soundcloud.TouchApp",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
       "caption" : "YouTube updated to v21.45.4",
@@ -2532,16 +2550,6 @@
       "notify" : false,
       "appID" : "com.zhiliaoapp.musically",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "SoundCloud++ Updated!",
-      "identifier" : "update-com.soundcloud.TouchApp",
-      "caption" : "SoundCloud updated to v8.85.0",
-      "date" : "2026-11-02",
-      "tintColor" : "0a0a0a",
-      "notify" : true,
-      "appID" : "com.soundcloud.TouchApp",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "CapCut++ Added!",
