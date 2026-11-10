@@ -356,14 +356,14 @@
       "appstore" : "com.reddit.Reddit",
       "bundleID" : "com.reddit.Reddit",
       "category" : "Lifestyle",
-      "changelog" : "• Reddit updated to v2026.44.1",
+      "changelog" : "• Reddit updated to v2026.45.0",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "Features:\n\n• (Coming soon)",
       "dev" : "Moe",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.fixed.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.45.0.+.RedditFilter.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/74/9d/a1749d85-1061-a0ac-0731-6ea329d668cf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "name" : "Reddit++",
       "screenshots" : [
@@ -373,7 +373,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
       ],
-      "version" : "2026.44.1"
+      "version" : "2026.45.0"
     }
   ],
   "Social" : [
