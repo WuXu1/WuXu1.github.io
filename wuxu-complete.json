@@ -1065,8 +1065,8 @@
     },
     {
       "category" : "Social",
-      "version" : "586.0.0",
-      "size" : 248198767,
+      "version" : "587.0.0",
+      "size" : 251133088,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -1083,8 +1083,8 @@
       "bundleIdentifier" : "com.facebook.Facebook",
       "subtitle" : "Facebook with a number of new features!",
       "beta" : false,
-      "versionDescription" : "• Facebook updated to v586.0.0",
-      "versionDate" : "2026-11-04",
+      "versionDescription" : "• Facebook updated to v587.0.0",
+      "versionDate" : "2026-11-10",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1138,8 +1138,16 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v586.0.0.+.iQFace.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v587.0.0.+.iQFace.ipa",
       "versions" : [
+        {
+          "version" : "587.0.0",
+          "date" : "2026-11-10",
+          "localizedDescription" : "• Facebook updated to v587.0.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v587.0.0.+.iQFace.ipa",
+          "size" : 251133088,
+          "sha256" : "8b86d440eb0419d1c890f33b1d55d068c7c6eb4c5b75ae63cdfa5c045c7780f4"
+        },
         {
           "version" : "586.0.0",
           "date" : "2026-11-04",
@@ -2488,6 +2496,16 @@
   ],
   "news" : [
     {
+      "title" : "Facebook++ Updated!",
+      "identifier" : "update-com.facebook.Facebook",
+      "caption" : "Facebook updated to v587.0.0",
+      "date" : "2026-11-11",
+      "tintColor" : "0c63f9",
+      "notify" : true,
+      "appID" : "com.facebook.Facebook",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "Reddit++ Updated!",
       "identifier" : "update-com.reddit.Reddit",
       "caption" : "Reddit updated to v2026.45.0",
@@ -2536,16 +2554,6 @@
       "notify" : false,
       "appID" : "com.mikevillarroel.buildbox",
       "imageURL" : "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
-    },
-    {
-      "title" : "Facebook++ Updated!",
-      "identifier" : "update-com.facebook.Facebook",
-      "caption" : "Facebook updated to v586.0.0",
-      "date" : "2026-11-05",
-      "tintColor" : "0c63f9",
-      "notify" : true,
-      "appID" : "com.facebook.Facebook",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/72/b7/7f72b76a-5865-3da5-8dc3-71a2b75551e9/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "Dopamine Updated!",
