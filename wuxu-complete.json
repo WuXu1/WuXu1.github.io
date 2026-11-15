@@ -875,15 +875,23 @@
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 309251326,
+      "size" : 314822223,
       "category" : "Social",
       "beta" : false,
-      "versionDescription" : "• X updated to v12.43",
+      "versionDescription" : "• X updated to v12.44",
       "developerName" : "Densor",
       "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle" : "An new tweak for X!",
       "bundleIdentifier" : "com.atebits.Tweetie2",
       "versions" : [
+        {
+          "version" : "12.44",
+          "date" : "2026-11-14",
+          "localizedDescription" : "• X updated to v12.44",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.44.+.NFB.v7.3.1.ipa",
+          "size" : 314822223,
+          "sha256" : "81df6cb9c0f9c1603c95d7ffff50142c186d80d009fcc2978aaf4fd7f16bd28d"
+        },
         {
           "version" : "12.43",
           "date" : "2026-11-11",
@@ -1017,9 +1025,9 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.43.+.NFB.v7.3.1.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.44.+.NFB.v7.3.1.ipa",
       "tintColor" : "030303",
-      "version" : "12.43",
+      "version" : "12.44",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -1069,7 +1077,7 @@
         }
       },
       "name" : "X++",
-      "versionDate" : "2026-11-11"
+      "versionDate" : "2026-11-14"
     },
     {
       "category" : "Social",
@@ -2520,6 +2528,16 @@
   ],
   "news" : [
     {
+      "title" : "X++ Updated!",
+      "identifier" : "update-com.atebits.Tweetie2",
+      "caption" : "X updated to v12.44",
+      "date" : "2026-11-15",
+      "tintColor" : "030303",
+      "notify" : true,
+      "appID" : "com.atebits.Tweetie2",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title" : "TikTok++ Updated!",
       "identifier" : "update-com.zhiliaoapp.musically",
       "caption" : "TikTok updated to v47.7.0",
@@ -2538,16 +2556,6 @@
       "notify" : false,
       "appID" : "com.reddit.Reddit",
       "imageURL" : "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
-    },
-    {
-      "title" : "X++ Updated!",
-      "identifier" : "update-com.atebits.Tweetie2",
-      "caption" : "X updated to v12.43",
-      "date" : "2026-11-12",
-      "tintColor" : "030303",
-      "notify" : true,
-      "appID" : "com.atebits.Tweetie2",
-      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
       "title" : "Facebook++ Updated!",
