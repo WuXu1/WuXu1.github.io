@@ -1908,6 +1908,14 @@
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "versions" : [
         {
+          "version" : "21.46.3",
+          "date" : "2026-11-16",
+          "localizedDescription" : "• YouTube updated to v21.46.3",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.46.3.+.YTPlus.v6.0.ipa",
+          "size" : 171073553,
+          "sha256" : "365368931b8803efe9b8d7cce0b4124579e0cc4d4bf66c816e033741ddb76077"
+        },
+        {
           "version" : "21.45.4",
           "date" : "2026-11-09",
           "localizedDescription" : "• YouTube updated to v21.45.4\n• YTPlus updated to v6.0",
@@ -1985,11 +1993,11 @@
         }
       ],
       "localizedDescription" : "DO NOT ENABLE RETURN YOUTUBE DISLIKE, IT CAN CRASH THE APP.\n\nTweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size" : 154505977,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.45.4.+.YTPlus.v6.0.ipa",
-      "versionDate" : "2026-11-09",
+      "size" : 171073553,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.46.3.+.YTPlus.v6.0.ipa",
+      "versionDate" : "2026-11-16",
       "beta" : false,
-      "versionDescription" : "• YouTube updated to v21.45.4\n• YTPlus updated to v6.0",
+      "versionDescription" : "• YouTube updated to v21.46.3",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -2033,7 +2041,7 @@
       "subtitle" : "The All-In-One Tweak for YouTube.",
       "tintColor" : "f90505",
       "bundleIdentifier" : "com.google.ios.youtube",
-      "version" : "21.45.4"
+      "version" : "21.46.3"
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
