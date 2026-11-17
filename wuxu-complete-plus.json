@@ -2269,12 +2269,20 @@
       "category" : "utilities",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "2.1.7",
-      "versionDate" : "2026-11-07",
-      "versionDescription" : "• BuildBox updated to v2.1.7",
-      "size" : 15942746,
-      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.7/BuildBox-2.1.7.ipa",
+      "version" : "2.1.8",
+      "versionDate" : "2026-11-16",
+      "versionDescription" : "• BuildBox updated to v2.1.8",
+      "size" : 25079319,
+      "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.8/BuildBox-2.1.8.ipa",
       "versions" : [
+        {
+          "version" : "2.1.8",
+          "date" : "2026-11-16",
+          "localizedDescription" : "• BuildBox updated to v2.1.8",
+          "downloadURL" : "https://github.com/mikevillarroel/buildbox-ios/releases/download/v2.1.8/BuildBox-2.1.8.ipa",
+          "size" : 25079319,
+          "minOSVersion" : "18.0"
+        },
         {
           "version" : "2.1.7",
           "date" : "2026-11-07",
@@ -2334,7 +2342,9 @@
         }
       ],
       "appPermissions" : {
-        "privacy" : {}
+        "privacy" : {
+          "NSLocalNetworkUsageDescription" : "BuildBox pairs with your own iPhone over the local network so it can open the tunnel to this device and install apps signed with a free Apple ID."
+        }
       }
     },
     {
