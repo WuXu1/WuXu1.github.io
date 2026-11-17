@@ -2476,12 +2476,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
       ],
-      "version" : "2026.45.1",
-      "versionDate" : "2026-11-11",
-      "versionDescription" : "• Reddit updated to v2026.45.1",
-      "size" : 141548252,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.45.1.+.RedditFilter.ipa",
+      "version" : "2026.46.0",
+      "versionDate" : "2026-11-16",
+      "versionDescription" : "• Reddit updated to v2026.46.0",
+      "size" : 145441527,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.46.0.+.RedditFilter.ipa",
       "versions" : [
+        {
+          "version" : "2026.46.0",
+          "date" : "2026-11-16",
+          "localizedDescription" : "• Reddit updated to v2026.46.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.46.0.+.RedditFilter.ipa",
+          "size" : 145441527,
+          "sha256" : "bf06808efc1c8a0b6d3f76167e1ba164296aa20c390708c29cda54a26baf2ca1"
+        },
         {
           "version" : "2026.45.1",
           "date" : "2026-11-11",
@@ -2531,18 +2539,28 @@
           "keychain-access-groups"
         ],
         "privacy" : {
-          "NSCalendarsUsageDescription" : "Reddit needs access to your calendar to operate the community calendar widget.",
           "NSCameraUsageDescription" : "Use your camera to record videos. See our Privacy Policy for more information.",
-          "NSFaceIDUsageDescription" : "Reddit needs access to Face ID to unlock your Vault.",
+          "NSUserTrackingUsageDescription" : "This allows Reddit to provide you with a better ads experience.",
+          "NSPhotoLibraryAddUsageDescription" : "Reddit needs permission to save photos and videos to your photo library.",
+          "NSCalendarsUsageDescription" : "Reddit needs access to your calendar to operate the community calendar widget.",
           "NSMicrophoneUsageDescription" : "Reddit needs access to your microphone to post videos with audio.",
-          "NSPhotoLibraryAddUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos.",
-          "NSPhotoLibraryUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos.",
-          "NSUserTrackingUsageDescription" : "This allows Reddit to provide you with a better ads experience."
+          "NSFaceIDUsageDescription" : "Reddit needs access to Face ID to unlock your Vault.",
+          "NSPhotoLibraryUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos."
         }
       }
     }
   ],
   "news" : [
+    {
+      "title" : "Reddit++ Updated!",
+      "identifier" : "update-com.reddit.Reddit",
+      "caption" : "Reddit updated to v2026.46.0",
+      "date" : "2026-11-17",
+      "tintColor" : "a24320",
+      "notify" : false,
+      "appID" : "com.reddit.Reddit",
+      "imageURL" : "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
+    },
     {
       "title" : "SoundCloud++ Updated!",
       "identifier" : "update-com.soundcloud.TouchApp",
@@ -2582,16 +2600,6 @@
       "notify" : false,
       "appID" : "com.zhiliaoapp.musically",
       "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/70/42/50704260-89c4-2aa4-7740-4a6a621af5db/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "title" : "Reddit++ Updated!",
-      "identifier" : "update-com.reddit.Reddit",
-      "caption" : "Reddit updated to v2026.45.1",
-      "date" : "2026-11-12",
-      "tintColor" : "a24320",
-      "notify" : false,
-      "appID" : "com.reddit.Reddit",
-      "imageURL" : "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
     },
     {
       "title" : "Facebook++ Updated!",
