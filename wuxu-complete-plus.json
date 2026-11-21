@@ -1089,8 +1089,8 @@
     },
     {
       "category" : "Social",
-      "version" : "588.0.0",
-      "size" : 256841637,
+      "version" : "588.1.0",
+      "size" : 256777664,
       "tintColor" : "0c63f9",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/c0/fa/e2c0faf7-2613-0ead-3c3a-193d992e3930/f254967c-6ef9-4cc6-b4bf-e89cf016337c_1-iOS-5.5-Home.png/392x696bb.png",
@@ -1107,8 +1107,8 @@
       "bundleIdentifier" : "com.facebook.Facebook",
       "subtitle" : "Facebook with a number of new features!",
       "beta" : false,
-      "versionDescription" : "• Facebook updated to v588.0.0\n• iQFace updated to v1.2",
-      "versionDate" : "2026-11-18",
+      "versionDescription" : "• Facebook updated to v588.1.0",
+      "versionDate" : "2026-11-20",
       "appPermissions" : {
         "entitlements" : [
           "application-identifier",
@@ -1162,8 +1162,16 @@
       "developerName" : "Michael Lema",
       "localizedDescription" : "Facebook Wolf brings a number of new features to Facebook such as:\n\nUser\n• Disable marking messages as seen\n• Disable typing status in messages\n• No feed ads\n\nStory\n• Disable marking stories\n• Disable auto-advance in stories\n• Save Story images and videos\n• No story ads (Not working)\n\nFeed\n• Save Feed videos by long-pressing the video\n\nAnd more!",
       "name" : "Facebook++",
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v588.0.0.+.iQFace.v1.2.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v588.1.0.+.iQFace.v1.2.ipa",
       "versions" : [
+        {
+          "version" : "588.1.0",
+          "date" : "2026-11-20",
+          "localizedDescription" : "• Facebook updated to v588.1.0",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Facebook.v588.1.0.+.iQFace.v1.2.ipa",
+          "size" : 256777664,
+          "sha256" : "e7d47f2dda5f31d8dc995395a09e00d1a14e099323d3982c7c3078faead96aff"
+        },
         {
           "version" : "588.0.0",
           "date" : "2026-11-18",
@@ -2374,12 +2382,20 @@
       "category" : "photo-video",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "1.0.10",
-      "versionDate" : "2026-11-19",
-      "versionDescription" : "• TendieMaker updated to v1.0.10",
-      "size" : 5997865,
-      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.0.10/TendieMaker-1.0.10.ipa",
+      "version" : "1.0.11",
+      "versionDate" : "2026-11-20",
+      "versionDescription" : "• TendieMaker updated to v1.0.11",
+      "size" : 6152820,
+      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.0.11/TendieMaker-1.0.11.ipa",
       "versions" : [
+        {
+          "version" : "1.0.11",
+          "date" : "2026-11-20",
+          "localizedDescription" : "• TendieMaker updated to v1.0.11",
+          "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.0.11/TendieMaker-1.0.11.ipa",
+          "size" : 6152820,
+          "minOSVersion" : "17.0"
+        },
         {
           "version" : "1.0.10",
           "date" : "2026-11-19",
