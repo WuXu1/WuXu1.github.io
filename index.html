@@ -68,6 +68,7 @@
       <p class="card-text">Contains all your favourite emulators, games, jailbreaks, utilities, and more!</p>
       <div class="btn-group justify-content-center" url="https://wuxu1.github.io/wuxu-complete.json">
         <button onclick="addToAltStore(this)" type="button" class="btn btn-sm btn-outline-secondary">Install</button>
+        <button onclick="addToLiveContainer(this)" type="button" class="btn btn-sm btn-outline-secondary">Add to LiveContainer</button>
         <button onclick="copyToClipboard(this)" type="button" class="btn btn-sm btn-outline-secondary">Copy link</button>
         <button onclick="browseSource(this)" type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
       </div>
@@ -83,6 +84,7 @@
       <p class="card-text">Contains all your favourite tweaked apps, free streaming, cracked apps, and more!</p>
       <div class="btn-group justify-content-center" url="https://wuxu1.github.io/wuxu-complete-plus.json">
         <button onclick="addToAltStore(this)" type="button" class="btn btn-sm btn-outline-secondary">Install</button>
+        <button onclick="addToLiveContainer(this)" type="button" class="btn btn-sm btn-outline-secondary">Add to LiveContainer</button>
         <button onclick="copyToClipboard(this)" type="button" class="btn btn-sm btn-outline-secondary">Copy link</button>
         <button onclick="browseSource(this)" type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
       </div>
@@ -128,6 +130,9 @@
   }
   function addToAltStore(element) {
     window.open("altstore://source?URL=" + element.parentElement.getAttribute("url"));
+  }
+  function addToLiveContainer(element) {
+    window.open("livecontainer://source?url=" + encodeURIComponent(element.parentElement.getAttribute("url")));
   }
   function browseSource(element) {
     window.open("https://altsource.by.lao.sb/browse/?source=" + encodeURIComponent(element.parentElement.getAttribute("url")));
