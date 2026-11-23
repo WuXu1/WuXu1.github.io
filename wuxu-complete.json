@@ -2614,9 +2614,77 @@
           "NSPhotoLibraryUsageDescription" : "Reddit needs access to your photo library to post, save, and upload photos or videos."
         }
       }
+    },
+    {
+      "name" : "Twitch++",
+      "bundleIdentifier" : "tv.twitch",
+      "developerName" : "zeroxdeadbeef",
+      "subtitle" : "All-In-One Tweak for Twitch!",
+      "localizedDescription" : "(Coming Soon)",
+      "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/9e/c0/649ec0ba-0f46-b437-401a-6633a175b235/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+      "tintColor" : "67419f",
+      "category" : "Entertainment",
+      "beta" : false,
+      "screenshotURLs" : [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/4e/1d/684e1de1-a959-ca48-ce23-c40f689e6554/37b30cee-8c44-4162-944b-4def125308cf_01-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/65/12/51651214-6c86-bb9f-76be-488912a721ff/121623e7-1287-49f0-9ea7-068ffc760e1f_02-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/fb/0c/59fb0cbc-21c9-616d-f506-900d754a4624/77c505ba-b565-443b-83da-642a3bbc96f8_03-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a6/e6/dfa6e626-5e8e-b267-a9fa-e299fb81ca96/f1b8408a-d231-4e9a-aeff-9bcc55be2d34_04-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/6d/2a/326d2a95-329a-bb30-c491-a8e219ecaa70/d09d7800-f33b-4f91-b9a7-1c0a8a9fc7bb_05-1242x2208.png/392x696bb.png"
+      ],
+      "version" : "32.1",
+      "versionDate" : "2026-11-23",
+      "versionDescription" : "- Added Twitch v32.1 with TwitchControl v0.0.7",
+      "size" : 197299449,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+      "versions" : [
+        {
+          "version" : "32.1",
+          "date" : "2026-11-23",
+          "localizedDescription" : "- Added Twitch v32.1 with TwitchControl v0.0.7",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+          "size" : 197299449,
+          "sha256" : "4449b5147b0627317c435b66bb140389746a334f4c37892197048c9ba04b41c4",
+          "minOSVersion" : "16.4"
+        }
+      ],
+      "appPermissions" : {
+        "entitlements" : [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy" : {
+          "NSCameraUsageDescription" : "Twitch needs permission to access the camera on this device to stream live video and change your profile image.",
+          "NSLocalNetworkUsageDescription" : "Twitch uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSMicrophoneUsageDescription" : "Twitch needs permission to access the microphone on this device to stream live video.",
+          "NSPhotoLibraryAddUsageDescription" : "Twitch needs permission to write to your photo library in order to save images.",
+          "NSUserTrackingUsageDescription" : "Your iOS advertising ID and device data will be used to support creators and provide a personal ad experience."
+        }
+      }
     }
   ],
   "news" : [
+    {
+      "title" : "Twitch++ Added!",
+      "identifier" : "twitch-added",
+      "caption" : "Twitch++ has been added to the source! Click here for more info",
+      "date" : "2026-11-23",
+      "tintColor" : "67419f",
+      "notify" : false,
+      "appID" : "tv.twitch",
+      "imageURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/9e/c0/649ec0ba-0f46-b437-401a-6633a175b235/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg"
+    },
     {
       "title" : "YouTube++ Updated!",
       "identifier" : "update-com.google.ios.youtube",
