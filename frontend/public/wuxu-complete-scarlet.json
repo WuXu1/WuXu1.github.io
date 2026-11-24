@@ -157,14 +157,14 @@
       "appstore" : "tv.twitch",
       "bundleID" : "tv.twitch",
       "category" : "Entertainment",
-      "changelog" : "- Added Twitch v32.1 with TwitchControl v0.0.7",
+      "changelog" : "• Twitch updated to v32.2\n• TwitchAdBlock updated to v0.1.24",
       "contact" : {
         "discord" : "https://bit.ly/wuxuslibrary-discord",
         "web" : "https://bit.ly/wuxus-sources"
       },
       "description" : "(Coming Soon)",
       "dev" : "zeroxdeadbeef",
-      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+      "down" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.2.+.TwitchAdBlock.v0.1.24.ipa",
       "icon" : "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/9e/c0/649ec0ba-0f46-b437-401a-6633a175b235/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
       "name" : "Twitch++",
       "screenshots" : [
@@ -174,7 +174,7 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a6/e6/dfa6e626-5e8e-b267-a9fa-e299fb81ca96/f1b8408a-d231-4e9a-aeff-9bcc55be2d34_04-1242x2208.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/6d/2a/326d2a95-329a-bb30-c491-a8e219ecaa70/d09d7800-f33b-4f91-b9a7-1c0a8a9fc7bb_05-1242x2208.png/392x696bb.png"
       ],
-      "version" : "32.1"
+      "version" : "32.2"
     }
   ],
   "Games" : [

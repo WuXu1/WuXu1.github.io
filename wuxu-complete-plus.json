@@ -2632,12 +2632,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a6/e6/dfa6e626-5e8e-b267-a9fa-e299fb81ca96/f1b8408a-d231-4e9a-aeff-9bcc55be2d34_04-1242x2208.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/6d/2a/326d2a95-329a-bb30-c491-a8e219ecaa70/d09d7800-f33b-4f91-b9a7-1c0a8a9fc7bb_05-1242x2208.png/392x696bb.png"
       ],
-      "version" : "32.1",
+      "version" : "32.2",
       "versionDate" : "2026-11-23",
-      "versionDescription" : "- Added Twitch v32.1 with TwitchControl v0.0.7",
-      "size" : 197299449,
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+      "versionDescription" : "• Twitch updated to v32.2\n• TwitchAdBlock updated to v0.1.24",
+      "size" : 196595031,
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.2.+.TwitchAdBlock.v0.1.24.ipa",
       "versions" : [
+        {
+          "version" : "32.2",
+          "date" : "2026-11-23",
+          "localizedDescription" : "• Twitch updated to v32.2\n• TwitchAdBlock updated to v0.1.24",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.2.+.TwitchAdBlock.v0.1.24.ipa",
+          "size" : 196595031,
+          "sha256" : "c4a3ac603947752f429917d43a9f39c439ed00683a571d004a16e52021bdfa9c"
+        },
         {
           "version" : "32.1",
           "date" : "2026-11-23",
