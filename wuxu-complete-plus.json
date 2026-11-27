@@ -875,15 +875,23 @@
     },
     {
       "iconURL" : "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size" : 322425556,
+      "size" : 322433591,
       "category" : "Social",
       "beta" : false,
-      "versionDescription" : "• X updated to v12.46",
+      "versionDescription" : "• X updated to v12.46.1",
       "developerName" : "Densor",
       "localizedDescription" : "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle" : "An new tweak for X!",
       "bundleIdentifier" : "com.atebits.Tweetie2",
       "versions" : [
+        {
+          "version" : "12.46.1",
+          "date" : "2026-11-26",
+          "localizedDescription" : "• X updated to v12.46.1",
+          "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.46.1.+.NFB.v7.3.1.ipa",
+          "size" : 322433591,
+          "sha256" : "843855f72ba3b0bc79f1989764d6b0b696f3fb787bb069119a57af0f3c5e0210"
+        },
         {
           "version" : "12.46",
           "date" : "2026-11-23",
@@ -1041,9 +1049,9 @@
           "size" : 93000000
         }
       ],
-      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.46.+.NFB.v7.3.1.ipa",
+      "downloadURL" : "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.46.1.+.NFB.v7.3.1.ipa",
       "tintColor" : "030303",
-      "version" : "12.46",
+      "version" : "12.46.1",
       "screenshotURLs" : [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -1093,7 +1101,7 @@
         }
       },
       "name" : "X++",
-      "versionDate" : "2026-11-23"
+      "versionDate" : "2026-11-26"
     },
     {
       "category" : "Social",
@@ -2406,12 +2414,20 @@
       "category" : "photo-video",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "1.0.11",
-      "versionDate" : "2026-11-20",
-      "versionDescription" : "• TendieMaker updated to v1.0.11",
-      "size" : 6152820,
-      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.0.11/TendieMaker-1.0.11.ipa",
+      "version" : "1.1.0",
+      "versionDate" : "2026-11-26",
+      "versionDescription" : "• TendieMaker updated to v1.1.0",
+      "size" : 108186423,
+      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.1.0/TendieMaker-1.1.0.ipa",
       "versions" : [
+        {
+          "version" : "1.1.0",
+          "date" : "2026-11-26",
+          "localizedDescription" : "• TendieMaker updated to v1.1.0",
+          "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.1.0/TendieMaker-1.1.0.ipa",
+          "size" : 108186423,
+          "minOSVersion" : "17.0"
+        },
         {
           "version" : "1.0.11",
           "date" : "2026-11-20",
@@ -2439,7 +2455,17 @@
         }
       ],
       "appPermissions" : {
-        "privacy" : {}
+        "entitlements" : [
+          "application-identifier",
+          "com.apple.developer.networking.networkextension",
+          "com.apple.developer.networking.vpn.api",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy" : {
+          "NSLocalNetworkUsageDescription" : "TendieMaker pairs with your own iPhone over the local network so it can flash wallpapers to this device."
+        }
       }
     },
     {
