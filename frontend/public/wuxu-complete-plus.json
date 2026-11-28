@@ -2414,12 +2414,20 @@
       "category" : "photo-video",
       "beta" : false,
       "screenshotURLs" : [],
-      "version" : "1.1.0",
-      "versionDate" : "2026-11-26",
-      "versionDescription" : "• TendieMaker updated to v1.1.0",
-      "size" : 108186423,
-      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.1.0/TendieMaker-1.1.0.ipa",
+      "version" : "1.1.1",
+      "versionDate" : "2026-11-28",
+      "versionDescription" : "• TendieMaker updated to v1.1.1",
+      "size" : 108570045,
+      "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.1.1/TendieMaker-1.1.1.ipa",
       "versions" : [
+        {
+          "version" : "1.1.1",
+          "date" : "2026-11-28",
+          "localizedDescription" : "• TendieMaker updated to v1.1.1",
+          "downloadURL" : "https://github.com/mikevillarroel/tendiemaker/releases/download/v1.1.1/TendieMaker-1.1.1.ipa",
+          "size" : 108570045,
+          "minOSVersion" : "17.0"
+        },
         {
           "version" : "1.1.0",
           "date" : "2026-11-26",
